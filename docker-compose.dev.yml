@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  vitepress-learning-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: vp-test-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      #  Isolate local below folder, use container
+      - /app/node_modules
+      - /app/docs/.vitepress/.vitepress-cache
+    environment:
+      - NODE_ENV=development

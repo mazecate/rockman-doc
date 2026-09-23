@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  vitepress-learning-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: vp-test-prod
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production

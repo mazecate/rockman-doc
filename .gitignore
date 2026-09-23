@@ -1,0 +1,16 @@
+# 依賴套件
+node_modules/
+/package-lock.json
+
+# VitePress 編譯產物與快取
+.vitepress/dist
+.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/.vitepress-cache
+
+# 日誌與系統檔案
+*.log
+.DS_Store
+.env
+.env.*

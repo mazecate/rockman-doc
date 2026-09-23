@@ -1,0 +1,16 @@
+# 排除套件與本機快取（非常重要，避免平台衝突）
+node_modules/
+.git/
+.github/
+
+# 排除編譯產物
+.vitepress/dist
+.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/.vitepress-cache
+
+# 排除環境變數與腳本本身
+make.sh
+*.log
+.DS_Store
