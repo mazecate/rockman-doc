@@ -1,6 +1,6 @@
 # 依賴套件
 node_modules/
-/package-lock.json
+# /package-lock.json
 
 # VitePress 編譯產物與快取
 .vitepress/dist
