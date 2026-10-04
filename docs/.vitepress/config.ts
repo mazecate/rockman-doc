@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
+import path from 'node:path'
 import { sidebar } from './sidebar'
 // for js
 // const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
@@ -29,5 +31,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+  },
+  vite: {
+    resolve: {
+      alias: {
+        // 設定 @ 指向 docs 資料夾
+        // path.resolve(__dirname, '../')
+        '@': fileURLToPath(new URL('../', import.meta.url))
+      }
+    }
   }
 })

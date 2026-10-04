@@ -1,0 +1,161 @@
+[
+  {
+    "nameZh": "GIGA加農砲 1",
+    "nameEn": "",
+    "combination": [
+      ["加農砲 A", "加農砲 B", "加農砲 C"],
+      ["加農大砲 A", "加農大砲 B", "加農大砲 C"]
+    ],
+    "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
+  },
+  {
+    "nameZh": "GIGA加農砲 2",
+    "nameEn": "",
+    "combination": ["高超加農砲 C", "高超加農砲 D", "高超加農砲 E"],
+    "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
+  },
+  {
+    "nameZh": "GIGA加農砲 3",
+    "nameEn": "",
+    "combination": ["MEGA加農砲 C", "MEGA加農砲 D", "MEGA加農砲 E"],
+    "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
+  },
+  {
+    "nameZh": "超級爆破",
+    "nameEn": "",
+    "combination": ["散射槍 L", "散射槍 M", "散射槍 N"],
+    "description": "往周圍 1 格擴散爆風的炸裂彈！"
+  },
+  {
+    "nameZh": "熱焰散射",
+    "nameEn": "",
+    "combination": ["熱焰散彈 B", "熱焰散彈 C", "熱焰散彈 D"],
+    "description": "對目標及其周圍 1 格進行廣範圍攻擊！"
+  },
+  {
+    "nameZh": "泡沫散射",
+    "nameEn": "",
+    "combination": ["泡沫散彈 P", "泡沫散彈 Q", "泡沫散彈 R"],
+    "description": "對目標及其周圍 1 格進行廣範圍攻擊！"
+  },
+  {
+    "nameZh": "超級廣域 1",
+    "nameEn": "",
+    "combination": ["廣域射擊 1 C", "廣域射擊 1 D", "廣域射擊 1 E"],
+    "description": "可貫穿敵人的 3 連射廣域射擊！"
+  },
+  {
+    "nameZh": "超級廣域 2",
+    "nameEn": "",
+    "combination": ["廣域射擊 2 L", "廣域射擊 2 M", "廣域射擊 2 N"],
+    "description": "可貫穿敵人的 3 連射廣域射擊！"
+  },
+  {
+    "nameZh": "超級廣域 3",
+    "nameEn": "",
+    "combination": ["廣域射擊 3 S", "廣域射擊 3 T", "廣域射擊 3 U"],
+    "description": "可貫穿敵人的 3 連射廣域射擊！"
+  },
+  {
+    "nameZh": "烈焰交錯 1",
+    "nameEn": "",
+    "combination": ["烈焰線 1 F", "烈焰線 1 G", "烈焰線 1 H"],
+    "description": "擴散成十字形的地獄之業火！"
+  },
+  {
+    "nameZh": "烈焰交錯 2",
+    "nameEn": "",
+    "combination": ["烈焰線 2 D", "烈焰線 2 E", "烈焰線 2 F"],
+    "description": "擴散成十字形的地獄之業火！"
+  },
+  {
+    "nameZh": "烈焰交錯 3",
+    "nameEn": "",
+    "combination": ["烈焰線 3 J", "烈焰線 3 K", "烈焰線 3 L"],
+    "description": "擴散成十字形的地獄之業火！"
+  },
+  {
+    "nameZh": "瘋狂獠牙 1",
+    "nameEn": "",
+    "combination": ["雙生獠牙 1 A", "雙生獠牙 1 B", "雙生獠牙 1 C"],
+    "description": "從自身上下列放出無數成列獠牙！"
+  },
+  {
+    "nameZh": "瘋狂獠牙 2",
+    "nameEn": "",
+    "combination": ["雙生獠牙 2 O", "雙生獠牙 2 P", "雙生獠牙 2 Q"],
+    "description": "從自身上下列放出無數成列獠牙！"
+  },
+  {
+    "nameZh": "瘋狂獠牙 3",
+    "nameEn": "",
+    "combination": ["雙生獠牙 3 F", "雙生獠牙 3 G", "雙生獠牙 3 H"],
+    "description": "從自身上下列放出無數成列獠牙！"
+  },
+  {
+    "nameZh": "磁力衝擊 1",
+    "nameEn": "",
+    "combination": ["磁螺絲 1 B", "磁螺絲 1 C", "磁螺絲 1 D"],
+    "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
+  },
+  {
+    "nameZh": "磁力衝擊 2",
+    "nameEn": "",
+    "combination": ["磁螺絲 2 E", "磁螺絲 2 F", "磁螺絲 2 G"],
+    "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
+  },
+  {
+    "nameZh": "磁力衝擊 3",
+    "nameEn": "",
+    "combination": ["磁螺絲 3 A", "磁螺絲 3 B", "磁螺絲 3 C"],
+    "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
+  },
+  {
+    "nameZh": "地獄氣墊球 1",
+    "nameEn": "",
+    "combination": ["氣墊球 1 D", "氣墊球 1 E", "氣墊球 1 F"],
+    "description": "持續彈射的恐怖氣墊球攻擊"
+  },
+  {
+    "nameZh": "地獄氣墊球 2",
+    "nameEn": "",
+    "combination": ["氣墊球 2 I", "氣墊球 2 J", "氣墊球 2 K"],
+    "description": "持續彈射的恐怖氣墊球攻擊"
+  },
+  {
+    "nameZh": "地獄氣墊球 3",
+    "nameEn": "",
+    "combination": ["氣墊球 3 U", "氣墊球 3 V", "氣墊球 3 W"],
+    "description": "持續彈射的恐怖氣墊球攻擊"
+  },
+  {
+    "nameZh": "地獄迴力鏢 1",
+    "nameEn": "",
+    "combination": ["迴力鏢 1 L", "迴力鏢 1 M", "迴力鏢 1 N"],
+    "description": "投擲 3 發迴力鏢連續襲擊對手！"
+  },
+  {
+    "nameZh": "地獄迴力鏢 2",
+    "nameEn": "",
+    "combination": ["迴力鏢 2 L", "迴力鏢 2 M", "迴力鏢 2 N"],
+    "description": "投擲 3 發迴力鏢連續襲擊對手！"
+  },
+  {
+    "nameZh": "地獄迴力鏢 3",
+    "nameEn": "",
+    "combination": ["迴力鏢 3 L", "迴力鏢 3 M", "迴力鏢 3 N"],
+    "description": "投擲 3 發迴力鏢連續襲擊對手！"
+  },
+  {
+    "nameZh": "夢之劍",
+    "nameEn": "",
+    "combination": ["劍 E", "寬劍 E", "長劍 E"],
+    "description": "向橫向 2、縱向 3 格發動斬擊的巨大劍！"
+  },
+  {
+    "nameZh": "吸血鬼淨化系統",
+    "nameEn": "",
+    "combination": ["太陽槍 1 G", "太陽槍 2 G", "太陽槍 3 G"],
+    "description": "於面前放置太陽產生器！用陽光燒盡敵人"
+  }
+]
