@@ -1,13 +1,13 @@
 <template>
   <div class="pa-container">
-    <h2>Program Advance (P.A.) 圖鑑</h2>
+    <h2>{{ title }}</h2>
 
     <!-- 搜尋列 -->
     <div class="search-box">
       <input
         v-model="searchQuery"
         type="text"
-        placeholder="搜尋 PA 名稱、晶片組合或效果..."
+        placeholder="搜尋 PA 名稱、編號、晶片組合或效果..."
       />
     </div>
 
@@ -18,19 +18,25 @@
           <tr>
             <th class="col-seq">NO.</th>
             <th class="col-name">P.A. 名稱</th>
+            <!-- <th class="col-dmg">威力</th> -->
             <th class="col-combo">晶片組合</th>
             <th class="col-desc">效果說明</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="item in formattedData" :key="item.seqNo">
-            <td class="col-seq">#{{ item.seqNo }}</td>
+          <!-- 綁定 JSON 資料中固定的 item.no -->
+          <tr v-for="item in formattedData" :key="item.no">
+            <td class="col-seq">#{{ item.no }}</td>
             <td class="col-name">
               <div class="name-zh">{{ item.nameZh }}</div>
               <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div>
             </td>
+            <!-- 
+            <td class="col-dmg">
+              {{ item.damage && item.damage > 0 ? item.damage : '-' }}
+            </td> 
+            -->
             <td class="col-combo">
-              <!-- 多組組合直接分行展示，不顯示斜線 '/' -->
               <div class="combo-list">
                 <div
                   v-for="(combo, cIndex) in item.comboGroups"
@@ -60,63 +66,76 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
-import paData from '@/data/paData.json'
+import type { PaItem, FormattedPaItem } from '../types'
 
-// 1. 響應式資料（深拷貝，避免直接改動原始 JSON import）
-const paList = ref(structuredClone(paData))
+// Props 定義：使用 Vue 3.5+ 響應式解構與預設值
+const {
+  title = 'Program Advance (P.A.) 圖鑑',
+  items = []
+} = defineProps<{
+  title?: string
+  items?: PaItem[]
+}>()
 
-// 2. 背景資料異動檢查狀態
-const originalJsonSnapshot = ref(JSON.stringify(paData))
-const isDataChanged = computed(() => {
-  return JSON.stringify(paList.value) !== originalJsonSnapshot.value
-})
+/* 
+ * 若 Vue 版本 < 3.5，請改用以下 withDefaults 寫法：
+ * 
+ * const props = withDefaults(
+ *   defineProps<{
+ *     title?: string
+ *     items?: PaItem[]
+ *   }>(),
+ *   {
+ *     title: 'Program Advance (P.A.) 圖鑑',
+ *     items: () => []
+ *   }
+ * )
+ */
 
-// 3. 搜尋關鍵字狀態
-const searchQuery = ref('')
+// 搜尋關鍵字狀態
+const searchQuery = ref<string>('')
 
-// 輔助函式：解析 JSON 內的配方，若有 '/' 自動切分成多個替代組合陣列
-const formatCombinations = (combo) => {
+// 輔助函式：解析 JSON 內的配方
+const formatCombinations = (combo: PaItem['combination']): string[][] => {
   if (!combo) return []
-  // 若為二維陣列（多組配方）
   if (Array.isArray(combo) && Array.isArray(combo[0])) {
-    return combo
+    return combo as string[][]
   }
-  // 若為一維陣列（單組配方）
   if (Array.isArray(combo)) {
-    return [combo]
+    return [combo as string[]]
   }
-  // 若為字串，用 '/' 切分成獨立的替代組合，再用 '+' 解析單一晶片
   if (typeof combo === 'string') {
     return combo.split('/').map((group) => group.split('+').map((c) => c.trim()))
   }
   return []
 }
 
-// 4. computed：搜尋篩選與連貫編號生成
-const formattedData = computed(() => {
+// computed：搜尋篩選（直接保留原始固定 item.no，且支援搜尋編號）
+const formattedData = computed<FormattedPaItem[]>(() => {
   const query = searchQuery.value.trim().toLowerCase()
 
-  const filtered = paList.value.filter((item) => {
-    if (!query) return true
+  return items
+    .filter((item) => {
+      if (!query) return true
 
-    const comboGroups = formatCombinations(item.combination)
-    const allChips = comboGroups.flat()
+      const comboGroups = formatCombinations(item.combination)
+      const allChips = comboGroups.flat()
 
-    const matchNameZh = item.nameZh.toLowerCase().includes(query)
-    const matchNameEn = item.nameEn?.toLowerCase().includes(query) ?? false
-    const matchDesc = item.description.toLowerCase().includes(query)
-    const matchCombo = allChips.some((c) => c.toLowerCase().includes(query))
+      const matchNo = item.no.toString().includes(query) // 支援搜尋固定號碼 (如 "30")
+      const matchNameZh = item.nameZh.toLowerCase().includes(query)
+      const matchNameEn = item.nameEn?.toLowerCase().includes(query) ?? false
+      const matchDesc = item.description.toLowerCase().includes(query)
+      const matchCombo = allChips.some((c) => c.toLowerCase().includes(query))
+      // const matchDmg = item.damage?.toString().includes(query) ?? false
 
-    return matchNameZh || matchNameEn || matchDesc || matchCombo
-  })
-
-  return filtered.map((item, index) => ({
-    ...item,
-    seqNo: index + 1,
-    comboGroups: formatCombinations(item.combination),
-  }))
+      return matchNo || matchNameZh || matchNameEn || matchDesc || matchCombo /* || matchDmg */
+    })
+    .map((item) => ({
+      ...item,
+      comboGroups: formatCombinations(item.combination)
+    }))
 })
 </script>
 
@@ -125,7 +144,7 @@ const formattedData = computed(() => {
 .pa-container {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 20px 0;
 }
 
@@ -152,7 +171,7 @@ const formattedData = computed(() => {
   box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
 }
 
-/* 100% 滿版表格結構 (table-layout: fixed) */
+/* 表格結構 */
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
@@ -210,6 +229,19 @@ const formattedData = computed(() => {
   color: var(--vp-c-text-2);
 }
 
+/* 
+.col-dmg {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+  color: #e53e3e;
+}
+
+html.dark .col-dmg {
+  color: #fc8181;
+} 
+*/
+
 .col-combo {
   width: 40%;
 }
@@ -245,7 +277,7 @@ const formattedData = computed(() => {
   user-select: none;
 }
 
-/* 1. Light Theme 下的晶片標籤（柔和沉穩、不刺眼） */
+/* Light Theme 下的晶片標籤 */
 html:not(.dark) .chip-tag {
   background-color: #f0f4f8;
   color: #2b4c7e;
@@ -260,7 +292,7 @@ html:not(.dark) .chip-tag:hover {
   box-shadow: 0 2px 5px rgba(43, 76, 126, 0.2);
 }
 
-/* 2. Dark Theme 下的晶片標籤（清晰、透亮） */
+/* Dark Theme 下的晶片標籤 */
 html.dark .chip-tag {
   background-color: rgba(49, 130, 206, 0.15);
   color: #90cdf4;

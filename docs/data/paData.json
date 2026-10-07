@@ -1,161 +1,256 @@
 [
   {
+    "no": 1,
     "nameZh": "GIGA加農砲 1",
     "nameEn": "",
-    "combination": [
-      ["加農砲 A", "加農砲 B", "加農砲 C"],
-      ["加農大砲 A", "加農大砲 B", "加農大砲 C"]
-    ],
+    "damage": 0,
+    "combination": ["S001 加農砲 A", "S001 加農砲 B", "S001 加農砲 C"],
     "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
   },
   {
+    "no": 2,
     "nameZh": "GIGA加農砲 2",
     "nameEn": "",
-    "combination": ["高超加農砲 C", "高超加農砲 D", "高超加農砲 E"],
+    "damage": 0,
+    "combination": ["S002 高超加農砲 C", "S002 高超加農砲 D", "S002 高超加農砲 E"],
     "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
   },
   {
+    "no": 3,
     "nameZh": "GIGA加農砲 3",
     "nameEn": "",
-    "combination": ["MEGA加農砲 C", "MEGA加農砲 D", "MEGA加農砲 E"],
+    "damage": 0,
+    "combination": ["S003 MEGA加農砲 C", "S003 MEGA加農砲 D", "S003 MEGA加農砲 E"],
     "description": "向前方的敵人發射 GIGA 的加農砲攻擊！"
   },
   {
+    "no": 4,
     "nameZh": "超級爆破",
     "nameEn": "",
-    "combination": ["散射槍 L", "散射槍 M", "散射槍 N"],
+    "damage": 0,
+    "combination": ["S008 散射槍 L", "S008 散射槍 M", "S008 散射槍 N"],
     "description": "往周圍 1 格擴散爆風的炸裂彈！"
   },
   {
+    "no": 5,
     "nameZh": "熱焰散射",
     "nameEn": "",
-    "combination": ["熱焰散彈 B", "熱焰散彈 C", "熱焰散彈 D"],
+    "damage": 0,
+    "combination": [
+      ["S009 熱焰散彈 B", "S009 熱焰散彈 C", "S009 熱焰散彈 D"],
+      ["S010 熱焰V字 C", "S010 熱焰V字 D", "S010 熱焰V字 E"],
+      ["S011 熱焰側擊 D", "S011 熱焰側擊 E", "S011 熱焰側擊 F"],
+      ["S009 熱焰散彈 D", "S010 熱焰V字 D", "S011 熱焰側擊 D"]
+    ],
     "description": "對目標及其周圍 1 格進行廣範圍攻擊！"
   },
   {
+    "no": 6,
     "nameZh": "泡沫散射",
     "nameEn": "",
-    "combination": ["泡沫散彈 P", "泡沫散彈 Q", "泡沫散彈 R"],
+    "damage": 0,
+    "combination": [
+      ["S12 泡沫散彈 P", "S12 泡沫散彈 Q", "S12 泡沫散彈 R"],
+      ["S13 泡沫V字 C", "S13 泡沫V字 D", "S13 泡沫V字 E"],
+      ["S12 泡沫側擊 D", "S13 泡沫側擊 E", "S14 泡沫側擊 F"]
+    ],
     "description": "對目標及其周圍 1 格進行廣範圍攻擊！"
   },
   {
+    "no": 7,
     "nameZh": "超級廣域 1",
     "nameEn": "",
-    "combination": ["廣域射擊 1 C", "廣域射擊 1 D", "廣域射擊 1 E"],
+    "damage": 0,
+    "combination": ["S018 廣域射擊 1 C", "S018 廣域射擊 1 D", "S018 廣域射擊 1 E"],
     "description": "可貫穿敵人的 3 連射廣域射擊！"
   },
   {
+    "no": 8,
     "nameZh": "超級廣域 2",
     "nameEn": "",
-    "combination": ["廣域射擊 2 L", "廣域射擊 2 M", "廣域射擊 2 N"],
+    "damage": 0,
+    "combination": ["S019 廣域射擊 2 L", "S019 廣域射擊 2 M", "S019 廣域射擊 2 N"],
     "description": "可貫穿敵人的 3 連射廣域射擊！"
   },
   {
+    "no": 9,
     "nameZh": "超級廣域 3",
     "nameEn": "",
-    "combination": ["廣域射擊 3 S", "廣域射擊 3 T", "廣域射擊 3 U"],
+    "damage": 0,
+    "combination": ["S020 廣域射擊 3 S", "S020 廣域射擊 3 T", "S020 廣域射擊 3 U"],
     "description": "可貫穿敵人的 3 連射廣域射擊！"
   },
   {
+    "no": 10,
     "nameZh": "烈焰交錯 1",
     "nameEn": "",
-    "combination": ["烈焰線 1 F", "烈焰線 1 G", "烈焰線 1 H"],
+    "damage": 0,
+    "combination": ["S021 烈焰線 1 F", "S021 烈焰線 1 G", "S021 烈焰線 1 H"],
     "description": "擴散成十字形的地獄之業火！"
   },
   {
+    "no": 11,
     "nameZh": "烈焰交錯 2",
     "nameEn": "",
-    "combination": ["烈焰線 2 D", "烈焰線 2 E", "烈焰線 2 F"],
+    "damage": 0,
+    "combination": ["S022 烈焰線 2 D", "S022 烈焰線 2 E", "S022 烈焰線 2 F"],
     "description": "擴散成十字形的地獄之業火！"
   },
   {
+    "no": 12,
     "nameZh": "烈焰交錯 3",
     "nameEn": "",
-    "combination": ["烈焰線 3 J", "烈焰線 3 K", "烈焰線 3 L"],
+    "damage": 0,
+    "combination": ["S023 烈焰線 3 J", "S023 烈焰線 3 K", "S023 烈焰線 3 L"],
     "description": "擴散成十字形的地獄之業火！"
   },
   {
+    "no": 13,
     "nameZh": "瘋狂獠牙 1",
     "nameEn": "",
-    "combination": ["雙生獠牙 1 A", "雙生獠牙 1 B", "雙生獠牙 1 C"],
+    "damage": 0,
+    "combination": ["S032 雙生獠牙 1 A", "S032 雙生獠牙 1 B", "S032 雙生獠牙 1 C"],
     "description": "從自身上下列放出無數成列獠牙！"
   },
   {
+    "no": 14,
     "nameZh": "瘋狂獠牙 2",
     "nameEn": "",
-    "combination": ["雙生獠牙 2 O", "雙生獠牙 2 P", "雙生獠牙 2 Q"],
+    "damage": 0,
+    "combination": ["S033 雙生獠牙 2 O", "S033 雙生獠牙 2 P", "S033 雙生獠牙 2 Q"],
     "description": "從自身上下列放出無數成列獠牙！"
   },
   {
+    "no": 15,
     "nameZh": "瘋狂獠牙 3",
     "nameEn": "",
-    "combination": ["雙生獠牙 3 F", "雙生獠牙 3 G", "雙生獠牙 3 H"],
+    "damage": 0,
+    "combination": ["S034 雙生獠牙 3 F", "S034 雙生獠牙 3 G", "S034 雙生獠牙 3 H"],
     "description": "從自身上下列放出無數成列獠牙！"
   },
   {
+    "no": 16,
     "nameZh": "磁力衝擊 1",
     "nameEn": "",
-    "combination": ["磁螺絲 1 B", "磁螺絲 1 C", "磁螺絲 1 D"],
+    "damage": 0,
+    "combination": ["S039 磁螺絲 1 B", "S039 磁螺絲 1 C", "S039 磁螺絲 1 D"],
     "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
   },
   {
+    "no": 17,
     "nameZh": "磁力衝擊 2",
     "nameEn": "",
-    "combination": ["磁螺絲 2 E", "磁螺絲 2 F", "磁螺絲 2 G"],
+    "damage": 0,
+    "combination": ["S040 磁螺絲 2 E", "S040 磁螺絲 2 F", "S040 磁螺絲 2 G"],
     "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
   },
   {
+    "no": 18,
     "nameZh": "磁力衝擊 3",
     "nameEn": "",
-    "combination": ["磁螺絲 3 A", "磁螺絲 3 B", "磁螺絲 3 C"],
+    "damage": 0,
+    "combination": ["S041 磁螺絲 3 A", "S041 磁螺絲 3 B", "S041 磁螺絲 3 C"],
     "description": "使用強大磁力將前方所有敵人吸近並攻擊！"
   },
   {
+    "no": 19,
     "nameZh": "地獄氣墊球 1",
     "nameEn": "",
-    "combination": ["氣墊球 1 D", "氣墊球 1 E", "氣墊球 1 F"],
+    "damage": 0,
+    "combination": ["S063 氣墊球 1 D", "S063 氣墊球 1 E", "S063 氣墊球 1 F"],
     "description": "持續彈射的恐怖氣墊球攻擊"
   },
   {
+    "no": 20,
     "nameZh": "地獄氣墊球 2",
     "nameEn": "",
-    "combination": ["氣墊球 2 I", "氣墊球 2 J", "氣墊球 2 K"],
+    "damage": 0,
+    "combination": ["S064 氣墊球 2 I", "S064 氣墊球 2 J", "S064 氣墊球 2 K"],
     "description": "持續彈射的恐怖氣墊球攻擊"
   },
   {
+    "no": 21,
     "nameZh": "地獄氣墊球 3",
     "nameEn": "",
-    "combination": ["氣墊球 3 U", "氣墊球 3 V", "氣墊球 3 W"],
+    "damage": 0,
+    "combination": ["S065 氣墊球 3 U", "S065 氣墊球 3 V", "S065 氣墊球 3 W"],
     "description": "持續彈射的恐怖氣墊球攻擊"
   },
   {
+    "no": 22,
     "nameZh": "地獄迴力鏢 1",
     "nameEn": "",
-    "combination": ["迴力鏢 1 L", "迴力鏢 1 M", "迴力鏢 1 N"],
+    "damage": 0,
+    "combination": ["S069 迴力鏢 1 L", "S069 迴力鏢 1 M", "S069 迴力鏢 1 N"],
     "description": "投擲 3 發迴力鏢連續襲擊對手！"
   },
   {
+    "no": 23,
     "nameZh": "地獄迴力鏢 2",
     "nameEn": "",
-    "combination": ["迴力鏢 2 L", "迴力鏢 2 M", "迴力鏢 2 N"],
+    "damage": 0,
+    "combination": ["S070 迴力鏢 2 L", "S070 迴力鏢 2 M", "S070 迴力鏢 2 N"],
     "description": "投擲 3 發迴力鏢連續襲擊對手！"
   },
   {
+    "no": 24,
     "nameZh": "地獄迴力鏢 3",
     "nameEn": "",
-    "combination": ["迴力鏢 3 L", "迴力鏢 3 M", "迴力鏢 3 N"],
+    "damage": 0,
+    "combination": ["S071 迴力鏢 3 L", "S071 迴力鏢 3 M", "S071 迴力鏢 3 N"],
     "description": "投擲 3 發迴力鏢連續襲擊對手！"
   },
   {
+    "no": 25,
     "nameZh": "夢之劍",
     "nameEn": "",
-    "combination": ["劍 E", "寬劍 E", "長劍 E"],
+    "damage": 0,
+    "combination": [
+      ["S054 劍 E", "S055 寬劍 E", "S056 長劍 E"],
+      ["S054 劍 L", "S055 寬劍 L", "S056 長劍 L"],
+      ["S054 劍 S", "S055 寬劍 S", "S056 長劍 S"],
+      ["S054 劍 S", "S057 寬刃 S", "S058 長刃 S"]
+    ],
     "description": "向橫向 2、縱向 3 格發動斬擊的巨大劍！"
   },
   {
+    "no": 26,
+    "nameZh": "GIGA 定時炸彈",
+    "nameEn": "",
+    "damage": 600,
+    "combination": ["S142 定時炸彈 J", "S144 定時炸彈 J", "M14 定時炸彈 J"],
+    "description": "在敵方區域放置定時炸彈！"
+  },
+  {
+    "no": 27,
+    "nameZh": "貼身護衛",
+    "nameEn": "",
+    "damage": 0,
+    "combination": ["S142 替身 1 M", "S144 領航員徵用 M", "M14 妖刀村正 M"],
+    "description": "雇用裏之暗殺者協助排除敵人"
+  },
+  {
+    "no": 28,
+    "nameZh": "毒氣法老王",
+    "nameEn": "",
+    "damage": 0,
+    "combination": ["S132 黑暗洞 *", "M18 黑暗線 *", "M15 毒氣阿努比斯 A"],
+    "description": "在敵方區域放置產生毒的法老王像"
+  },
+  {
+    "no": 29,
     "nameZh": "吸血鬼淨化系統",
     "nameEn": "",
-    "combination": ["太陽槍 1 G", "太陽槍 2 G", "太陽槍 3 G"],
+    "damage": 0,
+    "combination": ["S024 太陽槍 1 G", "S025 太陽槍 2 G", "S026 太陽槍 3 G"],
     "description": "於面前放置太陽產生器！用陽光燒盡敵人"
+  },
+  {
+    "no": 30,
+    "nameZh": "黑暗救世主NEO",
+    "nameEn": "",
+    "damage": 0,
+    "combination": ["M18 黑暗線 *", "M07 BUG鏈 ＊", "G03 佛魯迪另 X"],
+    "description": "墜入黑暗 強者們的合體技 !"
   }
 ]
