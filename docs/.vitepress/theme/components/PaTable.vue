@@ -136,6 +136,9 @@ const formattedData = computed<FormattedPaItem[]>(() => {
       ...item,
       comboGroups: formatCombinations(item.combination)
     }))
+
+    // .filter((item: PaItem) => {
+    // .map((item: PaItem): FormattedPaItem => ({
 })
 </script>
 
