@@ -9,6 +9,5 @@ import paData from '@/data/paData.json'
 </script>
 
 <ClientOnly>
-  <PaTable :items="paData" title="搜尋
-" />
+  <PaTable :items="paData" title="搜尋" />
 </ClientOnly>
