@@ -10,7 +10,7 @@ const isGithubActions = import.meta.env?.GITHUB_ACTIONS === 'true' || process.en
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: isGithubActions ? '/rockman-doc/' : '/',
-  title: "Rockman Series Documentation",
+  title: "Rockman Series",
   description: "洛克人 EXE & 流星洛克人 完全攻略庫",
   srcDir: './',
   lastUpdated: true,

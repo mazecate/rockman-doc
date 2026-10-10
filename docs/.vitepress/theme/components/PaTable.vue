@@ -16,7 +16,7 @@
       <table class="pa-table">
         <thead>
           <tr>
-            <th class="col-seq">NO.</th>
+            <th class="col-seq">編號</th>
             <th class="col-name">P.A. 名稱</th>
             <!-- <th class="col-dmg">威力</th> -->
             <th class="col-combo">晶片組合</th>
@@ -26,7 +26,7 @@
         <tbody>
           <!-- 綁定 JSON 資料中固定的 item.no -->
           <tr v-for="item in formattedData" :key="item.no">
-            <td class="col-seq">#{{ item.no }}</td>
+            <td class="col-seq">{{ item.no }}</td>
             <td class="col-name">
               <div class="name-zh">{{ item.nameZh }}</div>
               <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div>

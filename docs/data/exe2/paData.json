@@ -1,7 +1,7 @@
 [
   {
     "no": 1,
-    "nameZh": "賽塔加農砲1",
+    "nameZh": "賽塔加農砲 1",
     "nameEn": "",
     "damage": 40,
     "combination": [
@@ -13,7 +13,7 @@
   },
   {
     "no": 2,
-    "nameZh": "賽塔加農砲2",
+    "nameZh": "賽塔加農砲 2",
     "nameEn": "",
     "damage": 60,
     "combination": [
@@ -25,7 +25,7 @@
   },
   {
     "no": 3,
-    "nameZh": "賽塔加農砲3",
+    "nameZh": "賽塔加農砲 3",
     "nameEn": "",
     "damage": 80,
     "combination": [
@@ -61,7 +61,7 @@
   },
   {
     "no": 6,
-    "nameZh": "賽塔巨鼠1",
+    "nameZh": "賽塔巨鼠 1",
     "nameEn": "",
     "damage": 70,
     "combination": [
@@ -73,7 +73,7 @@
   },
   {
     "no": 7,
-    "nameZh": "賽塔巨鼠2",
+    "nameZh": "賽塔巨鼠 2",
     "nameEn": "",
     "damage": 80,
     "combination": [
@@ -85,7 +85,7 @@
   },
   {
     "no": 8,
-    "nameZh": "賽塔巨鼠3",
+    "nameZh": "賽塔巨鼠 3",
     "nameEn": "",
     "damage": 90,
     "combination": [
@@ -97,7 +97,7 @@
   },
   {
     "no": 9,
-    "nameZh": "奧米加加農砲1",
+    "nameZh": "奧米加加農砲 1",
     "nameEn": "",
     "damage": 40,
     "combination": [
@@ -111,7 +111,7 @@
   },
   {
     "no": 10,
-    "nameZh": "奧米加加農砲2",
+    "nameZh": "奧米加加農砲 2",
     "nameEn": "",
     "damage": 60,
     "combination": [
@@ -125,7 +125,7 @@
   },
   {
     "no": 11,
-    "nameZh": "奧米加加農砲3",
+    "nameZh": "奧米加加農砲 3",
     "nameEn": "",
     "damage": 80,
     "combination": [
@@ -167,7 +167,7 @@
   },
   {
     "no": 14,
-    "nameZh": "奧米加巨鼠1",
+    "nameZh": "奧米加巨鼠 1",
     "nameEn": "",
     "damage": 70,
     "combination": [
@@ -181,7 +181,7 @@
   },
   {
     "no": 15,
-    "nameZh": "奧米加巨鼠2",
+    "nameZh": "奧米加巨鼠 2",
     "nameEn": "",
     "damage": 80,
     "combination": [
@@ -195,7 +195,7 @@
   },
   {
     "no": 16,
-    "nameZh": "奧米加巨鼠3",
+    "nameZh": "奧米加巨鼠 3",
     "nameEn": "",
     "damage": 90,
     "combination": [
@@ -232,7 +232,7 @@
   },
   {
     "no": 19,
-    "nameZh": "夢之劍1",
+    "nameZh": "夢之劍 1",
     "nameEn": "",
     "damage": 400,
     "combination": [
@@ -244,7 +244,7 @@
   },
   {
     "no": 20,
-    "nameZh": "夢之劍2",
+    "nameZh": "夢之劍 2",
     "nameEn": "",
     "damage": 500,
     "combination": [
@@ -256,7 +256,7 @@
   },
   {
     "no": 21,
-    "nameZh": "夢之劍3",
+    "nameZh": "夢之劍 3",
     "nameEn": "",
     "damage": 600,
     "combination": [
