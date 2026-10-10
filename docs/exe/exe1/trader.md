@@ -1,5 +1,6 @@
 ---
 title: EXE1 數字交易機
+aside: false
 ---
 
 # EXE1 數字交易機 (Number Trader)

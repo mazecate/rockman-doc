@@ -1,5 +1,7 @@
 ---
 title: EXE 4（紅日 / 藍月）流程攻略攻略
+aside: false
+outline: [2]
 ---
 
 # 洛克人EXE 4（紅日 / 藍月）流程攻略攻略

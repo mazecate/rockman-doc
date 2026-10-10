@@ -15,7 +15,7 @@ export default defineConfig({
   srcDir: './',
   lastUpdated: true,
   themeConfig: {
-    aside: false,
+    aside: true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首頁', link: '/' },
