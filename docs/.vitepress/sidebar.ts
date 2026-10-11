@@ -16,9 +16,6 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     powerups = true
   } = config;
 
-  console.log("321923830921893129831280932193803180312809390128")
-  console.log(config)
-
   const items:SidebarItem[] = []
 
   if (walkthrough) items.push({ text: '流程攻略', link: `${folderPath}/walkthrough` });
