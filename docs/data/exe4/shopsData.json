@@ -1,0 +1,129 @@
+[
+  {
+    "shopName": "日暮屋",
+    "currency": "Zenny",
+    "items": [
+      { "name": "散射槍 L", "price": 3800 },
+      { "name": "地面復原 *", "price": 4500 },
+      { "name": "生命同步化 Q", "price": 5500 },
+      { "name": "死鬥2 N", "price": 6800 },
+      { "name": "高超加農砲 C", "price": 8400 },
+      { "name": "回復120 J", "price": 10000 },
+      { "name": "長刃 G", "price": 12000 },
+      { "name": "超級火神炮V2", "price": 11000 }
+    ]
+  },
+  {
+    "shopName": "秋原區域 2",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "price": 1000 },
+      { "name": "HP記憶體", "price": 3200 },
+      { "name": "泡沫散彈 R", "price": 800 },
+      { "name": "能量炸彈 E", "price": 2400 },
+      { "name": "散射槍 *", "price": 3200 },
+      { "name": "龍捲風 L", "price": 7600 }
+    ]
+  },
+  {
+    "shopName": "都市區域 3",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "price": 2500 },
+      { "name": "HP記憶體", "price": 6000 },
+      { "name": "HP記憶體", "price": 10000 },
+      { "name": "加農砲 C", "price": 2000 },
+      { "name": "隱身 *", "price": 3300 },
+      { "name": "回復80 B", "price": 5000 },
+      { "name": "定時炸彈 K", "price": 12000 }
+    ]
+  },
+  {
+    "shopName": "樂園區域 3 (Bug碎片商店)",
+    "currency": "bugFrag",
+    "items": [
+      { "name": "忍術衝刺", "price": "8 個" },
+      { "name": "神聖地面 *", "price": "10 個" },
+      { "name": "HP+400", "price": "16 個" },
+      { "name": "替身 R", "price": "24 個" },
+      { "name": "收藏家之眼", "price": "42 個" },
+      { "name": "流星群 R", "price": "60 個" }
+    ]
+  },
+  {
+    "shopName": "天空之城首頁",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP+100", "price": 3400 },
+      { "name": "集氣 MAX", "price": 4800 },
+      { "name": "盾", "price": 5500 },
+      { "name": "初始防護罩", "price": 6800 },
+      { "name": "MEGA資料1", "price": 8000 },
+      { "name": "改裝1", "price": 9600 }
+    ]
+  },
+  {
+    "shopName": "亞美羅帕",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "price": 6000 },
+      { "name": "HP記憶體", "price": 10000 },
+      { "name": "HP記憶體", "price": 14000 },
+      { "name": "修復 P", "price": 4000 },
+      { "name": "灼熱吐息 K", "price": 5000 },
+      { "name": "火神砲2 H", "price": 6300 },
+      { "name": "居合架式 R", "price": 8800 },
+      { "name": "偷竊懲罰 P", "price": 9500 }
+    ]
+  },
+  {
+    "shopName": "裏網絡 1",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "price": 10000 },
+      { "name": "HP記憶體", "price": 15000 },
+      { "name": "HP記憶體", "price": 20000 },
+      { "name": "HP記憶體", "price": 30000 },
+      { "name": "緩慢量表 E", "price": 8200 },
+      { "name": "快速量表 Q", "price": 9800 },
+      { "name": "超級北風 T", "price": 10000 },
+      { "name": "噪音風暴 Z", "price": 16000 }
+    ]
+  },
+  {
+    "shopName": "裏網絡 6",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP+300", "price": 9600 },
+      { "name": "油性體質", "price": 6200 },
+      { "name": "Mega資料1", "price": 8000 },
+      { "name": "改裝1", "price": 9600 },
+      { "name": "飄浮鞋", "price": 8400 },
+      { "name": "反射", "price": 13000 }
+    ]
+  },
+  {
+    "shopName": "裏網絡 4 (Bug碎片商店)",
+    "currency": "bugFrag",
+    "items": [
+      { "name": "飛行鞋", "price": "22 個" },
+      { "name": "領航員+20 *", "price": "28 個" },
+      { "name": "替身魔術", "price": "36 個" },
+      { "name": "死鬥三 U", "price": "50 個" },
+      { "name": "攻擊 Max", "price": "72 個" },
+      { "name": "紅色信號 S", "price": "100 個" }
+    ]
+  },
+  {
+    "shopName": "裏網絡 5",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "price": 30000 },
+      { "name": "HP記憶體", "price": 50000 },
+      { "name": "偷竊凝膠 K", "price": 14000 },
+      { "name": "領航員徵用 M", "price": 16000 },
+      { "name": "BUG鏈 C", "price": 22000 },
+      { "name": "攻擊+30 *", "price": 28000 }
+    ]
+  }
+]

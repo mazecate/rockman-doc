@@ -5,4 +5,5 @@ export interface MenuConfig {
     pa?: boolean              // 程式進化
     powerups?: boolean        // 強化部件
     stars?: boolean           // 星之證
+    shops?: boolean           // 商店
 }

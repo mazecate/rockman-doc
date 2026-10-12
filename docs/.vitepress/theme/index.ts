@@ -4,6 +4,7 @@ import CustomLayout from './components/CustomLayout.vue'
 import NumberTrader from './components/NumberTrader.vue'
 import PaTable from './components/PaTable.vue'
 import NaviLocation from './components/NaviLocation.vue'
+import ShopTable from './components/ShopTable.vue'
 import './custom.css'
 
 export default {
@@ -13,5 +14,6 @@ export default {
     app.component('NumberTrader', NumberTrader)
     app.component('PaTable', PaTable)
     app.component('NaviLocation', NaviLocation)
+    app.component('ShopTable', ShopTable)
   }
 } satisfies Theme

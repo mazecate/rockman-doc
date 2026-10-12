@@ -31,15 +31,15 @@ const filteredItems = computed(() => {
   <div class="trader-container">
     <!-- <h2>{{ title }}</h2> -->
     <div class="controls">
-      <select v-model="selectedCategory" class="category-select">
-        <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
-      </select>
       <input 
         v-model="searchQuery" 
         type="text" 
         placeholder="搜尋密碼或獎勵名稱..." 
         class="search-input"
       />
+      <select v-model="selectedCategory" class="category-select">
+        <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
+      </select>
     </div>
 
     <div class="trader-table">
