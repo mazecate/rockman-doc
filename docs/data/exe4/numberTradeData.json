@@ -1,0 +1,259 @@
+[
+  {
+    "category": "戰鬥晶片",
+    "number": "46292983",
+    "nameZh": "烈焰線 1",
+    "nameEn": "",
+    "nameJp": "フレイムライン1",
+    "other": "G"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "57604335",
+    "nameZh": "烈焰線 3",
+    "nameEn": "",
+    "nameJp": "フレイムライン3",
+    "other": "J"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "88019791",
+    "nameZh": "雙生獠牙 3",
+    "nameEn": "",
+    "nameJp": "ツインファング3",
+    "other": "G"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "68009092",
+    "nameZh": "廣域射擊 3",
+    "nameEn": "",
+    "nameJp": "ワイドショット3",
+    "other": "T"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "03696458",
+    "nameZh": "變化劍",
+    "nameEn": "",
+    "nameJp": "バリアブルソード",
+    "other": "C"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "77038416",
+    "nameZh": "氣墊球 3",
+    "nameEn": "",
+    "nameJp": "エアホッケー3",
+    "other": "V"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "32108251",
+    "nameZh": "招來蛇",
+    "nameEn": "",
+    "nameJp": "カモンスネーク",
+    "other": "R"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "66703422",
+    "nameZh": "回復 300",
+    "nameEn": "",
+    "nameJp": "リカバリー300",
+    "other": "J"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "19095677",
+    "nameZh": "色點",
+    "nameEn": "",
+    "nameJp": "カラーポイント",
+    "other": "＊"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "74293099",
+    "nameZh": "太陽槍 EX",
+    "nameEn": "",
+    "nameJp": "ガンデルソルEX",
+    "other": "G"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "72794137",
+    "nameZh": "Z 光劍",
+    "nameEn": "",
+    "nameJp": "Zセイバー",
+    "other": "Z"
+  },
+  {
+    "category": "程式部件",
+    "number": "30873642",
+    "nameZh": "HP+500",
+    "nameEn": "",
+    "nameJp": "HP+500",
+    "other": "白"
+  },
+  {
+    "category": "程式部件",
+    "number": "97618739",
+    "nameZh": "HP+500",
+    "nameEn": "",
+    "nameJp": "HP+500",
+    "other": "粉"
+  },
+  {
+    "category": "程式部件",
+    "number": "02109544",
+    "nameZh": "MEGA 資料 2",
+    "nameEn": "",
+    "nameJp": "メガフォルダ2",
+    "other": "綠"
+  },
+  {
+    "category": "程式部件",
+    "number": "05178924",
+    "nameZh": "子彈套組",
+    "nameEn": "",
+    "nameJp": "バスターパック",
+    "other": "紅"
+  },
+  {
+    "category": "程式部件",
+    "number": "43494372",
+    "nameZh": "身體套組",
+    "nameEn": "",
+    "nameJp": "ボディパック",
+    "other": "藍"
+  },
+  {
+    "category": "程式部件",
+    "number": "75420107",
+    "nameZh": "改裝 2",
+    "nameEn": "",
+    "nameJp": "カスタム2",
+    "other": "黃"
+  },
+  {
+    "category": "程式部件",
+    "number": "25435428",
+    "nameZh": "比特支援",
+    "nameEn": "",
+    "nameJp": "ビートサポート",
+    "other": "藍"
+  },
+  {
+    "category": "程式部件",
+    "number": "73298100",
+    "nameZh": "萊西支援",
+    "nameEn": "",
+    "nameJp": "ラッシュサポート",
+    "other": "黃"
+  },
+  {
+    "category": "程式部件",
+    "number": "10170506",
+    "nameZh": "探戈支援",
+    "nameEn": "",
+    "nameJp": "タンゴサポート",
+    "other": "綠"
+  },
+  {
+    "category": "副晶片",
+    "number": "16589650",
+    "nameZh": "迷你能源",
+    "nameEn": "",
+    "nameJp": "ミニエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "45798331",
+    "nameZh": "迷你能源",
+    "nameEn": "",
+    "nameJp": "ミニエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "84625799",
+    "nameZh": "全滿能源",
+    "nameEn": "",
+    "nameJp": "フルエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "59891137",
+    "nameZh": "全滿能源",
+    "nameEn": "",
+    "nameJp": "フルエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "24247309",
+    "nameZh": "忍術衝刺",
+    "nameEn": "",
+    "nameJp": "シノビダッシュ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "89866302",
+    "nameZh": "忍術衝刺",
+    "nameEn": "",
+    "nameJp": "シノビダッシュ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "14769745",
+    "nameZh": "解除陷阱",
+    "nameEn": "",
+    "nameJp": "アントラップ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "02368995",
+    "nameZh": "解除陷阱",
+    "nameEn": "",
+    "nameJp": "アントラップ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "00274304",
+    "nameZh": "開鎖",
+    "nameEn": "",
+    "nameJp": "オープンロック",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "94872322",
+    "nameZh": "開鎖",
+    "nameEn": "",
+    "nameJp": "オープンロック",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "27979609",
+    "nameZh": "敵方搜索",
+    "nameEn": "",
+    "nameJp": "エネミーサーチ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "37198940",
+    "nameZh": "敵方搜索",
+    "nameEn": "",
+    "nameJp": "エネミーサーチ",
+    "other": ""
+  }
+]
+  

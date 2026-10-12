@@ -1,35 +1,35 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed } from 'vue';
+import type { TradeItem, } from '../types';
 
-interface TradeItem {
-  code: string
-  reward: string
-  category: string
-}
-
-const props = defineProps<{
-  items: TradeItem[]
-}>()
+const {
+  title = '搜尋',
+  items = []
+} = defineProps<{
+  title?: string
+  items?: TradeItem[]
+}>();
 
 const searchQuery = ref('')
 const selectedCategory = ref('ALL')
 
-const categories = computed(() => {
-  const set = new Set(props.items.map(item => item.category))
+const categories = computed(() => {  
+  const set = new Set(items.map(item => item.category))
   return ['ALL', ...Array.from(set)]
-})
+});
 
 const filteredItems = computed(() => {
-  return props.items.filter(item => {
-    const matchesCode = item.code.includes(searchQuery.value) || item.reward.toLowerCase().includes(searchQuery.value.toLowerCase())
+  return items.filter(item => {
+    const matchesCode = item.number.includes(searchQuery.value) || item.nameZh.toLowerCase().includes(searchQuery.value.toLowerCase())
     const matchesCategory = selectedCategory.value === 'ALL' || item.category === selectedCategory.value
     return matchesCode && matchesCategory
   })
-})
+});
 </script>
 
 <template>
   <div class="trader-container">
+    <!-- <h2>{{ title }}</h2> -->
     <div class="controls">
       <input 
         v-model="searchQuery" 
@@ -42,36 +42,82 @@ const filteredItems = computed(() => {
       </select>
     </div>
 
-    <table class="trader-table">
-      <thead>
-        <tr>
-          <th>8位數密碼</th>
-          <th>獲得獎勵 / 晶片</th>
-          <th>分類</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="item in filteredItems" :key="item.code">
-          <td class="code-cell"><code>{{ item.code }}</code></td>
-          <td>{{ item.reward }}</td>
-          <td><span class="tag">{{ item.category }}</span></td>
-        </tr>
-        <tr v-if="filteredItems.length === 0">
-          <td colspan="3" class="no-data">查無匹配數據</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="trader-table">
+      <div class="table-header">
+        <div class="col-code">8位數密碼</div>
+        <div class="col-name">獲得獎勵 / 晶片</div>
+        <div class="col-cat">分類</div>
+      </div>
+      
+      <div class="table-body">
+        <div v-for="item in filteredItems" :key="item.number" class="table-row">
+          <div class="col-code code-cell"><code>{{ item.number }}</code></div>
+          <div v-if="item.category !== '程式部件'" class="col-name name-cell">{{ item.nameZh }} {{ item.other }}</div>
+          <div v-else class="col-name name-cell">{{ item.nameZh }} ({{ item.other }})</div>
+          <div class="col-cat cat-cell"><span class="tag">{{ item.category }}</span></div>
+        </div>
+        
+        <div v-if="filteredItems.length === 0" class="no-data">
+          查無匹配數據
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.trader-container { margin: 1rem 0; }
-.controls { display: flex; gap: 10px; margin-bottom: 1rem; }
-.search-input, .category-select { padding: 8px 12px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-alt); color: var(--vp-c-text-1); }
+.trader-container { 
+  margin: 1.5rem 0; 
+  width: 100%;
+}
+.controls { display: flex; gap: 10px; margin-bottom: 1.5rem; }
+.search-input, .category-select { padding: 10px 14px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-alt); color: var(--vp-c-text-1); }
 .search-input { flex: 1; }
-.trader-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-.trader-table th, .trader-table td { padding: 10px; border: 1px solid var(--vp-c-divider); text-align: left; }
+
+.trader-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header, .table-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.table-header > div, .table-row > div {
+  padding: 16px 20px;
+}
+
+.table-header {
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  letter-spacing: 1px;
+  background: var(--vp-c-bg-alt);
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+
+.table-row {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.col-code { 
+  width: 180px; 
+  flex-shrink: 0;
+} 
+
+.col-cat { 
+  width: 140px; 
+  flex-shrink: 0;
+}
+
+.col-name { 
+  flex: 1; /* 強制吃掉右邊所有剩下的空間，有多少拿多少 */
+  word-break: break-word;
+}
+
 .code-cell { font-weight: bold; color: var(--vp-c-brand-1); }
-.tag { padding: 2px 8px; border-radius: 4px; background: var(--vp-c-bg-soft); font-size: 0.85em; }
-.no-data { text-align: center; color: var(--vp-c-text-2); }
+.tag { padding: 4px 10px; border-radius: 6px; background: var(--vp-c-bg-soft); font-size: 0.85em; border: 1px solid var(--vp-c-divider); }
+.no-data { text-align: center; color: var(--vp-c-text-2); padding: 40px; border-bottom: 1px solid var(--vp-c-divider); }
 </style>
