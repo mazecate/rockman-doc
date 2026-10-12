@@ -1,9 +1,9 @@
 ---
-title: EXE4 領航員位置
+title: XE4 V2 / V3 / SP 領航員位置
 aside: false
 ---
 
-<h1 id="asset-handling" tabindex="-1">EXE4 領航員位置</h1>
+<h1 id="asset-handling" tabindex="-1">EXE4 V2 / V3 / SP 領航員位置</h1>
 
 <script setup>
 import naviData from '@/data/exe4/naviLocations.json'
