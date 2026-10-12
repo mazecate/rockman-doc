@@ -1,6 +1,6 @@
 <template>
   <div class="pa-container">
-    <h2>{{ title }}</h2>
+    <!-- <h2>{{ title }}</h2> -->
 
     <!-- 搜尋列 -->
     <div class="search-box">
