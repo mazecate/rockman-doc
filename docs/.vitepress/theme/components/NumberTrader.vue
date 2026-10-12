@@ -45,7 +45,7 @@ const filteredItems = computed(() => {
     <div class="trader-table">
       <div class="table-header">
         <div class="col-code">8位數密碼</div>
-        <div class="col-name">獲得獎勵 / 晶片</div>
+        <div class="col-name">獲得物品</div>
         <div class="col-cat">分類</div>
       </div>
       

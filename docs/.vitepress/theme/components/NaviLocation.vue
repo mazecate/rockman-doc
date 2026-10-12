@@ -34,7 +34,7 @@ const filteredItems = computed(() => {
       <input
         v-model="searchQuery"
         type="text"
-        placeholder="搜尋名稱、日文或位置..."
+        placeholder="搜尋名稱或位置..."
         class="search-input"
       />
     </div>
