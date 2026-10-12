@@ -5,6 +5,8 @@ aside: false
 
 # 星之證
 
+<img src="/images/exe4/e4_stars.jpeg" class="imgW" alt="" />
+
 * 紅太陽 / 藍月亮徽章：通關表關。
 * SOUL COMP徽章：集齊 6 種靈魂共鳴。
 * STAND COMP徽章：收集全 150 種標準晶片。
