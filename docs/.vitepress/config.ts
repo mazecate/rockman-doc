@@ -6,6 +6,7 @@ import { sidebar } from './sidebar'
 // const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
 const isGithubActions = import.meta.env?.GITHUB_ACTIONS === 'true' || process.env.GITHUB_ACTIONS === 'true';
+const githubLink = 'https://github.com/mazecate';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,6 +15,9 @@ export default defineConfig({
   description: "洛克人 EXE & 流星洛克人 完全攻略庫",
   srcDir: './',
   lastUpdated: true,
+  sitemap: {
+    hostname: githubLink
+  },
   themeConfig: {
     aside: true,
     // https://vitepress.dev/reference/default-theme-config
@@ -23,13 +27,9 @@ export default defineConfig({
       { text: '洛克人 EXE', link: '/exe/overview', activeMatch: '/exe/' },
       { text: '流星 ROCKMAN', link: '/starforce/overview', activeMatch: '/starforce/' },
     ],
-
     sidebar,
-
-
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mazecate' }
+      { icon: 'github', link: githubLink }
     ]
   },
   vite: {
