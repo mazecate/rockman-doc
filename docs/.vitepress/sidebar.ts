@@ -13,7 +13,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     trader = true,
     navi = true,
     pa = true,
-    powerups = true
+    powerups = true,
+    stars = true
   } = config;
 
   const items:SidebarItem[] = []
@@ -22,7 +23,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (trader)      items.push({ text: '數字交易機', link: `${folderPath}/trader` });
   if (navi)        items.push({ text: '領航員位置', link: `${folderPath}/navi-locations` });
   if (pa)          items.push({ text: '程式進化 (PA)', link: `${folderPath}/program-advances` });
-  if (powerups)    items.push({ text: '強化部件入手方法', link: `${folderPath}/powerups` });
+  if (powerups)    items.push({ text: '強化部件', link: `${folderPath}/powerups` });
+  if (stars)        items.push({ text: '星之證', link: `${folderPath}/stars` });
 
   return items;
 }

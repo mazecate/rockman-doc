@@ -4,4 +4,5 @@ export interface MenuConfig {
     navi?: boolean            // 機兵位置
     pa?: boolean              // 程式進化
     powerups?: boolean        // 強化部件
+    stars?: boolean           // 星之證
 }
