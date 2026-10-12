@@ -11,17 +11,17 @@ const {
 }>();
 
 const searchQuery = ref('')
-const selectedCategory = ref('ALL')
+const selectedCategory = ref('全部')
 
 const categories = computed(() => {  
   const set = new Set(items.map(item => item.category))
-  return ['ALL', ...Array.from(set)]
+  return ['全部', ...Array.from(set)]
 });
 
 const filteredItems = computed(() => {
   return items.filter(item => {
     const matchesCode = item.number.includes(searchQuery.value) || item.nameZh.toLowerCase().includes(searchQuery.value.toLowerCase())
-    const matchesCategory = selectedCategory.value === 'ALL' || item.category === selectedCategory.value
+    const matchesCategory = selectedCategory.value === '全部' || item.category === selectedCategory.value
     return matchesCode && matchesCategory
   })
 });

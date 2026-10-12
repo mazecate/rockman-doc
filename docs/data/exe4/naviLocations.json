@@ -1,0 +1,161 @@
+[
+  {
+    "name": "布魯士",
+    "nameEn": "Blues",
+    "nameJp": "ブルース",
+    "location": "裏網絡 6",
+    "locationEn": "",
+    "locationJp": "ウラインターネット6"
+  },
+  {
+    "name": "數字人",
+    "nameEn": "Numberman",
+    "nameJp": "ナンバーマン",
+    "location": "都市區域 4",
+    "locationEn": "",
+    "locationJp": "タウンエリア4"
+  },
+  {
+    "name": "金屬人",
+    "nameEn": "Metalman",
+    "nameJp": "メタルマン",
+    "location": "裏網絡 3",
+    "locationEn": "",
+    "locationJp": "ウラインターネット3"
+  },
+  {
+    "name": "廢鐵人",
+    "nameEn": "JunkMan",
+    "nameJp": "ジャンクマン",
+    "location": "裏網絡 2",
+    "locationEn": "",
+    "locationJp": "ウラインターネット2"
+  },
+  {
+    "name": "水人",
+    "nameEn": "Aquaman",
+    "nameJp": "アクアマン",
+    "location": "秋原地區 1",
+    "locationEn": "",
+    "locationJp": "秋原エリア1"
+  },
+  {
+    "name": "木頭人",
+    "nameEn": "Woodman",
+    "nameJp": "ウッドマン",
+    "location": "樂園區域 1",
+    "locationEn": "",
+    "locationJp": "パークエリア1"
+  },
+  {
+    "name": "羅露",
+    "nameEn": "Roll",
+    "nameJp": "ロール",
+    "location": "都市區域 3",
+    "locationEn": "",
+    "locationJp": "タウンエリア3"
+  },
+  {
+    "name": "氣力人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "location": "秋原地區 2",
+    "locationEn": "",
+    "locationJp": "秋原エリア2"
+  },
+  {
+    "name": "疾風人",
+    "nameEn": "Windman",
+    "nameJp": "ウインドマン",
+    "location": "雅吉納區域",
+    "locationEn": "",
+    "locationJp": "アジーナエリア"
+  },
+  {
+    "name": "檢索人",
+    "nameEn": "Searchman",
+    "nameJp": "サーチマン",
+    "location": "裏網絡 1",
+    "locationEn": "",
+    "locationJp": "ウラインターネット1"
+  },
+  {
+    "name": "火焰人",
+    "nameEn": "Fireman",
+    "nameJp": "ファイアマン",
+    "location": "都市區域 2",
+    "locationEn": "",
+    "locationJp": "タウンエリア2"
+  },
+  {
+    "name": "閃電人",
+    "nameEn": "Thunderman",
+    "nameJp": "サンダーマン",
+    "location": "亞美羅帕區域",
+    "locationEn": "",
+    "locationJp": "アメロッパエリア"
+  },
+  {
+    "name": "陀螺人",
+    "nameJp": "タップマン",
+    "location": "都市區域 1",
+    "locationEn": "",
+    "locationJp": "タウンエリア1"
+  },
+  {
+    "name": "火花人",
+    "nameEn": "Sparkman",
+    "nameJp": "スパークマン",
+    "location": "秋原地區 3",
+    "locationEn": "",
+    "locationJp": "秋原エリア3"
+  },
+  {
+    "name": "火槍人",
+    "nameEn": "Burnerman",
+    "nameJp": "バーナーマン",
+    "location": "樂園區域 2",
+    "locationEn": "",
+    "locationJp": "パークエリア2"
+  },
+  {
+    "name": "影像人",
+    "nameEn": "Videoman",
+    "nameJp": "ビデオマン",
+    "location": "樂園區域 3",
+    "locationEn": "",
+    "locationJp": "パークエリア3"
+  },
+  {
+    "name": "寒冷人",
+    "nameEn": "Coldman",
+    "nameJp": "コールドマン",
+    "location": "夏羅區域",
+    "locationEn": "",
+    "locationJp": "シャーロエリア"
+  },
+  {
+    "name": "劍道人",
+    "nameEn": "Kendoman",
+    "nameJp": "ケンドーマン",
+    "location": "亞弗利克區域",
+    "locationEn": "",
+    "locationJp": "アッフリクエリア"
+  },
+  {
+    "name": "陰暗人",
+    "nameEn": "Shademan",
+    "nameJp": "シェードマン",
+    "location": "裏網絡 4",
+    "locationEn": "",
+    "locationJp": "ウラインターネット4"
+  },
+  {
+    "name": "雷射人",
+    "nameEn": "Laserman",
+    "nameJp": "レーザーマン",
+    "location": "裏網絡 5",
+    "locationEn": "",
+    "locationJp": "ウラインターネット5"
+  }
+]

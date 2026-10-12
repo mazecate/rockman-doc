@@ -20,7 +20,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
 
   if (walkthrough) items.push({ text: '流程攻略', link: `${folderPath}/walkthrough` });
   if (trader)      items.push({ text: '數字交易機', link: `${folderPath}/trader` });
-  if (navi)        items.push({ text: '機兵位置', link: `${folderPath}/navi-locations` });
+  if (navi)        items.push({ text: '領航員位置', link: `${folderPath}/navi-locations` });
   if (pa)          items.push({ text: '程式進化 (PA)', link: `${folderPath}/program-advances` });
   if (powerups)    items.push({ text: '強化部件入手方法', link: `${folderPath}/powerups` });
 
