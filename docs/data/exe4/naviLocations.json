@@ -5,7 +5,8 @@
     "nameJp": "ブルース",
     "location": "裏網絡 6",
     "locationEn": "",
-    "locationJp": "ウラインターネット6"
+    "locationJp": "ウラインターネット6",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "數字人",
@@ -13,7 +14,8 @@
     "nameJp": "ナンバーマン",
     "location": "都市區域 4",
     "locationEn": "",
-    "locationJp": "タウンエリア4"
+    "locationJp": "タウンエリア4",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "金屬人",
@@ -21,7 +23,8 @@
     "nameJp": "メタルマン",
     "location": "裏網絡 3",
     "locationEn": "",
-    "locationJp": "ウラインターネット3"
+    "locationJp": "ウラインターネット3",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "廢鐵人",
@@ -29,7 +32,8 @@
     "nameJp": "ジャンクマン",
     "location": "裏網絡 2",
     "locationEn": "",
-    "locationJp": "ウラインターネット2"
+    "locationJp": "ウラインターネット2",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "水人",
@@ -37,7 +41,8 @@
     "nameJp": "アクアマン",
     "location": "秋原地區 1",
     "locationEn": "",
-    "locationJp": "秋原エリア1"
+    "locationJp": "秋原エリア1",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "木頭人",
@@ -45,7 +50,8 @@
     "nameJp": "ウッドマン",
     "location": "樂園區域 1",
     "locationEn": "",
-    "locationJp": "パークエリア1"
+    "locationJp": "パークエリア1",
+    "gameVersion": "藍月亮"
   },
   {
     "name": "羅露",
@@ -53,7 +59,8 @@
     "nameJp": "ロール",
     "location": "都市區域 3",
     "locationEn": "",
-    "locationJp": "タウンエリア3"
+    "locationJp": "タウンエリア3",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "氣力人",
@@ -61,7 +68,8 @@
     "nameJp": "ガッツマン",
     "location": "秋原地區 2",
     "locationEn": "",
-    "locationJp": "秋原エリア2"
+    "locationJp": "秋原エリア2",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "疾風人",
@@ -69,7 +77,8 @@
     "nameJp": "ウインドマン",
     "location": "雅吉納區域",
     "locationEn": "",
-    "locationJp": "アジーナエリア"
+    "locationJp": "アジーナエリア",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "檢索人",
@@ -77,7 +86,8 @@
     "nameJp": "サーチマン",
     "location": "裏網絡 1",
     "locationEn": "",
-    "locationJp": "ウラインターネット1"
+    "locationJp": "ウラインターネット1",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "火焰人",
@@ -85,7 +95,8 @@
     "nameJp": "ファイアマン",
     "location": "都市區域 2",
     "locationEn": "",
-    "locationJp": "タウンエリア2"
+    "locationJp": "タウンエリア2",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "閃電人",
@@ -93,14 +104,16 @@
     "nameJp": "サンダーマン",
     "location": "亞美羅帕區域",
     "locationEn": "",
-    "locationJp": "アメロッパエリア"
+    "locationJp": "アメロッパエリア",
+    "gameVersion": "紅太陽"
   },
   {
     "name": "陀螺人",
     "nameJp": "タップマン",
     "location": "都市區域 1",
     "locationEn": "",
-    "locationJp": "タウンエリア1"
+    "locationJp": "タウンエリア1",
+    "gameVersion": "雙版本"
   },
   {
     "name": "火花人",
@@ -108,7 +121,8 @@
     "nameJp": "スパークマン",
     "location": "秋原地區 3",
     "locationEn": "",
-    "locationJp": "秋原エリア3"
+    "locationJp": "秋原エリア3",
+    "gameVersion": "雙版本"
   },
   {
     "name": "火槍人",
@@ -116,7 +130,8 @@
     "nameJp": "バーナーマン",
     "location": "樂園區域 2",
     "locationEn": "",
-    "locationJp": "パークエリア2"
+    "locationJp": "パークエリア2",
+    "gameVersion": "雙版本"
   },
   {
     "name": "影像人",
@@ -124,7 +139,8 @@
     "nameJp": "ビデオマン",
     "location": "樂園區域 3",
     "locationEn": "",
-    "locationJp": "パークエリア3"
+    "locationJp": "パークエリア3",
+    "gameVersion": "雙版本"
   },
   {
     "name": "寒冷人",
@@ -132,7 +148,8 @@
     "nameJp": "コールドマン",
     "location": "夏羅區域",
     "locationEn": "",
-    "locationJp": "シャーロエリア"
+    "locationJp": "シャーロエリア",
+    "gameVersion": "雙版本"
   },
   {
     "name": "劍道人",
@@ -140,7 +157,8 @@
     "nameJp": "ケンドーマン",
     "location": "亞弗利克區域",
     "locationEn": "",
-    "locationJp": "アッフリクエリア"
+    "locationJp": "アッフリクエリア",
+    "gameVersion": "雙版本"
   },
   {
     "name": "陰暗人",
@@ -148,7 +166,8 @@
     "nameJp": "シェードマン",
     "location": "裏網絡 4",
     "locationEn": "",
-    "locationJp": "ウラインターネット4"
+    "locationJp": "ウラインターネット4",
+    "gameVersion": "雙版本"
   },
   {
     "name": "雷射人",
@@ -156,6 +175,7 @@
     "nameJp": "レーザーマン",
     "location": "裏網絡 5",
     "locationEn": "",
-    "locationJp": "ウラインターネット5"
+    "locationJp": "ウラインターネット5",
+    "gameVersion": "雙版本"
   }
 ]

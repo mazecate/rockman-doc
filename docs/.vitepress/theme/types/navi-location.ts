@@ -5,4 +5,5 @@ export interface NaviLocation {
     location: string
     locationEn?: string
     locationJp?: string
+    gameVersion?: string
 }

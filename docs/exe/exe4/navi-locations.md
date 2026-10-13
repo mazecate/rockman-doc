@@ -1,5 +1,5 @@
 ---
-title: XE4 V2 / V3 / SP 領航員位置
+title: EXE4 V2 / V3 / SP 領航員位置
 aside: false
 ---
 
