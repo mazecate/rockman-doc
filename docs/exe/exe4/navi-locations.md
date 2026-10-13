@@ -10,7 +10,7 @@ import naviData from '@/data/exe4/naviLocations.json'
 </script>
 
 <ClientOnly>
-  <NaviLocation :items="naviData" title="搜尋" />
+  <NaviLocation :items="naviData" title="搜尋" edition="exe4" />
 </ClientOnly>
 
 ## <a id="ref"></a>參考和部份資料來源（部份文字翻譯是根據中文版合集遊戲的文本）：

@@ -3,9 +3,11 @@ import { ref, computed } from 'vue'
 import type { NaviLocation } from '../types';
 
 const {
+  edition = '',
   title = '領航員位置列表',
   items = []
 } = defineProps<{
+  edition?: string
   title?: string
   items?: NaviLocation[]
 }>()
@@ -27,8 +29,10 @@ const filteredItems = computed(() => {
 })
 
 const getVersionClass = (version?: string) => {
-  if (version === '藍月亮') return 'version-bluemoon'
-  if (version === '紅太陽') return 'version-redsun'
+  if (edition === 'exe4') {
+    if (version === '藍月亮') return 'version-bluemoon'
+    if (version === '紅太陽') return 'version-redsun'
+  }
   return 'version-common'
 }
 </script>
