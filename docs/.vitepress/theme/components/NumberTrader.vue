@@ -29,7 +29,6 @@ const filteredItems = computed(() => {
 
 <template>
   <div class="trader-container">
-    <!-- <h2>{{ title }}</h2> -->
     <div class="controls">
       <input 
         v-model="searchQuery" 
@@ -42,19 +41,21 @@ const filteredItems = computed(() => {
       </select>
     </div>
 
-    <div class="trader-table">
-      <div class="table-header">
-        <div class="col-code">8位數密碼</div>
-        <div class="col-name">獲得物品</div>
-        <div class="col-cat">分類</div>
-      </div>
-      
-      <div class="table-body">
-        <div v-for="item in filteredItems" :key="item.number" class="table-row">
-          <div class="col-code code-cell"><code>{{ item.number }}</code></div>
-          <div v-if="item.category !== '程式部件'" class="col-name name-cell">{{ item.nameZh }} {{ item.other }}</div>
-          <div v-else class="col-name name-cell">{{ item.nameZh }} ({{ item.other }})</div>
-          <div class="col-cat cat-cell"><span class="tag">{{ item.category }}</span></div>
+    <div class="trader-grid-container">
+      <div class="trader-grid">
+        <div v-for="item in filteredItems" :key="item.number" class="trade-card">
+          <!-- 上方：物品名稱與分類標籤 -->
+          <div class="card-header">
+            <div v-if="item.category !== '程式部件'" class="card-name">{{ item.nameZh }} {{ item.other }}</div>
+            <div v-else class="card-name">{{ item.nameZh }} ({{ item.other }})</div>
+            <span class="tag">{{ item.category }}</span>
+          </div>
+
+          <!-- 下方：8位數密碼區塊 -->
+          <div class="card-code">
+            <span class="code-label">密碼</span>
+            <code class="code-value">{{ item.number }}</code>
+          </div>
         </div>
         
         <div v-if="filteredItems.length === 0" class="no-data">
@@ -74,99 +75,84 @@ const filteredItems = computed(() => {
 .search-input, .category-select { padding: 10px 14px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-alt); color: var(--vp-c-text-1); }
 .search-input { flex: 1; }
 
-.trader-table {
+/* 網格佈局：電腦版自動排成多欄，充分利用空間 */
+.trader-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
   width: 100%;
+}
+
+/* 單張卡片設計 */
+.trade-card {
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  transition: border-color 0.2s, transform 0.2s;
 }
 
-.table-header, .table-row {
+.trade-card:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.card-header {
   display: flex;
-  align-items: center;
-  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
 }
 
-.table-header > div, .table-row > div {
-  padding: 16px 20px;
-}
-
-.table-header {
-  font-weight: 600;
-  color: var(--vp-c-text-2);
-  letter-spacing: 1px;
-  background: var(--vp-c-bg-alt);
-  border-bottom: 2px solid var(--vp-c-divider);
-}
-
-.table-row {
-  border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.col-code { 
-  width: 180px; 
-  flex-shrink: 0;
-} 
-
-.col-cat { 
-  width: 140px; 
-  flex-shrink: 0;
-}
-
-.col-name { 
-  flex: 1; 
+.card-name {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--vp-c-text-1);
   word-break: break-word;
 }
 
-.code-cell { font-weight: bold; color: var(--vp-c-brand-1); }
-.tag { padding: 4px 10px; border-radius: 6px; background: var(--vp-c-bg-soft); font-size: 0.85em; border: 1px solid var(--vp-c-divider); }
-.no-data { text-align: center; color: var(--vp-c-text-2); padding: 40px; border-bottom: 1px solid var(--vp-c-divider); }
+.tag { 
+  padding: 2px 8px; 
+  border-radius: 4px; 
+  background: var(--vp-c-bg-soft); 
+  font-size: 0.8em; 
+  border: 1px solid var(--vp-c-divider);
+  white-space: nowrap;
+  color: var(--vp-c-text-2);
+}
 
-@media (max-width: 768px) {
-  .table-header {
-    display: none;
-  }
+.card-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--vp-c-bg);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px dashed var(--vp-c-divider);
+}
 
-  /* 每行改成垂直堆疊（Flex 欄位方向改為 column） */
-  .table-row {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 16px;
-    gap: 8px;
-  }
+.code-label {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3);
+}
 
-  /* 取消固定的寬度限制，讓每個欄位在手機上佔滿寬度 */
-  .col-code, .col-cat, .col-name {
-    width: 100% !important;
-    padding: 0 !important;
-  }
+.code-value {
+  font-weight: bold;
+  color: var(--vp-c-brand-1);
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
 
-  .col-code {
-    font-size: 0.9rem;
-    color: var(--vp-c-text-2);
-  }
-  
-  .col-code::before {
-    content: "密碼：";
-    font-weight: normal;
-    color: var(--vp-c-text-3);
-  }
-
-  .col-name {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: var(--vp-c-text-1);
-  }
-
-  .col-cat {
-    display: flex;
-    align-items: center;
-  }
-  
-  .col-cat::before {
-    content: "分類：";
-    font-size: 0.85rem;
-    color: var(--vp-c-text-3);
-    margin-right: 6px;
-  }
+.no-data { 
+  grid-column: 1 / -1;
+  text-align: center; 
+  color: var(--vp-c-text-2); 
+  padding: 40px; 
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
 }
 </style>
