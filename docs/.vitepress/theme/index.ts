@@ -5,6 +5,7 @@ import NumberTrader from './components/NumberTrader.vue'
 import PaTable from './components/PaTable.vue'
 import NaviLocation from './components/NaviLocation.vue'
 import ShopTable from './components/ShopTable.vue'
+import PowerUpCycle from './components/PowerUpCycle.vue'
 import './custom.css'
 
 export default {
@@ -15,5 +16,6 @@ export default {
     app.component('PaTable', PaTable)
     app.component('NaviLocation', NaviLocation)
     app.component('ShopTable', ShopTable)
+    app.component('PowerUpCycle', PowerUpCycle)
   }
 } satisfies Theme

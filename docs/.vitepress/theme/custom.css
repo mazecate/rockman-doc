@@ -6,3 +6,8 @@
 .imgW {
     width: 50%;
 }
+@media (max-width: 767px){
+    .imgW {
+        width: 100%;
+    }
+}

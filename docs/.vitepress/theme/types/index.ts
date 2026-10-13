@@ -2,3 +2,4 @@ export * from './pa';
 export * from './menu';
 export * from './trader';
 export * from './navi-location';
+export * from './power-up-round';
