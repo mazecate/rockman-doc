@@ -12,7 +12,7 @@ const githubLink = 'https://github.com/mazecate';
 export default defineConfig({
   base: isGithubActions ? '/rockman-doc/' : '/',
   title: "Rockman Series",
-  description: "洛克人 EXE & 流星洛克人 完全攻略庫",
+  description: "洛克人 EXE & 流星洛克人 資料庫",
   srcDir: './',
   lastUpdated: true,
   sitemap: {
@@ -23,9 +23,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首頁', link: '/' },
+      { text: 'API', link: '/api-examples' },
       { text: 'Examples', link: '/markdown-examples' },
       { text: '洛克人 EXE', link: '/exe/overview', activeMatch: '/exe/' },
-      { text: '流星 ROCKMAN', link: '/starforce/overview', activeMatch: '/starforce/' },
+      { text: '流星洛克人', link: '/starforce/overview', activeMatch: '/starforce/' },
     ],
     sidebar,
     socialLinks: [
