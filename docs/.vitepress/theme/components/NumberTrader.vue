@@ -113,11 +113,60 @@ const filteredItems = computed(() => {
 }
 
 .col-name { 
-  flex: 1; /* 強制吃掉右邊所有剩下的空間，有多少拿多少 */
+  flex: 1; 
   word-break: break-word;
 }
 
 .code-cell { font-weight: bold; color: var(--vp-c-brand-1); }
 .tag { padding: 4px 10px; border-radius: 6px; background: var(--vp-c-bg-soft); font-size: 0.85em; border: 1px solid var(--vp-c-divider); }
 .no-data { text-align: center; color: var(--vp-c-text-2); padding: 40px; border-bottom: 1px solid var(--vp-c-divider); }
+
+@media (max-width: 768px) {
+  .table-header {
+    display: none;
+  }
+
+  /* 每行改成垂直堆疊（Flex 欄位方向改為 column） */
+  .table-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+  }
+
+  /* 取消固定的寬度限制，讓每個欄位在手機上佔滿寬度 */
+  .col-code, .col-cat, .col-name {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .col-code {
+    font-size: 0.9rem;
+    color: var(--vp-c-text-2);
+  }
+  
+  .col-code::before {
+    content: "密碼：";
+    font-weight: normal;
+    color: var(--vp-c-text-3);
+  }
+
+  .col-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--vp-c-text-1);
+  }
+
+  .col-cat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-cat::before {
+    content: "分類：";
+    font-size: 0.85rem;
+    color: var(--vp-c-text-3);
+    margin-right: 6px;
+  }
+}
 </style>
