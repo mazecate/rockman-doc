@@ -247,7 +247,7 @@
     "locations": [
       {
         "versionType": "V2",
-        "location": "都市區域 2 上層",
+        "location": "都市區域 2",
         "locationEn": "Town Area 2",
         "locationJp": "タウンエリア2",
         "isRandom": false,
@@ -255,7 +255,7 @@
       },
       {
         "versionType": "V3",
-        "location": "都市區域 2 上層",
+        "location": "都市區域 2",
         "locationEn": "Town Area 2",
         "locationJp": "タウンエリア2",
         "isRandom": true,
@@ -263,7 +263,7 @@
       },
       {
         "versionType": "SP",
-        "location": "都市區域 2 上層",
+        "location": "都市區域 2",
         "locationEn": "Town Area 2",
         "locationJp": "タウンエリア2",
         "isRandom": true,
