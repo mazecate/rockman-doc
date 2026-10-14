@@ -1,181 +1,770 @@
 [
   {
+    "name": "水人",
+    "nameEn": "Aquaman",
+    "nameJp": "アクアマン",
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "秋原區域 1",
+        "locationEn": "Akihara Area 1",
+        "locationJp": "秋原エリア1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "秋原區域 1",
+        "locationEn": "Akihara Area 1",
+        "locationJp": "秋原エリア1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "秋原區域 1",
+        "locationEn": "Akihara Area 1",
+        "locationJp": "秋原エリア1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "布魯士",
     "nameEn": "Blues",
     "nameJp": "ブルース",
-    "location": "裏網絡 6",
-    "locationEn": "",
-    "locationJp": "ウラインターネット6",
-    "gameVersion": "藍月亮"
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "裏網絡 6",
+        "locationEn": "Undernet 6",
+        "locationJp": "ウラインターネット6",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 6",
+        "locationEn": "Undernet 6",
+        "locationJp": "ウラインターネット6",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "裏網絡 6",
+        "locationEn": "Undernet 6",
+        "locationJp": "ウラインターネット6",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
-    "name": "數字人",
-    "nameEn": "Numberman",
-    "nameJp": "ナンバーマン",
-    "location": "都市區域 4",
-    "locationEn": "",
-    "locationJp": "タウンエリア4",
-    "gameVersion": "藍月亮"
+    "name": "廢鐵人",
+    "nameEn": "Junkman",
+    "nameJp": "ジャンクマン",
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "裏網絡 2",
+        "locationEn": "Undernet 2",
+        "locationJp": "ウラインターネット2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 2",
+        "locationEn": "Undernet 2",
+        "locationJp": "ウラインターネット2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "裏網絡 2",
+        "locationEn": "Undernet 2",
+        "locationJp": "ウラインターネット2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "金屬人",
     "nameEn": "Metalman",
     "nameJp": "メタルマン",
-    "location": "裏網絡 3",
-    "locationEn": "",
-    "locationJp": "ウラインターネット3",
-    "gameVersion": "藍月亮"
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "裏網絡 3",
+        "locationEn": "Undernet 3",
+        "locationJp": "ウラインターネット3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 3",
+        "locationEn": "Undernet 3",
+        "locationJp": "ウラインターネット3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "裏網絡 3",
+        "locationEn": "Undernet 3",
+        "locationJp": "ウラインターネット3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
-    "name": "廢鐵人",
-    "nameEn": "JunkMan",
-    "nameJp": "ジャンクマン",
-    "location": "裏網絡 2",
-    "locationEn": "",
-    "locationJp": "ウラインターネット2",
-    "gameVersion": "藍月亮"
-  },
-  {
-    "name": "水人",
-    "nameEn": "Aquaman",
-    "nameJp": "アクアマン",
-    "location": "秋原地區 1",
-    "locationEn": "",
-    "locationJp": "秋原エリア1",
-    "gameVersion": "藍月亮"
+    "name": "數字人",
+    "nameEn": "Numberman",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "都市區域 4",
+        "locationEn": "Town Area 4",
+        "locationJp": "タウンエリア4",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "都市區域 4",
+        "locationEn": "Town Area 4",
+        "locationJp": "タウンエリア4",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "都市區域 4",
+        "locationEn": "Town Area 4",
+        "locationJp": "タウンエリア4",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "木頭人",
     "nameEn": "Woodman",
     "nameJp": "ウッドマン",
-    "location": "樂園區域 1",
-    "locationEn": "",
-    "locationJp": "パークエリア1",
-    "gameVersion": "藍月亮"
-  },
-  {
-    "name": "羅露",
-    "nameEn": "Roll",
-    "nameJp": "ロール",
-    "location": "都市區域 3",
-    "locationEn": "",
-    "locationJp": "タウンエリア3",
-    "gameVersion": "紅太陽"
-  },
-  {
-    "name": "氣力人",
-    "nameEn": "Gutsman",
-    "nameJp": "ガッツマン",
-    "location": "秋原地區 2",
-    "locationEn": "",
-    "locationJp": "秋原エリア2",
-    "gameVersion": "紅太陽"
-  },
-  {
-    "name": "疾風人",
-    "nameEn": "Windman",
-    "nameJp": "ウインドマン",
-    "location": "雅吉納區域",
-    "locationEn": "",
-    "locationJp": "アジーナエリア",
-    "gameVersion": "紅太陽"
-  },
-  {
-    "name": "檢索人",
-    "nameEn": "Searchman",
-    "nameJp": "サーチマン",
-    "location": "裏網絡 1",
-    "locationEn": "",
-    "locationJp": "ウラインターネット1",
-    "gameVersion": "紅太陽"
+    "gameVersion": "藍月亮",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "樂園區域 1",
+        "locationEn": "Park Area 1",
+        "locationJp": "パークエリア1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "樂園區域 1",
+        "locationEn": "Park Area 1",
+        "locationJp": "パークエリア1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "樂園區域 1",
+        "locationEn": "Park Area 1",
+        "locationJp": "パークエリア1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "火焰人",
     "nameEn": "Fireman",
     "nameJp": "ファイアマン",
-    "location": "都市區域 2",
-    "locationEn": "",
-    "locationJp": "タウンエリア2",
-    "gameVersion": "紅太陽"
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "都市區域 2 上層",
+        "locationEn": "Town Area 2",
+        "locationJp": "タウンエリア2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "都市區域 2 上層",
+        "locationEn": "Town Area 2",
+        "locationJp": "タウンエリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "都市區域 2 上層",
+        "locationEn": "Town Area 2",
+        "locationJp": "タウンエリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "氣力人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "秋原區域 2",
+        "locationEn": "Akihara Area 2",
+        "locationJp": "秋原エリア2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "秋原區域 2",
+        "locationEn": "Akihara Area 2",
+        "locationJp": "秋原エリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "秋原區域 2",
+        "locationEn": "Akihara Area 2",
+        "locationJp": "秋原エリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "羅露",
+    "nameEn": "Roll",
+    "nameJp": "ロール",
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "都市區域 3",
+        "locationEn": "Town Area 3",
+        "locationJp": "タウンエリア3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "都市區域 3",
+        "locationEn": "Town Area 3",
+        "locationJp": "タウンエリア3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "都市區域 3",
+        "locationEn": "Town Area 3",
+        "locationJp": "タウンエリア3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "檢索人",
+    "nameEn": "Searchman",
+    "nameJp": "サーチマン",
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "裏網絡 1",
+        "locationEn": "Undernet 1",
+        "locationJp": "ウラインターネット1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 1",
+        "locationEn": "Undernet 1",
+        "locationJp": "ウラインターネット1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "裏網絡 1",
+        "locationEn": "Undernet 1",
+        "locationJp": "ウラインターネット1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "閃電人",
     "nameEn": "Thunderman",
     "nameJp": "サンダーマン",
-    "location": "亞美羅帕區域",
-    "locationEn": "",
-    "locationJp": "アメロッパエリア",
-    "gameVersion": "紅太陽"
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "亞美羅帕區域",
+        "locationEn": "Ameroppa Area",
+        "locationJp": "アメロッパエリア",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "亞美羅帕區域",
+        "locationEn": "Ameroppa Area",
+        "locationJp": "アメロッパエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "亞美羅帕區域",
+        "locationEn": "Ameroppa Area",
+        "locationJp": "アメロッパエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
-    "name": "陀螺人",
-    "nameJp": "タップマン",
-    "location": "都市區域 1",
-    "locationEn": "",
-    "locationJp": "タウンエリア1",
-    "gameVersion": "雙版本"
+    "name": "疾風人",
+    "nameEn": "Windman",
+    "nameJp": "ウインドマン",
+    "gameVersion": "紅太陽",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "雅吉納區域區域",
+        "locationEn": "Ajina Area",
+        "locationJp": "アジーナエリア",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "雅吉納區域區域",
+        "locationEn": "Ajina Area",
+        "locationJp": "アジーナエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "雅吉納區域區域",
+        "locationEn": "Ajina Area",
+        "locationJp": "アジーナエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   },
   {
-    "name": "火花人",
-    "nameEn": "Sparkman",
-    "nameJp": "スパークマン",
-    "location": "秋原地區 3",
-    "locationEn": "",
-    "locationJp": "秋原エリア3",
-    "gameVersion": "雙版本"
-  },
-  {
-    "name": "火槍人",
-    "nameEn": "Burnerman",
-    "nameJp": "バーナーマン",
-    "location": "樂園區域 2",
-    "locationEn": "",
-    "locationJp": "パークエリア2",
-    "gameVersion": "雙版本"
-  },
-  {
-    "name": "影像人",
-    "nameEn": "Videoman",
-    "nameJp": "ビデオマン",
-    "location": "樂園區域 3",
-    "locationEn": "",
-    "locationJp": "パークエリア3",
-    "gameVersion": "雙版本"
-  },
-  {
-    "name": "寒冷人",
+    "name": "寒泠人",
     "nameEn": "Coldman",
     "nameJp": "コールドマン",
-    "location": "夏羅區域",
-    "locationEn": "",
-    "locationJp": "シャーロエリア",
-    "gameVersion": "雙版本"
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "夏羅區域",
+        "locationEn": "Sharo Area",
+        "locationJp": "シャーロエリア",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "夏羅區域",
+        "locationEn": "Sharo Area",
+        "locationJp": "シャーロエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "夏羅區域",
+        "locationEn": "Sharo Area",
+        "locationJp": "シャーロエリア",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "劍道人",
     "nameEn": "Kendoman",
     "nameJp": "ケンドーマン",
-    "location": "亞弗利克區域",
-    "locationEn": "",
-    "locationJp": "アッフリクエリア",
-    "gameVersion": "雙版本"
-  },
-  {
-    "name": "陰暗人",
-    "nameEn": "Shademan",
-    "nameJp": "シェードマン",
-    "location": "裏網絡 4",
-    "locationEn": "",
-    "locationJp": "ウラインターネット4",
-    "gameVersion": "雙版本"
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "亞弗利克區域",
+        "locationEn": "Affric Area",
+        "locationJp": "アッフリクエリア",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "亞弗利克區域",
+        "locationEn": "Affric Area",
+        "locationJp": "アッフリクエリア",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "亞弗利克區域",
+        "locationEn": "Affric Area",
+        "locationJp": "アッフリクエリア",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
   },
   {
     "name": "雷射人",
     "nameEn": "Laserman",
     "nameJp": "レーザーマン",
-    "location": "裏網絡 5",
-    "locationEn": "",
-    "locationJp": "ウラインターネット5",
-    "gameVersion": "雙版本"
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット5",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット5",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット5",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "火花人",
+    "nameEn": "Sparkman",
+    "nameJp": "スパークマン",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "秋原區域 3",
+        "locationEn": "Akihara Area 3",
+        "locationJp": "秋原エリア3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "秋原區域 3",
+        "locationEn": "Akihara Area 3",
+        "locationJp": "秋原エリア3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "秋原區域 3",
+        "locationEn": "Akihara Area 3",
+        "locationJp": "秋原エリア3",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "陀螺人",
+    "nameEn": "Topman",
+    "nameJp": "タップマン",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "都市區域 1",
+        "locationEn": "Town Area 1",
+        "locationJp": "タウンエリア1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "都市區域 1",
+        "locationEn": "Town Area 1",
+        "locationJp": "タウンエリア1",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "都市區域 1",
+        "locationEn": "Town Area 1",
+        "locationJp": "タウンエリア1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "影像人",
+    "nameEn": "Videoman",
+    "nameJp": "ビデオマン",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "樂園區域 3",
+        "locationEn": "Park Area 3",
+        "locationJp": "パークエリア3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "樂園區域 3",
+        "locationEn": "Park Area 3",
+        "locationJp": "パークエリア3",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "樂園區域 3",
+        "locationEn": "Park Area 3",
+        "locationJp": "パークエリア3",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "火槍人",
+    "nameEn": "Burnerman",
+    "nameJp": "バーナーマン",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "樂園區域 2",
+        "locationEn": "Park Area 2",
+        "locationJp": "パークエリア2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "樂園區域 2",
+        "locationEn": "Park Area 2",
+        "locationJp": "パークエリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "樂園區域 2",
+        "locationEn": "Park Area 2",
+        "locationJp": "パークエリア2",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "DS",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "科魯迪",
+    "nameEn": "Forte",
+    "nameJp": "フォルテ",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "SP",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "XX",
+        "location": "黑土 2",
+        "locationEn": "Black Earth 2",
+        "locationJp": "ブラックアース2",
+        "isRandom": false,
+        "note": "使用改造卡"
+      }
+    ]
+  },
+  {
+    "name": "陰間人",
+    "nameEn": "Shademan",
+    "nameJp": "シェードマン",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "SP",
+        "location": "裏網絡 4",
+        "locationEn": "Undernet 4",
+        "locationJp": "ウラインターネット4",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "迪奧",
+    "nameEn": "Duo",
+    "nameJp": "デューオ",
+    "gameVersion": "雙版本",
+    "locations": [
+      {
+        "versionType": "SP",
+        "location": "控制區域",
+        "locationEn": "Control Area",
+        "locationJp": "コントロールエリア",
+        "isRandom": true,
+        "note": "集齊7徽章"
+      }
+    ]
   }
 ]
