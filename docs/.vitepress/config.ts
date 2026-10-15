@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import path from 'node:path'
 import { sidebar } from './sidebar'
+import { navConfig } from './navbar'
+
 // for js
 // const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
@@ -22,13 +24,7 @@ export default defineConfig({
   themeConfig: {
     aside: true,
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: '首頁', link: '/' },
-      { text: 'API', link: '/api-examples' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: '洛克人 EXE', link: '/exe/overview', activeMatch: '/exe/' },
-      { text: '流星洛克人', link: '/starforce/overview', activeMatch: '/starforce/' },
-    ],
+    nav: navConfig,
     sidebar,
     outline: {
       label: '目錄'
