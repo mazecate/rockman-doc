@@ -6,6 +6,7 @@ import PaTable from './components/PaTable.vue'
 import NaviLocation from './components/NaviLocation.vue'
 import ShopTable from './components/ShopTable.vue'
 import PowerUpCycle from './components/PowerUpCycle.vue'
+import ReferenceList from './components/ReferenceList.vue'
 import './custom.css'
 
 export default {
@@ -17,5 +18,6 @@ export default {
     app.component('NaviLocation', NaviLocation)
     app.component('ShopTable', ShopTable)
     app.component('PowerUpCycle', PowerUpCycle)
+    app.component('ReferenceList', ReferenceList)
   }
 } satisfies Theme
