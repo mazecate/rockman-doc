@@ -11,6 +11,7 @@ const githubLink = 'https://github.com/mazecate';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: isGithubActions ? '/rockman-doc/' : '/',
+  lang: 'zh-Hant',
   title: "Rockman Series",
   description: "洛克人 EXE & 流星洛克人 資料庫",
   srcDir: './',
@@ -29,6 +30,14 @@ export default defineConfig({
       { text: '流星洛克人', link: '/starforce/overview', activeMatch: '/starforce/' },
     ],
     sidebar,
+    outline: {
+      label: '目錄'
+    },
+    sidebarMenuLabel: '選單',
+    // returnToTopLabel: '回到頂部',
+    // darkModeSwitchLabel: '外觀',
+    // lightModeSwitchTitle: '切換到淺色模式',
+    // darkModeSwitchTitle: '切換到深色模式',
     socialLinks: [
       { icon: 'github', link: githubLink }
     ]
