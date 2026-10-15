@@ -1,0 +1,42 @@
+[
+  {
+    "name": "火焰人",
+    "nameEn": "Fireman",
+    "nameJp": "ファイアマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 1",
+        "locationEn": "Internet 1",
+        "locationJp": "インターネット1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 1",
+        "locationEn": "Internet 1",
+        "locationJp": "インターネット1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "數字人",
+    "nameEn": "Numberman",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "日暮屋",
+        "locationEn": "Higsby's",
+        "locationJp": "タウンエリア4",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  }
+]

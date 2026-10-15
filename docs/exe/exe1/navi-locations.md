@@ -1,9 +1,16 @@
 ---
-isGameTheme: true
-title: EXE1 機兵位置一覽
-lastUpdatedDate: '2026-02-01'
+isGameTheme: false
+title: EXE1 V2 / V3 領航員位置
+# lastUpdatedDate: '2026-02-01'
+aside: false
 ---
 
-# 隱藏機兵與 Boss 出沒地點
+<h1 id="asset-handling" tabindex="-1">EXE1 V2 / V3 領航員位置</h1>
 
-此頁面因為設定了 `isGameTheme: true`，會自動切換為特製的 `GameLayout.vue` 呈現！
+<script setup>
+import naviData from '@/data/exe1/naviLocations.json'
+</script>
+
+<ClientOnly>
+  <NaviLocation :items="naviData" title="搜尋" edition="exe1" />
+</ClientOnly>

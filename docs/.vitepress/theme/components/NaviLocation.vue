@@ -74,7 +74,7 @@ const getBadgeClass = (type: string) => {
         class="search-input"
       />
       
-      <select v-model="selectedVersion" class="version-select">
+      <select v-if="!['exe1', 'exe2'].includes(edition)" v-model="selectedVersion" class="version-select">
         <option v-for="ver in versions" :key="ver" :value="ver">
           {{ ver === '全部' ? '全部版本' : ver }}
         </option>
@@ -89,7 +89,7 @@ const getBadgeClass = (type: string) => {
         class="navi-card"
         :class="getVersionClass(item.gameVersion)"
       >
-        <div class="card-header-badges">
+        <div v-if="item.gameVersion" class="card-header-badges">
           <span class="navi-badge" :class="getVersionClass(item.gameVersion)">
             {{ item.gameVersion }}
           </span>
