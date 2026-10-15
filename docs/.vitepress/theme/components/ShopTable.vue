@@ -9,9 +9,9 @@ const props = defineProps<{
 const searchQuery = ref('')
 const selectedShop = ref('ALL')
 
-// 1. 自動 Indexing / 平面化展開
+// 扁平化陣列（Flat Array）
 const flatItems = computed(() => {
-  const list: { shopName: string; itemName: string; price: number | string; currency: string }[] = []
+  const list: { shopName: string; itemName: string; price: number | string; currency: string; quantity?: number }[] = []
   
   props.shops.forEach(shop => {
     shop.items.forEach(item => {
@@ -19,12 +19,13 @@ const flatItems = computed(() => {
         shopName: shop.shopName,
         itemName: item.name,
         price: item.price,
-        currency: shop.currency
+        currency: shop.currency,
+        quantity: item.quantity
       })
     })
   })
   
-  return list
+  return list;
 })
 
 const shopList = computed(() => {
@@ -71,10 +72,16 @@ const filteredItems = computed(() => {
           <span class="shop-badge">{{ item.shopName }}</span>
         </div>
         <div class="card-body">
-          <span class="item-name">{{ item.itemName }}</span>
-          <span class="price" :class="item.currency">
-            {{ typeof item.price === 'number' ? item.price.toLocaleString() + ' Z' : item.price }}
+          <span class="item-name">
+            {{ item.itemName }}
+            <span v-if="item.quantity && item.quantity > 1" class="item-quantity">x{{ item.quantity }}</span>
           </span>
+          
+          <div class="item-right">
+            <span class="price" :class="item.currency">
+              {{ typeof item.price === 'number' ? item.price.toLocaleString() + ' Z' : item.price }}
+            </span>
+          </div>
         </div>
       </div>
 
@@ -112,7 +119,6 @@ const filteredItems = computed(() => {
   min-width: 200px;
 }
 
-/* Flexbox 網格佈局 */
 .shop-grid {
   display: flex;
   flex-wrap: wrap;
@@ -165,6 +171,21 @@ const filteredItems = computed(() => {
   color: var(--vp-c-text-1);
 }
 
+.item-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-quantity {
+  font-size: 0.7rem;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
 .price {
   font-weight: bold;
   font-family: monospace;
@@ -172,8 +193,8 @@ const filteredItems = computed(() => {
   white-space: nowrap;
 }
 
-.price.zenni {
-  color: #f59e0b; /* 金幣顏色 */
+.price.Zenny {
+  color: #f59e0b;
 }
 
 .price.bugFrag {

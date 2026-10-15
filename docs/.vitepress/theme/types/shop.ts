@@ -4,5 +4,6 @@ export interface ShopGroup {
   items: {
     name: string
     price: number | string
+    quantity?: number
   }[]
 }
