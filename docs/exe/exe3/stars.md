@@ -5,12 +5,10 @@ aside: false
 
 # 星之證
 
-* 黃星：通關表關。
-* 藍星：收集全 150 種標準晶片。
-* 紫星：收集全 85 種 MEGA 級晶片（包含領航員V4版本和雙版本限定領航員晶片）。
-* 綠星：在秘密區域投入 300 個Bug碎片，擊敗隱藏頭目「佛魯迪 GS」。
-* 淺藍星：：在秘密區域完成「賽雷納德」的競速挑戰。
-* 紅星：獲得5粒星後，在標題畫面輸入指令解鎖**SP模式**領航員（在繼續遊戲畫面按住左鍵，輸入 R, R, L, R, L, R, L, L），並且擊敗所有SP領航員。
-* 橘星：收集全 32 種 P.A. 筆記。
+<script setup>
+import starData from '@/data/exe3/stars.json'
+</script>
 
-取得 7 個徽章後，最終頭目「原型」將會強化為 SP 等級。
+<ClientOnly>
+    <StarChecklist :game-data="starData" />
+</ClientOnly>

@@ -7,6 +7,7 @@ import NaviLocation from './components/NaviLocation.vue'
 import ShopTable from './components/ShopTable.vue'
 import PowerUpCycle from './components/PowerUpCycle.vue'
 import ReferenceList from './components/ReferenceList.vue'
+import StarChecklist from './components/StarChecklist.vue'
 import './custom.css'
 
 export default {
@@ -19,5 +20,6 @@ export default {
     app.component('ShopTable', ShopTable)
     app.component('PowerUpCycle', PowerUpCycle)
     app.component('ReferenceList', ReferenceList)
+    app.component('StarChecklist', StarChecklist)
   }
 } satisfies Theme

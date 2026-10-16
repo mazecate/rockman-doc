@@ -1,0 +1,37 @@
+{
+  "series": "exe2",
+  "title": "洛克人EXE 2 - 星星收集指南",
+  "ultimateNote": "",
+  "stars": [
+    {
+      "id": "yellow",
+      "name": "黃星",
+      "color": "#f1c40f",
+      "condition": "通關表關。"
+    },
+    {
+      "id": "green",
+      "name": "綠星",
+      "color": "#2ecc71",
+      "condition": "打倒 WWW 區域的真・佛魯迪。"
+    },
+    {
+      "id": "red",
+      "name": "紅星",
+      "color": "#e74c3c",
+      "condition": "收集全 250 種標準晶片。"
+    },
+    {
+      "id": "purple",
+      "name": "紫星",
+      "color": "#9b59b6",
+      "condition": "收集全 251 - 260 隱藏晶片 (只限對戰勝利隨機取得)。"
+    },
+    {
+      "id": "lightblue",
+      "name": "淺藍星",
+      "color": "#00bcd4",
+      "condition": "收集全 32 種 P.A. 筆記。"
+    }
+  ]
+}

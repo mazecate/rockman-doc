@@ -1,0 +1,64 @@
+{
+  "series": "exe3",
+  "title": "洛克人EXE 3 - 星之證收集指南",
+  "bannerImage": "",
+  "ultimateNote": "取得 7 個徽章後，最終頭目「原型」將會強化為 SP 等級。",
+  "stars": [
+    {
+      "id": "yellow",
+      "name": "黃星",
+      "color": "#f1c40f",
+      "image": "",
+      "condition": "通關表關。",
+      "extra": ""
+    },
+    {
+      "id": "blue",
+      "name": "藍星",
+      "color": "#3498db",
+      "image": "",
+      "condition": "收集全 150 種標準晶片。",
+      "extra": ""
+    },
+    {
+      "id": "purple",
+      "name": "紫星",
+      "color": "#9b59b6",
+      "image": "",
+      "condition": "收集全 85 種 MEGA 級晶片（包含領航員 V4 版本和雙版本限定領航員晶片）。",
+      "extra": ""
+    },
+    {
+      "id": "green",
+      "name": "綠星",
+      "color": "#2ecc71",
+      "image": "",
+      "condition": "在秘密區域投入 300 個 Bug 碎片，擊敗隱藏頭目「佛魯迪 GS」。",
+      "extra": ""
+    },
+    {
+      "id": "lightblue",
+      "name": "淺藍星",
+      "color": "#00bcd4",
+      "image": "",
+      "condition": "在秘密區域完成「賽雷納德」的競速挑戰。",
+      "extra": ""
+    },
+    {
+      "id": "red",
+      "name": "紅星",
+      "color": "#e74c3c",
+      "image": "",
+      "condition": "獲得 5 粒星後，在標題畫面輸入指令解鎖 SP 模式領航員，並且擊敗所有 SP 領航員。",
+      "extra": "在繼續遊戲畫面按住左鍵，輸入：R, R, L, R, L, R, L, L"
+    },
+    {
+      "id": "orange",
+      "name": "橘星",
+      "color": "#e67e22",
+      "image": "",
+      "condition": "收集全 32 種 P.A. 筆記。",
+      "extra": ""
+    }
+  ]
+}

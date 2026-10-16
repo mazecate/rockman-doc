@@ -5,4 +5,10 @@ aside: false
 
 # 星之證
 
-* 黃星：通關表關。
+<script setup>
+import starData from '@/data/exe1/stars.json'
+</script>
+
+<ClientOnly>
+    <StarChecklist :game-data="starData" />
+</ClientOnly>

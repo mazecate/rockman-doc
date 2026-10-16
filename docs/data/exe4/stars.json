@@ -1,0 +1,64 @@
+{
+  "series": "exe4",
+  "title": "洛克人EXE 4 - 徽章收集指南",
+  "bannerImage": "/images/exe4/e4_stars.jpeg",
+  "ultimateNote": "取得 7 個徽章後，最終頭目「迪歐」將會強化為 SP 等級。",
+  "stars": [
+    {
+      "id": "red_blue_sun",
+      "name": "紅太陽 / 藍月亮徽章",
+      "color": "#e74c3c",
+      "image": "",
+      "condition": "通關表關。",
+      "extra": ""
+    },
+    {
+      "id": "soul_comp",
+      "name": "SOUL COMP徽章",
+      "color": "#3498db",
+      "image": "",
+      "condition": "集齊 6 種靈魂共鳴。",
+      "extra": ""
+    },
+    {
+      "id": "stand_comp",
+      "name": "STAND COMP徽章",
+      "color": "#2ecc71",
+      "image": "",
+      "condition": "收集全 150 種標準晶片。",
+      "extra": ""
+    },
+    {
+      "id": "mega_comp",
+      "name": "MEGA COMP徽章",
+      "color": "#9b59b6",
+      "image": "",
+      "condition": "收集全 60 種 MEGA 級晶片。",
+      "extra": ""
+    },
+    {
+      "id": "giga_comp",
+      "name": "GIGA COMP徽章",
+      "color": "#f1c40f",
+      "image": "",
+      "condition": "收集全 5 種 GIGA 級晶片。",
+      "extra": ""
+    },
+    {
+      "id": "pa_comp",
+      "name": "P.A. COMP徽章",
+      "color": "#e67e22",
+      "image": "",
+      "condition": "收集全 30 種 P.A. 筆記。",
+      "extra": ""
+    },
+    {
+      "id": "forte_comp",
+      "name": "佛魯迪徽章",
+      "color": "#34495e",
+      "image": "",
+      "condition": "擊敗黑暗大地 2 的佛魯迪 SP。",
+      "extra": ""
+    }
+  ]
+}

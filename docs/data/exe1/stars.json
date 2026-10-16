@@ -1,0 +1,16 @@
+{
+  "series": "exe3",
+  "title": "洛克人EXE 1 - 星之證收集指南",
+  "bannerImage": "/images/exe1/e1_stars.jpeg",
+  "ultimateNote": "",
+  "stars": [
+    {
+      "id": "yellow",
+      "name": "黃星",
+      "color": "#f1c40f",
+      "image": "",
+      "condition": "通關表關。",
+      "extra": ""
+    }
+  ]
+}
