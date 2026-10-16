@@ -43,7 +43,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '洛克人 EXE 2',
       collapsed: true,
-      items: getSubMenuItems('/exe/exe2')
+      items: getSubMenuItems('/exe/exe2', {trader: false})
     },
     {
       text: '洛克人 EXE 3',

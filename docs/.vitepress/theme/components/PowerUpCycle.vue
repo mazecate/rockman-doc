@@ -68,6 +68,16 @@ const shopItems = computed(() => {
 const showShopSection = computed(() => {
   return selectedCategory.value === '全部' || selectedCategory.value === 'shop';
 });
+
+const totalShopPrice = computed(() => {
+  return props.items
+    .filter(item => item.type === 'shop' && item.price)
+    .reduce((total, item) => {
+      const num = parseInt(item.price!.replace(/[,zZ]/g, ''), 10) || 0;
+      return total + num;
+    }, 0)
+    .toLocaleString() + 'Z';
+});
 </script>
 
 <template>
@@ -100,7 +110,7 @@ const showShopSection = computed(() => {
         <summary class="box-header">
           <div class="summary-title">
             <h2>🛒 商店 HP 記憶體購買一覽</h2>
-            <span class="shop-tip">全買齊需合計 207,700Z</span>
+            <span class="shop-tip">全買齊需合計 {{ totalShopPrice }}</span>
           </div>
           <span class="toggle-icon">▼</span>
         </summary>
