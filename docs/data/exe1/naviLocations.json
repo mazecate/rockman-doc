@@ -1,7 +1,7 @@
 [
   {
     "name": "火焰人",
-    "nameEn": "Fireman",
+    "nameEn": "FireMan",
     "nameJp": "ファイアマン",
     "gameVersion": "",
     "locations": [
@@ -17,7 +17,7 @@
         "versionType": "V3",
         "location": "互聯網區域 1",
         "locationEn": "Internet 1",
-        "locationJp": "インターネット1",
+        "locationJp": "インターネット 1",
         "isRandom": true,
         "note": ""
       }
@@ -25,7 +25,7 @@
   },
   {
     "name": "數字人",
-    "nameEn": "Numberman",
+    "nameEn": "NumberMan",
     "nameJp": "ナンバーマン",
     "gameVersion": "",
     "locations": [
@@ -33,8 +33,80 @@
         "versionType": "V2",
         "location": "日暮屋",
         "locationEn": "Higsby's",
-        "locationJp": "タウンエリア4",
+        "locationJp": "ヒグレヤ",
         "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "石頭人",
+    "nameEn": "StoneMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 3",
+        "locationEn": "Internet 3",
+        "locationJp": "インターネット 3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 3",
+        "locationEn": "Internet 3",
+        "locationJp": "インターネット 3",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "電擊人",
+    "nameEn": "ElecMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 6",
+        "locationEn": "Internet 6",
+        "locationJp": "インターネット 6",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 6",
+        "locationEn": "Internet 6",
+        "locationJp": "インターネット 6",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "色彩人",
+    "nameEn": "ColorMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 9",
+        "locationEn": "Internet 9",
+        "locationJp": "インターネット 9",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 9",
+        "locationEn": "Internet 9",
+        "locationJp": "インターネット 9",
+        "isRandom": true,
         "note": ""
       }
     ]

@@ -52,6 +52,7 @@ const getVersionClass = (version?: string) => {
 
 const getBadgeClass = (type: string) => {
   switch (type) {
+    case 'V1': return 'tag-v1'
     case 'V2': return 'tag-v2'
     case 'V3': return 'tag-v3'
     case 'EX': return 'tag-ex'
@@ -270,6 +271,7 @@ const getBadgeClass = (type: string) => {
   padding: 1px 6px;
   border-radius: 4px;
 }
+.tag-v1 { background: rgba(6, 182, 212, 0.15); color: #0891b2; }
 .tag-v2 { background: rgba(16, 185, 129, 0.15); color: #10b981; }
 .tag-v3 { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
 .tag-ex { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }

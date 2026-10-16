@@ -1,4 +1,4 @@
-export type NaviVersionType = 'V2' | 'V3' | 'EX' | 'SP' | 'FZ' | 'DS' | 'XX';
+export type NaviVersionType = 'V1' | 'V2' | 'V3' | 'EX' | 'SP' | 'FZ' | 'DS' | 'XX';
 
 export interface NaviLocationDetail {
   versionType: NaviVersionType
