@@ -6,6 +6,14 @@
     "gameVersion": "",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "烤爐的電腦 2",
+        "locationEn": "Oven Network 2",
+        "locationJp": "レンジの電脳 2",
+        "isRandom": false,
+        "note": "第1章頭目"
+      },
+      {
         "versionType": "V2",
         "location": "互聯網區域 1",
         "locationEn": "Internet 1",
@@ -30,6 +38,14 @@
     "gameVersion": "",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "學校的電腦5",
+        "locationEn": "School Network 5",
+        "locationJp": "学校の電脳5",
+        "isRandom": false,
+        "note": "第2章頭目"
+      },
+      {
         "versionType": "V2",
         "location": "日暮屋",
         "locationEn": "Higsby's",
@@ -40,11 +56,35 @@
     ]
   },
   {
+    "name": "氣力人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "迪卡歐家",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": "劇情需要"
+      }
+    ]
+  },
+  {
     "name": "石頭人",
     "nameEn": "StoneMan",
     "nameJp": "ナンバーマン",
     "gameVersion": "",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "互聯網區域 2",
+        "locationEn": "Internet 2",
+        "locationJp": "インターネット 2",
+        "isRandom": false,
+        "note": "第3章頭目"
+      },
       {
         "versionType": "V2",
         "location": "互聯網區域 3",
@@ -64,7 +104,87 @@
     ]
   },
   {
-    "name": "電擊人",
+    "name": "樹木人",
+    "nameEn": "WoodMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": "第3章出現"
+      },
+      {
+        "versionType": "V2",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "冰凍人",
+    "nameEn": "IceMan",
+    "nameJp": "アイスマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "水道局的電腦世界 6",
+        "locationEn": "Waterworks 6",
+        "locationJp": "水道局の電脳",
+        "isRandom": false,
+        "note": "第4章頭目"
+      }
+    ]
+  },
+  {
+    "name": "鯊魚人",
+    "nameEn": "SharkMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "官廳街",
+        "locationEn": "Government Complex",
+        "locationJp": "官庁街（かんちょうがい）",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "電氣人",
     "nameEn": "ElecMan",
     "nameJp": "ナンバーマン",
     "gameVersion": "",

@@ -718,11 +718,19 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
+        "isRandom": false,
+        "note": "收集全 150 種標準晶片"
+      },
+      {
         "versionType": "SP",
         "location": "黑土 2",
         "locationEn": "Black Earth 2",
         "locationJp": "ブラックアース2",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -730,7 +738,7 @@
         "location": "黑土 2",
         "locationEn": "Black Earth 2",
         "locationJp": "ブラックアース2",
-        "isRandom": false,
+        "isRandom": true,
         "note": "使用改造卡"
       }
     ]
@@ -742,10 +750,18 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "電波塔的電腦 2",
+        "locationEn": "Elec Tower Comp 2",
+        "locationJp": "でんぱとうの電脳 2",
+        "isRandom": false,
+        "note": "劇情"
+      },
+      {
         "versionType": "SP",
         "location": "裏網絡 4",
         "locationEn": "Undernet 4",
-        "locationJp": "ウラインターネット4",
+        "locationJp": "ウラインターネット 4",
         "isRandom": true,
         "note": ""
       }
@@ -758,11 +774,19 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "控制區域",
+        "locationEn": "Control Area",
+        "locationJp": "コントロールエリア",
+        "isRandom": false,
+        "note": "表關頭目"
+      },
+      {
         "versionType": "SP",
         "location": "控制區域",
         "locationEn": "Control Area",
         "locationJp": "コントロールエリア",
-        "isRandom": true,
+        "isRandom": false,
         "note": "集齊7徽章"
       }
     ]
