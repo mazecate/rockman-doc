@@ -1,0 +1,150 @@
+[
+  {
+    "shopName": "互聯網區域 1",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット  1",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 500, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 1000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 3000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 2000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 5000, "quantity": 1 },
+      { "name": "寬劍 K", "nameEn": "", "nameJp": "ワイドソード K", "price": 1000, "quantity": 3 },
+      { "name": "散射槍 I", "nameEn": "", "nameJp": "スプレッドガン I", "price": 1000, "quantity": 3 },
+      { "name": "破碎鎚 A", "nameEn": "", "nameJp": "ブレイクハンマー A", "price": 2000, "quantity": 3 },
+      { "name": "回復50 C", "nameEn": "", "nameJp": "リカバリー50 C", "price": 2000, "quantity": 3 },
+      { "name": "加農砲 C", "nameEn": "", "nameJp": "キャノン C", "price": 3000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 3",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット  3",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 6000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 9000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "木質裝甲", "nameEn": "", "nameJp": "ウッドアーマー", "price": 15000, "quantity": 1 },
+      { "name": "寬劍 S", "nameEn": "", "nameJp": "ワイドソード S", "price": 3000, "quantity": 3 },
+      { "name": "破碎鎚 I", "nameEn": "", "nameJp": "ブレイクハンマー I", "price": 3000, "quantity": 3 },
+      { "name": "擊碎地面3 G", "nameEn": "", "nameJp": "パネルアウト3 G", "price": 3000, "quantity": 3 },
+      { "name": "MEGA加農砲 L", "nameEn": "", "nameJp": "メガキャノン L", "price": 10000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 4",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット  4",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 6000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 10000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "熱燄裝甲", "nameEn": "", "nameJp": "ヒートアーマー", "price": 20000, "quantity": 1 },
+      { "name": "冰方塊 I", "nameEn": "", "nameJp": "アイスキューブ I", "price": 3000, "quantity": 3 },
+      { "name": "多雲 A", "nameEn": "", "nameJp": "モアクラウド A", "price": 5000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 5",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット 5",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 10000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 20000, "quantity": 1 },
+      { "name": "擊碎地面1 S", "nameEn": "", "nameJp": "パネルアウト1 S", "price": 1000, "quantity": 3 },
+      { "name": "隱身1 Q", "nameEn": "", "nameJp": "インビジブル1 Q", "price": 5000, "quantity": 3 },
+      { "name": "定時炸彈2 S", "nameEn": "", "nameJp": "カウントボム2 S", "price": 8000, "quantity": 3 },
+      { "name": "三重矛 J", "nameEn": "", "nameJp": "トリプルスピア J", "price": 10000, "quantity": 3 },
+      { "name": "回復150 C", "nameEn": "", "nameJp": "リカバリー150 C", "price": 10000, "quantity": 3 },
+      { "name": "巨鼠2 G", "nameEn": "", "nameJp": "ラットン2 G", "price": 10000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 10",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット 10",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 25000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 25000, "quantity": 1 },
+      { "name": "水行裝甲", "nameEn": "", "nameJp": "アクアアーマー", "price": 30000, "quantity": 1 },
+      { "name": "長劍 E", "nameEn": "", "nameJp": "ロングソード E", "price": 5000, "quantity": 3 },
+      { "name": "MEGA加農砲 L", "nameEn": "", "nameJp": "メガキャノン L", "price": 10000, "quantity": 3 },
+      { "name": "區域竊取 A", "nameEn": "", "nameJp": "エリアスチール A", "price": 10000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 12",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット 12",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 25000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 25000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 50000, "quantity": 1 },
+      { "name": "寒冰拳 M", "nameEn": "", "nameJp": "コールドパンチ M", "price": 5000, "quantity": 3 },
+      { "name": "死鬥1 L", "nameEn": "", "nameJp": "デスマッチ1 L", "price": 5000, "quantity": 3 },
+      { "name": "死鬥2 A", "nameEn": "", "nameJp": "デスマッチ2 A", "price": 8000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "互聯網區域 15",
+    "shopNameEn": "",
+    "shopNameJp": "インターネット 15",
+    "currency": "Zenny",
+    "items": [
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 25000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 40000, "quantity": 1 },
+      { "name": "子彈強化", "nameEn": "", "nameJp": "バスターUP", "price": 100000, "quantity": 1 },
+      { "name": "衝刺攻擊 G", "nameEn": "", "nameJp": "ダッシュアタック G", "price": 3000, "quantity": 3 },
+      { "name": "地面復原 G", "nameEn": "", "nameJp": "パネルリターン G", "price": 3000, "quantity": 3 },
+      { "name": "海嘯 A", "nameEn": "", "nameJp": "ツナミ A", "price": 10000, "quantity": 3 },
+      { "name": "泡沫包覆3 R", "nameEn": "", "nameJp": "バブルラップ3 R", "price": 10000, "quantity": 3 }
+    ]
+  },
+  {
+    "shopName": "日暮屋",
+    "shopNameEn": "Higsby's Chip Shop",
+    "shopNameJp": "ヒグレヤ",
+    "currency": "Zenny",
+    "items": [
+      { "name": "加農砲 E", "nameEn": "", "nameJp": "キャノン E", "price": 1000, "quantity": 3 },
+      { "name": "散射槍 K", "nameEn": "", "nameJp": "スプレッドガン K", "price": 1000, "quantity": 3 },
+      { "name": "回復80 E", "nameEn": "", "nameJp": "リカバリー80 E", "price": 3000, "quantity": 3 },
+      { "name": "擊碎地面3 L", "nameEn": "", "nameJp": "パネルアウト3 L", "price": 3000, "quantity": 3 },
+      { "name": "地面復原 G", "nameEn": "", "nameJp": "パネルリターン G", "price": 3000, "quantity": 3 },
+      { "name": "防護罩 F", "nameEn": "", "nameJp": "バリア F", "price": 3000, "quantity": 3 },
+      { "name": "電氣劍 E", "nameEn": "", "nameJp": "エレキソード E", "price": 5000, "quantity": 3 },
+      { "name": "區域竊取 L", "nameEn": "", "nameJp": "エリアスチール L", "price": 5000, "quantity": 3 },
+      { "name": "快速量表 A", "nameEn": "", "nameJp": "クイックゲージ A", "price": 3000, "quantity": 3 },
+      { "name": "死鬥1 H", "nameEn": "", "nameJp": "デスマッチ1 H", "price": 3000, "quantity": 3 },
+      { "name": "干擾 L", "nameEn": "", "nameJp": "インターラプト L", "price": 8000, "quantity": 3 },
+      { "name": "回復150 L", "nameEn": "", "nameJp": "リカバリー150 L", "price": 1000, "quantity": 3 },
+      { "name": "緩慢量表 Q", "nameEn": "", "nameJp": "ヘビーゲージ Q", "price": 5000, "quantity": 3 },
+      { "name": "死鬥2 K", "nameEn": "", "nameJp": "デスマッチ2 K", "price": 8000, "quantity": 3 },
+      { "name": "鬥士劍 S", "nameEn": "", "nameJp": "ファイターソード S", "price": 12000, "quantity": 3 },
+      { "name": "子彈劍 S", "nameEn": "", "nameJp": "バスターソード S", "price": 20000, "quantity": 3 }
+    ]
+  }
+]

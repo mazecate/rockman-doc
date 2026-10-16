@@ -11,13 +11,27 @@ const selectedShop = ref('ALL')
 
 // 扁平化陣列（Flat Array）
 const flatItems = computed(() => {
-  const list: { shopName: string; itemName: string; price: number | string; currency: string; quantity?: number }[] = []
+  const list: { 
+    shopName: string; 
+    shopNameEn?: string; 
+    shopNameJp?: string; 
+    itemName: string; 
+    itemNameEn?: string; 
+    itemNameJp?: string; 
+    price: number | string; 
+    currency: string; 
+    quantity?: number
+  }[] = []
   
   props.shops.forEach(shop => {
     shop.items.forEach(item => {
       list.push({
         shopName: shop.shopName,
+        shopNameEn: shop.shopNameEn,
+        shopNameJp: shop.shopNameJp,
         itemName: item.name,
+        itemNameEn: item.nameEn,
+        itemNameJp: item.nameJp,
         price: item.price,
         currency: shop.currency,
         quantity: item.quantity
