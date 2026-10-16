@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { withBase } from 'vitepress'
 import type { GameStarsData } from '../types'
 
 defineProps<{
@@ -12,7 +13,7 @@ const isStarForce = (series: string) => ['sf1', 'sf2', 'sf3'].includes(series)
 <template>
   <div class="star-checklist" v-if="gameData">
     <div v-if="gameData.bannerImage" class="banner-image-container">
-      <img :src="gameData.bannerImage" :alt="gameData.title" class="imgW" />
+      <img :src="withBase(gameData.bannerImage)" :alt="gameData.title" class="imgW" />
     </div>
 
     <div class="boss-banner" v-if="gameData.ultimateNote">
