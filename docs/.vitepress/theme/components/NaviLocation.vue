@@ -317,7 +317,7 @@ const getBadgeClass = (type: string) => {
 }
 
 .note {
-  font-size: 0.8rem;
+  font-size: 0.7em;
   color: var(--vp-c-text-3);
   margin-left: 4px;
 }

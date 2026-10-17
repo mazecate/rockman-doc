@@ -52,6 +52,14 @@
         "locationJp": "ヒグレヤ",
         "isRandom": false,
         "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW研究所",
+        "locationEn": "WWW Base",
+        "locationJp": "WWWの研究所",
+        "isRandom": false,
+        "note": ""
       }
     ]
   },
@@ -68,6 +76,22 @@
         "locationJp": "",
         "isRandom": false,
         "note": "劇情需要"
+      },
+      {
+        "versionType": "V2",
+        "location": "迪卡歐家",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW研究所",
+        "locationEn": "WWW Base",
+        "locationJp": "WWWの研究所",
+        "isRandom": false,
+        "note": ""
       }
     ]
   },
@@ -148,6 +172,86 @@
         "locationJp": "水道局の電脳",
         "isRandom": false,
         "note": "第4章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "水道局控制室",
+        "locationEn": "Waterworks Control Room ",
+        "locationJp": "水道局コントロールルーム",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW研究所",
+        "locationEn": "WWW Base",
+        "locationJp": "WWWの研究所",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "骷髏人",
+    "nameEn": "SkullMan",
+    "nameJp": "スカルマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "電算鎮2丁目的古董店",
+        "locationEn": "DenTown Block 2 Antiques Shop",
+        "locationJp": "デンサン2丁目 こっとうひんや",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "電算鎮2丁目的古董店",
+        "locationEn": "DenTown Block 2 Antiques Shop",
+        "locationJp": "デンサン2丁目 こっとうひんや",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "電算鎮2丁目的古董店",
+        "locationEn": "DenTown Block 2 Antiques Shop",
+        "locationJp": "デンサン2丁目 こっとうひんや",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "色彩人",
+    "nameEn": "ColorMan",
+    "nameJp": "ナンバーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "紅綠燈電腦世界 5",
+        "locationEn": "Traffic Light Computer 5",
+        "locationJp": "信号機の電脳（しんごうきのでのう）5",
+        "isRandom": false,
+        "note": "第5章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 9",
+        "locationEn": "Internet 9",
+        "locationJp": "インターネット 9",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 9",
+        "locationEn": "Internet 9",
+        "locationJp": "インターネット 9",
+        "isRandom": true,
+        "note": ""
       }
     ]
   },
@@ -163,7 +267,7 @@
         "locationEn": "Government Complex",
         "locationJp": "官庁街（かんちょうがい）",
         "isRandom": false,
-        "note": ""
+        "note": "第6章出現"
       },
       {
         "versionType": "V2",
@@ -184,11 +288,51 @@
     ]
   },
   {
+    "name": "布魯士",
+    "nameEn": "Blues",
+    "nameJp": "ブルース",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "發電廠電腦世界 4",
+        "locationEn": "Power Plant 4",
+        "locationJp": "発電所の電脳（はつでんしょのでんのう）4",
+        "isRandom": false,
+        "note": "第6章第二個頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "秋原町",
+        "locationEn": "ACDC town",
+        "locationJp": "秋原町（あきはらまち）",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW研究所",
+        "locationEn": "WWW Base",
+        "locationJp": "WWWの研究所",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "電氣人",
     "nameEn": "ElecMan",
     "nameJp": "ナンバーマン",
     "gameVersion": "",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "發電廠電腦世界 4",
+        "locationEn": "Power Plant 4",
+        "locationJp": "発電所の電脳（はつでんしょのでんのう）4",
+        "isRandom": false,
+        "note": "第6章頭目"
+      },
       {
         "versionType": "V2",
         "location": "互聯網區域 6",
@@ -208,24 +352,64 @@
     ]
   },
   {
-    "name": "色彩人",
-    "nameEn": "ColorMan",
-    "nameJp": "ナンバーマン",
+    "name": "炸彈人",
+    "nameEn": "BombMan",
+    "nameJp": "ボンバーマン",
     "gameVersion": "",
     "locations": [
       {
-        "versionType": "V2",
-        "location": "互聯網區域 9",
-        "locationEn": "Internet 9",
-        "locationJp": "インターネット 9",
+        "versionType": "V1",
+        "location": "互聯網區域 8",
+        "locationEn": "Internet 8",
+        "locationJp": "インターネット 8",
         "isRandom": false,
-        "note": ""
+        "note": "第7章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 11",
+        "locationEn": "Internet 11",
+        "locationJp": "インターネット 11",
+        "isRandom": false,
+        "note": "互聯網區域10不可使用逃脫晶片"
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 9",
-        "locationEn": "Internet 9",
-        "locationJp": "インターネット 9",
+        "location": "互聯網區域 11",
+        "locationEn": "Internet 11",
+        "locationJp": "インターネット 11",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "魔術人",
+    "nameEn": "MagicMan",
+    "nameJp": "マジックマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "WWW電腦世界 5",
+        "locationEn": "WWW Area 5",
+        "locationJp": "WWWの電脳 5",
+        "isRandom": false,
+        "note": "最終章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "互聯網區域 14",
+        "locationEn": "Internet 14",
+        "locationJp": "インターネット 14",
+        "isRandom": false,
+        "note": "互聯網區域13獲得10張戰鬥晶片"
+      },
+      {
+        "versionType": "V3",
+        "location": "互聯網區域 14",
+        "locationEn": "Internet 14",
+        "locationJp": "インターネット 14",
         "isRandom": true,
         "note": ""
       }
