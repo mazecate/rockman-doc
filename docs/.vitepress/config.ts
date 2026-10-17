@@ -30,10 +30,14 @@ export default defineConfig({
       label: '目錄'
     },
     sidebarMenuLabel: '選單',
-    // returnToTopLabel: '回到頂部',
+    returnToTopLabel: '回到頂部',
     // darkModeSwitchLabel: '外觀',
     // lightModeSwitchTitle: '切換到淺色模式',
     // darkModeSwitchTitle: '切換到深色模式',
+    footer: {
+      // message: 'this is message。',
+      copyright: `&copy; ${new Date().getFullYear()} mazecate. All Rights Reserved.`
+    },
     socialLinks: [
       { icon: 'github', link: githubLink }
     ]
