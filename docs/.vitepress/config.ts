@@ -7,6 +7,13 @@ import { navConfig } from './navbar'
 // for js
 // const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
+// time format 
+// dateStyle: 'short' ➡️ 2026/10/17
+// dateStyle: 'medium' ➡️ 2026年10月17日
+// dateStyle: 'long' ➡️ 2026年10月17日
+// dateStyle: 'full' ➡️ 2026年10月17日 星期六
+
+
 const isGithubActions = import.meta.env?.GITHUB_ACTIONS === 'true' || process.env.GITHUB_ACTIONS === 'true';
 const githubLink = 'https://github.com/mazecate';
 
@@ -34,6 +41,14 @@ export default defineConfig({
     // darkModeSwitchLabel: '外觀',
     // lightModeSwitchTitle: '切換到淺色模式',
     // darkModeSwitchTitle: '切換到深色模式',
+    lastUpdated: {
+      text: '最後更新於',
+      formatOptions: {
+        dateStyle: 'short',
+        // timeStyle: 'medium',     // 可選 'full', 'long', 'medium', 'short'
+        // hour12: false            // 設置為 false 強制使用 24 小時制
+      }
+    },
     footer: {
       // message: 'this is message。',
       copyright: `&copy; ${new Date().getFullYear()} mazecate. All Rights Reserved.`
