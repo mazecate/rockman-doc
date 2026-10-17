@@ -11,7 +11,5 @@ import numberTradeData from '@/data/exe4/numberTradeData.json'
 
 <ClientOnly>
   <NumberTrader :items="numberTradeData" title="搜尋" />
+  <ReferenceList :items="['game8']" />
 </ClientOnly>
-
-## <a id="ref"></a>參考資料來源（文字翻譯是根據中文版合集遊戲的文本）：
-1. **[Game8 ロックマンエグゼ4攻略｜レッドサン・ブルームーン](https://game8.jp/rockman-exe-4)**
