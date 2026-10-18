@@ -7,7 +7,7 @@
 
     <ol>
       <li v-for="(item, index) in selectedReferences" :key="index">
-        <a :href="item.url" target="_blank" rel="noopener noreferrer">
+        <a :href="item.url" class="ref-link" target="_blank" rel="noopener noreferrer">
           {{ item.title }}
         </a>
       </li>
@@ -43,6 +43,10 @@ const DATABASE: Record<string, { title: string; url: string }> = {
   wareware: {
     title: 'warewareguide',
     url: 'https://warewareguide.com/rockmanexe4/battlerspt/'
+  },
+  prism: {
+    title: 'prism',
+    url: 'http://prism.s27.xrea.com/exe1/'
   }
 }
 
@@ -62,5 +66,9 @@ const selectedReferences = computed(() => {
   font-size: 0.85em;
   font-weight: normal;
   color: var(--vp-c-text-2);
+}
+
+.ref-link {
+  text-decoration: none;
 }
 </style>

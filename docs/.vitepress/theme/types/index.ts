@@ -4,3 +4,4 @@ export * from './trader';
 export * from './navi-location';
 export * from './power-up-round';
 export * from './game-star';
+export * from './side-quest';

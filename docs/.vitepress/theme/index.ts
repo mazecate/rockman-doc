@@ -8,6 +8,7 @@ import ShopTable from './components/ShopTable.vue'
 import PowerUpCycle from './components/PowerUpCycle.vue'
 import ReferenceList from './components/ReferenceList.vue'
 import StarChecklist from './components/StarChecklist.vue'
+import SideQuest from './components/SideQuest.vue'
 import './custom.css'
 
 export default {
@@ -21,5 +22,6 @@ export default {
     app.component('PowerUpCycle', PowerUpCycle)
     app.component('ReferenceList', ReferenceList)
     app.component('StarChecklist', StarChecklist)
+    app.component('SideQuest', SideQuest)
   }
 } satisfies Theme

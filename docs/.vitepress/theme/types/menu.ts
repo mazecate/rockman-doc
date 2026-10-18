@@ -6,4 +6,5 @@ export interface MenuConfig {
     powerups?: boolean        // 強化部件
     stars?: boolean           // 星之證
     shops?: boolean           // 商店
+    sidequest?: boolean           // 支線任
 }

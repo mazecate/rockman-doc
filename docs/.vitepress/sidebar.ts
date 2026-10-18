@@ -15,7 +15,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     pa = true,
     powerups = true,
     stars = true,
-    shops = true
+    shops = true,
+    sidequest = true
   } = config;
 
   const items:SidebarItem[] = []
@@ -27,6 +28,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (powerups)    items.push({ text: '強化部件', link: `${folderPath}/powerups` });
   if (stars)        items.push({ text: '星之證', link: `${folderPath}/stars` });
   if (shops)        items.push({ text: '商店', link: `${folderPath}/shops` });
+  if (sidequest)        items.push({ text: '支線任務', link: `${folderPath}/side-quest` });
 
   return items;
 }
