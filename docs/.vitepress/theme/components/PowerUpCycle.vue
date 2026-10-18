@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import type { PaItem, FormattedPaItem, PowerUpRoundItemEntry } from '../types'
+import type { PowerUpRoundItemEntry } from '../types'
 
 
 const props = defineProps<{
