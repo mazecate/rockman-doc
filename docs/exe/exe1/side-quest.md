@@ -10,6 +10,8 @@ import questData from '@/data/exe1/sideQuest.json'
 
 # EXE 1 支線任務
 
-<SideQuest :questData="questData" />
+<ClientOnly>
+    <SideQuest :questData="questData" />
+</ClientOnly>
 
 <ReferenceList :items="['prism']" />

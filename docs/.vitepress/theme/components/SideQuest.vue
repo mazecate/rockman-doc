@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SideQuestData } from './types'
+import type { SideQuestData } from '../types'
 
 defineProps<{
   questData: SideQuestData
