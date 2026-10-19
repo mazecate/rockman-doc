@@ -3,6 +3,8 @@ export type NaviVersionType = 'V1' | 'V2' | 'V3' | 'EX' | 'SP' | 'FZ' | 'DS' | '
 export interface NaviLocationDetail {
   versionType: NaviVersionType
   location: string
+  locationImage?: string
+  locationEn?: string
   locationJp?: string
   isRandom: boolean
   note?: string

@@ -177,7 +177,9 @@ const totalShopPrice = computed(() => {
                     <span v-if="item.value" class="val-badge">+{{ item.value }}</span>
                   </td>
                   <td class="col-loc">
-                    <span class="loc-text">📍 {{ item.location }}</span>
+                    <ImagePopUp :src="item.locationImage">
+                      <span class="loc-text">📍 {{ item.location }}</span>
+                    </ImagePopUp>
                   </td>
                 </tr>
               </tbody>

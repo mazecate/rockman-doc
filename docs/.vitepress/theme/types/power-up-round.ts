@@ -4,6 +4,7 @@ export interface PowerUpRoundItemEntry {
     method: string;
     name?: string;
     location: string;
+    locationImage?: string;
     value?: string | number;
     price?: string;
 }
