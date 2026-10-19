@@ -6,6 +6,15 @@
     "gameVersion": "藍月亮",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "秋原區域 1",
         "locationImage": "",
@@ -49,6 +58,15 @@
     "nameJp": "ブルース",
     "gameVersion": "藍月亮",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "裏網絡 6",
@@ -94,6 +112,15 @@
     "gameVersion": "藍月亮",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "裏網絡 2",
         "locationImage": "",
@@ -137,6 +164,15 @@
     "nameJp": "メタルマン",
     "gameVersion": "藍月亮",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "裏網絡 3",
@@ -182,6 +218,15 @@
     "gameVersion": "藍月亮",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "都市區域 4",
         "locationImage": "",
@@ -225,6 +270,15 @@
     "nameJp": "ウッドマン",
     "gameVersion": "藍月亮",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "樂園區域 1",
@@ -270,6 +324,15 @@
     "gameVersion": "紅太陽",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "都市區域 2",
         "locationImage": "",
@@ -313,6 +376,15 @@
     "nameJp": "ガッツマン",
     "gameVersion": "紅太陽",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "秋原區域 2",
@@ -358,6 +430,15 @@
     "gameVersion": "紅太陽",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "都市區域 3",
         "locationImage": "",
@@ -401,6 +482,15 @@
     "nameJp": "サーチマン",
     "gameVersion": "紅太陽",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "裏網絡 1",
@@ -446,6 +536,15 @@
     "gameVersion": "紅太陽",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "亞美羅帕區域",
         "locationImage": "",
@@ -489,6 +588,15 @@
     "nameJp": "ウインドマン",
     "gameVersion": "紅太陽",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "雅吉納區域區域",
@@ -534,6 +642,15 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "夏羅區域",
         "locationImage": "",
@@ -568,6 +685,15 @@
     "nameJp": "ケンドーマン",
     "gameVersion": "雙版本",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "亞弗利克區域",
@@ -604,6 +730,15 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "裏網絡 5",
         "locationImage": "",
@@ -638,6 +773,15 @@
     "nameJp": "スパークマン",
     "gameVersion": "雙版本",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "秋原區域 3",
@@ -674,6 +818,15 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "都市區域 1",
         "locationImage": "",
@@ -709,6 +862,15 @@
     "gameVersion": "雙版本",
     "locations": [
       {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
         "versionType": "V2",
         "location": "樂園區域 3",
         "locationImage": "",
@@ -743,6 +905,15 @@
     "nameJp": "バーナーマン",
     "gameVersion": "雙版本",
     "locations": [
+      {
+        "versionType": "V1",
+        "location": "主線劇情",
+        "locationImage": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
       {
         "versionType": "V2",
         "location": "樂園區域 2",
