@@ -29,7 +29,7 @@
             <td class="col-seq">{{ item.no }}</td>
             <td class="col-name">
               <div class="name-zh">{{ item.nameZh }}</div>
-              <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div>
+              <!-- <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div> -->
             </td>
             <!-- 
             <td class="col-dmg">

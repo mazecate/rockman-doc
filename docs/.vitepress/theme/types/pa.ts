@@ -5,7 +5,7 @@ export interface PaItem {
   no: number,
   nameZh: string,
   nameEn?: string,
-  damage?: number,
+  damage?: number | null,
   /** 
    * 晶片組合：
    * - 字串：例如 "加農砲 A + 加農砲 B / 加農大砲 A"

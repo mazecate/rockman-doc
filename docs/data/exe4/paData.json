@@ -233,7 +233,7 @@
     "no": 28,
     "nameZh": "毒氣法老王",
     "nameEn": "",
-    "damage": "n/a",
+    "damage": null,
     "combination": ["S132 黑暗洞 *", "M18 黑暗線 *", "M15 毒氣阿努比斯 A"],
     "description": "在敵方區域放置產生毒的法老王像"
   },
