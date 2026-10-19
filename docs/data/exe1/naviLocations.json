@@ -311,9 +311,9 @@
       },
       {
         "versionType": "V3",
-        "location": "WWW研究所",
-        "locationEn": "WWW Base",
-        "locationJp": "WWWの研究所",
+        "location": "秋原町 / WWW研究所",
+        "locationEn": "ACDC town / WWW Base",
+        "locationJp": "秋原町（あきはらまち）/ WWWの研究所",
         "isRandom": false,
         "note": ""
       }
@@ -412,6 +412,86 @@
         "locationJp": "インターネット 14",
         "isRandom": true,
         "note": ""
+      }
+    ]
+  },
+  {
+    "name": "法老王人",
+    "nameEn": "PharaohMan",
+    "nameJp": "ファラオマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "互聯網區域 12",
+        "locationEn": "Internet 12",
+        "locationJp": "インターネット 12",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "互聯網區域 12",
+        "locationEn": "Internet 12",
+        "locationJp": "インターネット 12",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "陰影人",
+    "nameEn": "シャドーマン",
+    "nameJp": "マジックマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "互聯網區域 15",
+        "locationEn": "Internet 15",
+        "locationJp": "インターネット 15",
+        "isRandom": false,
+        "note": "完成表關和等級達到70以上"
+      },
+      {
+        "versionType": "SP",
+        "location": "互聯網區域 15",
+        "locationEn": "Internet 15",
+        "locationJp": "インターネット 15",
+        "isRandom": true,
+        "note": "完成表關和資料庫達到140種"
+      }
+    ]
+  },
+  {
+    "name": "佛魯迪",
+    "nameEn": "Bass ",
+    "nameJp": "フォルテ",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "互聯網區域 16",
+        "locationEn": "Internet 16",
+        "locationJp": "インターネット 16",
+        "isRandom": false,
+        "note": "完成表關和資料庫達到174種"
+      }
+    ]
+  },
+  {
+    "name": "夢幻病毒",
+    "nameEn": "Dream Virus",
+    "nameJp": "ドリームウイルス",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "火箭內部的電腦世界",
+        "locationEn": "Rocket Network",
+        "locationJp": "ロケットの電脳",
+        "isRandom": false,
+        "note": "最終章頭目"
       }
     ]
   }
