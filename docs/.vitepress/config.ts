@@ -59,11 +59,28 @@ export default defineConfig({
   },
   vite: {
     resolve: {
-      alias: {
-        // 設定 @ 指向 docs 資料夾
-        // path.resolve(__dirname, '../')
-        '@': fileURLToPath(new URL('../', import.meta.url))
-      }
+      // alias: {
+      //   // 設定 @ 指向 docs 資料夾
+      //   // path.resolve(__dirname, '../')
+      //   '@': fileURLToPath(new URL('../', import.meta.url))
+      // }
+      alias: [
+        // 1. 讓開頭是 @/data 的路徑，直接對應到 docs/data 資料夾
+        {
+          find: '@/data',
+          replacement: fileURLToPath(new URL('../data', import.meta.url))
+        },
+        // 2. 讓開頭是 @/theme 的路徑，直接對應到 docs/.vitepress/theme 資料夾
+        {
+          find: '@/theme',
+          replacement: fileURLToPath(new URL('./theme', import.meta.url))
+        },
+        // 3. 預設的 @ 保險對應（指向 docs 根目錄）
+        {
+          find: '@',
+          replacement: fileURLToPath(new URL('../', import.meta.url))
+        }
+      ]
     }
   }
 })

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { withBase } from 'vitepress'
-import { getImagePath, getDataObjectImagePath } from '../utils/imghelper'
+// import { getImagePath, getDataObjectImagePath } from '@/theme/utils/imghelper'
 
 const {
   src = null,

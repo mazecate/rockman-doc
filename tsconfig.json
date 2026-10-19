@@ -1,13 +1,29 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "ESNext",
-      "moduleResolution": "bundler",
-      "strict": true,
-      "jsx": "preserve",
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "lib": ["ESNext", "DOM"]
-    },
-    "include": ["docs/**/*.ts", "docs/**/*.vue", "docs/**/*.md"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+
+    // add baseUrl and paths
+    "baseUrl": ".",
+    "paths": {
+      "@/theme/*": ["docs/.vitepress/theme/*"],
+      "@/data/*": ["docs/data/*"],
+      "@/*": ["docs/*"]
+    }
+  },
+
+  // add last 2 path
+  "include": [
+    "docs/**/*.ts", 
+    "docs/**/*.vue", 
+    "docs/**/*.md", 
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.vue"
+  ]
 }
