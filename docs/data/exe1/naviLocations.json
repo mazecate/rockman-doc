@@ -427,7 +427,7 @@
         "locationEn": "Internet 12",
         "locationJp": "インターネット 12",
         "isRandom": false,
-        "note": ""
+        "note": "完成表關和等級達到70級或以上"
       },
       {
         "versionType": "SP",
@@ -451,7 +451,7 @@
         "locationEn": "Internet 15",
         "locationJp": "インターネット 15",
         "isRandom": false,
-        "note": "完成表關和等級達到70以上"
+        "note": "資料庫達到140種或以上"
       },
       {
         "versionType": "SP",
@@ -459,7 +459,7 @@
         "locationEn": "Internet 15",
         "locationJp": "インターネット 15",
         "isRandom": true,
-        "note": "完成表關和資料庫達到140種"
+        "note": ""
       }
     ]
   },
@@ -475,7 +475,7 @@
         "locationEn": "Internet 16",
         "locationJp": "インターネット 16",
         "isRandom": false,
-        "note": "完成表關和資料庫達到174種"
+        "note": "資料庫達到174種"
       }
     ]
   },

@@ -731,7 +731,7 @@
         "locationEn": "Black Earth 2",
         "locationJp": "ブラックアース2",
         "isRandom": true,
-        "note": ""
+        "note": "擊敗黑土2的所有DS"
       },
       {
         "versionType": "XX",
@@ -739,7 +739,7 @@
         "locationEn": "Black Earth 2",
         "locationJp": "ブラックアース2",
         "isRandom": true,
-        "note": "使用改造卡"
+        "note": "擊敗黑土2的所有DS和使用改造卡"
       }
     ]
   },
