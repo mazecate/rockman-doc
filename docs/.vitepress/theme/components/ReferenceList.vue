@@ -30,7 +30,7 @@ const {
 const DATABASE: Record<string, { title: string; url: string }> = {
   wily: {
     title: 'wily',
-    url: 'http://wily.xrea.jp/rockman/exe/exe1/story.htm'
+    url: 'http://wily.xrea.jp/rockman/exe'
   },
   archive: {
     title: 'archive.org',

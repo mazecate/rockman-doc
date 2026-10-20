@@ -12,6 +12,5 @@ import questData from '@/data/exe1/sideQuest.json'
 
 <ClientOnly>
     <SideQuest :questData="questData" />
+    <ReferenceList :items="['prism']" />
 </ClientOnly>
-
-<ReferenceList :items="['prism']" />
