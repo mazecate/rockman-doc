@@ -2,7 +2,7 @@
   <div class="reference-section" v-if="selectedReferences.length > 0">
     <h2 id="ref" tabindex="-1">
       <a class="header-anchor" id="ref" aria-hidden="true"></a>
-      參考資料來源（部分內容參考自中文合集版遊戲內文，並結合個人遊玩紀錄與修改調整）：
+      參考資料來源（部分內容參考自中文合集版遊戲內文，並結合個人遊玩紀錄與修改調整，文中圖片除外）：
     </h2>
 
     <ol>
