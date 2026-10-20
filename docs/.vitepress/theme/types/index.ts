@@ -5,3 +5,4 @@ export * from './navi-location';
 export * from './power-up-round';
 export * from './game-star';
 export * from './side-quest';
+export * from './chip-trade';

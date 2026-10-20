@@ -16,4 +16,5 @@ export interface MenuConfig {
   stars?: boolean; // 星之證
   shops?: boolean; // 商店
   sidequest?: boolean; // 支線任
+  chiptrade?: boolean; // 晶片交換
 }

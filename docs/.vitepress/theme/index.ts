@@ -11,6 +11,7 @@ import StarChecklist from './components/StarChecklist.vue'
 import SideQuest from './components/SideQuest.vue'
 import ImagePopUp from './components/ImagePopUp.vue'
 import ChipTable from './components/ChipTable.vue'
+import ChipTradeTable from './components/ChipTradeTable.vue'
 import './custom.css'
 
 export default {
@@ -27,5 +28,6 @@ export default {
     app.component('SideQuest', SideQuest)
     app.component('ImagePopUp', ImagePopUp)
     app.component('ChipTable', ChipTable)
+    app.component('ChipTradeTable', ChipTradeTable)
   }
 } satisfies Theme

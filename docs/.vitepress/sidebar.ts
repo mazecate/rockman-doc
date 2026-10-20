@@ -35,7 +35,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     powerups = true,
     stars = true,
     shops = true,
-    sidequest = true
+    sidequest = true,
+    chiptrade = true
   } = config;
 
   const items: SidebarItem[] = [];
@@ -62,6 +63,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (stars)     items.push({ text: '星之證', link: `${folderPath}/stars` });
   if (shops)     items.push({ text: '商店', link: `${folderPath}/shops` });
   if (sidequest) items.push({ text: '支線任務', link: `${folderPath}/side-quest` });
+  if (chiptrade) items.push({ text: '晶片交換', link: `${folderPath}/chip-trade` });
 
   return items;
 }

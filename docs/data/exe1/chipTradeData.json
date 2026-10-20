@@ -1,0 +1,82 @@
+{
+  "trades": [
+    {
+      "chapter": "第三章",
+      "location": "秋原町：熱斗家後方的男孩",
+      "give": ["No.026 烈焰塔 F"],
+      "receive": "No.025 動能波 R"
+    },
+    {
+      "chapter": "第三章",
+      "location": "秋原町：學校PC室的男孩",
+      "give": ["No.067 鋼盔防禦 A x30"],
+      "receive": "No.107 子彈防禦 A"
+    },
+    {
+      "chapter": "第三章",
+      "location": "秋原町：學校1B教室的男孩",
+      "give": ["No.034 衝刺攻擊 G"],
+      "receive": "No.82 地面復原 H"
+    },
+    {
+      "chapter": "第三章",
+      "location": "秋原町：學校保健室的女孩",
+      "give": ["No.113 隱身1 I x3"],
+      "receive": "No.004 散彈槍 K"
+    },
+    {
+      "chapter": "第四章",
+      "location": "秋原町：伊朵家後方的老爺爺",
+      "give": ["No.080 逃脫 F/H/J/L/N"],
+      "receive": "No.017 騎士劍 G"
+    },
+    {
+      "chapter": "第五章",
+      "location": "官廳街：水道局自動販賣機旁的職員",
+      "give": ["No.035 砲丸 H"],
+      "receive": "No.110 子彈拳 C"
+    },
+    {
+      "chapter": "第五章",
+      "location": "官廳街：水道局2樓櫃檯的大姊姊",
+      "give": ["No.082 地面復原 H"],
+      "receive": "No.066 破碎鎚 M"
+    },
+    {
+      "chapter": "第六章",
+      "location": "秋原町：秋原地鐵站的女孩",
+      "give": ["No.066 破碎鎚 M"],
+      "receive": "No.065 擊碎地面3 S"
+    },
+    {
+      "chapter": "第六章",
+      "location": "電算鎮：4丁目右下角女孩",
+      "give": ["No.003 MEGA加農砲 K", "No.004 散彈槍 K", "No.005 十字槍 K", "No.006 散射槍 K"],
+      "receive": "No.076 回復300 C"
+    },
+    {
+      "chapter": "第七章",
+      "location": "官廳街：科學省餐廳的男子",
+      "give": ["No.114 隱身2 J", "No.041 巨鼠3 L", "No.088 密雲 K"],
+      "receive": "No.126 木之靈 C"
+    },
+    {
+      "chapter": "第八章",
+      "location": "秋原町：學校倉庫的男孩",
+      "give": ["No.065 擊碎地面3 S"],
+      "receive": "No.108 子彈炸彈 D"
+    },
+    {
+      "chapter": "第八章",
+      "location": "官廳街：水道局淨水設施的職員",
+      "give": [
+        "No.163 木頭人V3 W",
+        "No.166 骷髏人V3 S",
+        "No.169 鯊魚人V3 S",
+        "No.118 鋼鐵軀體 C",
+        "No.116 天井中 B"
+      ],
+      "receive": "No.18 英雄劍 B"
+    }
+  ]
+}
