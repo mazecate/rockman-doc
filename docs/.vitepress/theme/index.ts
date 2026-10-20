@@ -10,6 +10,7 @@ import ReferenceList from './components/ReferenceList.vue'
 import StarChecklist from './components/StarChecklist.vue'
 import SideQuest from './components/SideQuest.vue'
 import ImagePopUp from './components/ImagePopUp.vue'
+import ChipTable from './components/ChipTable.vue'
 import './custom.css'
 
 export default {
@@ -25,5 +26,6 @@ export default {
     app.component('StarChecklist', StarChecklist)
     app.component('SideQuest', SideQuest)
     app.component('ImagePopUp', ImagePopUp)
+    app.component('ChipTable', ChipTable)
   }
 } satisfies Theme
