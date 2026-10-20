@@ -1,0 +1,598 @@
+[
+  {
+    "no": 1,
+    "nameZh": "賽塔加農砲 1",
+    "nameEn": "Zeta Cannon 1",
+    "damage": 40,
+    "combination": [
+      ["No.001 加農砲 A", "No.001 加農砲 B", "No.001 加農砲 C"],
+      ["No.001 加農砲 B", "No.001 加農砲 C", "No.001 加農砲 D"],
+      ["No.001 加農砲 C", "No.001 加農砲 D", "No.001 加農砲 E"]
+    ],
+    "description": "5秒內進入隱形狀態且加農砲無限發射"
+  },
+  {
+    "no": 2,
+    "nameZh": "賽塔加農砲 2",
+    "nameEn": "Zeta Cannon 2",
+    "damage": 80,
+    "combination": [
+      ["No.002 高超加農砲 F", "No.002 高超加農砲 G", "No.002 高超加農砲 H"],
+      ["No.002 高超加農砲 G", "No.002 高超加農砲 H", "No.002 高超加農砲 I"],
+      ["No.002 高超加農砲 H", "No.002 高超加農砲 I", "No.002 高超加農砲 J"]
+    ],
+    "description": "5秒內進入隱形狀態且高超加農砲無限發射"
+  },
+  {
+    "no": 3,
+    "nameZh": "賽塔加農砲 3",
+    "nameEn": "Zeta Cannon 3",
+    "damage": 120,
+    "combination": [
+      ["No.003 MEGA加農砲 K", "No.003 MEGA加農砲 L", "No.003 MEGA加農砲 M"],
+      ["No.003 MEGA加農砲 L", "No.003 MEGA加農砲 M", "No.003 MEGA加農砲 N"],
+      ["No.003 MEGA加農砲 M", "No.003 MEGA加農砲 N", "No.003 MEGA加農砲 O"]
+    ],
+    "description": "5秒內進入隱形狀態且MEGA加農砲無限發射"
+  },
+  {
+    "no": 4,
+    "nameZh": "賽塔散射",
+    "nameEn": "Zeta Spreader",
+    "damage": 30,
+    "combination": [
+      ["No.006 散射槍 H", "No.006 散射槍 I", "No.006 散射槍 J"],
+      ["No.006 散射槍 I", "No.006 散射槍 J", "No.006 散射槍 K"],
+      ["No.006 散射槍 J", "No.006 散射槍 K", "No.006 散射槍 L"]
+    ],
+    "description": "5秒內進入隱形狀態且散射槍無限發射"
+  },
+  {
+    "no": 5,
+    "nameZh": "賽塔巨鼠 1",
+    "nameEn": "Zeta Ratton 1",
+    "damage": 80,
+    "combination": [
+      ["No.039 巨鼠1 A", "No.039 巨鼠1 B", "No.039 巨鼠1 C"],
+      ["No.039 巨鼠1 B", "No.039 巨鼠1 C", "No.039 巨鼠1 D"],
+      ["No.039 巨鼠1 C", "No.039 巨鼠1 D", "No.039 巨鼠1 E"]
+    ],
+    "description": "5秒內進入隱形狀態且巨鼠1無限發射"
+  },
+  {
+    "no": 6,
+    "nameZh": "賽塔巨鼠 2",
+    "nameEn": "Zeta Ratton 2",
+    "damage": 100,
+    "combination": [
+      ["No.040 巨鼠2 F", "No.040 巨鼠2 G", "No.040 巨鼠2 H"],
+      ["No.040 巨鼠2 G", "No.040 巨鼠2 H", "No.040 巨鼠2 I"],
+      ["No.040 巨鼠2 H", "No.040 巨鼠2 I", "No.040 巨鼠2 J"]
+    ],
+    "description": "5秒內進入隱形狀態且巨鼠2無限發射"
+  },
+  {
+    "no": 7,
+    "nameZh": "賽塔巨鼠 3",
+    "nameEn": "Zeta Ratton 3",
+    "damage": 120,
+    "combination": [
+      ["No.041 巨鼠3 K", "No.041 巨鼠3 L", "No.041 巨鼠3 M"],
+      ["No.041 巨鼠3 L", "No.041 巨鼠3 M", "No.041 巨鼠3 N"],
+      ["No.041 巨鼠3 M", "No.041 巨鼠3 N", "No.041 巨鼠3 O"]
+    ],
+    "description": "5秒內進入隱形狀態且巨鼠3無限發射"
+  },
+  {
+    "no": 8,
+    "nameZh": "賽塔箭",
+    "nameEn": "Zeta Arrow",
+    "damage": 40,
+    "combination": [
+      ["No.036 三重箭 A", "No.036 三重箭 B", "No.036 三重箭 C"],
+      ["No.036 三重箭 B", "No.036 三重箭 C", "No.036 三重箭 D"],
+      ["No.036 三重箭 C", "No.036 三重箭 D", "No.036 三重箭 E"]
+    ],
+    "description": "5秒內進入隱形狀態且三重箭無限發射"
+  },
+  {
+    "no": 9,
+    "nameZh": "賽塔矛",
+    "nameEn": "Zeta Spear",
+    "damage": 50,
+    "combination": [
+      ["No.037 三重矛 F", "No.037 三重矛 G", "No.037 三重矛 H"],
+      ["No.037 三重矛 G", "No.037 三重矛 H", "No.037 三重矛 I"],
+      ["No.037 三重矛 H", "No.037 三重矛 I", "No.037 三重矛 J"]
+    ],
+    "description": "5秒內進入隱形狀態且三重矛無限發射"
+  },
+  {
+    "no": 10,
+    "nameZh": "賽塔槍",
+    "nameEn": "Zeta Lance",
+    "damage": 60,
+    "combination": [
+      ["No.038 三重槍 K", "No.038 三重槍 L", "No.038 三重槍 M"],
+      ["No.038 三重槍 L", "No.038 三重槍 M", "No.038 三重槍 N"],
+      ["No.038 三重槍 M", "No.038 三重槍 N", "No.038 三重槍 O"]
+    ],
+    "description": "5秒內進入隱形狀態且三重槍無限發射"
+  },
+  {
+    "no": 11,
+    "nameZh": "奧米加加農砲 1",
+    "nameEn": "Omega Cannon 1",
+    "damage": 40,
+    "combination": [
+      "No.001 加農砲 A",
+      "No.001 加農砲 B",
+      "No.001 加農砲 C",
+      "No.001 加農砲 D",
+      "No.001 加農砲 E"
+    ],
+    "description": "10秒內進入隱形狀態且加農砲無限發射"
+  },
+  {
+    "no": 12,
+    "nameZh": "奧米加加農砲 2",
+    "nameEn": "Omega Cannon 2",
+    "damage": 80,
+    "combination": [
+      "No.002 高超加農砲 F",
+      "No.002 高超加農砲 G",
+      "No.002 高超加農砲 H",
+      "No.002 高超加農砲 I",
+      "No.002 高超加農砲 J"
+    ],
+    "description": "10秒內進入隱形狀態且高超加農砲無限發射"
+  },
+  {
+    "no": 13,
+    "nameZh": "奧米加加農砲 3",
+    "nameEn": "Omega Cannon 3",
+    "damage": 120,
+    "combination": [
+      "No.003 MEGA加農砲 K",
+      "No.003 MEGA加農砲 L",
+      "No.003 MEGA加農砲 M",
+      "No.003 MEGA加農砲 N",
+      "No.003 MEGA加農砲 O"
+    ],
+    "description": "10秒內進入隱形狀態且MEGA加農砲無限發射"
+  },
+  {
+    "no": 14,
+    "nameZh": "奧米加散射",
+    "nameEn": "Omega Spreader",
+    "damage": 30,
+    "combination": [
+      "No.006 散射槍 H",
+      "No.006 散射槍 I",
+      "No.006 散射槍 J",
+      "No.006 散射槍 K",
+      "No.006 散射槍 L"
+    ],
+    "description": "10秒內進入隱形狀態且散射槍無限發射"
+  },
+  {
+    "no": 15,
+    "nameZh": "奧米加巨鼠 1",
+    "nameEn": "Omega Ratton 1",
+    "damage": 80,
+    "combination": [
+      "No.039 巨鼠1 A",
+      "No.039 巨鼠1 B",
+      "No.039 巨鼠1 C",
+      "No.039 巨鼠1 D",
+      "No.039 巨鼠1 E"
+    ],
+    "description": "10秒內進入隱形狀態且巨鼠1無限發射"
+  },
+  {
+    "no": 16,
+    "nameZh": "奧米加巨鼠 2",
+    "nameEn": "Omega Ratton 2",
+    "damage": 100,
+    "combination": [
+      "No.040 巨鼠2 F",
+      "No.040 巨鼠2 G",
+      "No.040 巨鼠2 H",
+      "No.040 巨鼠2 I",
+      "No.040 巨鼠2 J"
+    ],
+    "description": "10秒內進入隱形狀態且巨鼠2無限發射"
+  },
+  {
+    "no": 17,
+    "nameZh": "奧米加巨鼠 3",
+    "nameEn": "Omega Ratton 3",
+    "damage": 120,
+    "combination": [
+      "No.041 巨鼠3 K",
+      "No.041 巨鼠3 L",
+      "No.041 巨鼠3 M",
+      "No.041 巨鼠3 N",
+      "No.041 巨鼠3 O"
+    ],
+    "description": "10秒內進入隱形狀態且巨鼠3無限發射"
+  },
+  {
+    "no": 18,
+    "nameZh": "奧米加箭",
+    "nameEn": "Omega Arrow",
+    "damage": 40,
+    "combination": [
+      "No.036 三重箭 A",
+      "No.036 三重箭 B",
+      "No.036 三重箭 C",
+      "No.036 三重箭 D",
+      "No.036 三重箭 E"
+    ],
+    "description": "10秒內進入隱形狀態且三重箭無限發射"
+  },
+  {
+    "no": 19,
+    "nameZh": "奧米加矛",
+    "nameEn": "Omega Spear",
+    "damage": 50,
+    "combination": [
+      "No.037 三重矛 F",
+      "No.037 三重矛 G",
+      "No.037 三重矛 H",
+      "No.037 三重矛 I",
+      "No.037 三重矛 J"
+    ],
+    "description": "10秒內進入隱形狀態且三重矛無限發射"
+  },
+  {
+    "no": 20,
+    "nameZh": "奧米加槍",
+    "nameEn": "Omega Lance",
+    "damage": 60,
+    "combination": [
+      "No.038 三重槍 K",
+      "No.038 三重槍 L",
+      "No.038 三重槍 M",
+      "No.038 三重槍 N",
+      "No.038 三重槍 O"
+    ],
+    "description": "10秒內進入隱形狀態且三重槍無限發射"
+  },
+  {
+    "no": 21,
+    "nameZh": "貝塔炸彈",
+    "nameEn": "Beta Bomb",
+    "damage": null,
+    "combination": [
+      "No.010 小型炸彈 B",
+      "No.011 十字炸彈 B",
+      "No.012 大型炸彈 B"
+    ],
+    "description": "依序可使用小型炸彈、十字炸彈、大型炸彈各2發"
+  },
+  {
+    "no": 22,
+    "nameZh": "貝塔劍",
+    "nameEn": "Beta Sword",
+    "damage": null,
+    "combination": ["No.013 劍 S", "No.014 寬劍 S", "No.015 長劍 S"],
+    "description": "依序可使用劍、寬劍、長劍各2發"
+  },
+  {
+    "no": 23,
+    "nameZh": "貝塔波",
+    "nameEn": "Beta Wave",
+    "damage": null,
+    "combination": ["No.023 衝擊波 C", "No.024 音速波 C", "No.025 動能波 C"],
+    "description": "依序可使用衝擊波、音速波、動能波各2發"
+  },
+  {
+    "no": 24,
+    "nameZh": "貝塔震",
+    "nameEn": "Beta Quake",
+    "damage": null,
+    "combination": ["No.029 地震動1 Q", "No.030 地震動2 Q", "No.031 地震動3 Q"],
+    "description": "依序可使用地震動1、地震動2、地震動3各2發"
+  },
+  {
+    "no": 25,
+    "nameZh": "西格瑪炸彈",
+    "nameEn": "Sigma Bomb",
+    "damage": null,
+    "combination": [
+      [
+        "No.010 小型炸彈 B",
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B"
+      ],
+      [
+        "No.010 小型炸彈 B",
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B",
+        "No.012 大型炸彈 B"
+      ],
+      [
+        "No.010 小型炸彈 B",
+        "No.010 小型炸彈 B",
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B"
+      ],
+      [
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B",
+        "No.012 大型炸彈 B"
+      ],
+      [
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B"
+      ],
+      [
+        "No.010 小型炸彈 B",
+        "No.011 十字炸彈 B",
+        "No.012 大型炸彈 B",
+        "No.012 大型炸彈 B",
+        "No.012 大型炸彈 B"
+      ]
+    ],
+    "description": "依序可使用小型炸彈、十字炸彈、大型炸彈各3發"
+  },
+  {
+    "no": 26,
+    "nameZh": "西格瑪劍",
+    "nameEn": "Sigma Sword",
+    "damage": null,
+    "combination": [
+      [
+        "No.013 劍 S",
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S"
+      ],
+      [
+        "No.013 劍 S",
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S",
+        "No.015 長劍 S"
+      ],
+      [
+        "No.013 劍 S",
+        "No.013 劍 S",
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S"
+      ],
+      [
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S",
+        "No.015 長劍 S"
+      ],
+      [
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.014 寬劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S"
+      ],
+      [
+        "No.013 劍 S",
+        "No.014 寬劍 S",
+        "No.015 長劍 S",
+        "No.015 長劍 S",
+        "No.015 長劍 S"
+      ]
+    ],
+    "description": "依序可使用劍、寬劍、長劍各3發"
+  },
+  {
+    "no": 27,
+    "nameZh": "西格瑪波",
+    "nameEn": "Sigma Wave",
+    "damage": null,
+    "combination": [
+      [
+        "No.023 衝擊波 C",
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C"
+      ],
+      [
+        "No.023 衝擊波 C",
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C",
+        "No.025 動能波 C"
+      ],
+      [
+        "No.023 衝擊波 C",
+        "No.023 衝擊波 C",
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C"
+      ],
+      [
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C",
+        "No.025 動能波 C"
+      ],
+      [
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.024 音速波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C"
+      ],
+      [
+        "No.023 衝擊波 C",
+        "No.024 音速波 C",
+        "No.025 動能波 C",
+        "No.025 動能波 C",
+        "No.025 動能波 C"
+      ]
+    ],
+    "description": "依序可使用衝擊波、音速波、動能波各3發"
+  },
+  {
+    "no": 28,
+    "nameZh": "西格瑪震",
+    "nameEn": "Sigma Quake",
+    "damage": null,
+    "combination": [
+      [
+        "No.029 地震動1 Q",
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q"
+      ],
+      [
+        "No.029 地震動1 Q",
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q",
+        "No.031 地震動3 Q"
+      ],
+      [
+        "No.029 地震動1 Q",
+        "No.029 地震動1 Q",
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q"
+      ],
+      [
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q",
+        "No.031 地震動3 Q"
+      ],
+      [
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.030 地震動2 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q"
+      ],
+      [
+        "No.029 地震動1 Q",
+        "No.030 地震動2 Q",
+        "No.031 地震動3 Q",
+        "No.031 地震動3 Q",
+        "No.031 地震動3 Q"
+      ]
+    ],
+    "description": "依序可使用地震動1、地震動2、地震動3各3發"
+  },
+  {
+    "no": 29,
+    "nameZh": "千均一髮",
+    "nameEn": "Life Saver",
+    "damage": "－",
+    "combination": [
+      ["No.119 防護罩 R", "No.124 水之靈 R", "No.128 蘿露 R"],
+      ["No.119 防護罩 R", "No.124 水之靈 R", "No.129 蘿露V2 R"],
+      ["No.119 防護罩 R", "No.124 水之靈 R", "No.130 蘿露V3 R"]
+    ],
+    "description": "使用後HP全滿 ＆ 30秒內無敵"
+  },
+  {
+    "no": 30,
+    "nameZh": "氣力射擊",
+    "nameEn": "Guts Shoot",
+    "damage": 500,
+    "combination": [
+      ["No.067 鋼盔防禦 G", "No.034 衝刺攻擊 G", "No.131 氣力人 G"],
+      ["No.067 鋼盔防禦 G", "No.034 衝刺攻擊 G", "No.132 氣力人V2 G"],
+      ["No.067 鋼盔防禦 G", "No.034 衝刺攻擊 G", "No.133 氣力人V3 G"]
+    ],
+    "description": "對前方橫列最前方的敵人，由氣力人將洛克人擲出進行攻擊"
+  },
+  {
+    "no": 31,
+    "nameZh": "雙人英雄",
+    "nameEn": "Double Hero",
+    "damage": 400,
+    "combination": [
+      ["No.016 鬥士劍 B","No.017 騎士劍 B", "No.018 英雄劍 B", "No.134 布魯斯 B"],
+      ["No.016 鬥士劍 B", "No.017 騎士劍 B", "No.018 英雄劍 B", "No.135 布魯斯V2 B"],
+      ["No.016 鬥士劍 B","No.017 騎士劍 B","No.018 英雄劍 B","No.136 布魯斯V3 B"]
+    ],
+    "description": "洛克人與布魯斯對前方所有敵人進行攻擊"
+  },
+  {
+    "no": 32,
+    "nameZh": "強力加農砲",
+    "nameEn": "Powered Cannon",
+    "damage": 200,
+    "combination": [
+      "No.004 散彈槍 K",
+      "No.005 十字槍 K",
+      "No.006 散射槍 K",
+      "No.003 MEGA加農砲 K"
+    ],
+    "description": "除了傷害外，效果與散射槍相同"
+  },
+  {
+    "no": 33,
+    "nameZh": "沉重踐踏",
+    "nameEn": "Heavy Stamp",
+    "damage": 400,
+    "combination": [
+      "No.045 蓋亞鎚1 C",
+      "No.046 蓋亞鎚2 C",
+      "No.047 蓋亞鎚3 C",
+      "No.031 地震動3 C"
+    ],
+    "description": "洛克人出現在HP最高的敵人正上方，與砝碼一同將敵人壓扁攻擊"
+  },
+  {
+    "no": 34,
+    "nameZh": "巨大直拳",
+    "nameEn": "Big Straight",
+    "damage": 250,
+    "combination": ["No.032 氣力拳 B", "No.033 寒冰拳 B", "No.034 衝刺攻擊 B"],
+    "description": "從洛克人前方橫列對所有敵人以貫通拳擊進行攻擊"
+  },
+  {
+    "no": 35,
+    "nameZh": "血之吸吮",
+    "nameEn": "Blood Rain",
+    "damage": 200,
+    "combination": [
+      "No.060 蚊子1 A",
+      "No.061 蚊子2 A",
+      "No.062 蚊子3 A",
+      "No.042 海嘯 A"
+    ],
+    "description": "3支注射器以前方橫3列貫通敵人攻擊，並依造成的傷害量回復洛克人的HP"
+  },
+  {
+    "no": 36,
+    "nameZh": "死亡風暴",
+    "nameEn": "Death Storm",
+    "damage": 200,
+    "combination": [
+      "No.054 颱風 G",
+      "No.055 颶風 G",
+      "No.056 旋風 G",
+      "No.082 地面復原 G"
+    ],
+    "description": "以龍捲風攻擊前方所有區域"
+  }
+]
