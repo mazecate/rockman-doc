@@ -1,0 +1,68 @@
+[
+  {
+    "meta": {
+      "type": "timeline",
+      "title": "太陽少年聯動支線",
+      "prerequisites": [
+        "主線必須推進至可以進入裏網路的中後期階段",
+        "準備資金：預留至少 10,000z"
+      ],
+      "totalCost": "10,000z",
+      "reward": "S026 太陽槍3 晶片",
+      "hiddenFeatures": [
+        "調查吸血鬼棺材可以獲得「星雲通行碼」（用於打開骷髏門）。",
+        "完成任務後重返裏網路4，低機率遭遇陰暗人 SP。"
+      ]
+    },
+    "steps": [
+      {
+        "stepNumber": 1,
+        "location": "裏網路4",
+        "content": "在亞弗利克的努波波神像上線，前往裏網路4，遇見《我們的太陽》主角太陽少年強哥並接取委託。"
+      },
+      {
+        "stepNumber": 2,
+        "location": "裏網路2 ➔ 裏網路6",
+        "content": "先去裏網路2入口處找紫色領航 NPC 對話獲取情報，接著前往裏網路6下層找黑色領航員NPC，花費 10,000z 買下「陽光感測器」。"
+      },
+      {
+        "stepNumber": 3,
+        "location": "裏網路4（淨化決戰）",
+        "content": "回到裏網路4與強哥對話觸發劇情，配合強哥的太陽光線機制擊潰吸血鬼陰暗人（ShadeMan）。",
+        "tips": "務必調查吸血鬼棺材取得「星雲通行碼」！"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "type": "assembly",
+      "title": "C滑板 (C-Slider) 材料與組裝",
+      "description": "主線後半段的網路地圖充滿了懸空的單向軌道，必須擁有C滑板才能通行。",
+      "totalCost": "9,500z",
+      "reward": "C滑板",
+      "prerequisites": [
+        "到夏羅區域上層（亞弗利克至夏羅入口處的外側）找領航打聽職人消息"
+      ]
+    },
+    "assembly": {
+      "parts": [
+        {
+          "name": "板身 (BoardPart)",
+          "location": "都市區域2 下層",
+          "cost": "2,000z"
+        },
+        {
+          "name": "噴射器 (JetParts)",
+          "location": "樂園區域1 ➔ 都市區域3 下層",
+          "cost": "3,000z"
+        },
+        {
+          "name": "機翼 (WingPart)",
+          "location": "秋原區域2 ➔ 雅吉納區域隱蔽橋下（左側領航員）",
+          "cost": "4,000z"
+        }
+      ],
+      "assemblyText": "花費 500z 委託夏羅區域下層大門內的職人女孩NPC組裝完成。"
+    }
+  }
+]

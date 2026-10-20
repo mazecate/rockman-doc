@@ -12,6 +12,7 @@ import SideQuest from './components/SideQuest.vue'
 import ImagePopUp from './components/ImagePopUp.vue'
 import ChipTable from './components/ChipTable.vue'
 import ChipTradeTable from './components/ChipTradeTable.vue'
+import EXE4SpecialQuest from './components/EXE4SpecialQuest.vue'
 import './custom.css'
 
 export default {
@@ -29,5 +30,6 @@ export default {
     app.component('ImagePopUp', ImagePopUp)
     app.component('ChipTable', ChipTable)
     app.component('ChipTradeTable', ChipTradeTable)
+    app.component('EXE4SpecialQuest', EXE4SpecialQuest)
   }
 } satisfies Theme
