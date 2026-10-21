@@ -1,0 +1,7 @@
+[
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據", "location": "aaa", "locationImage": "" },
+  { "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "bbbb", "price": "1Z", "locationImage": "" },
+	{ "type": "reg", "name": "常駐 UP", "method": "神秘數據（藍色）", "location": "cccc", "value": 1, "locationImage": "" },
+	{ "type": "sub", "name": "副記憶體", "method": "商店購入", "location": "dddd 2", "price": "1Z", "locationImage": "" },
+	{ "type": "expand", "name": "擴張記憶體", "method": "神秘數據（藍色）", "location": "", "locationImage": "" }
+]
