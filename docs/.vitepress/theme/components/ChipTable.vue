@@ -1,7 +1,7 @@
 <template>
 	<div class="chip-container">
 		<div class="search-box">
-			<input type="text" v-model="searchQuery" placeholder="搜尋編號、名稱 或 屬性..." class="search-input" />
+			<input type="text" v-model="searchQuery" placeholder="搜尋編號、名稱、屬性 或 稀有度..." class="search-input" />
 		</div>
 
 		<table class="chip-table">
@@ -11,6 +11,7 @@
 					<th>名稱</th>
 					<th>威力</th>
 					<th>屬性</th>
+					<th>稀有度</th>
 					<th>代碼</th>
 				</tr>
 			</thead>
@@ -28,6 +29,11 @@
 								{{ chip.element }}
 							</span>
 						</td>
+						<td class="rarity-cell">
+							<span class="stars" :title="`稀有度: ${chip.rarity}`">
+								{{ '★'.repeat(Number(chip.rarity) || 0) }}
+							</span>
+						</td>
 						<td>
 							<div v-if="chip.codes && chip.codes.length > 0" class="codes-cell">
 								<span v-for="code in chip.codes" :key="code" class="code-tag">{{ code }}</span>
@@ -37,7 +43,7 @@
 					</tr>
 				</template>
 				<tr v-if="filteredChips.length === 0">
-					<td colspan="5" class="no-result">沒有找到符合的晶片</td>
+					<td colspan="6" class="no-result">沒有找到符合的晶片</td>
 				</tr>
 			</tbody>
 		</table>
@@ -70,7 +76,8 @@ const filteredChips = computed(() => {
 			chip.nameZh.toLowerCase().includes(query) ||
 			chip.nameEn.toLowerCase().includes(query) ||
 			chip.nameJp.toLowerCase().includes(query) ||
-			chip.element.toLowerCase().includes(query)
+			chip.element.toLowerCase().includes(query) ||
+			String(chip.rarity).includes(query)
 		)
 	})
 })
@@ -102,8 +109,20 @@ const filteredChips = computed(() => {
 	border-color: var(--vp-c-brand);
 }
 
+.chip-container {
+	width: 100%;
+	overflow-x: auto;
+	margin: 1rem 0;
+	-webkit-overflow-scrolling: touch; /* 讓 iOS 裝置滑動更流暢 */
+	border: 1px solid var(--vp-c-divider);
+	border-radius: 8px;
+	background-color: var(--vp-c-bg);
+}
+
+/* 確保表格在手機上不會被強制擠壓變形 */
 .chip-table {
 	width: 100%;
+	min-width: 600px; /* 設定最小寬度，確保欄位不會過擠，迫使出現捲動軸 */
 	border-collapse: collapse;
 	font-size: 0.95rem;
 }
@@ -128,6 +147,15 @@ const filteredChips = computed(() => {
 	font-size: 0.85rem;
 	color: var(--vp-c-text-2);
 	margin-left: 4px;
+}
+
+.rarity-cell {
+	white-space: nowrap;
+}
+
+.stars {
+	color: #f59e0b; /* 金黃色星星 */
+	letter-spacing: 1px;
 }
 
 .codes-cell {
