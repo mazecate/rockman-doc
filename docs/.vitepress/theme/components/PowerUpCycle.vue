@@ -373,9 +373,9 @@ tr:last-child td {
 }
 
 .tag-side {
-  background-color: rgba(245, 158, 11, 0.15) !important;
-  color: #d97706 !important;
-  border: 1px solid rgba(245, 158, 11, 0.3) !important;
+  border: 1px solid rgba(236, 72, 153, 0.3) !important;
+  background: rgba(236, 72, 153, 0.15) ;
+  color: #db2777;
 }
 
 .tag-shop {
