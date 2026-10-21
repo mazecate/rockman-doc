@@ -96,6 +96,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '洛克人 EXE 4',
       collapsed: true,
       items: getSubMenuItems('/exe/exe4', {
+        chiptrade: false,
         chips: { standard: true, mega: true, giga: true, dark: true, secret: true }
       })
     },
