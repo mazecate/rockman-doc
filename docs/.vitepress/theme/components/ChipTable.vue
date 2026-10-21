@@ -109,20 +109,8 @@ const filteredChips = computed(() => {
 	border-color: var(--vp-c-brand);
 }
 
-.chip-container {
-	width: 100%;
-	overflow-x: auto;
-	margin: 1rem 0;
-	-webkit-overflow-scrolling: touch; /* 讓 iOS 裝置滑動更流暢 */
-	border: 1px solid var(--vp-c-divider);
-	border-radius: 8px;
-	background-color: var(--vp-c-bg);
-}
-
-/* 確保表格在手機上不會被強制擠壓變形 */
 .chip-table {
 	width: 100%;
-	min-width: 600px; /* 設定最小寬度，確保欄位不會過擠，迫使出現捲動軸 */
 	border-collapse: collapse;
 	font-size: 0.95rem;
 }
