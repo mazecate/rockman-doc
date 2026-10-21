@@ -5,8 +5,8 @@
     "shopNameJp": "インターネット  1",
     "currency": "Zenny",
     "items": [
-      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 500, "quantity": 1 },
-      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 1000, "quantity": 1 },
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 500, "quantity": 1, "version": ""},
+      { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 1000, "quantity": 1, "version": "" },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 3000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },

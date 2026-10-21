@@ -20,7 +20,8 @@ const flatItems = computed(() => {
     itemNameJp?: string; 
     price: number | string; 
     currency: string; 
-    quantity?: number
+    quantity?: number;
+    version?: 'black' | 'white' | string; // 新增版本屬性
   }[] = []
   
   props.shops.forEach(shop => {
@@ -34,7 +35,8 @@ const flatItems = computed(() => {
         itemNameJp: item.nameJp,
         price: item.price,
         currency: shop.currency,
-        quantity: item.quantity
+        quantity: item.quantity,
+        version: item.version
       })
     })
   })
@@ -81,7 +83,17 @@ const filteredItems = computed(() => {
         v-for="(item, index) in filteredItems" 
         :key="index" 
         class="shop-card"
+        :class="{ 'has-ribbon': item.version }"
       >
+        <!-- 右上角斜角緞帶 (專門處理 3 代版本限定) -->
+        <div 
+          v-if="item.version" 
+          class="version-ribbon"
+          :class="`ribbon-${item.version.toLowerCase()}`"
+        >
+          {{ item.version.toLowerCase() === 'black' ? '黑版' : item.version.toLowerCase() === 'white' ? '白版' : item.version }}
+        </div>
+
         <div class="card-header">
           <span class="shop-badge">{{ item.shopName }}</span>
         </div>
@@ -140,6 +152,8 @@ const filteredItems = computed(() => {
 }
 
 .shop-card {
+  position: relative; /* 必須：讓右上角緞帶絕對定位於卡片內 */
+  overflow: hidden;    /* 必須：切掉超出卡片邊界斜出的緞帶 */
   flex: 1 1 calc(33.333% - 16px);
   min-width: 260px;
   background: var(--vp-c-bg-alt);
@@ -155,6 +169,36 @@ const filteredItems = computed(() => {
 .shop-card:hover {
   border-color: var(--vp-c-brand);
   transform: translateY(-2px);
+}
+
+/* --- 右上角斜帶 (Ribbon) 樣式 --- */
+.version-ribbon {
+  position: absolute;
+  top: 10px;
+  right: -32px;
+  width: 100px;
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 2px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+/* 黑版限定樣式 */
+.ribbon-black {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border: 1px solid #374151;
+}
+
+/* 白版限定樣式 */
+.ribbon-white {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
 }
 
 .card-header {
@@ -212,7 +256,6 @@ const filteredItems = computed(() => {
 }
 
 .price.bugFrag {
-  /* color: #ef4444; */
   color: #ff40ff;
 }
 
