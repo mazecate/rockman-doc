@@ -1,0 +1,50 @@
+[
+  {
+    "name": "空氣人",
+    "nameEn": "AirMan",
+    "nameJp": "エアーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "瓦斯熱水器的電腦 2",
+        "locationEn": "Oven Network 2",
+        "locationJp": "レンジの電脳 2",
+        "isRandom": false,
+        "note": "第1章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "電算區域 1",
+        "locationEn": "Den Area 1",
+        "locationJp": "デンサンエリア 1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "電算區域 1",
+        "locationEn": "Den Area 1",
+        "locationJp": "デンサンエリア 1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "氣力人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "迪卡歐家",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  }
+]
