@@ -1,7 +1,8 @@
 {
   "series": "exe2",
   "title": "洛克人EXE 2 - 星之證收集指南",
-  "ultimateNote": "",
+  "bannerImage": "",
+  "ultimateNote": "困難模式：收集全部5顆星之後，在標題畫面的「開始遊戲」選項上，輸入指令：←←→←→←→→",
   "stars": [
     {
       "id": "yellow",
