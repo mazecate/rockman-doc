@@ -145,5 +145,71 @@
       { "name": "飄浮鞋", "nameEn": "", "nameJp": "", "price": 8400, "quantity": 1 },
       { "name": "反射", "nameEn": "", "nameJp": "", "price": 13000, "quantity": 1 }
     ]
+  },
+  {
+    "shopName": "秋原町 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+      { "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "電氣街1丁目 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+      { "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "天空之城・童話廣場 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+      { "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 },
+      { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "亞美羅帕・競技場大道 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+      { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 },
+      { "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "雅吉納的遺跡 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+      { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "樂園區域 1 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "Zenny",
+    "items": [
+      { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+      { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 },
+      { "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 }
+    ]
   }
 ]

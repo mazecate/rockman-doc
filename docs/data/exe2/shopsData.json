@@ -1,0 +1,31 @@
+[
+	{
+		"shopName": "電算區域 1",
+		"shopNameEn": "",
+		"shopNameJp": "デンサンエリア 1",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 1000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
+			{ "name": "散彈槍 B", "nameEn": "", "nameJp": "", "price": 200, "quantity": 1 },
+			{ "name": "小型炸彈 J", "nameEn": "", "nameJp": "", "price": 500, "quantity": 1 },
+			{ "name": "回復10 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 1 },
+			{ "name": "散射槍 Q", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "公職廣場",
+		"shopNameEn": "",
+		"shopNameJp": "オフィシャルスクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+			{ "name": "十字槍 J", "nameEn": "", "nameJp": "", "price": 600, "quantity": 1 },
+			{ "name": "寛劍 L", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
+			{ "name": "回復30 H", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
+			{ "name": "防護罩 B", "nameEn": "", "nameJp": "", "price": 1200, "quantity": 1 }
+		]
+	}
+]
