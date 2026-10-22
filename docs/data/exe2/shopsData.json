@@ -27,5 +27,17 @@
 			{ "name": "回復30 H", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
 			{ "name": "防護罩 B", "nameEn": "", "nameJp": "", "price": 1200, "quantity": 1 }
 		]
-	}
+	},
+  {
+    "shopName": "公職廣場 (副晶片)",
+    "shopNameEn": "",
+    "shopNameJp": "オフィシャルスクエア",
+    "currency": "Zenny",
+    "type": "副晶片",
+    "items": [
+      { "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+    ]
+  }
 ]
