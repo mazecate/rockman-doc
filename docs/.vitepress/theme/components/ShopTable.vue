@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import type { ShopGroup } from '../types/shop';
+import type { ShopGroup } from '../types';
 
 const props = defineProps<{
   shops: ShopGroup[]
@@ -22,6 +22,7 @@ const flatItems = computed(() => {
     currency: string; 
     quantity?: number;
     version?: 'black' | 'white' | string; // 新增版本屬性
+    type?: string
   }[] = []
   
   props.shops.forEach(shop => {
@@ -36,7 +37,8 @@ const flatItems = computed(() => {
         price: item.price,
         currency: shop.currency,
         quantity: item.quantity,
-        version: item.version
+        version: item.version,
+        type: shop.type
       })
     })
   })

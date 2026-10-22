@@ -4,6 +4,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "散射槍 L", "nameEn": "", "nameJp": "", "price": 3800, "quantity": 2 },
       { "name": "地面復原 *", "nameEn": "", "nameJp": "", "price": 4500, "quantity": 1 },
@@ -20,6 +21,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 3200, "quantity": 1 },
@@ -34,6 +36,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 2500, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 6000, "quantity": 1 },
@@ -45,24 +48,11 @@
     ]
   },
   {
-    "shopName": "樂園區域 3 (Bug碎片商店)",
-    "shopNameEn": "",
-    "shopNameJp": "",
-    "currency": "bugFrag",
-    "items": [
-      { "name": "忍術衝刺", "nameEn": "", "nameJp": "", "price": "8 個", "quantity": 1 },
-      { "name": "神聖地面 *", "nameEn": "", "nameJp": "", "price": "10 個", "quantity": 1 },
-      { "name": "HP+400", "nameEn": "", "nameJp": "", "price": "16 個", "quantity": 1 },
-      { "name": "替身 R", "nameEn": "", "nameJp": "", "price": "24 個", "quantity": 1 },
-      { "name": "收藏家之眼", "nameEn": "", "nameJp": "", "price": "42 個", "quantity": 1 },
-      { "name": "流星群 R", "nameEn": "", "nameJp": "", "price": "60 個", "quantity": 1 }
-    ]
-  },
-  {
     "shopName": "天空之城首頁",
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP+100", "nameEn": "", "nameJp": "", "price": 3400, "quantity": 1 },
       { "name": "集氣 MAX", "nameEn": "", "nameJp": "", "price": 4800, "quantity": 1 },
@@ -77,6 +67,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 6000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
@@ -93,6 +84,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 15000, "quantity": 1 },
@@ -105,24 +97,11 @@
     ]
   },
   {
-    "shopName": "裏網絡 4 (Bug碎片商店)",
-    "shopNameEn": "",
-    "shopNameJp": "",
-    "currency": "bugFrag",
-    "items": [
-      { "name": "飛行鞋", "nameEn": "", "nameJp": "", "price": "22 個", "quantity": 1 },
-      { "name": "領航員+20 *", "nameEn": "", "nameJp": "", "price": "28 個", "quantity": 1 },
-      { "name": "替身魔術", "nameEn": "", "nameJp": "", "price": "36 個", "quantity": 1 },
-      { "name": "死鬥三 U", "nameEn": "", "nameJp": "", "price": "50 個", "quantity": 1 },
-      { "name": "攻擊 Max", "nameEn": "", "nameJp": "", "price": "72 個", "quantity": 1 },
-      { "name": "紅色信號 S", "nameEn": "", "nameJp": "", "price": "100 個", "quantity": 1 }
-    ]
-  },
-  {
     "shopName": "裏網絡 5",
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 30000, "quantity": 1 },
       { "name": "HP記憶體", "nameEn": "", "nameJp": "", "price": 50000, "quantity": 1 },
@@ -137,6 +116,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "網絡商人",
     "items": [
       { "name": "HP+300", "nameEn": "", "nameJp": "", "price": 9600, "quantity": 1 },
       { "name": "油性體質", "nameEn": "", "nameJp": "", "price": 6200, "quantity": 1 },
@@ -147,10 +127,41 @@
     ]
   },
   {
+    "shopName": "樂園區域 3 (Bug碎片商店)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "bugFrag",
+    "type": "Bug碎片",
+    "items": [
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "", "price": "8 個", "quantity": 1 },
+      { "name": "神聖地面 *", "nameEn": "", "nameJp": "", "price": "10 個", "quantity": 1 },
+      { "name": "HP+400", "nameEn": "", "nameJp": "", "price": "16 個", "quantity": 1 },
+      { "name": "替身 R", "nameEn": "", "nameJp": "", "price": "24 個", "quantity": 1 },
+      { "name": "收藏家之眼", "nameEn": "", "nameJp": "", "price": "42 個", "quantity": 1 },
+      { "name": "流星群 R", "nameEn": "", "nameJp": "", "price": "60 個", "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "裏網絡 4 (Bug碎片商店)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "bugFrag",
+    "type": "Bug碎片",
+    "items": [
+      { "name": "飛行鞋", "nameEn": "", "nameJp": "", "price": "22 個", "quantity": 1 },
+      { "name": "領航員+20 *", "nameEn": "", "nameJp": "", "price": "28 個", "quantity": 1 },
+      { "name": "替身魔術", "nameEn": "", "nameJp": "", "price": "36 個", "quantity": 1 },
+      { "name": "死鬥三 U", "nameEn": "", "nameJp": "", "price": "50 個", "quantity": 1 },
+      { "name": "攻擊 Max", "nameEn": "", "nameJp": "", "price": "72 個", "quantity": 1 },
+      { "name": "紅色信號 S", "nameEn": "", "nameJp": "", "price": "100 個", "quantity": 1 }
+    ]
+  },
+  {
     "shopName": "秋原町 (副晶片)",
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
       { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
@@ -162,6 +173,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
       { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
@@ -173,6 +185,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
       { "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 },
@@ -184,6 +197,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
       { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 },
@@ -195,6 +209,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 },
       { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
@@ -206,6 +221,7 @@
     "shopNameEn": "",
     "shopNameJp": "",
     "currency": "Zenny",
+    "type": "副晶片",
     "items": [
       { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
       { "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 },

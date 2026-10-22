@@ -3,6 +3,7 @@ export interface ShopGroup {
   shopNameEn?: string
   shopNameJp?: string
   currency: 'zenni' | 'bugFrag'
+  type?: string
   items: {
     name: string
     nameEn?: string
