@@ -16,12 +16,16 @@ const isStarForce = (series: string) => ['sf1', 'sf2', 'sf3'].includes(series)
       <img :src="withBase(gameData.bannerImage)" :alt="gameData.title" class="imgW" />
     </div>
 
-    <div class="boss-banner" v-if="gameData.ultimateNote">
+    <div class="boss-banner" v-if="gameData.ultimateNote || gameData.ultimateExtra">
       <div class="banner-body">
         <div class="banner-icon">⚡</div>
         <div class="banner-content">
           <span class="banner-title">最終頭目與通關機制</span>
-          <p>{{ gameData.ultimateNote }}</p>
+          <p v-if="gameData.ultimateNote">{{ gameData.ultimateNote }}</p>
+          <div v-if="gameData.ultimateExtra" class="command-tag" style="margin-top: 8px;">
+            <span class="command-label">指令</span>
+            <code>{{ gameData.ultimateExtra }}</code>
+          </div>
         </div>
       </div>
     </div>

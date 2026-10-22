@@ -14,5 +14,6 @@ export interface GameStarsData {
   title: string;
   bannerImage?: string;
   ultimateNote?: string;
+  ultimateExtra?: string; // 新增：用於最終頭目/通關機制的指令
   stars: StarItem[];
 }
