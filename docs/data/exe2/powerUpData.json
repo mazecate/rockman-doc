@@ -1,7 +1,10 @@
 [
-	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據", "location": "aaa", "locationImage": "" },
-  	{ "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "bbbb", "price": "1Z", "locationImage": "" },
-	{ "type": "reg", "name": "常駐 UP", "method": "神秘數據（藍色）", "location": "cccc", "value": 1, "locationImage": "" },
-	{ "type": "sub", "name": "副記憶體", "method": "商店購入", "location": "dddd 2", "price": "1Z", "locationImage": "" },
-	{ "type": "expand", "name": "擴張記憶體", "method": "神秘數據（藍色）", "location": "", "locationImage": "" }
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "電算區域 1", "price": "1,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "電算區域 1", "price": "2,000Z", "locationImage": "" },
+	
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "2,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "4,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "8,000Z", "locationImage": "" },
+
+	{ "type": "reg", "name": "常駐 UP", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" }
 ]
