@@ -23,7 +23,7 @@ const selectedType = ref('all')
 const categories: Record<string, { label: string; icon: string }> = {
   hp: { label: 'HP記憶體', icon: '❤️' },
   buster: { label: '子彈強化', icon: '⚡' },
-  reg: { label: '常駐 UP', icon: '📌' },
+  reg: { label: '常規強化', icon: '📌' },
   sub: { label: '副記憶體', icon: '🔋' },
   expand: { label: '擴張記憶體', icon: '📦' },
   armor: { label: '裝甲部件', icon: '🛡️' }
