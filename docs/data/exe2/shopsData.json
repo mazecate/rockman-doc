@@ -1,7 +1,7 @@
 [
 	{
 		"shopName": "電算區域 1",
-		"shopNameEn": "",
+		"shopNameEn": "Den Area 1",
 		"shopNameJp": "デンサンエリア 1",
 		"currency": "Zenny",
 		"items": [
@@ -14,8 +14,24 @@
 		]
 	},
 	{
+		"shopName": "電算區域 3",
+		"shopNameEn": "Den Area 3",
+		"shopNameJp": "デンサンエリア 3",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 3000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 },
+			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 600, "quantity": 1 },
+			{ "name": "散射槍 O", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
+			{ "name": "回復30 B", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
+			{ "name": "區域竊取 E", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 }
+		]
+	},
+	{
 		"shopName": "公職廣場",
-		"shopNameEn": "",
+		"shopNameEn": "Official Square",
 		"shopNameJp": "オフィシャルスクエア",
 		"currency": "Zenny",
 		"items": [
@@ -30,8 +46,44 @@
 	},
   {
     "shopName": "公職廣場 (副晶片)",
-    "shopNameEn": "",
+    "shopNameEn": "Official Square",
     "shopNameJp": "オフィシャルスクエア",
+    "currency": "Zenny",
+    "type": "副晶片",
+    "items": [
+      { "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "秋原町-科學家 (副晶片)",
+    "shopNameEn": "ACDC Town",
+    "shopNameJp": "秋原町",
+    "currency": "Zenny",
+    "type": "副晶片",
+    "items": [
+      { "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+      { "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "公職中心大廳-科學家 (副晶片)",
+    "shopNameEn": "Official Center",
+    "shopNameJp": "オフィシャルセンター",
+    "currency": "Zenny",
+    "type": "副晶片",
+    "items": [
+      { "name": "全滿能源", "nameEn": "", "nameJp": "シノビダッシュ", "price": 400, "quantity": 1 },
+      { "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "敵方搜索", "nameEn": "", "nameJp": "オープンロック", "price": 10000, "quantity": 1 }
+    ]
+  },
+  {
+    "shopName": "奧電水壩-科學家 (副晶片)",
+    "shopNameEn": "Okuden Dam",
+    "shopNameJp": "オクデンダム",
     "currency": "Zenny",
     "type": "副晶片",
     "items": [

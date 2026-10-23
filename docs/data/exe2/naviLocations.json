@@ -44,6 +44,94 @@
         "locationJp": "",
         "isRandom": false,
         "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "迪卡歐家",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "青蛙人",
+    "nameEn": "ToadMan",
+    "nameJp": "トードマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "海軍港",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "快速人",
+    "nameEn": "QuickMan",
+    "nameJp": "クイックマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "引爆裝置的電腦 4",
+        "locationEn": "Bomb Computer 4",
+        "locationJp": "きばくそうちの電脳",
+        "isRandom": false,
+        "note": "第2章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "長壽區域 1",
+        "locationEn": "Koto Area 1",
+        "locationJp": "コトブキエリア 1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "長壽區域 1",
+        "locationEn": "Koto Area 1",
+        "locationJp": "コトブキエリア 1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "閘門人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "公職中心大廳",
+        "locationEn": "Official Center",
+        "locationJp": "オフィシャルセンター",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "公職中心大廳",
+        "locationEn": "Official Center",
+        "locationJp": "オフィシャルセンター",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "公職中心大廳",
+        "locationEn": "Official Center",
+        "locationJp": "オフィシャルセンター",
+        "isRandom": false,
+        "note": ""
       }
     ]
   }
