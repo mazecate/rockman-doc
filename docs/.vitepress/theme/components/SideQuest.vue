@@ -123,7 +123,7 @@ const filteredMissions = computed(() => {
           </div>
 
           <div v-if="quest.answers && quest.answers.length > 0" class="quiz-box">
-            <div class="quiz-title">💡 問答全解：</div>
+            <div class="quiz-title">💡 任務/問答全解：</div>
             <ul class="quiz-ans">
               <li v-for="(ans, idx) in quest.answers" :key="idx">
                 <code class="quiz-item-code">{{ ans }}</code>
