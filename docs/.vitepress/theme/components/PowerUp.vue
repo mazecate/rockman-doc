@@ -1,16 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-// import ImagePopUp from './ImagePopUp.vue' // 引入你的 ImagePopUp 元件[cite: 1]
-
-export interface PowerUpItem {
-  type: string       // 'hp' | '子彈強化' | 'reg' | 'sub' | 'expand' | 'armor' 等
-  name: string       // 道具名稱
-  method: string     // 入手方法 / 購買說明
-  location: string   // 地點
-  price?: string     // 價格 (選填)
-  value?: number     // 數值增量（例如常駐 UP 的 +1、+2 等）
-  locationImage?: string | null // 地圖截圖路徑
-}
+// import ImagePopUp from './ImagePopUp.vue'
+import type { PowerUpItem } from '../types'
 
 const props = defineProps<{
   items: PowerUpItem[]
@@ -65,7 +56,8 @@ const filteredItems = computed(() => {
 
 // 計算所有商店購入項目的金額總和
 const totalShopPrice = computed(() => {
-  const sum = props.items
+  // const sum = props.items
+  const sum = filteredItems.value
     .filter(item => item.price)
     .reduce((total, item) => {
       const val = parseInt(item.price!.replace(/[^0-9]/g, ''), 10) || 0

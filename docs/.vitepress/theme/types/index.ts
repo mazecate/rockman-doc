@@ -2,7 +2,7 @@ export * from './pa';
 export * from './menu';
 export * from './trader';
 export * from './navi-location';
-export * from './power-up-round';
+export * from './power-up';
 export * from './game-star';
 export * from './side-quest';
 export * from './chip-trade';
