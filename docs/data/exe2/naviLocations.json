@@ -106,7 +106,7 @@
   {
     "name": "閘門人",
     "nameEn": "Gutsman",
-    "nameJp": "ガッツマン",
+    "nameJp": "ゲートマン",
     "gameVersion": "",
     "locations": [
       {
@@ -131,6 +131,38 @@
         "locationEn": "Official Center",
         "locationJp": "オフィシャルセンター",
         "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "剪刀人",
+    "nameEn": "CutMan",
+    "nameJp": "カットマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "雅吉納廣場",
+        "locationEn": "Yum Square",
+        "locationJp": "アジーナスクエア",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "雅吉納區域 2",
+        "locationEn": "Yumland Area 2",
+        "locationJp": "アジーナエリア 2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "雅吉納區域 2",
+        "locationEn": "Yumland Area 2",
+        "locationJp": "アジーナエリア 2",
+        "isRandom": true,
         "note": ""
       }
     ]
