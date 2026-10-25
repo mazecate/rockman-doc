@@ -80,10 +80,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '洛克人 EXE 2',
       collapsed: true,
-      items: getSubMenuItems('/exe/exe2', {
-        trader: false,
-        chips: { standard: true, mega: true, giga: true }
-      })
+      items: getSubMenuItems('/exe/exe2', { trader: false, chips: true })
     },
     {
       text: '洛克人 EXE 3',
