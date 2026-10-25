@@ -143,11 +143,11 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "雅吉納廣場",
-        "locationEn": "Yum Square",
-        "locationJp": "アジーナスクエア",
+        "location": "雅吉納廣場 - 國寶房間",
+        "locationEn": "Yum Square - National Treasure Room",
+        "locationJp": "アジーナスクエア - こくほうの間",
         "isRandom": false,
-        "note": ""
+        "note": "第3章頭目"
       },
       {
         "versionType": "V2",
@@ -162,6 +162,38 @@
         "location": "雅吉納區域 2",
         "locationEn": "Yumland Area 2",
         "locationJp": "アジーナエリア 2",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "陰影人",
+    "nameEn": "ShadowMan",
+    "nameJp": "シャドーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "母體電腦 5",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": "第4章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
         "isRandom": true,
         "note": ""
       }

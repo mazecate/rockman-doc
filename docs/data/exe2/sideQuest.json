@@ -1,7 +1,24 @@
 {
   "side_missions": [
     {
-      "chapter": "第三章",
+      "chapter": "第二章",
+      "missions": [
+        {
+          "title": "尋人",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "在咖啡廳等待",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        }
+      ]
+    },
+    {
+      "chapter": "第二章",
       "missions": [
         {
           "title": "特別任務 1",
@@ -28,6 +45,40 @@
             "1. 電算區域 3下層"
           ],
           "reward": "HP記憶體"
+        }
+      ]
+    },
+    {
+      "chapter": "第四章",
+      "missions": [
+        {
+          "title": "請給我晶片",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "預付報酬",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "化身愛神邱比特",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        }
+      ]
+    },
+    {
+      "chapter": "第五章",
+      "missions": [
+        {
+          "title": "為了男人的尊嚴",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
         }
       ]
     }
