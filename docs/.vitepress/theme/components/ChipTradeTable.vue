@@ -31,7 +31,7 @@ const filteredTrades = computed(() => {
       const query = searchQuery.value.toLowerCase().trim()
       const matchChapter = item.chapter.toLowerCase().includes(query)
       const matchLocation = item.location.toLowerCase().includes(query)
-      const matchReceive = item.receive.toLowerCase().includes(query)
+      const matchReceive = item.receive.some(chip => chip.toLowerCase().includes(query))
       const matchGive = item.give.some(chip => chip.toLowerCase().includes(query))
       matchQuery = matchChapter || matchLocation || matchReceive || matchGive
     }
@@ -116,9 +116,11 @@ const filteredTrades = computed(() => {
           <!-- 換得晶片 -->
           <div class="chip-section receive-section">
             <span class="section-title">📥 獲得晶片</span>
-            <div class="chip-list">
-              <code class="chip-code receive-code">{{ item.receive }}</code>
-            </div>
+            <ul class="chip-list">
+                <li v-for="(chip, rIdx) in item.receive" :key="rIdx">
+                  <code class="chip-code receive-code">{{ chip }}</code>
+                </li>
+              </ul>
           </div>
         </div>
       </div>

@@ -4,25 +4,31 @@
       "chapter": "第三章",
       "location": "秋原町學校門口附近的男孩",
       "give": ["No.48 衝刺攻擊 J"],
-      "receive": "散射槍 *"
+      "receive": ["散射槍 *"]
     },
     {
       "chapter": "第四章",
       "location": "地鐵海軍站的男孩",
       "give": ["毒氣面具 S"],
-      "receive": "變化劍 B"
+      "receive": ["變化劍 B"]
     },
     {
       "chapter": "第四章",
       "location": "露營地道路1的男孩",
       "give": ["隱身1 *"],
-      "receive": "逃脫 N"
+      "receive": ["逃脫 N", "HP記憶體"]
     },
     {
       "chapter": "第四章",
       "location": "執照中心的女人",
       "give": ["逃脫 N"],
-      "receive": "破碎鎚 Z"
+      "receive": ["破碎鎚 Z"]
+    },
+    {
+      "chapter": "第五章",
+      "location": "亞美羅帕廣場紫色領航員",
+      "give": ["破碎鎚  Z"],
+      "receive": ["白銀鐵拳 V"]
     }
   ]
 }

@@ -2,7 +2,7 @@ export interface ChipTradeItem {
     chapter: string
     location: string
     give: string[]
-    receive: string
+    receive: string[]
 }
 
 export interface ChipTradeData {

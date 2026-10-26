@@ -57,15 +57,54 @@
 		]
 	},
 	{
+		"shopName": "亞美羅帕區域 2",
+		"locationEn": "",
+		"locationJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "突風 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 },
+			{ "name": "抽風機 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 },
+			{ "name": "防護罩 *", "nameEn": "", "nameJp": "", "price": 4000, "quantity": 1 },
+			{ "name": "兔環1 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "亞美羅帕廣場",
+		"locationEn": "",
+		"locationJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 16000, "quantity": 1 },
+			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
+			{ "name": "地面復原 *", "nameEn": "", "nameJp": "", "price": 2400, "quantity": 1 },
+			{ "name": "寛劍 *", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 1 },
+			{ "name": "破碎鎚 U", "nameEn": "", "nameJp": "", "price": 4800, "quantity": 1 },
+			{ "name": "妒 J", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "亞美羅帕區域 2 (數字人)",
+		"locationEn": "",
+		"locationJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "回復120 O", "nameEn": "", "nameJp": "", "price": 4000, "quantity": 1 },
+			{ "name": "電+40 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 },
+			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "", "price": 7500, "quantity": 1 }
+		]
+	},
+	{
 		"shopName": "公職廣場 (副晶片)",
 		"shopNameEn": "Official Square",
 		"shopNameJp": "オフィシャルスクエア",
 		"currency": "Zenny",
 		"type": "副晶片",
 		"items": [
-		{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
-		{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
-				{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
 		]
 	},
 	{
@@ -75,9 +114,9 @@
 		"currency": "Zenny",
 		"type": "副晶片",
 		"items": [
-		{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
-		{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
-				{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
 		]
 	},
 	{
@@ -87,9 +126,9 @@
 		"currency": "Zenny",
 		"type": "副晶片",
 		"items": [
-		{ "name": "全滿能源", "nameEn": "", "nameJp": "シノビダッシュ", "price": 400, "quantity": 1 },
-		{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
-				{ "name": "敵方搜索", "nameEn": "", "nameJp": "オープンロック", "price": 10000, "quantity": 1 }
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "敵方搜索", "nameEn": "", "nameJp": "オープンロック", "price": 10000, "quantity": 1 }
 		]
 	},
 	{
@@ -99,9 +138,21 @@
 		"currency": "Zenny",
 		"type": "副晶片",
 		"items": [
-		{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
-		{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
-				{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "亞美羅帕廣場 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"type": "副晶片",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 }
 		]
 	}
 ]

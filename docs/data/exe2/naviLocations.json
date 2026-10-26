@@ -200,5 +200,69 @@
         "note": ""
       }
     ]
+  },
+  {
+    "name": "閃電人",
+    "nameEn": "ThunderMan",
+    "nameJp": "サンダーマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "後巷",
+        "locationEn": "Back Alley",
+        "locationJp": "裏通り (うらどおり)",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "後巷",
+        "locationEn": "Back Alley",
+        "locationJp": "裏通り (うらどおり)",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "後巷",
+        "locationEn": "Back Alley",
+        "locationJp": "裏通り (うらどおり)",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "蛇人",
+    "nameEn": "SnakeMan",
+    "nameJp": "スネークマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "亞美羅帕的寶石店",
+        "locationEn": "Jewelry Shop",
+        "locationJp": "ほうせきてん",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "亞美羅帕的寶石店",
+        "locationEn": "Jewelry Shop",
+        "locationJp": "ほうせきてん",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "亞美羅帕的寶石店",
+        "locationEn": "Jewelry Shop",
+        "locationJp": "ほうせきてん",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
   }
 ]
