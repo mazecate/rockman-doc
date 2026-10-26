@@ -264,5 +264,69 @@
         "note": ""
       }
     ]
+  },
+  {
+    "name": "布魯士",
+    "nameEn": "Blues",
+    "nameJp": "ブルース",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "",
+        "locationEn": "Castle Comp 4",
+        "locationJp": "おしろの電脳 4",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "亞美羅帕城堡",
+        "locationEn": "Netopia Park",
+        "locationJp": "アメロッパ城",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "亞美羅帕城堡",
+        "locationEn": "Netopia Park",
+        "locationJp": "アメロッパ城",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "騎士人",
+    "nameEn": "KnightMan",
+    "nameJp": "ナイトマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "",
+        "locationEn": "Castle Comp 5",
+        "locationJp": "おしろの電脳 5",
+        "isRandom": false,
+        "note": "第5章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "亞美羅帕區域 1",
+        "locationEn": "Netopia Area 1",
+        "locationJp": "アメロッパエリア 1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "亞美羅帕區域 1",
+        "locationEn": "Netopia Area 1",
+        "locationJp": "アメロッパエリア 1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
   }
 ]
