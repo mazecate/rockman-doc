@@ -118,7 +118,12 @@ const getBadgeClass = (type: string) => {
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                 </svg>
                 <ImagePopUp :src="loc.locationImage">
-                  <span class="value">{{ loc.location }}</span>
+                  <span class="value" :class="{ 'clickable-location': loc.locationImage }">
+                    {{ loc.location }}
+                    <!-- <svg v-if="loc.locationImage" class="img-hint-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                      <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                    </svg> -->
+                  </span>
                 </ImagePopUp>
                 <span v-if="loc.note" class="note">({{ loc.note }})</span>
               </div>
@@ -363,5 +368,34 @@ const getBadgeClass = (type: string) => {
 
 .navi-card:hover .location-icon {
   color: var(--vp-c-brand-1);
+}
+
+/* 可點擊地點文字的樣式提示 */
+.clickable-location {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  border-bottom: 1px dashed var(--vp-c-brand-1); /* 加上柔和的虛線底線 */
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.clickable-location:hover {
+  color: var(--vp-c-brand-2) !important;
+  border-bottom-color: var(--vp-c-brand-2);
+}
+
+/* 小圖片提示 Icon 樣式 */
+.img-hint-icon {
+  opacity: 0.8;
+  flex-shrink: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.clickable-location:hover .img-hint-icon {
+  transform: scale(1.15); /* 滑鼠懸停時小圖示微微放大 */
 }
 </style>
