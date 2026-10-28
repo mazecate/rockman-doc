@@ -25,7 +25,7 @@ export default defineConfig({
   description: "洛克人 EXE & 流星洛克人 資料庫",
   srcDir: './',
   lastUpdated: true,
-  srcExclude: ['**/assets/**'],
+  // srcExclude: ['**/assets/**'],
   sitemap: {
     hostname: githubLink
   },
