@@ -42,13 +42,15 @@ const handleOpen = () => {
 
   <!-- 使用 Teleport 將彈窗直接傳送至 body，確保絕對是 Full Page 覆蓋 -->
   <Teleport to="body">
-    <div v-if="hasValidImage && isOpen" class="image-overlay" @click="isOpen = false">
-      <div class="image-wrapper" @click.stop>
-        <img :src="resolvedSrc" :alt="alt" class="popup-img" />
-        <!-- <img :src="src" :alt="alt" class="popup-img" /> -->
-        <button class="close-btn" @click="isOpen = false">×</button>
+    <Transition name="overlay-fade">
+      <div v-if="hasValidImage && isOpen" class="image-overlay" @click="isOpen = false">
+        <div class="image-wrapper" @click.stop>
+          <img :src="resolvedSrc" :alt="alt" class="popup-img" />
+          <!-- <img :src="src" :alt="alt" class="popup-img" /> -->
+          <button class="close-btn" @click="isOpen = false">×</button>
+        </div>
       </div>
-    </div>
+    </Transition>
   </Teleport>
 </template>
 
@@ -113,5 +115,35 @@ const handleOpen = () => {
     line-height: 30px;
     font-size: 20px;
   }
+}
+
+/* ===========================
+   動畫樣式 (Transition Animations)
+   ================----------- */
+
+/* 1. 遮罩背景的淡入淡出 (Fade) */
+.overlay-fade-enter-active,
+.overlay-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.overlay-fade-enter-from,
+.overlay-fade-leave-to {
+  opacity: 0;
+}
+
+/* 2. 圖片內容的縮放與淡入 (Scale & Fade) */
+.overlay-fade-enter-active .image-wrapper {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+}
+
+.overlay-fade-leave-active .image-wrapper {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.overlay-fade-enter-from .image-wrapper,
+.overlay-fade-leave-to .image-wrapper {
+  opacity: 0;
+  transform: scale(0.92); /* 彈窗開啟時由稍微縮小放大到 100% */
 }
 </style>
