@@ -88,7 +88,7 @@
       {
         "versionType": "V2",
         "location": "長壽區域 1",
-        "locationImage": "/assets/images/exe2/navi_location/quickman_v2.jpeg",
+        "locationImage": "/images/exe2/navi_location/quickman_v2.jpeg",
         "locationEn": "Koto Area 1",
         "locationJp": "コトブキエリア 1",
         "isRandom": false,
@@ -153,7 +153,7 @@
       {
         "versionType": "V2",
         "location": "雅吉納區域 2",
-        "locationImage": "/assets/images/exe2/navi_location/cutman_v2.jpeg",
+        "locationImage": "/images/exe2/navi_location/cutman_v2.jpeg",
         "locationEn": "Yumland Area 2",
         "locationJp": "アジーナエリア 2",
         "isRandom": false,

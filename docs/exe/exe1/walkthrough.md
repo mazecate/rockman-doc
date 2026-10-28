@@ -263,24 +263,24 @@ outline: [2, 4]
 
 <div class="mb-5">
   <p class="p-mtmb-0">發電廠電腦世界 1</p>
-  <img src="/assets/images/exe1/wt/powerplant1.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant1.jpeg" class="wt-img" />
 </div>
 <div class="mb-5">
   <p class="p-mtmb-0">發電廠電腦世界 2</p>
-  <img src="/assets/images/exe1/wt/powerplant2_1.jpeg" class="wt-img" />
-  <img src="/assets/images/exe1/wt/powerplant2_2.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant2_1.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant2_2.jpeg" class="wt-img" />
 </div>
 <div class="mb-5">
   <p class="p-mtmb-0">發電廠電腦世界 3</p>
-  <img src="/assets/images/exe1/wt/powerplant3_1.jpeg" class="wt-img" />
-  <img src="/assets/images/exe1/wt/powerplant3_2.jpeg" class="wt-img" />
-  <img src="/assets/images/exe1/wt/powerplant3_3.jpeg" class="wt-img" />
-  <img src="/assets/images/exe1/wt/powerplant3_4.jpeg" class="wt-img" />
-  <img src="/assets/images/exe1/wt/powerplant3_5.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant3_1.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant3_2.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant3_3.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant3_4.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant3_5.jpeg" class="wt-img" />
 </div>
 <div class="mb-5">
   <p class="p-mtmb-0">發電廠電腦世界 4</p>
-  <img src="/assets/images/exe1/wt/powerplant4.jpeg" class="wt-img" />
+  <img src="/images/exe1/wt/powerplant4.jpeg" class="wt-img" />
 </div>
 
 9.  **電池配置技巧**：發電廠電腦世界 3 - 4 需要回收前方的電池，重新配置到下一階段的開關才能繼續推進。

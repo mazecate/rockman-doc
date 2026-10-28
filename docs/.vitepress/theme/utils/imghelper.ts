@@ -14,7 +14,7 @@ export const getDataObjectImagePath = (item: PowerUpRoundItemEntry): string | un
   if (!rawPath && item?.location) {
     const cleanLoc = item.location.replace(/[📍\s]/g, '').replace(/\(.*?\)/g, '')
     if (cleanLoc) {
-      rawPath = `/assets/images/exe4/locations/${cleanLoc}.png`
+      rawPath = `/images/exe4/locations/${cleanLoc}.png`
     }
   }
 
