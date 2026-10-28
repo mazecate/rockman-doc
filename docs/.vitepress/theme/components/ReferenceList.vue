@@ -47,7 +47,11 @@ const DATABASE: Record<string, { title: string; url: string }> = {
   prism: {
     title: 'prism',
     url: 'http://prism.s27.xrea.com/exe1/'
-  }
+  },
+  fandom: {
+    title: 'fandom',
+    url: 'https://megaman.fandom.com/wiki/List_of_Mega_Man_Battle_Network_2_Battle_Chips'
+  },
 }
 
 const selectedReferences = computed(() => {
