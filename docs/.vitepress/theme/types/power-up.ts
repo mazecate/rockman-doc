@@ -1,6 +1,6 @@
 export interface PowerUpRoundItemEntry {
     cycle: number;
-    type: 'reg' | 'hp' | 'parts' | 'expand' | 'side' | 'shop';
+    type: 'reg' | 'hp' | 'parts' | 'expand' | 'sub' | 'shop';
     method: string;
     name?: string;
     location: string;
@@ -10,7 +10,7 @@ export interface PowerUpRoundItemEntry {
 }
 
 export interface PowerUpItem {
-    type: string       // 'hp' | '子彈強化' | 'reg' | 'sub' | 'expand' | 'armor' 等
+    type: string       // 'hp' | 'buster' | 'reg' | 'sub' | 'expand' | 'armor' 等
     name: string       // 道具名稱
     method: string     // 入手方法 / 購買說明
     location: string   // 地點

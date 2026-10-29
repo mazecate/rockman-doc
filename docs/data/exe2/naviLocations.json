@@ -241,7 +241,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "亞美羅帕的寶石店",
+        "location": "亞美羅帕的珠寶店",
         "locationEn": "Jewelry Shop",
         "locationJp": "ほうせきてん",
         "isRandom": false,
@@ -249,7 +249,7 @@
       },
       {
         "versionType": "V2",
-        "location": "亞美羅帕的寶石店",
+        "location": "亞美羅帕的珠寶店",
         "locationEn": "Jewelry Shop",
         "locationJp": "ほうせきてん",
         "isRandom": false,
@@ -257,7 +257,7 @@
       },
       {
         "versionType": "V3",
-        "location": "亞美羅帕的寶石店",
+        "location": "亞美羅帕的珠寶店",
         "locationEn": "Jewelry Shop",
         "locationJp": "ほうせきてん",
         "isRandom": false,
@@ -273,9 +273,9 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "Castle Comp 4",
-        "locationJp": "おしろの電脳 4",
+        "location": "混惑之間",
+        "locationEn": "Confusion Room",
+        "locationJp": "とまどいの間",
         "isRandom": false,
         "note": ""
       },
@@ -305,7 +305,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
+        "location": "城堡的電腦 5",
         "locationEn": "Castle Comp 5",
         "locationJp": "おしろの電脳 5",
         "isRandom": false,

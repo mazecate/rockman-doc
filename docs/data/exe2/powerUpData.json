@@ -21,6 +21,8 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "任務獎勵", "location": "委託任務 - 特別任務 3", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "母體電腦 1", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "與冰箱對話", "location": "飯店房間冰箱", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "亞美羅帕區域3", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 1", "locationImage": "" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
@@ -36,8 +38,12 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "母體電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "母體電腦 5", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "與垃圾桶對話", "location": "亞美羅帕後巷的垃圾桶", "value": 2, "locationImage": "" },
+	{ "type": "hp", "name": "常規強化", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "value": 1, "locationImage": "" },
 	
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（紫色）", "location": "電算區域 3", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 4", "locationImage": "" },
-	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "公職中心研究室的實驗袍", "locationImage": "" }
+	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "公職中心研究室的實驗袍", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "城堡的電腦 4", "locationImage": "" },
+	
+	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "locationImage": "" }
 ]

@@ -29,6 +29,12 @@
       "location": "亞美羅帕廣場紫色領航員",
       "give": ["破碎鎚  Z"],
       "receive": ["白銀鐵拳 V"]
+    },
+    {
+      "chapter": "第六章",
+      "location": "亞美羅帕鎮的後巷",
+      "give": ["地底下 D"],
+      "receive": ["熱風 P"]
     }
   ]
 }

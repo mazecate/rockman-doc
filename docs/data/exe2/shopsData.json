@@ -154,5 +154,17 @@
 			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
 			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 }
 		]
+	},
+	{
+		"shopName": "亞美羅帕地",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"type": "副晶片",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "敵方搜索", "nameEn": "", "nameJp": "オープンロック", "price": 10000, "quantity": 1 }
+		]
 	}
 ]

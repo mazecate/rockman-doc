@@ -16,7 +16,7 @@ const categoryNames: Record<string, string> = {
   hp: 'HP記憶體',
   parts: '程式部件',
   expand: '擴張記憶體',
-  side: '副記憶體',
+  sub: '副記憶體',
   shop: '商店'
 };
 
@@ -372,7 +372,7 @@ tr:last-child td {
   border: 1px solid rgba(168, 85, 247, 0.3) !important;
 }
 
-.tag-side {
+.tag-sub {
   border: 1px solid rgba(236, 72, 153, 0.3) !important;
   background: rgba(236, 72, 153, 0.15) ;
   color: #db2777;

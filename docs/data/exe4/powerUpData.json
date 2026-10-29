@@ -77,10 +77,10 @@
     { "cycle": 1, "type": "expand", "method": "神秘數據（藍色）", "location": "英雄像的電腦", "locationImage": ""  },
     { "cycle": 1, "type": "expand", "method": "神秘數據（藍色）", "location": "裏網絡 2", "locationImage": ""  },
   
-    { "cycle": 1, "type": "side", "method": "神秘數據（藍色）", "location": "售票機的電腦", "locationImage": ""  },
-    { "cycle": 1, "type": "side", "method": "神秘數據（藍色）", "location": "努波波像的電腦", "locationImage": ""  },
-    { "cycle": 2, "type": "side", "method": "神秘數據（藍色）", "location": "天空之城NB機器電腦", "locationImage": ""  },
-    { "cycle": 3, "type": "side", "method": "神秘數據（藍色）", "location": "夏羅區域", "locationImage": ""  },
+    { "cycle": 1, "type": "sub", "method": "神秘數據（藍色）", "location": "售票機的電腦", "locationImage": ""  },
+    { "cycle": 1, "type": "sub", "method": "神秘數據（藍色）", "location": "努波波像的電腦", "locationImage": ""  },
+    { "cycle": 2, "type": "sub", "method": "神秘數據（藍色）", "location": "天空之城NB機器電腦", "locationImage": ""  },
+    { "cycle": 3, "type": "sub", "method": "神秘數據（藍色）", "location": "夏羅區域", "locationImage": ""  },
   
     { "cycle": 0, "type": "shop", "method": "商店購入", "location": "秋原區域 2", "price": "1,000Z" },
     { "cycle": 0, "type": "shop", "method": "商店購入", "location": "秋原區域 2", "price": "3,200Z" },
