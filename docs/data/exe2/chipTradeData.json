@@ -35,6 +35,18 @@
       "location": "亞美羅帕鎮的後巷",
       "give": ["地底下 D"],
       "receive": ["熱風 P"]
+    },
+    {
+      "chapter": "第七章",
+      "location": "亞美羅帕鎮",
+      "give": ["白銀鐵拳 V"],
+      "receive": ["大型炸彈 *"]
+    },
+    {
+      "chapter": "第七章",
+      "location": "亞美羅帕鎮",
+      "give": ["水之靈 A", "焰之靈 R", "木之靈 S", "電之靈 L"],
+      "receive": ["緊身衣 N"]
     }
   ]
 }

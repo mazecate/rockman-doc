@@ -99,6 +99,76 @@
           "reward": "加農砲 *"
         }
       ]
+    },
+    {
+      "chapter": "第六章",
+      "missions": [
+        {
+          "title": "找觀察力敏銳的人",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "請賣晶片給我",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "幫助和解",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "維持治安的委託",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        }
+      ]
+    },
+    {
+      "chapter": "第七章",
+      "missions": [
+        {
+          "title": "協助研究",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "請幫我",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "請借我錢",
+          "trigger_location": "",
+          "content": "",
+          "reward": ""
+        },
+        {
+          "title": "晚宴之間的「猜迷大師」",
+          "trigger_location": "亞美羅帕城堡的晚宴之間",
+          "content": "",
+          "answers": [
+            "1. 電算新聞網",
+            "2. 鼠頓",
+            "3. 超級爆破",
+            "4. 地藏王菩薩",
+            "5. 雅伊朵家",
+            "6. 感冒",
+            "7. 其實一樣",
+            "8. 蜜莉歐妮雅",
+            "9. 檜木",
+            "10. 泰迪熊"            
+          ],
+          "reward": ["閘門鑰匙 C", "HP記憶體"]
+        }
+      ]
     }
   ]
 }

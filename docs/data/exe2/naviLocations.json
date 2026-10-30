@@ -281,9 +281,9 @@
       },
       {
         "versionType": "V2",
-        "location": "亞美羅帕城堡",
-        "locationEn": "Netopia Park",
-        "locationJp": "アメロッパ城",
+        "location": "亞美羅帕機場入口",
+        "locationEn": "Amerope Airport Entrance - Departure Lobby",
+        "locationJp": "アメロッパくうこう入口アメロッパくうこう入口・出発ロビー",
         "isRandom": false,
         "note": ""
       },
@@ -324,6 +324,70 @@
         "location": "亞美羅帕區域 1",
         "locationEn": "Netopia Area 1",
         "locationJp": "アメロッパエリア 1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "磁鐵人",
+    "nameEn": "MagnetMan",
+    "nameJp": "マグネットマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "飛機的電腦 2",
+        "locationEn": "Airplane Comp 2",
+        "locationJp": "ひこうきの電脳 2",
+        "isRandom": false,
+        "note": "第6章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "高熱人",
+    "nameEn": "HeatMan",
+    "nameJp": "ヒートマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "前往亞美羅帕的出境樓層",
+        "locationEn": "Departure Lobby",
+        "locationJp": "空港入口 - 出境側",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "前往亞美羅帕的出境樓層",
+        "locationEn": "Departure Lobby",
+        "locationJp": "空港入口 - 出境側",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "前往亞美羅帕的出境樓層",
+        "locationEn": "Departure Lobby",
+        "locationJp": "空港入口 - 出境側",
         "isRandom": true,
         "note": ""
       }
