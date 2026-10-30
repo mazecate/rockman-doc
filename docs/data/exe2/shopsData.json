@@ -116,9 +116,9 @@
 		]
 	},
 	{
-		"shopName": "裏長壽區域 1",
-		"locationEn": "UnderSquare",
-		"locationJp": "ウラスクエア",
+		"shopName": "裏長壽區域",
+		"locationEn": "",
+		"locationJp": "",
 		"currency": "Zenny",
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1, "version": "" },
