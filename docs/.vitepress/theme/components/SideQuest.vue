@@ -10,12 +10,12 @@ const props = defineProps<{
 const searchQuery = ref('')
 const selectedChapter = ref('')
 
-// 將原本巢狀結構（side_missions 裡的 group.missions）攤平成一維的任務清單，並自動附加 chapter 屬性
+// 將原本巢狀結構攤平，reward 支援 string 或 string[]
 const allMissions = computed(() => {
   if (!props.questData || !props.questData.side_missions) return []
-  
-  const list: Array<{ chapter: string; title: string; trigger_location: string; content: string; answers?: string[]; reward: string }> = []
-  
+
+  const list: Array<{ chapter: string; title: string; trigger_location: string; content: string; answers?: string[]; reward: string | string[] }> = []
+
   props.questData.side_missions.forEach(group => {
     group.missions.forEach(mission => {
       list.push({
@@ -24,23 +24,21 @@ const allMissions = computed(() => {
       })
     })
   })
-  
+
   return list
 })
 
-// 從資料中自動提取所有不重複的章節列表，用作下拉選單選項
+// 從資料中自動提取所有不重複的章節列表
 const availableChapters = computed(() => {
   const chapters = allMissions.value.map(item => item.chapter)
   return Array.from(new Set(chapters))
 })
 
-// 綜合過濾（同時支援關鍵字搜尋與章節下拉選單）
+// 綜合過濾
 const filteredMissions = computed(() => {
   return allMissions.value.filter(item => {
-    // 1. 章節篩選邏輯
     const matchChapterSelect = !selectedChapter.value || item.chapter === selectedChapter.value
-    
-    // 2. 關鍵字搜尋邏輯（支援章節、標題、地點、內容、獎勵）
+
     let matchQuery = true
     if (searchQuery.value.trim()) {
       const query = searchQuery.value.toLowerCase().trim()
@@ -48,12 +46,20 @@ const filteredMissions = computed(() => {
       const matchTitle = item.title.toLowerCase().includes(query)
       const matchLocation = item.trigger_location.toLowerCase().includes(query)
       const matchContent = item.content.toLowerCase().includes(query)
-      const matchReward = item.reward.toLowerCase().includes(query)
+
+      // 處理 reward 可能是字串或陣列的搜尋比對
+      let matchReward = false
+      if (Array.isArray(item.reward)) {
+        matchReward = item.reward.some(r => r.toLowerCase().includes(query))
+      } else {
+        matchReward = item.reward.toLowerCase().includes(query)
+      }
+
       const matchAnswers = item.answers ? item.answers.some(ans => ans.toLowerCase().includes(query)) : false
-      
+
       matchQuery = matchChapter || matchTitle || matchLocation || matchContent || matchReward || matchAnswers
     }
-    
+
     return matchChapterSelect && matchQuery
   })
 })
@@ -63,26 +69,14 @@ const filteredMissions = computed(() => {
   <div class="quest-checklist" v-if="questData && questData.side_missions">
     <!-- 篩選與搜尋控制列 -->
     <div class="filter-bar">
-      <!-- 搜尋框區域 -->
       <div class="search-input-container">
         <span class="search-icon" aria-hidden="true">🔍</span>
-        <input 
-          type="text" 
-          v-model="searchQuery" 
-          placeholder="搜尋任務標題、地點、內容或獎勵..." 
-          class="search-input"
-        />
-        <button 
-          v-if="searchQuery" 
-          @click="searchQuery = ''" 
-          class="clear-btn" 
-          title="清除搜尋"
-        >
+        <input type="text" v-model="searchQuery" placeholder="搜尋任務標題、地點、內容或獎勵..." class="search-input" />
+        <button v-if="searchQuery" @click="searchQuery = ''" class="clear-btn" title="清除搜尋">
           ✕
         </button>
       </div>
 
-      <!-- 章節下拉選單 -->
       <div class="select-wrapper">
         <select v-model="selectedChapter" class="chapter-select">
           <option value="">全部章節</option>
@@ -93,19 +87,13 @@ const filteredMissions = computed(() => {
       </div>
     </div>
 
-    <!-- 結果計數提示 -->
     <div class="search-count" v-if="searchQuery || selectedChapter">
       找到 {{ filteredMissions.length }} 筆符合的支線任務
     </div>
 
     <!-- 任務卡片網格 -->
     <div class="quest-grid" v-if="filteredMissions.length > 0">
-      <div 
-        v-for="(quest, idx) in filteredMissions" 
-        :key="idx" 
-        class="quest-card"
-      >
-        <!-- 頂部標頭：章節 Badge + 任務標題 -->
+      <div v-for="(quest, idx) in filteredMissions" :key="idx" class="quest-card">
         <div class="quest-header">
           <span class="chapter-badge">{{ quest.chapter }}</span>
           <h4 class="quest-name">{{ quest.title }}</h4>
@@ -125,21 +113,30 @@ const filteredMissions = computed(() => {
           <div v-if="quest.answers && quest.answers.length > 0" class="quiz-box">
             <div class="quiz-title">💡 任務/問答全解：</div>
             <ul class="quiz-ans">
-              <li v-for="(ans, idx) in quest.answers" :key="idx">
+              <li v-for="(ans, aIdx) in quest.answers" :key="aIdx">
                 <code class="quiz-item-code">{{ ans }}</code>
               </li>
             </ul>
           </div>
 
+          <!-- 獎勵區塊：支援單一字串或陣列渲染 -->
           <div class="detail-row reward-row">
             <span class="detail-label reward-label">🎁 獎勵</span>
-            <code class="reward-code">{{ quest.reward }}</code>
+            <div class="reward-container">
+              <template v-if="Array.isArray(quest.reward)">
+                <code v-for="(rew, rIdx) in quest.reward" :key="rIdx" class="reward-code">
+                  {{ rew }}
+                </code>
+              </template>
+              <template v-else>
+                <code class="reward-code">{{ quest.reward }}</code>
+              </template>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 查無結果提示 -->
     <div class="no-result" v-else>
       <p>沒有找到符合條件的支線任務 🥲</p>
     </div>
@@ -147,12 +144,19 @@ const filteredMissions = computed(() => {
 </template>
 
 <style scoped>
+/* 樣式部分新增 reward-container 讓多個獎勵能整齊排列 */
+.reward-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* 其餘原本的樣式保持不變 */
 .quest-checklist {
   margin: 1.5rem 0;
   font-family: var(--vp-font-family-base);
 }
 
-/* 控制列排版 */
 .filter-bar {
   display: flex;
   gap: 12px;
@@ -225,7 +229,6 @@ const filteredMissions = computed(() => {
   color: var(--vp-c-text-1);
   outline: none;
   cursor: pointer;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .search-count {
@@ -259,7 +262,7 @@ const filteredMissions = computed(() => {
   border-radius: 8px;
   background-color: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-divider);
-  transition: border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 .quest-card:hover {
@@ -275,7 +278,6 @@ const filteredMissions = computed(() => {
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
-/* 章節 Badge 樣式 (對齊 ChipTradeTable) */
 .chapter-badge {
   font-size: 0.8rem;
   font-weight: 700;
@@ -380,19 +382,5 @@ const filteredMissions = computed(() => {
   color: var(--vp-c-brand-1);
   font-family: var(--vp-font-family-mono);
   font-weight: 600;
-}
-
-@media (max-width: 640px) {
-  .filter-bar {
-    flex-direction: column;
-  }
-  .quiz-ans {
-    grid-template-columns: 1fr;
-  }
-  .quest-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
 }
 </style>

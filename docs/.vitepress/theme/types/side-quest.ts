@@ -3,7 +3,7 @@ export interface MissionItem {
   trigger_location: string;
   content: string;
   answers?: string[];
-  reward: string;
+  reward: string | string[];
 }
 
 export interface ChapterGroup {
