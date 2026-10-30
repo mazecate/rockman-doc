@@ -45,6 +45,22 @@
 		]
 	},
 	{
+		"shopName": "長壽廣場 2",
+		"locationEn": "",
+		"locationJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
+			{ "name": "地面竊取 *", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3 },
+			{ "name": "火+40 *", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 3 },
+			{ "name": "烈焰刃 R", "nameEn": "", "nameJp": "", "price": 3800, "quantity": 3 },
+			{ "name": "水斬劍 N", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3 }
+		]
+	},
+	{
 		"shopName": "雅吉納區域 1",
 		"locationEn": "Yumland Area 2",
 		"locationJp": "アジーナエリア 2",
@@ -142,10 +158,37 @@
 			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "", "price": 7500, "quantity": 1 }
 		]
 	},
+  {
+    "shopName": "長壽廣場2 (Bug碎片商店)",
+    "shopNameEn": "",
+    "shopNameJp": "",
+    "currency": "bugFrag",
+    "type": "Bug碎片",
+    "items": [
+      { "name": "十字槍 *", "nameEn": "", "nameJp": "", "price": "1 個", "quantity": 1 },
+      { "name": "散射槍 M", "nameEn": "", "nameJp": "", "price": "1 個", "quantity": 1 },
+      { "name": "回復80 *", "nameEn": "", "nameJp": "", "price": "2 個", "quantity": 1 },
+      { "name": "飛行鞋 A", "nameEn": "", "nameJp": "", "price": "4 個", "quantity": 1 },
+      { "name": "攻擊+30", "nameEn": "", "nameJp": "", "price": "8 個", "quantity": 1 },
+      { "name": "宙斯之鎚 Z", "nameEn": "", "nameJp": "", "price": "16 個", "quantity": 1 }
+    ]
+  },
 	{
 		"shopName": "公職廣場 (副晶片)",
 		"shopNameEn": "Official Square",
 		"shopNameJp": "オフィシャルスクエア",
+		"currency": "Zenny",
+		"type": "副晶片",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "長壽廣場2 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
 		"currency": "Zenny",
 		"type": "副晶片",
 		"items": [
