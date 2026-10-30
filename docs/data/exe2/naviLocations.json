@@ -377,7 +377,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "前往亞美羅帕的出境樓層",
+        "location": "出境樓層",
         "locationEn": "Departure Lobby",
         "locationJp": "空港入口 - 出境側",
         "isRandom": false,
@@ -385,7 +385,7 @@
       },
       {
         "versionType": "V2",
-        "location": "前往亞美羅帕的出境樓層",
+        "location": "出境樓層",
         "locationEn": "Departure Lobby",
         "locationJp": "空港入口 - 出境側",
         "isRandom": false,
@@ -393,7 +393,7 @@
       },
       {
         "versionType": "V3",
-        "location": "前往亞美羅帕的出境樓層",
+        "location": "出境樓層",
         "locationEn": "Departure Lobby",
         "locationJp": "空港入口 - 出境側",
         "isRandom": true,

@@ -23,6 +23,13 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "與冰箱對話", "location": "飯店房間冰箱", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "亞美羅帕區域3", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 1", "locationImage": "" },
+
+	{ "type": "hp", "name": "HP記憶體", "method": "與窗簾對話", "location": "飛機上機組人員的房間的窗簾", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "擊敗高熱人", "location": "出境樓層的火野健一", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "與猜迷大師對話", "location": "亞美羅帕的晚宴之間", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "美露家鋼琴的電腦", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 2", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 4", "locationImage": "" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
@@ -39,6 +46,11 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "母體電腦 5", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "與垃圾桶對話", "location": "亞美羅帕後巷的垃圾桶", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "value": 1, "locationImage": "" },
+
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "美露家鋼琴的電腦", "value": 1, "locationImage": "" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "飛機的電腦 1", "value": 1, "locationImage": "" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "飛機的電腦 4", "value": 2, "locationImage": "" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "出境樓層免稅店的明信片架", "value": 2, "locationImage": "" },
 	
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（紫色）", "location": "電算區域 3", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 4", "locationImage": "" },
