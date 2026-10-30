@@ -76,6 +76,14 @@
         "locationJp": "アメロッパくうこう入口アメロッパくうこう入口・出発ロビー",
         "isRandom": false,
         "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "海軍港",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
       }
     ]
   },
@@ -332,7 +340,7 @@
         "location": "亞美羅帕區域 1",
         "locationEn": "Netopia Area 1",
         "locationJp": "アメロッパエリア 1",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       }
     ]
@@ -370,38 +378,6 @@
     ]
   },
   {
-    "name": "結凍人",
-    "nameEn": "FreezeMan",
-    "nameJp": "フリーズマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": "第七章頭目"
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      }
-    ]
-  },
-  {
     "name": "高熱人",
     "nameEn": "HeatMan",
     "nameJp": "ヒートマン",
@@ -428,6 +404,38 @@
         "location": "出境樓層",
         "locationEn": "Departure Lobby",
         "locationJp": "空港入口 - 出境側",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "結凍人",
+    "nameEn": "FreezeMan",
+    "nameJp": "フリーズマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "戈斯巴魯會總部",
+        "locationEn": "Gospel HQ",
+        "locationJp": "ゴスペル本部",
+        "isRandom": false,
+        "note": "第七章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "裏網絡 7",
+        "locationEn": "Undernet 7",
+        "locationJp": "ウラインターネット 7",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "裏網絡 7",
+        "locationEn": "Undernet 7",
+        "locationJp": "ウラインターネット 7",
         "isRandom": true,
         "note": ""
       }
@@ -541,7 +549,7 @@
         "locationEn": "WWW Area 1",
         "locationJp": "WWWエリア 1",
         "isRandom": false,
-        "note": "擊敗WWW區域的3個領航員再回到WWW區域1"
+        "note": "擊敗WWW區域3個領航員再回到入口"
       },
       {
         "versionType": "SP",

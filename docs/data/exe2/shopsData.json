@@ -7,10 +7,10 @@
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 1000, "quantity": 1, "version": "" },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
-			{ "name": "散彈槍 B", "nameEn": "", "nameJp": "", "price": 200, "quantity": 1 },
-			{ "name": "小型炸彈 J", "nameEn": "", "nameJp": "", "price": 500, "quantity": 1 },
-			{ "name": "回復10 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 1 },
-			{ "name": "散射槍 Q", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 }
+			{ "name": "散彈槍 B", "nameEn": "", "nameJp": "", "price": 200, "quantity": 3 },
+			{ "name": "小型炸彈 J", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3 },
+			{ "name": "回復10 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3 },
+			{ "name": "散射槍 Q", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3 }
 		]
 	},
 	{
@@ -23,10 +23,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
 			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 },
-			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 600, "quantity": 1 },
-			{ "name": "散射槍 O", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
-			{ "name": "回復30 B", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
-			{ "name": "區域竊取 E", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 }
+			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 600, "quantity": 3 },
+			{ "name": "散射槍 O", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3 },
+			{ "name": "回復30 B", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3 },
+			{ "name": "區域竊取 E", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3 }
 		]
 	},
 	{
@@ -38,10 +38,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
-			{ "name": "十字槍 J", "nameEn": "", "nameJp": "", "price": 600, "quantity": 1 },
-			{ "name": "寛劍 L", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
-			{ "name": "回復30 H", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 1 },
-			{ "name": "防護罩 B", "nameEn": "", "nameJp": "", "price": 1200, "quantity": 1 }
+			{ "name": "十字槍 J", "nameEn": "", "nameJp": "", "price": 600, "quantity": 3 },
+			{ "name": "寛劍 L", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3 },
+			{ "name": "回復30 H", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3 },
+			{ "name": "防護罩 B", "nameEn": "", "nameJp": "", "price": 1200, "quantity": 3 }
 		]
 	},
 	{
@@ -50,10 +50,10 @@
 		"locationJp": "アジーナエリア 2",
 		"currency": "Zenny",
 		"items": [
-			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 1 },
-			{ "name": "寒冰拳 B", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
-			{ "name": "散射槍 N", "nameEn": "", "nameJp": "", "price": 800, "quantity": 1 },
-			{ "name": "抓取機器 T", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 }
+			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3 },
+			{ "name": "寒冰拳 B", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3 },
+			{ "name": "散射槍 N", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3 },
+			{ "name": "抓取機器 T", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3 }
 		]
 	},
 	{
@@ -62,10 +62,10 @@
 		"locationJp": "",
 		"currency": "Zenny",
 		"items": [
-			{ "name": "突風 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 },
-			{ "name": "抽風機 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 },
-			{ "name": "防護罩 *", "nameEn": "", "nameJp": "", "price": 4000, "quantity": 1 },
-			{ "name": "兔環1 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 }
+			{ "name": "突風 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3 },
+			{ "name": "抽風機 *", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3 },
+			{ "name": "防護罩 *", "nameEn": "", "nameJp": "", "price": 4000, "quantity": 3 },
+			{ "name": "兔環1 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3 }
 		]
 	},
 	{
@@ -78,10 +78,57 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 16000, "quantity": 1 },
 			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
-			{ "name": "地面復原 *", "nameEn": "", "nameJp": "", "price": 2400, "quantity": 1 },
-			{ "name": "寛劍 *", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 1 },
-			{ "name": "破碎鎚 U", "nameEn": "", "nameJp": "", "price": 4800, "quantity": 1 },
-			{ "name": "嫉妒 J", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 }
+			{ "name": "地面復原 *", "nameEn": "", "nameJp": "", "price": 2400, "quantity": 3 },
+			{ "name": "寛劍 *", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 3 },
+			{ "name": "破碎鎚 U", "nameEn": "", "nameJp": "", "price": 4800, "quantity": 3 },
+			{ "name": "嫉妒 J", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 3 }
+		]
+	},
+	{
+		"shopName": "裏網路 1",
+		"locationEn": "Undernet 1",
+		"locationJp": "ウラインターネット 1",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 10000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+			{ "name": "量表全滿 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3 },
+			{ "name": "攻擊+20 *", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 },
+			{ "name": "電氣刃 R", "nameEn": "", "nameJp": "", "price": 9000, "quantity": 3 },
+			{ "name": "偷竊懲罰 W", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 3 }
+		]
+	},
+	{
+		"shopName": "裏廣場",
+		"locationEn": "UnderSquare",
+		"locationJp": "ウラスクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 16000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 1 },
+			{ "name": "磁力線 Q", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 },
+			{ "name": "岩漿線 A", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 },
+			{ "name": "冰線 E", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 },
+			{ "name": "草原線 R", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 }
+		]
+	},
+	{
+		"shopName": "裏長壽區域 1",
+		"locationEn": "UnderSquare",
+		"locationJp": "ウラスクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 15000, "quantity": 1, "version": "" },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 30000, "quantity": 1 },
+			{ "name": "子彈強化", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 1 },
+			{ "name": "快速量表 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3 },
+			{ "name": "緩慢量表 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3 },
+			{ "name": "水刃 R", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 3 },
+			{ "name": "他人意志 D", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 3 }
 		]
 	},
 	{
@@ -165,6 +212,18 @@
 			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
 			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
 			{ "name": "敵方搜索", "nameEn": "", "nameJp": "オープンロック", "price": 10000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "裏廣場 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"type": "副晶片",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 50, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 400, "quantity": 1 },
+			{ "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 }
 		]
 	}
 ]
