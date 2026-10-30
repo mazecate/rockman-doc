@@ -30,6 +30,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "美露家鋼琴的電腦", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 2", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 4", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 2", "locationImage": "" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
