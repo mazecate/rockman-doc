@@ -68,6 +68,14 @@
         "locationJp": "",
         "isRandom": false,
         "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "亞美羅帕機場入口 (出境大廳)",
+        "locationEn": "Amerope Airport Entrance - Departure Lobby",
+        "locationJp": "アメロッパくうこう入口アメロッパくうこう入口・出発ロビー",
+        "isRandom": false,
+        "note": ""
       }
     ]
   },
@@ -324,7 +332,7 @@
         "location": "亞美羅帕區域 1",
         "locationEn": "Netopia Area 1",
         "locationJp": "アメロッパエリア 1",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       }
     ]
@@ -345,17 +353,17 @@
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "裏網絡 2",
+        "locationEn": "Undernet 2",
+        "locationJp": "ウラインターネット 2",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "裏網絡 2",
+        "locationEn": "Undernet 2",
+        "locationJp": "ウラインターネット 2",
         "isRandom": true,
         "note": ""
       }
