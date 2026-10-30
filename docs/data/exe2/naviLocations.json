@@ -370,6 +370,38 @@
     ]
   },
   {
+    "name": "結凍人",
+    "nameEn": "FreezeMan",
+    "nameJp": "フリーズマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": "第七章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "高熱人",
     "nameEn": "HeatMan",
     "nameJp": "ヒートマン",
@@ -396,6 +428,126 @@
         "location": "出境樓層",
         "locationEn": "Departure Lobby",
         "locationJp": "空港入口 - 出境側",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "法老王人",
+    "nameEn": "PharaohMan",
+    "nameJp": "ファラオマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "WWW區域 1",
+        "locationEn": "WWW Area 1",
+        "locationJp": "WWWエリア 1",
+        "isRandom": false,
+        "note": "等級70級以上和持有S執照"
+      },
+      {
+        "versionType": "V2",
+        "location": "WWW區域 1",
+        "locationEn": "WWW Area 1",
+        "locationJp": "WWWエリア 1",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW區域 1",
+        "locationEn": "WWW Area 1",
+        "locationJp": "WWWエリア 1",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "燒夷彈人",
+    "nameEn": "NapalmMan",
+    "nameJp": "ナパームマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "WWW區域 2",
+        "locationEn": "WWW Area 2",
+        "locationJp": "WWWエリア 2",
+        "isRandom": false,
+        "note": "持有SS執照"
+      },
+      {
+        "versionType": "V2",
+        "location": "WWW區域 2",
+        "locationEn": "WWW Area 2",
+        "locationJp": "WWWエリア 2",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW區域 2",
+        "locationEn": "WWW Area 2",
+        "locationJp": "WWWエリア 2",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "行星人",
+    "nameEn": "PlanetMan",
+    "nameJp": "プラネットマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "WWW區域 3",
+        "locationEn": "WWW Area 3",
+        "locationJp": "WWWエリア 3",
+        "isRandom": false,
+        "note": "持有SSS執照"
+      },
+      {
+        "versionType": "V2",
+        "location": "WWW區域 3",
+        "locationEn": "WWW Area 3",
+        "locationJp": "WWWエリア 3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "WWW區域 3",
+        "locationEn": "WWW Area 3",
+        "locationJp": "WWWエリア 3",
+        "isRandom": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "真·佛魯迪",
+    "nameEn": "Forte (Bass)",
+    "nameJp": "フォルテ",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "WWW區域 1",
+        "locationEn": "WWW Area 1",
+        "locationJp": "WWWエリア 1",
+        "isRandom": false,
+        "note": "擊敗WWW區域的3個領航員再回到WWW區域1"
+      },
+      {
+        "versionType": "SP",
+        "location": "WWW區域 3",
+        "locationEn": "WWW Area 3",
+        "locationJp": "WWWエリア 3",
         "isRandom": true,
         "note": ""
       }
