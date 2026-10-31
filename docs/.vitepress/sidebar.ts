@@ -28,6 +28,7 @@ function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): Side
 function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarItem[] {
   const {
     walkthrough = true,
+    underworld = true,
     trader = true,
     navi = true,
     pa = true,
@@ -41,7 +42,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
 
   const items: SidebarItem[] = [];
 
-  if (walkthrough) items.push({ text: '流程攻略', link: `${folderPath}/walkthrough` });
+  if (walkthrough) items.push({ text: '表關攻略', link: `${folderPath}/walkthrough` });
+  if (underworld) items.push({ text: '裏關要素', link: `${folderPath}/underworld` });
 
   // === 晶片圖鑑 Submenu 邏輯 ===
   if (chips) {

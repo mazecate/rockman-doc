@@ -7,7 +7,8 @@ export interface ChipsSubmenuConfig {
 }
 
 export interface MenuConfig {
-	walkthrough?: boolean; // 流程攻略
+	walkthrough?: boolean; // 流程攻略(表關)
+	underworld?: boolean; // 裏關
   trader?: boolean; // 數字交易機 / 號碼交易機
   navi?: boolean; // 機兵位置
   pa?: boolean; // 程式進化
