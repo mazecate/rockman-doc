@@ -148,6 +148,21 @@
 		]
 	},
 	{
+		"shopName": "WWW區域1",
+		"locationEn": "WWW Area 1",
+		"locationJp": "WWWエリア1",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "三差戟 E", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "龍捲風 E", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "隱形地雷 S", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "前方偵測 R", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "雙向偵測 E", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "泡沫包覆 R", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 3 },
+			{ "name": "神石 Q", "nameEn": "", "nameJp": "", "price": 50000, "quantity": 3 }
+		]
+	},
+	{
 		"shopName": "亞美羅帕區域 2 (數字人)",
 		"locationEn": "",
 		"locationJp": "",
