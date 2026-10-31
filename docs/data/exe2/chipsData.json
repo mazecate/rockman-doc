@@ -3329,7 +3329,7 @@
     },
     {
       "no": "257",
-      "nameZh": "",
+      "nameZh": "騎士劍",
       "nameJp": "ナイトソード",
       "nameEn": "KngtSwrd",
       "element": "無",
@@ -3338,7 +3338,7 @@
       "memory": "64 MB",
       "drops": [],
       "rarity": 5,
-      "description": ""
+      "description": "無屬性專用晶片，能延伸到3格前的傳說之劍！"
     },
     {
       "no": "258",
