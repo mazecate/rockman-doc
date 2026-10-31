@@ -4,7 +4,7 @@ aside: true
 outline: [2]
 ---
 
-<h1 id="asset-handling" tabindex="-1">EXE 2 裏關要素</h1>
+# EXE 2 裏關要素
 
 ## 裏網路 -> WWW 區域
 
