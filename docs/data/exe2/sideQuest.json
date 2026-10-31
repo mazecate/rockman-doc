@@ -5,15 +5,15 @@
       "missions": [
         {
           "title": "尋人",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "秋原小學5A教室",
+          "content": "前往秋原小學5A教室與委託人對話接取任務。接著前往海軍港左側找到小女孩並告知她的姐姐在找她，最後返回5A教室向委託人回報。",
+          "reward": "常規強化 1"
         },
         {
           "title": "在咖啡廳等待",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "海景咖啡廳",
+          "content": "前往海軍港的海景咖啡廳與委託人對話，去電算區域2擊敗在公職廣場入口附近的紫色領航員，之後返回海景咖啡廳向委託人回報。",
+          "reward": "HP記憶體"
         }
       ]
     },
@@ -34,7 +34,7 @@
         {
           "title": "特別任務 2",
           "trigger_location": "長壽廣場",
-          "content": "連線進入公職中心的咖啡機，擊敗散播病毒的壞領航員，奪回對我很重要的神秘程式。",
+          "content": "連線進入公職中心的咖啡機，擊敗散播病毒的壞領航員，奪回很重要的神秘程式。",
           "reward": "No.121 回復30 *"
         },
         {
@@ -42,7 +42,7 @@
           "trigger_location": "奧電谷露營地",
           "content": "我不擅長使用網路，兒子的程式似乎遺失在電算區域，請幫忙前往搜尋，找到程式後再回來通知我！",
           "answers": [
-            "1. 電算區域 3下層"
+            "電算區域 3 下層"
           ],
           "reward": "HP記憶體"
         }
@@ -53,21 +53,21 @@
       "missions": [
         {
           "title": "請給我晶片",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "公職中心大廳",
+          "content": "在公職中心大廳與委託人(紫色衣服)對話，使用「烈焰劍 F」和她交換晶片。",
+          "reward": "居合架式 L"
         },
         {
           "title": "預付報酬",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "雅吉納區域1指示牌前的紫色領航員",
+          "content": "會先給你報酬，之後會觸發病毒戰，擊敗他就完成任務。",
+          "reward": "閘門鑰匙B"
         },
         {
           "title": "化身愛神邱比特",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "奧電谷露營地入口",
+          "content": "在奧電谷露營地入口與老爺爺對話後接收情書，把「情書」交給在海軍港的花圃的老婆婆，接著帶回「從朋友開始」回報給委托人。",
+          "reward": "10000 Zenny"
         }
       ]
     },
@@ -76,15 +76,10 @@
       "missions": [
         {
           "title": "為了男人的尊嚴",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
-        }
-      ]
-    },
-    {
-      "chapter": "第五章",
-      "missions": [
+          "trigger_location": "公職中心入口",
+          "content": "跟公職中心入口的紅色領航員對話，前往奧電谷露營地道路2，登入至地藏像的電腦找綠色領航員對話，再回到跟委託人對話，他要求給「衛星1 G」給他便完成任務。",
+          "reward": "常規強化 2"
+        },
         {
           "title": "機場的出境樓層男孩 5 連問",
           "trigger_location": "機場的出境樓層的男孩",
@@ -105,27 +100,27 @@
       "missions": [
         {
           "title": "找觀察力敏銳的人",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "秋原町公園",
+          "content": "跟秋原町公園的松鼠前面的大叔對話，對話後前要求尋找相中的人，前往奧電水壩與這個人對話後，再回報給委託人。",
+          "reward": "秋風落葉 Y"
         },
         {
           "title": "請賣晶片給我",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "電算機場",
+          "content": "前往電算機場跟外國男對話，給他「抓取機器 N」以保護他的安全。",
+          "reward": "50000 Zenny"
         },
         {
           "title": "幫助和解",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "秋原町地鐵站",
+          "content": "跟秋原町地鐵站的小男孩對話後，前往雅吉納廣場尋找紫色領航員，代紫色領航員傳回「暫時不會回去」訊息，回報給委託人。",
+          "reward": "HP記憶體"
         },
         {
           "title": "維持治安的委託",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "雅伊朵家電話的電腦",
+          "content": "登入至電話，前往右下角與紫色女性領航員對話，再打倒面前的紫色領航員，之後回報給委託人。",
+          "reward": "戈斯巴魯會的通行碼"
         }
       ]
     },
@@ -134,21 +129,21 @@
       "missions": [
         {
           "title": "協助研究",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "海軍港華露的轉播車",
+          "content": "登入至轉播車跟委托人對話後進入5連戰，戰勝便完成任務。",
+          "reward": "子彈強化"
         },
         {
           "title": "請幫我",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "亞美羅帕鎮飯店門前",
+          "content": "與飯店前的金髮少女對話後，協助她登入至「亞美羅帕廣場入口」擊敗4位紫色領航員後回報給委託人。",
+          "reward": "接近斬 M"
         },
         {
           "title": "請借我錢",
-          "trigger_location": "",
-          "content": "",
-          "reward": ""
+          "trigger_location": "雅伊朵家的西裝男",
+          "content": "與委託人對話，得知他正在躲債，需要借50000 Zenny，出了伊朵家後再入去跟委託人對話便完成。",
+          "reward": "100000 Zenny"
         },
         {
           "title": "晚宴之間的「猜迷大師」",
@@ -167,6 +162,51 @@
             "10. 泰迪熊"            
           ],
           "reward": ["閘門鑰匙 C", "HP記憶體"]
+        }
+      ]
+    },
+    {
+      "chapter": "最終章",
+      "missions": [
+        {
+          "title": "日本昆蟲學會",
+          "trigger_location": "奧電谷露營地",
+          "content": "前往奧電谷露營地和昆蟲學者對話(飛機上的昆蟲學者)，幫他找出「電算大龍蝨」，前往露營地道路1調查河中2舊石頭的盡頭後得到，回報給委託人。",
+          "reward": "回復200 M"
+        },
+        {
+          "title": "取回寶石",
+          "trigger_location": "亞美羅帕鎮的珠寶店",
+          "content": "跟右上的職員對話得知被「怪盜三姊妹」小偷團體偷走了3伴貴重的寶石，前往以下地點，完成後交環寶石給委託人。",
+          "answers": [
+            "1. 亞美羅帕公園奪回「雅吉納之淚」",
+            "2. 飯店房間奪回「國王石」",
+            "3. 通往瞭望台的階梯奪回「美人暮光」"
+          ],
+          "reward": "黃金鐵拳 Z"
+        },
+        {
+          "title": "箭鏃之間的「猜迷國王」",
+          "trigger_location": "亞美羅帕城堡的箭鏃之間",
+          "content": "",
+          "answers": [
+            "1. 無屬性",
+            "2. 堅硬砲座",
+            "3. 240",
+            "4. 火野健一",
+            "5. 傑克．艾瑞其特爾",
+            "6. 磁鐵人",
+            "7. 攝氏3度",
+            "8. 亞美隆加X",
+            "9. 9棟",
+            "10. 劍水兵",
+            "11. 地鐵",
+            "12. 亞美羅帕區域3",
+            "13. 電算機場",
+            "14. RIVER",
+            "15. 威利"
+          ],
+          "reward": ["常規強化3"]
         }
       ]
     }

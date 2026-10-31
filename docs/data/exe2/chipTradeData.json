@@ -47,6 +47,18 @@
       "location": "亞美羅帕鎮",
       "give": ["水之靈 A", "焰之靈 R", "木之靈 S", "電之靈 L"],
       "receive": ["緊身衣 N"]
+    },
+    {
+      "chapter": "最終章",
+      "location": "頭等艙",
+      "give": ["陰影人 S", "陰影人V2 S", "陰影人V3 S"],
+      "receive": ["替身 S"]
+    },
+    {
+      "chapter": "最終章",
+      "location": "母體電腦房間",
+      "give": ["大型炸彈 *"],
+      "receive": ["晶片資料夾 3"]
     }
   ]
 }

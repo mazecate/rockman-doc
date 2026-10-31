@@ -40,16 +40,24 @@
       {
         "versionType": "V1",
         "location": "迪卡歐家",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Dex's House",
+        "locationJp": "デカオのへや",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "迪卡歐家",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Dex's House",
+        "locationJp": "デカオのへや",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "長壽町地鐵站入口",
+        "locationEn": "• Kotobuki Town",
+        "locationJp": "コトブキ町",
         "isRandom": false,
         "note": ""
       }
@@ -305,9 +313,9 @@
       },
       {
         "versionType": "V3",
-        "location": "亞美羅帕城堡",
+        "location": "亞美羅帕公園",
         "locationEn": "Netopia Park",
-        "locationJp": "アメロッパ城",
+        "locationJp": "アメロッパーク",
         "isRandom": false,
         "note": ""
       }
@@ -557,7 +565,39 @@
         "locationEn": "WWW Area 3",
         "locationJp": "WWWエリア 3",
         "isRandom": true,
-        "note": ""
+        "note": "擊敗V1版本"
+      }
+    ]
+  },
+  {
+    "name": "佛魯迪",
+    "nameEn": "Forte (Bass)",
+    "nameJp": "フォルテ",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "戈斯巴魯會伺服器的電腦 2",
+        "locationEn": "Gospel Server Comp 2",
+        "locationJp": "ゴスペルサーバーの電脳 2",
+        "isRandom": false,
+        "note": "最終章頭目"
+      }
+    ]
+  },
+  {
+    "name": "戈斯巴魯",
+    "nameEn": "Gospel",
+    "nameJp": "ゴスペル",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "戈斯巴魯會伺服器的電腦 2",
+        "locationEn": "Gospel Server Comp 2",
+        "locationJp": "ゴスペルサーバーの電脳 2",
+        "isRandom": false,
+        "note": "最終章頭目"
       }
     ]
   }

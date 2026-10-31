@@ -10,7 +10,30 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "2,000Z", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "4,000Z", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "公職廣場", "price": "8,000Z", "locationImage": "" },
-
+	
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "長壽廣場 2", "price": "4,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "長壽廣場 2", "price": "8,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "長壽廣場 2", "price": "12,000Z", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "電算區域 3", "price": "10,000Z", "locationImage": "" },
+	
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "亞美羅帕廣場", "price": "8,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "亞美羅帕廣場", "price": "12,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "亞美羅帕廣場", "price": "16,000Z", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "亞美羅帕廣場", "price": "10,000Z", "locationImage": "" },
+		
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 1", "price": "10,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 1", "price": "15,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 1", "price": "20,000Z", "locationImage": "" },
+		
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏廣場", "price": "12,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏廣場", "price": "16,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏廣場", "price": "20,000Z", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "裏廣場", "price": "20,000Z", "locationImage": "" },
+		
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏長壽區域", "price": "15,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏長壽區域", "price": "20,000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏長壽區域", "price": "30,000Z", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "網路商人購入", "location": "裏長壽區域", "price": "20,000Z", "locationImage": "" },
 
 
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "locationImage": "" },
@@ -31,6 +54,9 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 2", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "飛機的電腦 4", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 2", "locationImage": "" },
+
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "大樓的電腦 2", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "與門對話", "location": "長壽町大樓9樓的門", "locationImage": "" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
@@ -52,11 +78,20 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "飛機的電腦 1", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "飛機的電腦 4", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "出境樓層免稅店的明信片架", "value": 2, "locationImage": "" },
+
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "長壽町自動販賣機的電腦", "value": 3, "locationImage": "/images/exe4/reg_20.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "大樓的電腦 1", "value": 1, "locationImage": "/images/exe4/reg_21.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "戈斯巴魯會伺服器的電腦 1", "value": 1, "locationImage": "/images/exe4/reg_22.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "與婆婆對話", "location": "露營地道路2樹後的婆婆", "value": 2, "locationImage": "/images/exe4/reg_23.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "支線任務獎勵", "location": "亞美羅帕城堡的箭鏃之間", "value": 3, "locationImage": "/images/exe4/reg_24.jpeg" },
 	
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（紫色）", "location": "電算區域 3", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 4", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "公職中心研究室的實驗袍", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "城堡的電腦 4", "locationImage": "" },
+	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "大樓的電腦 3", "locationImage": "/images/exe4/buster_up_05.jpeg" },
+	{ "type": "buster", "name": "子彈強化", "method": "與程式君對話", "location": "母體電腦房間的程式君", "locationImage": "/images/exe4/buster_up_06.jpeg" },
 	
-	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "locationImage": "" }
+	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "locationImage": "" },
+	{ "type": "sub", "name": "副記憶體", "method": "與男孩對話", "location": "亞美羅帕公園樹後的男孩", "locationImage": "" }
 ]
