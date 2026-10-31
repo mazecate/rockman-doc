@@ -41,7 +41,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "地藏像的電腦", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 2", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "任務獎勵", "location": "公職中心擊敗名人", "locationImage": "" },
-	{ "type": "hp", "name": "HP記憶體", "method": "任務獎勵", "location": "委託任務 - 特別任務 3", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "特別任務 3", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "母體電腦 1", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "與冰箱對話", "location": "飯店房間冰箱", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "亞美羅帕區域3", "locationImage": "" },
@@ -57,6 +57,9 @@
 
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "大樓的電腦 2", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "與門對話", "location": "長壽町大樓9樓的門", "locationImage": "" },
+
+	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "幫助和解", "locationImage": "/images/exe4/hp_23.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "在咖啡廳等待", "locationImage": "/images/exe4/hp_24.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
@@ -66,7 +69,7 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 3", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "秋原町 - 壞掉玩具的電腦", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅吉納區域 1", "value": 1, "locationImage": "" },
-	{ "type": "reg", "name": "常規強化", "method": "任務獎勵", "location": "委託任務 - 特別任務 2", "value": 1, "locationImage": "" },
+	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "特別任務 1", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "A執照考驗獎勵", "location": "A執照考驗", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "螢幕的電腦", "value": 2, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "母體電腦 2", "value": 1, "locationImage": "" },
@@ -84,6 +87,12 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "戈斯巴魯會伺服器的電腦 1", "value": 1, "locationImage": "/images/exe4/reg_22.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "與婆婆對話", "location": "露營地道路2樹後的婆婆", "value": 2, "locationImage": "/images/exe4/reg_23.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "支線任務獎勵", "location": "亞美羅帕城堡的箭鏃之間", "value": 3, "locationImage": "/images/exe4/reg_24.jpeg" },
+
+	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "尋人", "value": 1, "locationImage": "/images/exe4/reg_25.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "為了男人的尊嚴", "value": 2, "locationImage": "/images/exe4/reg_26.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "取得S執照", "location": "公職廣場", "value": 2, "locationImage": "/images/exe4/reg_27.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "裏網路 6", "value": 2, "locationImage": "/images/exe4/reg_28.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "裏網路 1", "value": 2, "locationImage": "/images/exe4/reg_29.jpeg" },
 	
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（紫色）", "location": "電算區域 3", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "引爆裝置的電腦 4", "locationImage": "" },
@@ -91,7 +100,9 @@
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "城堡的電腦 4", "locationImage": "" },
 	{ "type": "buster", "name": "子彈強化", "method": "神秘數據（藍色）", "location": "大樓的電腦 3", "locationImage": "/images/exe4/buster_up_05.jpeg" },
 	{ "type": "buster", "name": "子彈強化", "method": "與程式君對話", "location": "母體電腦房間的程式君", "locationImage": "/images/exe4/buster_up_06.jpeg" },
+	{ "type": "buster", "name": "子彈強化", "method": "委託任務", "location": "協助研究", "locationImage": "/images/exe4/buster_up_07.jpeg" },
 	
-	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "locationImage": "" },
-	{ "type": "sub", "name": "副記憶體", "method": "與男孩對話", "location": "亞美羅帕公園樹後的男孩", "locationImage": "" }
+	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 3", "locationImage": "/images/exe4/side_mem_01.jpeg" },
+	{ "type": "sub", "name": "副記憶體", "method": "與男孩對話", "location": "亞美羅帕公園樹後的男孩", "locationImage": "/images/exe4/side_mem_02.jpeg" },
+	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（紫色）", "location": "裏網路 3", "locationImage": "/images/exe4/side_mem_03.jpeg" }
 ]
