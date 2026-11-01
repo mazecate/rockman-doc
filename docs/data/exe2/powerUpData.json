@@ -61,7 +61,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "幫助和解", "locationImage": "/images/exe4/hp_23.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "在咖啡廳等待", "locationImage": "/images/exe4/hp_24.jpeg" },
 	
-	{ "type": "hp", "name": "HP記憶體", "method": "晶片交換", "location": "露營地道路1的男孩", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "晶片交換", "location": "露營地道路1的男孩", "locationImage": "/images/exe4/hp_25.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "瓦斯熱水器的電腦 2", "value": 1, "locationImage": "" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電話的電腦", "value": 1, "locationImage": "" },
@@ -93,8 +93,8 @@
 	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "尋人", "value": 1, "locationImage": "/images/exe4/reg_25.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "為了男人的尊嚴", "value": 2, "locationImage": "/images/exe4/reg_26.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "取得S執照", "location": "公職廣場", "value": 1, "locationImage": "/images/exe4/reg_27.jpeg" },
-	{ "type": "reg", "name": "常規強化", "method": "取得SS執照", "location": "公職廣場", "value": 1, "locationImage": "" },
-	{ "type": "reg", "name": "常規強化", "method": "取得SSS執照", "location": "公職廣場", "value": 1, "locationImage": "" },
+	{ "type": "reg", "name": "常規強化", "method": "取得SS執照", "location": "公職廣場", "value": 1, "locationImage": "/images/exe4/reg_30.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "取得SSS執照", "location": "公職廣場", "value": 1, "locationImage": "/images/exe4/reg_31.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "裏網路 6", "value": 2, "locationImage": "/images/exe4/reg_28.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "裏網路 1", "value": 2, "locationImage": "/images/exe4/reg_29.jpeg" },
 	

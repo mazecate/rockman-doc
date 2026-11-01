@@ -40,7 +40,6 @@ outline: [2,4]
 - [裏關要素](./underworld.md)
 - [支線任務](side-quest.md)
 - [多周目注意事項](#note)
-- [參考文獻與資料來源](#ref)
 
 
 
