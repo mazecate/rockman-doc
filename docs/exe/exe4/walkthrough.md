@@ -37,7 +37,7 @@ outline: [2,4]
   - [👥 共通對手：劍道人 (Kendoman)](#kendoman)
   - [👥 共通對手：普通領航員 (炸彈足球)](#normalnavi03)
 - [第六章：最終決戰：宇宙中心與小行星的電腦](#ch6)
-- [裏關進入條件](./underworld.md)
+- [裏關要素](./underworld.md)
 - [支線任務](side-quest.md)
 - [多周目注意事項](#note)
 - [參考文獻與資料來源](#ref)
