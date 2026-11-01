@@ -40,7 +40,7 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'game8',
     url: 'https://game8.jp/rockman-exe-4'
   },
-  wareware: {
+  warewareguide: {
     title: 'warewareguide',
     url: 'https://warewareguide.com/rockmanexe4/battlerspt/'
   },
