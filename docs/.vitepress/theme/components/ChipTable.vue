@@ -32,7 +32,7 @@
 								<td>
 									<span class="name-zh">{{ chip.nameZh }}</span>
 								</td>
-								<td>{{ chip.damage }}</td>
+								<td>{{ chip.damage ?? '-' }}</td>
 								<td>
 									<span :class="['element-badge', `element-${getElementMeta(chip.element).key}`]">
 										<span class="element-icon">{{ getElementMeta(chip.element).icon }}</span>

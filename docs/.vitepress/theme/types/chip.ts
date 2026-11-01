@@ -3,7 +3,7 @@ export interface BaseChipItem {
   nameZh: string;
   nameJp: string;
   nameEn: string;
-  damage: string | number;
+  damage: string | number | null;
   element: string;
   rarity?: string; // 稀有度
   description: string; // 必定存在於基礎介面

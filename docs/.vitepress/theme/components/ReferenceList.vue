@@ -52,6 +52,10 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'fandom',
     url: 'https://megaman.fandom.com/wiki/List_of_Mega_Man_Battle_Network_2_Battle_Chips'
   },
+  fandom_mmbn3: {
+    title: 'fandom_mmbn3',
+    url: 'https://megaman.fandom.com/wiki/List_of_Mega_Man_Battle_Network_3_Battle_Chips'
+  },
   megaQuint: {
     title: 'MegaQuint',
     url: 'https://www.youtube.com/watch?v=l-GwZlGGQBU'
