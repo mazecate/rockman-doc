@@ -16,6 +16,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 1",
+        "locationImage": "/images/exe1/navi_location/fireman_v2.jpeg",
         "locationEn": "Internet 1",
         "locationJp": "インターネット1",
         "isRandom": false,
@@ -112,6 +113,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 3",
+        "locationImage": "/images/exe1/navi_location/stoneman_v2.jpeg",
         "locationEn": "Internet 3",
         "locationJp": "インターネット 3",
         "isRandom": false,
@@ -240,6 +242,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 9",
+        "locationImage": "/images/exe1/navi_location/colorman_v2.jpeg",
         "locationEn": "Internet 9",
         "locationJp": "インターネット 9",
         "isRandom": false,
@@ -336,6 +339,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 6",
+        "locationImage": "/images/exe1/navi_location/elecman_v2.jpeg",
         "locationEn": "Internet 6",
         "locationJp": "インターネット 6",
         "isRandom": false,
@@ -368,6 +372,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 11",
+        "locationImage": "/images/exe1/navi_location/bombman_v2.jpeg",
         "locationEn": "Internet 11",
         "locationJp": "インターネット 11",
         "isRandom": false,
@@ -400,6 +405,7 @@
       {
         "versionType": "V2",
         "location": "互聯網區域 14",
+        "locationImage": "/images/exe1/navi_location/magicman_v2.jpeg",
         "locationEn": "Internet 14",
         "locationJp": "インターネット 14",
         "isRandom": false,
@@ -424,6 +430,7 @@
       {
         "versionType": "V1",
         "location": "互聯網區域 12",
+        "locationImage": "/images/exe1/navi_location/pharaohman_v1.jpeg",
         "locationEn": "Internet 12",
         "locationJp": "インターネット 12",
         "isRandom": false,
@@ -448,6 +455,7 @@
       {
         "versionType": "V1",
         "location": "互聯網區域 15",
+        "locationImage": "/images/exe1/navi_location/shadowman_v1.jpeg",
         "locationEn": "Internet 15",
         "locationJp": "インターネット 15",
         "isRandom": false,
