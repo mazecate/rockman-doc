@@ -4,6 +4,10 @@ export interface ChipsSubmenuConfig {
   giga?: boolean; // GIGA 晶片
   dark?: boolean; // 暗黑晶片
   secret?: boolean; // 隱藏/祕密晶片
+  versions?: Record<string, {
+    mega?: boolean;
+    giga?: boolean;
+  }>;
 }
 
 export interface MenuConfig {

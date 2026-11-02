@@ -5,13 +5,30 @@ import type { MenuConfig, ChipsSubmenuConfig } from '@/theme/types';
 
 type SidebarItem = DefaultTheme.SidebarItem;
 
+// 1. 各版本顯示名稱對照表
+const VERSION_NAME_MAP: Record<string, string> = {
+  white: '⚪ 白版',
+  black: '⚫ 黑版',
+  redSun: '🔴 紅太陽',
+  blueMoon: '🔵 藍月亮',
+  teamBlues: '🔵 Team of Blues 版',
+  teamColonel: '🟠 Team of Colonel 版',
+  gregar: '🔥 Gregar 版',
+  falzar: '⚡ Falzar 版',
+};
+
+function getVersionDisplayName(key: string): string {
+  return VERSION_NAME_MAP[key] || `${key} 版`;
+}
+
 function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): SidebarItem[] {
   const {
-    standard = true,
-    mega = true,
-    giga = true,
-    dark = true,
-    secret = true
+    standard = false,
+    mega = false,
+    giga = false,
+    dark = false,
+    secret = false,
+    versions
   } = config;
 
   const subItems: SidebarItem[] = [];
@@ -19,6 +36,30 @@ function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): Side
   if (standard) subItems.push({ text: '標準晶片', link: `${folderPath}/chips/standard` });
   if (mega)     subItems.push({ text: 'MEGA 晶片', link: `${folderPath}/chips/mega` });
   if (giga)     subItems.push({ text: 'GIGA 晶片', link: `${folderPath}/chips/giga` });
+
+  // 2. 不分版本（EXE 1、2），共用的 Mega / Giga
+  // if (!versions || Object.keys(versions).length === 0) {}
+
+  // === 情況 A：如果有傳入 versions（代表有分雙版本） ===
+  if (versions && Object.keys(versions).length > 0) {
+    // 動態遍歷各個版本的專屬選單
+    for (const [verKey, verConfig] of Object.entries(versions)) {
+      const verItems: SidebarItem[] = [];
+      
+      // if (verConfig.standard) verItems.push({ text: '標準晶片', link: `${folderPath}/chips/${verKey}/standard` });
+      if (verConfig.mega)     verItems.push({ text: 'MEGA 晶片', link: `${folderPath}/chips/${verKey}/mega` });
+      if (verConfig.giga)     verItems.push({ text: 'GIGA 晶片', link: `${folderPath}/chips/${verKey}/giga` });
+
+      if (verItems.length > 0) {
+        subItems.push({
+          text: getVersionDisplayName(verKey),
+          collapsed: false,
+          items: verItems
+        });
+      }
+    }
+  }
+
   if (dark)     subItems.push({ text: '暗黑晶片', link: `${folderPath}/chips/dark` });
   if (secret)   subItems.push({ text: '祕密晶片', link: `${folderPath}/chips/secret` });
 
@@ -88,7 +129,14 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '洛克人 EXE 3',
       collapsed: true,
       items: getSubMenuItems('/exe/exe3', {
-        chips: { standard: true, mega: true, giga: true }
+        chips: { 
+          standard: true,
+          mega: true,
+          versions: {
+            white: { giga: true },
+            black: { giga: true }
+          }
+        }
       })
     },
     {
@@ -96,7 +144,13 @@ export const sidebar: DefaultTheme.Sidebar = {
       collapsed: true,
       items: getSubMenuItems('/exe/exe4', {
         chiptrade: false,
-        chips: { standard: true, mega: true, giga: true, dark: true, secret: true }
+        chips: {
+          standard: true,
+          versions: {
+            redSun: { mega: true, giga: true },
+            blueMoon: { mega: true, giga: true }
+          }
+        }
       })
     },
     {
