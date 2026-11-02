@@ -16,6 +16,7 @@
       {
         "versionType": "V2",
         "location": "電算區域 1",
+        "locationImage": "/images/exe2/navi_location/airman_v2.jpeg",
         "locationEn": "Den Area 1",
         "locationJp": "デンサンエリア 1",
         "isRandom": false,
@@ -210,6 +211,7 @@
       {
         "versionType": "V2",
         "location": "裏網絡 5",
+        "locationImage": "/images/exe2/navi_location/shadowman_v2.jpeg",
         "locationEn": "Undernet 5",
         "locationJp": "ウラインターネット 5",
         "isRandom": false,
@@ -338,6 +340,7 @@
       {
         "versionType": "V2",
         "location": "亞美羅帕區域 1",
+        "locationImage": "/images/exe2/navi_location/knightman_v2.jpeg",
         "locationEn": "Netopia Area 1",
         "locationJp": "アメロッパエリア 1",
         "isRandom": false,
@@ -370,6 +373,7 @@
       {
         "versionType": "V2",
         "location": "裏網絡 2",
+        "locationImage": "/images/exe2/navi_location/magnetman_v2.jpeg",
         "locationEn": "Undernet 2",
         "locationJp": "ウラインターネット 2",
         "isRandom": false,
@@ -434,6 +438,7 @@
       {
         "versionType": "V2",
         "location": "裏網絡 7",
+        "locationImage": "/images/exe2/navi_location/freezeman_v2.jpeg",
         "locationEn": "Undernet 7",
         "locationJp": "ウラインターネット 7",
         "isRandom": false,
@@ -466,6 +471,7 @@
       {
         "versionType": "V2",
         "location": "WWW區域 1",
+        "locationImage": "/images/exe2/navi_location/pharaohman_v2.jpeg",
         "locationEn": "WWW Area 1",
         "locationJp": "WWWエリア 1",
         "isRandom": false,
@@ -498,6 +504,7 @@
       {
         "versionType": "V2",
         "location": "WWW區域 2",
+        "locationImage": "/images/exe2/navi_location/napalmman_v2.jpeg",
         "locationEn": "WWW Area 2",
         "locationJp": "WWWエリア 2",
         "isRandom": false,
@@ -530,6 +537,7 @@
       {
         "versionType": "V2",
         "location": "WWW區域 3",
+        "locationImage": "/images/exe2/navi_location/planetman_v2.jpeg",
         "locationEn": "WWW Area 3",
         "locationJp": "WWWエリア 3",
         "isRandom": false,
