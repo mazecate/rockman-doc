@@ -1,0 +1,41 @@
+[
+	{
+		"shopName": "秋原區域 2",
+		"shopNameEn": "Acad Area 2",
+		"shopNameJp": "秋原エリア２",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "HP Memory", "nameJp": "HPメモリ", "price": 1000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "HP Memory", "nameJp": "HPメモリ", "price": 3000, "quantity": 1 },
+			{ "name": "V字槍 L", "nameEn": "", "nameJp": "", "price": 200, "quantity": 3, "version": "white" },
+			{ "name": "防護罩 L", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "回復10 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "熱焰散彈 B", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3, "version": "white" }
+		]
+	},
+	{
+		"shopName": "秋原廣場",
+		"shopNameEn": "Acad Plaza",
+		"shopNameJp": "秋原スクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
+			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 300, "quantity": 3, "version": "white" },
+			{ "name": "地面竊取 L", "nameEn": "", "nameJp": "", "price": 600, "quantity": 3, "version": "white" },
+			{ "name": "草原戰場 *", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3, "version": "white" },
+			{ "name": "竹劍 P", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3, "version": "white" }
+		]
+	},
+	{
+		"shopName": "秋原廣場 (副晶片)",
+		"shopNameEn": "Acad Plaza",
+		"shopNameJp": "秋原スクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 }
+		]
+	}
+]

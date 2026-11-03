@@ -288,7 +288,7 @@
   {
     "no": "23",
     "nameZh": "蘿露",
-    "nameJp": "",
+    "nameJp": "ロール",
     "nameEn": "Roll",
     "element": "無",
     "damage": 20,
@@ -301,7 +301,7 @@
   {
     "no": "24",
     "nameZh": "蘿露V2",
-    "nameJp": "",
+    "nameJp": "ロール V2",
     "nameEn": "Roll V2",
     "element": "無",
     "damage": 30,
@@ -314,7 +314,7 @@
   {
     "no": "25",
     "nameZh": "蘿露V3",
-    "nameJp": "",
+    "nameJp": "ロール V3",
     "nameEn": "Roll V3",
     "element": "無",
     "damage": 40,
@@ -327,7 +327,7 @@
   {
     "no": "26",
     "nameZh": "氣力人",
-    "nameJp": "",
+    "nameJp": "ガッツマン",
     "nameEn": "GutsMan",
     "element": "無",
     "damage": 50,
@@ -340,7 +340,7 @@
   {
     "no": "27",
     "nameZh": "氣力人V2",
-    "nameJp": "",
+    "nameJp": "ガッツマン V2",
     "nameEn": "GutsMan V2",
     "element": "無",
     "damage": 70,
@@ -353,7 +353,7 @@
   {
     "no": "28",
     "nameZh": "氣力人V3",
-    "nameJp": "",
+    "nameJp": "ガッツマン V3",
     "nameEn": "GutsMan V3",
     "element": "無",
     "damage": 90,
@@ -366,7 +366,7 @@
   {
     "no": "29",
     "nameZh": "氣力人V4",
-    "nameJp": "",
+    "nameJp": "ガッツマン V4",
     "nameEn": "GutsMan V4",
     "element": "無",
     "damage": 100,
@@ -431,7 +431,7 @@
   {
     "no": "34",
     "nameZh": "閃光人",
-    "nameJp": "",
+    "nameJp": "フラッシュマン",
     "nameEn": "FlashMan",
     "element": "電",
     "damage": 50,
@@ -444,7 +444,7 @@
   {
     "no": "35",
     "nameZh": "閃光人V2",
-    "nameJp": "",
+    "nameJp": "フラッシュマン V2",
     "nameEn": "FlashMan V2",
     "element": "電",
     "damage": 70,
@@ -457,7 +457,7 @@
   {
     "no": "36",
     "nameZh": "閃光人V3",
-    "nameJp": "",
+    "nameJp": "フラッシュマン V3",
     "nameEn": "FlashMan V3",
     "element": "電",
     "damage": 90,
@@ -470,7 +470,7 @@
   {
     "no": "37",
     "nameZh": "閃光人V4",
-    "nameJp": "",
+    "nameJp": "フラッシュマン V4",
     "nameEn": "FlashMan V4",
     "element": "電",
     "damage": 120,

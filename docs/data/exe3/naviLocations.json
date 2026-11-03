@@ -287,17 +287,17 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "校長的筆記型電腦 2",
+        "locationEn": "Principal's PC",
+        "locationJp": "校長ノートPC",
         "isRandom": false,
-        "note": ""
+        "note": "第1章頭目"
       },
       {
         "versionType": "V2",
         "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Acad Area 3",
+        "locationJp": "秋原エリア 3",
         "isRandom": false,
         "note": ""
       },
