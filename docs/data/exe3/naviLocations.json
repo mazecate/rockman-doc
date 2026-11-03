@@ -1,5 +1,45 @@
 [
   {
+    "name": "閃光人",
+    "nameEn": "Flashman",
+    "nameJp": "フラッシュマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "校長的筆記型電腦 2",
+        "locationEn": "Principal's PC",
+        "locationJp": "校長ノートPC",
+        "isRandom": false,
+        "note": "第1章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "Acad Area 3",
+        "locationJp": "秋原エリア 3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "野獸人",
     "nameEn": "Beastman",
     "nameJp": "ビーストマン",
@@ -258,46 +298,6 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "閃光人",
-    "nameEn": "Flashman",
-    "nameJp": "フラッシュマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "校長的筆記型電腦 2",
-        "locationEn": "Principal's PC",
-        "locationJp": "校長ノートPC",
-        "isRandom": false,
-        "note": "第1章頭目"
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "Acad Area 3",
-        "locationJp": "秋原エリア 3",
         "isRandom": false,
         "note": ""
       },
