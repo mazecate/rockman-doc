@@ -10,5 +10,6 @@ export interface ShopGroup {
     nameJp?: string
     price: number | string
     quantity?: number
+    version?: 'black' | 'white' | string; // 新增版本屬性
   }[]
 }

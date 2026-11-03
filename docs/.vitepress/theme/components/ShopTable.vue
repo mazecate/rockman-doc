@@ -21,7 +21,7 @@ const flatItems = computed(() => {
     price: number | string; 
     currency: string; 
     quantity?: number;
-    version?: 'black' | 'white' | string; // 新增版本屬性
+    version?: string; // 新增版本屬性
     type?: string
   }[] = []
   
@@ -54,13 +54,38 @@ const filteredItems = computed(() => {
   return flatItems.value.filter(item => {
     const matchesShop = selectedShop.value === 'ALL' || item.shopName === selectedShop.value
     const query = searchQuery.value.trim().toLowerCase()
+
+    let matchesVersion = false;
+    if (item.version) {
+      const v = item.version.toLowerCase()
+      // 如果資料本身是 black 或 黑，且使用者輸入包含「黑」或「black」
+      const isBlack = v === 'black' || v === '黑'
+      const isWhite = v === 'white' || v === '白'
+      
+      matchesVersion = 
+        (isBlack && (query.includes('黑') || query.includes('black'))) ||
+        (isWhite && (query.includes('白') || query.includes('white'))) ||
+        v.includes(query) // 預留其他自訂 version 的模糊搜尋
+    }
+
     const matchesQuery = !query || 
       item.itemName.toLowerCase().includes(query) || 
-      item.shopName.toLowerCase().includes(query)
-    
+      item.shopName.toLowerCase().includes(query) ||
+      // item.version?.toLowerCase().includes(query)
+      matchesVersion
     return matchesShop && matchesQuery
   })
 })
+
+const getVersionClass = (version?: string) => {
+  if (!version) return '';
+  
+  const val = version.trim().toLowerCase()
+  if (val === '黑' || val === 'black') return 'ribbon-black';
+  if (val === '白' || val === 'white') return 'ribbon-white';
+
+  return 'ribbon-common'
+}
 </script>
 
 <template>
@@ -91,7 +116,7 @@ const filteredItems = computed(() => {
         <div 
           v-if="item.version" 
           class="version-ribbon"
-          :class="`ribbon-${item.version.toLowerCase()}`"
+          :class="getVersionClass(item.version)"
         >
           {{ item.version.toLowerCase() === 'black' ? '黑版' : item.version.toLowerCase() === 'white' ? '白版' : item.version }}
         </div>
