@@ -418,7 +418,7 @@
   {
     "no": "033",
     "nameZh": "長劍",
-    "nameJp": "",
+    "nameJp": "ロングソード",
     "nameEn": "LongSwrd",
     "element": "無",
     "damage": 80,
@@ -1705,7 +1705,7 @@
   {
     "no": "132",
     "nameZh": "招來蛇",
-    "nameJp": "",
+    "nameJp": "カモンスネーク",
     "nameEn": "Snake",
     "element": "木",
     "damage": 40,
