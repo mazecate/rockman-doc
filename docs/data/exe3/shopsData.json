@@ -43,6 +43,32 @@
 		]
 	},
 	{
+		"shopName": "余余廣場",
+		"shopNameEn": "",
+		"shopNameJp": "よかよかスクエア",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
+			{ "name": "區域竊取 *", "nameEn": "", "nameJp": "", "price": 1600, "quantity": 3, "version": "white" },
+			{ "name": "雙炸彈 H", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3, "version": "white" },
+			{ "name": "溜溜球1 G", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 3, "version": "white" },
+			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" }
+		]
+	},
+	{
+		"shopName": "秋原町 (副晶片)",
+		"shopNameEn": "Acad",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 }
+		]
+	},
+	{
 		"shopName": "秋原廣場 (副晶片)",
 		"shopNameEn": "Acad Plaza",
 		"shopNameJp": "秋原スクエア",
