@@ -24,10 +24,10 @@
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
+        "location": "秋原區域 2",
+        "locationEn": "Acad Area 2",
+        "locationJp": "秋原エリア 2",
+        "isRandom": true,
         "note": ""
       },
       {
@@ -48,26 +48,26 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "旅館前",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "余余村 - 旅館前",
+        "locationEn": "Yoka Village - Ura Inn",
+        "locationJp": "よかよか村 - 旅館うらかわ",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "余余村 - 旅館前",
+        "locationEn": "Yoka Village - Ura Inn",
+        "locationJp": "よかよか村 - 旅館うらかわ",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
+        "location": "余余村 - 旅館前",
+        "locationEn": "Yoka Village - Ura Inn",
+        "locationJp": "よかよか村 - 旅館うらかわ",
+        "isRandom": true,
         "note": ""
       },
       {
@@ -89,7 +89,7 @@
       {
         "versionType": "V1",
         "location": "動物園的電腦 4",
-        "locationEn": "",
+        "locationEn": "Zoo Comp 3",
         "locationJp": "どうぶつえんの電脳4",
         "isRandom": false,
         "note": ""
@@ -98,18 +98,18 @@
         "versionType": "V2",
         "location": "科學省區域 1",
         "locationImage": "/images/exe3/navi_location/beastman_v2.jpeg",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "SciLab Area 1",
+        "locationJp": "科学省エリア 1",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
+        "location": "狗屋的電腦",
+        "locationEn": "Doghouse Comp",
+        "locationJp": "イヌごやの電脳",
+        "isRandom": true,
+        "note": "需要安裝忍術衝刺程式零件"
       },
       {
         "versionType": "SP",
@@ -148,7 +148,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -188,7 +188,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -228,7 +228,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -268,7 +268,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -308,7 +308,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -348,7 +348,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -388,7 +388,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -428,7 +428,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -468,7 +468,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -508,7 +508,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -548,7 +548,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -588,7 +588,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -628,7 +628,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -668,7 +668,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -708,7 +708,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {
@@ -748,7 +748,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": false,
+        "isRandom": true,
         "note": ""
       },
       {

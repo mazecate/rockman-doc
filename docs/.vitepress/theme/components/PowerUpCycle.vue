@@ -14,7 +14,7 @@ const selectedCategory = ref('全部');
 const categoryNames: Record<string, string> = {
   reg: '常規 UP',
   hp: 'HP記憶體',
-  parts: '程式部件',
+  parts: '程式零件',
   expand: '擴張記憶體',
   sub: '副記憶體',
   shop: '商店'

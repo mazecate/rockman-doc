@@ -184,7 +184,7 @@
     "other": ""
   },
   {
-    "category": "程式部件",
+    "category": "程式零件",
     "number": "19878934",
     "nameZh": "設置沙",
     "nameEn": "SetSand (Green)",
@@ -192,7 +192,7 @@
     "other": "綠色"
   },
   {
-    "category": "程式部件",
+    "category": "程式零件",
     "number": "23415891",
     "nameZh": "飛行鞋",
     "nameEn": "AirShoes (White)",
@@ -200,7 +200,7 @@
     "other": "白色"
   },
   {
-    "category": "程式部件",
+    "category": "程式零件",
     "number": "67918452",
     "nameZh": "快速量表",
     "nameEn": "FastGauge (Pink)",
@@ -208,7 +208,7 @@
     "other": "粉紅色"
   },
   {
-    "category": "程式部件",
+    "category": "程式零件",
     "number": "41465278",
     "nameZh": "武器等級+1",
     "nameEn": "WeapLV+1 (White)",

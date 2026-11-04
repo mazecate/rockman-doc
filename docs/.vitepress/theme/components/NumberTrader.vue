@@ -46,7 +46,7 @@ const filteredItems = computed(() => {
         <div v-for="item in filteredItems" :key="item.number" class="trade-card">
           <!-- 上方：物品名稱與分類標籤 -->
           <div class="card-header">
-            <div v-if="item.category !== '程式部件'" class="card-name">{{ item.nameZh }} {{ item.other }}</div>
+            <div v-if="item.category !== '程式零件'" class="card-name">{{ item.nameZh }} {{ item.other }}</div>
             <div v-else class="card-name">{{ item.nameZh }} ({{ item.other }})</div>
             <span class="tag">{{ item.category }}</span>
           </div>
