@@ -4,7 +4,7 @@ title: EXE3 領航員位置
 aside: false
 ---
 
-<h1 id="asset-handling" tabindex="-1">EXE3 領航員位置</h1>
+# EXE3 領航員位置
 
 <script setup>
 import naviData from '@/data/exe3/naviLocations.json'
