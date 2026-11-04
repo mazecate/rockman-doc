@@ -3,6 +3,7 @@ export interface MissionItem {
   trigger_location: string;
   content: string;
   answers?: string[];
+  guide?: string | string[];
   reward: string | string[];
 }
 

@@ -24,7 +24,22 @@
 			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 300, "quantity": 3, "version": "white" },
 			{ "name": "地面竊取 L", "nameEn": "", "nameJp": "", "price": 600, "quantity": 3, "version": "white" },
 			{ "name": "草原戰場 *", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3, "version": "white" },
-			{ "name": "竹劍 P", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3, "version": "white" }
+			{ "name": "竹劍 P", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" }
+		]
+	},
+	{
+		"shopName": "科學省廣場",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
+			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "加農砲 C", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3, "version": "white" },
+			{ "name": "突風 A", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3, "version": "white" },
+			{ "name": "接近斬 P", "nameEn": "", "nameJp": "", "price": 7000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
@@ -36,6 +51,28 @@
 			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
 			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
 			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "科學省大廳 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
+		]
+	},
+	{
+		"shopName": "動物園前 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
+			{ "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 }
 		]
 	}
 ]

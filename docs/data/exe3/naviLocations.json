@@ -15,9 +15,50 @@
       },
       {
         "versionType": "V2",
-        "location": "",
+        "location": "秋原區域 3",
+        "locationImage": "/images/exe3/navi_location/flashman_v2.jpeg",
         "locationEn": "Acad Area 3",
         "locationJp": "秋原エリア 3",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "金屬人",
+    "nameEn": "Metalman",
+    "nameJp": "メタルマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "旅館前",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
         "isRandom": false,
         "note": ""
       },
@@ -43,6 +84,47 @@
     "name": "野獸人",
     "nameEn": "Beastman",
     "nameJp": "ビーストマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "動物園的電腦 4",
+        "locationEn": "",
+        "locationJp": "どうぶつえんの電脳4",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "科學省區域 1",
+        "locationImage": "/images/exe3/navi_location/beastman_v2.jpeg",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "泡沫人",
+    "nameEn": "Bubbleman",
+    "nameJp": "バブルマン",
     "gameVersion": "",
     "locations": [
       {
@@ -123,46 +205,6 @@
     "name": "保齡球人",
     "nameEn": "Bowlman",
     "nameJp": "ボウルマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "泡沫人",
-    "nameEn": "Bubbleman",
-    "nameJp": "バブルマン",
     "gameVersion": "",
     "locations": [
       {
@@ -363,46 +405,6 @@
     "name": "國王人",
     "nameEn": "Kingman",
     "nameJp": "キングマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "金屬人",
-    "nameEn": "Metalman",
-    "nameJp": "メタルマン",
     "gameVersion": "",
     "locations": [
       {

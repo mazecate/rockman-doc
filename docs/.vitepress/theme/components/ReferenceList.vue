@@ -56,6 +56,10 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'fandom_mmbn3',
     url: 'https://megaman.fandom.com/wiki/List_of_Mega_Man_Battle_Network_3_Battle_Chips'
   },
+  fandom_mmbn3_lotto: {
+    title: 'fandom_mmbn3_lotto',
+    url: 'https://megaman.fandom.com/wiki/Lotto_Number'
+  },
   megaQuint: {
     title: 'MegaQuint',
     url: 'https://www.youtube.com/watch?v=l-GwZlGGQBU'

@@ -6,9 +6,18 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "秋原廣場", "price": "5,000Z", "locationImage": "" },
 
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "學校伺服器的電腦", "locationImage": "/images/exe3/powerup/hp_01.jpeg" },
-	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "校長的筆記型電腦 2", "locationImage": "/images/exe3/powerup/hp_01.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "校長的筆記型電腦 2", "locationImage": "/images/exe3/powerup/hp_02.jpeg" },
+
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "動物園的電腦 1", "locationImage": "/images/exe3/powerup/hp_03.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "黑板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_01.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅伊朵的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_02.jpeg" },
-	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "校長的筆記型電腦 1", "value": 1, "locationImage": "/images/exe3/powerup/reg_03.jpeg" }
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "校長的筆記型電腦 1", "value": 1, "locationImage": "/images/exe3/powerup/reg_03.jpeg" },
+	
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "自動販賣機的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_04.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "我的領航員生病了", "value": 3, "locationImage": "/images/exe3/powerup/reg_05.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "科學省區域 2", "value": 2, "locationImage": "/images/exe3/powerup/reg_06.jpeg" },
+
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "售票機的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_07.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "動物園的電腦 4", "value": 2, "locationImage": "/images/exe3/powerup/reg_08.jpeg" }
 ]

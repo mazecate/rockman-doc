@@ -14,7 +14,7 @@ const selectedChapter = ref('')
 const allMissions = computed(() => {
   if (!props.questData || !props.questData.side_missions) return []
 
-  const list: Array<{ chapter: string; title: string; trigger_location: string; content: string; answers?: string[]; reward: string | string[] }> = []
+  const list: Array<{ chapter: string; title: string; trigger_location: string; content: string; answers?: string[]; guide?: string | string[]; reward: string | string[] }> = []
 
   props.questData.side_missions.forEach(group => {
     group.missions.forEach(mission => {
@@ -55,9 +55,19 @@ const filteredMissions = computed(() => {
         matchReward = item.reward.toLowerCase().includes(query)
       }
 
-      const matchAnswers = item.answers ? item.answers.some(ans => ans.toLowerCase().includes(query)) : false
+      const matchAnswers = item.answers ? item.answers.some(ans => ans.toLowerCase().includes(query)) : false;
 
-      matchQuery = matchChapter || matchTitle || matchLocation || matchContent || matchReward || matchAnswers
+      // 新增：處理 guide 可能是字串或陣列的搜尋比對
+      let matchGuide = false
+      if (item.guide) {
+        if (Array.isArray(item.guide)) {
+          matchGuide = item.guide.some(g => g.toLowerCase().includes(query))
+        } else {
+          matchGuide = item.guide.toLowerCase().includes(query)
+        }
+      }
+
+      matchQuery = matchChapter || matchTitle || matchLocation || matchContent || matchReward || matchAnswers || matchGuide
     }
 
     return matchChapterSelect && matchQuery
@@ -108,6 +118,21 @@ const filteredMissions = computed(() => {
           <div class="detail-row">
             <span class="detail-label">📜 內容</span>
             <p class="detail-text">{{ quest.content }}</p>
+          </div>
+
+          <!-- 新增：任務完成攻略/指引區塊 (支援單字串或陣列) -->
+          <div v-if="quest.guide" class="guide-box">
+            <div class="guide-title">🛠️ 任務攻略：</div>
+            <template v-if="Array.isArray(quest.guide)">
+              <ul class="guide-list">
+                <li v-for="(step, gIdx) in quest.guide" :key="gIdx" class="detail-text">
+                  {{ step }}
+                </li>
+              </ul>
+            </template>
+            <template v-else>
+              <p class="detail-text">{{ quest.guide }}</p>
+            </template>
           </div>
 
           <div v-if="quest.answers && quest.answers.length > 0" class="quiz-box">
@@ -382,5 +407,25 @@ const filteredMissions = computed(() => {
   color: var(--vp-c-brand-1);
   font-family: var(--vp-font-family-mono);
   font-weight: 600;
+}
+
+.guide-box {
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 4px 0;
+}
+
+.guide-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  margin-bottom: 6px;
+}
+
+.guide-list {
+  margin: 0 0 0 20px !important;
+  padding: 0 !important;
 }
 </style>

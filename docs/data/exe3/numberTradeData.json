@@ -1,0 +1,258 @@
+[
+  {
+    "category": "戰鬥晶片",
+    "number": "21247895",
+    "nameZh": "高超加農砲",
+    "nameEn": "Hi-Cannon",
+    "nameJp": "ハイキャノン",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "15789208",
+    "nameZh": "空氣彈3",
+    "nameEn": "AirShot3",
+    "nameJp": "エアシュート3",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "31549798",
+    "nameZh": "散射槍",
+    "nameEn": "Spreader",
+    "nameJp": "スプレッドガン",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "63997824",
+    "nameZh": "變化劍",
+    "nameEn": "VarSword",
+    "nameJp": "バリアブルソード",
+    "other": "F"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "76889120",
+    "nameZh": "接近十字斬",
+    "nameEn": "StepCros",
+    "nameJp": "フミコミクロス",
+    "other": "S"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "95913876",
+    "nameZh": "氣力直拳",
+    "nameEn": "GutStrgt",
+    "nameJp": "ガッツストレート",
+    "other": "S"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "01697824",
+    "nameZh": "複製損傷",
+    "nameEn": "CopyDmg",
+    "nameJp": "コピーダメージ",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "50098263",
+    "nameZh": "妖刀村正",
+    "nameEn": "Muramasa",
+    "nameJp": "ムラマサブレード",
+    "other": "M"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "03284579",
+    "nameZh": "英雄劍",
+    "nameEn": "HeroSwrd",
+    "nameJp": "パラディンソード",
+    "other": "P"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "65497812",
+    "nameZh": "火蜥蜴",
+    "nameEn": "Salamndr",
+    "nameJp": "サラマンダー",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "88543997",
+    "nameZh": "大噴水",
+    "nameEn": "Fountain",
+    "nameJp": "ダイフンスイ",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "54390805",
+    "nameZh": "閃電霹靂",
+    "nameEn": "Bolt",
+    "nameJp": "サンダーボルト",
+    "other": "*"
+  },
+  {
+    "category": "戰鬥晶片",
+    "number": "33157825",
+    "nameZh": "蓋亞刃",
+    "nameEn": "GaiaBlad",
+    "nameJp": "ガイアブレード",
+    "other": "*"
+  },
+  {
+    "category": "副晶片",
+    "number": "86508964",
+    "nameZh": "迷你能源",
+    "nameEn": "MiniEnrg",
+    "nameJp": "ミニエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "57789423",
+    "nameZh": "迷你能源",
+    "nameEn": "MiniEnrg",
+    "nameJp": "ミニエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "56892168",
+    "nameZh": "全滿能源",
+    "nameEn": "FullEnrg",
+    "nameJp": "フルエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "99826471",
+    "nameZh": "全滿能源",
+    "nameEn": "FullEnrg",
+    "nameJp": "フルエネルギー",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "24586483",
+    "nameZh": "忍術衝刺",
+    "nameEn": "SneakRun",
+    "nameJp": "シノビダッシュ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "05088930",
+    "nameZh": "解除陷阱",
+    "nameEn": "Untrap",
+    "nameJp": "アントラップ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "46823480",
+    "nameZh": "解除陷阱",
+    "nameEn": "Untrap",
+    "nameJp": "アントラップ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "87824510",
+    "nameZh": "敵方搜索",
+    "nameEn": "SubData",
+    "nameJp": "エネミーサーチ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "09234782",
+    "nameZh": "敵方搜索",
+    "nameEn": "SubData",
+    "nameJp": "エネミーサーチ",
+    "other": ""
+  },
+  {
+    "category": "副晶片",
+    "number": "35331089",
+    "nameZh": "開鎖",
+    "nameEn": "Unlocker",
+    "nameJp": "オープンロック",
+    "other": ""
+  },
+  {
+    "category": "程式部件",
+    "number": "19878934",
+    "nameZh": "設置沙",
+    "nameEn": "SetSand (Green)",
+    "nameJp": "セットサンド",
+    "other": "綠色"
+  },
+  {
+    "category": "程式部件",
+    "number": "23415891",
+    "nameZh": "飛行鞋",
+    "nameEn": "AirShoes (White)",
+    "nameJp": "エアシューズ",
+    "other": "白色"
+  },
+  {
+    "category": "程式部件",
+    "number": "67918452",
+    "nameZh": "快速量表",
+    "nameEn": "FastGauge (Pink)",
+    "nameJp": "クイックゲージ",
+    "other": "粉紅色"
+  },
+  {
+    "category": "程式部件",
+    "number": "41465278",
+    "nameZh": "武器等級+1",
+    "nameEn": "WeapLV+1 (White)",
+    "nameJp": "ウエポンLV+1",
+    "other": "白色"
+  },
+  {
+    "category": "道具",
+    "number": "90690648",
+    "nameZh": "名人護腕",
+    "nameEn": "Famous Wristband",
+    "nameJp": "名人リストバンド",
+    "other": ""
+  },
+  {
+    "category": "道具",
+    "number": "77955025",
+    "nameZh": "白色旋轉",
+    "nameEn": "SpinWhite",
+    "nameJp": "スピンホワイト",
+    "other": ""
+  },
+  {
+    "category": "道具",
+    "number": "72563938",
+    "nameZh": "紅色旋轉",
+    "nameEn": "SpinRed",
+    "nameJp": "スピンレッド",
+    "other": ""
+  },
+  {
+    "category": "道具",
+    "number": "11002540",
+    "nameZh": "藍色旋轉",
+    "nameEn": "SpinBlue",
+    "nameJp": "スピンブルー",
+    "other": ""
+  },
+  {
+    "category": "道具",
+    "number": "28274283",
+    "nameZh": "綠色旋轉",
+    "nameEn": "SpinGreen",
+    "nameJp": "スピングリーン",
+    "other": ""
+  }
+]

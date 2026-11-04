@@ -7,9 +7,9 @@ outline: [2, 4]
 # EXE3 支線任務
 
 <script setup>
-// import questData from '@/data/exe3/sideQuest.json'
+import questData from '@/data/exe3/sideQuest.json'
 </script>
 
 <ClientOnly>
-  <!-- <SideQuest :questData="questData" /> -->
+  <SideQuest :questData="questData" />
 </ClientOnly>
