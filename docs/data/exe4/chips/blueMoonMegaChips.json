@@ -1,0 +1,67 @@
+[
+  {
+    "no": "1",
+    "nameZh": "藍月射線",
+    "nameJp": "ブルームーン",
+    "nameEn": "BlueMoon",
+    "element": "無",
+    "damage": null,
+    "codes": ["B"],
+    "memory": "90 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "𣈴準前方3格處釋放藍月之力的掠奪光線！"
+  },
+  {
+    "no": "2",
+    "nameZh": "紅色信號",
+    "nameJp": "シグナルレッド",
+    "nameEn": "SignlRed",
+    "element": "Obstacle",
+    "damage": 180,
+    "codes": ["S"],
+    "memory": "61 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "放置信號燈，在紅色信號期間，敵方無法使用間晶片！"
+  },
+  {
+    "no": "3",
+    "nameZh": "佛魯迪另",
+    "nameJp": "",
+    "nameEn": "BassAnly",
+    "element": "無",
+    "damage": 160,
+    "codes": ["X"],
+    "memory": "95 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "發出4發只轉彎一次的圓環！"
+  },
+  {
+    "no": "4",
+    "nameZh": "詛咒BUG",
+    "nameJp": "",
+    "nameEn": "BugCurse",
+    "element": "無",
+    "damage": null,
+    "codes": ["C"],
+    "memory": "73 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "暗黑暗片！使敵方領航員陷入重度BUG狀態！"
+  },
+  {
+    "no": "5",
+    "nameZh": "三角刀鋒",
+    "nameJp": "DeltaRay",
+    "nameEn": "Salamndr",
+    "element": "Sword",
+    "damage": 260,
+    "codes": ["Z"],
+    "memory": "82 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "斬擊戥按下A，發動最高3段的"
+  }
+]
