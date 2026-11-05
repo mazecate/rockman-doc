@@ -153,5 +153,16 @@
 			{ "name": "忍術衝刺", "nameEn": "", "nameJp": "シノビダッシュ", "price": 200, "quantity": 1 },
 			{ "name": "解除陷阱", "nameEn": "", "nameJp": "アントラップ", "price": 100, "quantity": 1 }
 		]
+	},
+	{
+		"shopName": "海濱醫院大廳電視的電腦 2 (副晶片)",
+		"shopNameEn": "",
+		"shopNameJp": "",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "迷你能源", "nameEn": "", "nameJp": "ミニエネルギー", "price": 100, "quantity": 1 },
+			{ "name": "全滿能源", "nameEn": "", "nameJp": "フルエネルギー", "price": 1000, "quantity": 1 },
+			{ "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 }
+		]
 	}
 ]

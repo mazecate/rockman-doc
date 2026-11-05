@@ -17,6 +17,12 @@
       "location": "余余村旅館前",
       "give": ["烈焰劍 P"],
       "receive": ["冰戰場 *"]
+    },
+    {
+      "chapter": "第五章",
+      "location": "電視台2F走廊",
+      "give": ["寛劍 C"],
+      "receive": ["回復120 S"]
     }
   ]
 }

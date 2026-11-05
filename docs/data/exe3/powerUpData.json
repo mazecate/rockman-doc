@@ -15,6 +15,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "余余區域2", "locationImage": "/images/exe3/powerup/hp_06.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "我的錢掉了", "locationImage": "/images/exe3/powerup/hp_07.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "與寄居蟹對話", "location": "地獄島下船位置的寄居蟹", "locationImage": "/images/exe3/powerup/hp_08.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "招募電腦替身演員（虎吉）", "locationImage": "/images/exe3/powerup/hp_09.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "黑板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_01.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅伊朵的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_02.jpeg" },
@@ -28,6 +29,11 @@
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "動物園的電腦 4", "value": 2, "locationImage": "/images/exe3/powerup/reg_08.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "海濱區域 2", "value": 3, "locationImage": "/images/exe3/powerup/reg_09.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "與道具箱對話", "location": "電視台1F走廊道具箱", "value": 1, "locationImage": "/images/exe3/powerup/reg_10.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "與壺對話", "location": "旅館客房的壺", "value": 1, "locationImage": "/images/exe3/powerup/reg_11.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "與石碑對話", "location": "醫院門前的石碑", "value": 2, "locationImage": "/images/exe3/powerup/reg_12.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "醫院2F左邊病房 - 床的電腦 ", "value": 2, "locationImage": "/images/exe3/powerup/reg_13.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "委託任務", "location": "請幫我尋找友人（虎吉）", "value": 3, "locationImage": "/images/exe3/powerup/reg_14.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "電視台2F - 電視台控制面板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_15.jpeg" },
 
 	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "鎧甲的電腦", "locationImage": "/images/exe3/powerup/side_mem_01.jpeg" },
 

@@ -1,5 +1,45 @@
 [
   {
+    "name": "氣力人",
+    "nameEn": "Gutsman",
+    "nameJp": "ガッツマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "迪卡歐家",
+        "locationEn": "Dex's House",
+        "locationJp": "デカオのへや",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "迪卡歐家",
+        "locationEn": "Dex's House",
+        "locationJp": "デカオのへや",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "閃光人",
     "nameEn": "Flashman",
     "nameJp": "フラッシュマン",
@@ -178,9 +218,9 @@
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "電視台大廳",
+        "locationEn": "DNN",
+        "locationJp": "DNN",
         "isRandom": false,
         "note": ""
       },
@@ -210,11 +250,11 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
+        "location": "電視台剪接室",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
-        "note": "第4章頂目"
+        "note": "第4章頭目"
       },
       {
         "versionType": "V2",
@@ -227,7 +267,7 @@
       },
       {
         "versionType": "V3",
-        "location": "旅館電視的電腦",
+        "location": "旅館客房 - 舊電視的電腦",
         "locationEn": "Yoka Inn TV Comp",
         "locationJp": "旅館のテレビの電脳",
         "isRandom": true,
@@ -244,9 +284,9 @@
     ]
   },
   {
-    "name": "布魯斯",
-    "nameEn": "Blues",
-    "nameJp": "ブルース",
+    "name": "植物人",
+    "nameEn": "Plantman",
+    "nameJp": "プラントマン",
     "gameVersion": "",
     "locations": [
       {
@@ -284,9 +324,9 @@
     ]
   },
   {
-    "name": "保齡球人",
-    "nameEn": "Bowlman",
-    "nameJp": "ボウルマン",
+    "name": "布魯斯",
+    "nameEn": "Blues",
+    "nameJp": "ブルース",
     "gameVersion": "",
     "locations": [
       {
@@ -404,9 +444,9 @@
     ]
   },
   {
-    "name": "氣力人",
-    "nameEn": "Gutsman",
-    "nameJp": "ガッツマン",
+    "name": "保齡球人",
+    "nameEn": "Bowlman",
+    "nameJp": "ボウルマン",
     "gameVersion": "",
     "locations": [
       {
@@ -447,46 +487,6 @@
     "name": "煙霧人",
     "nameEn": "Mistman",
     "nameJp": "ミストマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "植物人",
-    "nameEn": "Plantman",
-    "nameJp": "プラントマン",
     "gameVersion": "",
     "locations": [
       {
