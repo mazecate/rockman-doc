@@ -1,0 +1,22 @@
+{
+  "trades": [
+    {
+      "chapter": "第二章",
+      "location": "職員室前走廊",
+      "give": ["音速波 W"],
+      "receive": ["電氣劍 P"]
+    },
+    {
+      "chapter": "第三章",
+      "location": "5-B教室",
+      "give": ["泡沫散彈 C"],
+      "receive": ["寛劍 C"]
+    },
+    {
+      "chapter": "第四章",
+      "location": "余余村旅館前",
+      "give": ["烈焰劍 P"],
+      "receive": ["冰戰場 *"]
+    }
+  ]
+}

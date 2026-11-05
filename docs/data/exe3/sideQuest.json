@@ -55,18 +55,18 @@
       "chapter": "第四章",
       "missions": [
         {
-          "title": "",
-          "trigger_location": "",
-          "content": "",
-          "guide": "",
-          "reward": ""
+          "title": "我的錢掉了",
+          "trigger_location": "旅館大廳",
+          "content": "由於包包裏的錢包，PET也不見了，所以無法拿出證實身份的ID去領錢。",
+          "guide": "在旅館借8000Z給門口右邊的浴衣男人 -> 離開旅館 -> 進入旅館 -> 余余區域2擊敗紫色領航員，與綠色領航員對話後得到現金資料 -> 回報給委託人。",
+          "reward": "HP記憶體"
         },
         {
-          "title": "",
-          "trigger_location": "",
-          "content": "",
-          "guide": "",
-          "reward": ""
+          "title": "先搶先贏！便宜的稀有晶片！",
+          "trigger_location": "雅伊朵家的房間 - 電話的電腦",
+          "content": "以低價錢吸引人找他然後對戰。",
+          "guide": "同時擊倒2隻病毒",
+          "reward": "10000 Zenny"
         },
         {
           "title": "",
