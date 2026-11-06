@@ -324,6 +324,46 @@
     ]
   },
   {
+    "name": "烈焰人",
+    "nameEn": "Flameman",
+    "nameJp": "フレイムマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "裏網路 3",
+        "locationEn": "Undernet 3",
+        "locationJp": "ウラインターネット 3",
+        "isRandom": false,
+        "note": "第6章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
     "name": "布魯斯",
     "nameEn": "Blues",
     "nameJp": "ブルース",
@@ -367,46 +407,6 @@
     "name": "鑽頭人",
     "nameEn": "Drillman",
     "nameJp": "ドリルマン",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "烈焰人",
-    "nameEn": "Flameman",
-    "nameJp": "フレイムマン",
     "gameVersion": "",
     "locations": [
       {

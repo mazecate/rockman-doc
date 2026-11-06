@@ -19,11 +19,11 @@ outline: [2, 4]
 
 6. **回答選擇題與搜尋資料**：接受 N1 大賽一次預選的主題問答，需前往指定區域尋找對應的答案資料（若答錯可透過搶答小遊戲敗部復活）：
   1. **第 1 問**：前往 **秋原區域 3** 右上方獲得 `○資料`。
-  <br><img src="/images/exe3/ch01_1.jpeg" class="wt-img" /><br>
+  <br><img src="/images/exe3/story/ch01_1.jpeg" class="wt-img" /><br>
   1. **第 2 問**：前往 **秋原區域 2** 主幹道廣場獲得 `×資料`。
-  <br><img src="/images/exe3/ch01_2.jpeg" class="wt-img" /><br>
+  <br><img src="/images/exe3/story/ch01_2.jpeg" class="wt-img" /><br>
   1. **第 3 問**：前往 **秋原區域 1** 熱斗的 HP 旁獲得 `×資料`。
-  <br><img src="/images/exe3/ch01_3.jpeg" class="wt-img" /><br>
+  <br><img src="/images/exe3/story/ch01_3.jpeg" class="wt-img" /><br>
 
 7. **通過預選**：返回秋原廣場交差順利通過一次預選，並獲得 `雅伊朵的通行碼`。
 
@@ -328,6 +328,119 @@ outline: [2, 4]
 * **醫院的電腦 5**：`集氣＋1`，`熱焰散彈 I`，`HP記憶體`
 
 <!-- ======================================================================================================================= -->
+
+## 第六章：灼熱的戰鬥！火野健一的陰謀與烈焰人戰
+
+### 【科學省受勳與邪惡機兵討伐】
+
+1. **獲頒感謝狀與膨脹的心態**：醫院植物人事件順利解決後，熱斗獲邀前往科學省接受表揚。前往秋原町公園得知頒獎訊息，隨後搭車至科學省車站與高沙對話，進入病毒研究室接受感謝狀。
+
+2. **火野健一登場**：在科學省大堂遇到火町健一。隨後接獲網路各處出現 WWW 邪惡機兵的報告，驕傲的熱斗聯絡洛克人前往清除。
+
+::: warning ⚔️ 邪惡機兵討伐連戰
+請依序前往以下區域擊敗邪惡機兵：
+* **余余區域 2**：擊敗 2 個邪惡機兵（收到火野健一電郵）。
+<br><img src="/images/exe3/story/ch06_1.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_2.jpeg" class="wt-img" /><br>
+
+* **海濱區域 1**：擊敗 2 個邪惡機兵。
+<br><img src="/images/exe3/story/ch06_3.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_4.jpeg" class="wt-img" /><br>
+
+* **海濱區域 2**：擊敗 1 個邪惡機兵，收到火野健一電郵。
+<br><img src="/images/exe3/story/ch06_4.jpeg" class="wt-img" /><br>
+
+* **科學省區域 1**：擊敗 1 個邪惡機兵（收到來源不明的警告電郵）。
+<br><img src="/images/exe3/story/ch06_6.jpeg" class="wt-img" /><br>
+:::
+
+1. **前往秋原廣場**：前往秋原廣場與揭示板旁的機兵交談。
+
+::: tip 🔑 關鍵道具
+4. **探望守**：前往海濱街醫院 2 樓病房探望守，獲得關鍵道具 `WH通行碼`，並在病房內遇到火野健一。
+:::
+
+5. **回報火野健一**：返回科學省病毒研究室與火野健一對話。
+
+### 【輕信火野健一：載入火焰系統的陷阱】
+
+6. **載入火焰資料**：前往科學省區域 1，將 **「火焰資料」** 交給系統程式。
+
+7. **大堂對話**：返回病毒研究室與火野健一交談，隨後到大堂再次對話。
+
+8. **載入熱氣資料**：連線登入自動販賣機電腦，將 **「熱焰資料」** 交給系統程式。
+
+9. **前往研究室**：返回科學省與火野健一交談，隨後前往爸爸的研究室與火野健一對話。
+
+10. **載入烈火資料**：連線登入主電腦，將 **「烈焰資料 (フレイムデータ)」** 交給系統程式。
+
+11. **完成載入**：返回爸爸的研究室與火野健一交談，得到 `岩漿戰場 T`。
+
+### 【科學省大火與全網路滅火行動】
+
+12. **科學省事故爆發**：回到秋原町熱斗房間，突然收到 DNN 電郵告知科學省發生嚴重火災事故！整個科學省高溫灼熱，爸爸為了將電腦內的資料備份而冒險留在科學省內受困。
+
+13. **接受火野健一挑戰**：前往科學省車站與男公職人員交談，接獲火野健一的電郵挑戰與 DNN 電郵，得知必須將所有區域的火柱消滅才能進行決鬥。
+
+::: warning 🧯 全網路地毯式滅火任務
+* **配備要求**：裝備程式 **「能量轉換」**。
+* **滅火機制**：調查火柱時必須消耗 **水屬性晶片** 才能將其撲滅。
+* **巡迴順序**：依序消滅「秋原區域 1-3」->「科學省區域 1-2」->「余余區域 1-2」->「海濱區域 1-2」的所有火柱（每區完成皆會收到火野健一通訊）。
+
+* **秋原區域 1**：
+<br><img src="/images/exe3/story/ch06_acad_1_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_1_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_1_03.jpeg" class="wt-img" /><br>
+
+* **秋原區域 2**：
+<br><img src="/images/exe3/story/ch06_acad_2_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_2_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_2_03.jpeg" class="wt-img" /><br>
+
+* **秋原區域 3**：
+<br><img src="/images/exe3/story/ch06_acad_3_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_3_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_acad_3_03.jpeg" class="wt-img" /><br>
+
+* **科學省區域 1**：
+<br><img src="/images/exe3/story/ch06_sci_1_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_sci_1_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_sci_1_03.jpeg" class="wt-img" /><br>
+
+* **科學省區域 2**：
+<br><img src="/images/exe3/story/ch06_sci_2_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_sci_2_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_sci_2_03.jpeg" class="wt-img" /><br>
+
+* **余余區域 1**：
+<br><img src="/images/exe3/story/ch06_yoka_1_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_yoka_1_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_yoka_1_03.jpeg" class="wt-img" /><br>
+
+* **余余區域 2**：
+<br><img src="/images/exe3/story/ch06_yoka_2_01.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_yoka_2_02.jpeg" class="wt-img" />
+<img src="/images/exe3/story/ch06_yoka_2_03.jpeg" class="wt-img" /><br>
+:::
+
+### 【進軍裏網路與頭目決戰】
+
+14.  **穿越裏網路**：滅火完成後前往海濱區域 2，穿過地獄島區域，順利進入裏網路 1 - 3。
+::: danger ☠️ 頭目決戰：烈焰人 (FlameMan / フレイムマン)
+* **頭目資訊**：HP: 1000 / 火屬性
+:::
+
+### 【事件落幕】
+
+15.  **佛魯迪亂入**：擊敗烈焰人後，神秘黑衣領航員佛魯迪突然現身將烈焰人消滅，並與洛克人展開劇情強制戰鬥。
+
+16.  **爸爸倒下與住院**：熱斗趕回科學省爸爸的研究室，發現爸爸因在高溫與煙霧中堅持備份資料而倒下，隨後被緊急送往海濱街醫院 2 樓病房住院觀察。
+
+17.  **結束第六章**：返回秋原町熱斗房間調查床舖休息，帶著對爸爸的憂心與決心，結束第六章。
+
+
+
+
 <!-- ======================================================================================================================= -->
 <!-- ======================================================================================================================= -->
 
