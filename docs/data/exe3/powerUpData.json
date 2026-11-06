@@ -21,6 +21,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "海報板的電腦", "locationImage": "/images/exe3/powerup/hp_11.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "醫院的電腦 2", "locationImage": "/images/exe3/powerup/hp_12.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "醫院的電腦 5", "locationImage": "/images/exe3/powerup/hp_13.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 3", "locationImage": "/images/exe3/powerup/hp_14.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "黑板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_01.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅伊朵的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_02.jpeg" },
@@ -45,11 +46,13 @@
 	{ "type": "reg", "name": "常規強化", "method": "猜謎", "location": "走廊的猜謎小子", "value": 3, "locationImage": "/images/exe3/powerup/reg_18.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "與垃圾筒對話", "location": "科學省站的垃圾筒", "value": 1, "locationImage": "/images/exe3/powerup/reg_19.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "醫院的電腦 1", "value": 1, "locationImage": "/images/exe3/powerup/reg_20.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "裏網路2", "value": 2, "locationImage": "/images/exe3/powerup/reg_21.jpeg" },
 
 	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "鎧甲的電腦", "locationImage": "/images/exe3/powerup/side_mem_01.jpeg" },
 	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "醫院的電腦 3", "locationImage": "/images/exe3/powerup/side_mem_02.jpeg" },
+	{ "type": "sub", "name": "副記憶體", "method": "委託任務", "location": "尋找禿鷹", "locationImage": "/images/exe3/powerup/side_mem_03.jpeg"  },
 
 	{ "type": "parts", "name": "黃色旋轉", "method": "委託任務", "location": "幫助我的不孝子！", "locationImage": "/images/exe3/powerup/item_01.jpeg"  },
 
-	{ "type": "expand", "name": "黃色旋轉", "method": "爸爸的電郵", "location": "第四章故事", "locationImage": "/images/exe3/powerup/expand_mem_01.jpeg"  }
+	{ "type": "expand", "name": "擴充記憶體", "method": "爸爸的電郵", "location": "第四章故事", "locationImage": "/images/exe3/powerup/expand_mem_01.jpeg"  }
 ]

@@ -23,6 +23,18 @@
       "location": "電視台2F走廊",
       "give": ["寛劍 C"],
       "receive": ["回復120 S"]
+    },
+    {
+      "chapter": "第六章",
+      "location": "科學省大廳",
+      "give": ["重搖1 S"],
+      "receive": ["變化劍 B"]
+    },
+    {
+      "chapter": "第六章",
+      "location": "秋原町小學學校附近",
+      "give": ["回復120 S"],
+      "receive": ["動能波 V"]
     }
   ]
 }

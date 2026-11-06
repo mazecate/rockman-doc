@@ -7,10 +7,10 @@
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "HP Memory", "nameJp": "HPメモリ", "price": 1000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "HP Memory", "nameJp": "HPメモリ", "price": 3000, "quantity": 1 },
-			{ "name": "V字槍 L", "nameEn": "", "nameJp": "", "price": 200, "quantity": 3, "version": "white" },
-			{ "name": "防護罩 L", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
-			{ "name": "回復10 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
-			{ "name": "熱焰散彈 B", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3, "version": "white" }
+			{ "name": "V字槍 L", "nameEn": "", "nameJp": "ブイガン L", "price": 200, "quantity": 3, "version": "white" },
+			{ "name": "防護罩 L", "nameEn": "", "nameJp": "バリア L", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "回復10 *", "nameEn": "", "nameJp": "リカバリー10 *", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "熱焰散彈 B", "nameEn": "", "nameJp": "ヒートショット B", "price": 800, "quantity": 3, "version": "white" }
 		]
 	},
 	{
@@ -21,10 +21,10 @@
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
-			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "", "price": 300, "quantity": 3, "version": "white" },
-			{ "name": "地面竊取 L", "nameEn": "", "nameJp": "", "price": 600, "quantity": 3, "version": "white" },
-			{ "name": "草原戰場 *", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3, "version": "white" },
-			{ "name": "竹劍 P", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "アタック+10 *", "price": 300, "quantity": 3, "version": "white" },
+			{ "name": "地面竊取 L", "nameEn": "", "nameJp": "パネルスチール L", "price": 600, "quantity": 3, "version": "white" },
+			{ "name": "草原戰場 *", "nameEn": "", "nameJp": "クサムラステージ *", "price": 1000, "quantity": 3, "version": "white" },
+			{ "name": "竹劍 P", "nameEn": "", "nameJp": "バンブーソード P", "price": 5000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
@@ -36,10 +36,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 2000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
-			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "", "price": 500, "quantity": 3, "version": "white" },
-			{ "name": "加農砲 C", "nameEn": "", "nameJp": "", "price": 800, "quantity": 3, "version": "white" },
-			{ "name": "突風 A", "nameEn": "", "nameJp": "", "price": 1000, "quantity": 3, "version": "white" },
-			{ "name": "接近斬 P", "nameEn": "", "nameJp": "", "price": 7000, "quantity": 1, "version": "white" }
+			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "ストーンキューブ *", "price": 500, "quantity": 3, "version": "white" },
+			{ "name": "加農砲 C", "nameEn": "", "nameJp": "キャノン C", "price": 800, "quantity": 3, "version": "white" },
+			{ "name": "突風 A", "nameEn": "", "nameJp": "トップウ A", "price": 1000, "quantity": 3, "version": "white" },
+			{ "name": "接近斬 P", "nameEn": "", "nameJp": "フミコミザン P", "price": 7000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
@@ -51,10 +51,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 4000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
-			{ "name": "區域竊取 *", "nameEn": "", "nameJp": "", "price": 1600, "quantity": 3, "version": "white" },
-			{ "name": "雙炸彈 H", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 3, "version": "white" },
-			{ "name": "溜溜球1 G", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 3, "version": "white" },
-			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "區域竊取 *", "nameEn": "", "nameJp": "エリアスチール *", "price": 1600, "quantity": 3, "version": "white" },
+			{ "name": "雙炸彈 H", "nameEn": "", "nameJp": "ダブルボム H", "price": 2000, "quantity": 3, "version": "white" },
+			{ "name": "溜溜球1 G", "nameEn": "", "nameJp": "ヨーヨー1 ", "price": 3000, "quantity": 3, "version": "white" },
+			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "エレキソード N", "price": 5000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
@@ -66,10 +66,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 5000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 9000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 13000, "quantity": 1 },
-			{ "name": "金屬戰場 S", "nameEn": "", "nameJp": "", "price": 2800, "quantity": 1, "version": "white" },
-			{ "name": "定時炸彈 L", "nameEn": "", "nameJp": "", "price": 4000, "quantity": 1, "version": "white" },
-			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" },
-			{ "name": "神石 S", "nameEn": "", "nameJp": "", "price": 58000, "quantity": 1, "version": "white" }
+			{ "name": "金屬戰場 S", "nameEn": "", "nameJp": "メタルステージ S", "price": 4000, "quantity": 1, "version": "white" },
+			{ "name": "定時炸彈 L", "nameEn": "", "nameJp": "カウントボム L", "price": 4000, "quantity": 1, "version": "white" },
+			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "カスタムソード B", "price": 5000, "quantity": 1, "version": "white" },
+			{ "name": "神石 S", "nameEn": "", "nameJp": "ゴッドストーン S", "price": 8000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
