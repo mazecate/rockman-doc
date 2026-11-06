@@ -56,6 +56,19 @@
       "chapter": "第四章",
       "missions": [
         {
+          "title": "猜迷小子",
+          "trigger_location": "旅館走廊",
+          "content": "",
+          "answers": [
+            "1. 3個",
+            "2. 小矮兵",
+            "3. 9張",
+            "4. 380 Zenny",
+            "5. 3隻"        
+          ],
+          "reward": ["常規強化3"]
+        },
+        {
           "title": "我的錢掉了",
           "trigger_location": "旅館大廳",
           "content": "由於包包裏的錢包，PET也不見了，所以無法拿出證實身份的ID去領錢。",
