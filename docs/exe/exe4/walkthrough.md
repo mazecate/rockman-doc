@@ -12,7 +12,7 @@ outline: [2,4]
   - [🔴 紅日限定：氣力人](#gutsman)
   - [🔴 紅日限定：火焰人](#fireman)
   - [🔵 藍月限定：水人](#aquaman)
-  - [🔵 藍月限定：數字人 (Numberman)](#numberman)
+  - [🔵 藍月限定：數字人](#numberman)
   - [👥 共通對手：火花人](#sparkman)
   - [👥 共通對手：陀螺人](#topman)
   - [👥 共通對手：幽靈女孩(優子)事件](#ghostgirl)
