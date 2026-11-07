@@ -92,7 +92,7 @@
         "locationEn": "Yoka Village - Ura Inn",
         "locationJp": "よかよか村 - 旅館うらかわ",
         "isRandom": false,
-        "note": "第2章頭目"
+        "note": ""
       },
       {
         "versionType": "V2",
@@ -132,7 +132,7 @@
         "locationEn": "Zoo Comp 3",
         "locationJp": "どうぶつえんの電脳4",
         "isRandom": false,
-        "note": "第3章頭目"
+        "note": "第2章頭目"
       },
       {
         "versionType": "V2",
@@ -173,7 +173,7 @@
         "locationEn": "Yoka Area 1",
         "locationJp": "よかよかエリア1",
         "isRandom": false,
-        "note": ""
+        "note": "第3章頭目"
       },
       {
         "versionType": "V2",
@@ -190,7 +190,7 @@
         "locationEn": "Bleach Area 1",
         "locationJp": "ビーチエリア1",
         "isRandom": true,
-        "note": "洛克人HP低於或等於最大血量的 1/4"
+        "note": "洛克人HP剩餘 1/4 以下"
       },
       {
         "versionType": "SP",
@@ -299,9 +299,10 @@
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "裏網路 4",
+        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
+        "locationEn": "Undernet 4",
+        "locationJp": "ウラインターネット 4",
         "isRandom": false,
         "note": ""
       },
@@ -332,6 +333,7 @@
       {
         "versionType": "V1",
         "location": "裏網路 3",
+        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
         "locationEn": "Undernet 3",
         "locationJp": "ウラインターネット 3",
         "isRandom": false,
@@ -339,8 +341,49 @@
       },
       {
         "versionType": "V2",
+        "location": "裏網路 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
         "location": "",
         "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "鑽頭人",
+    "nameEn": "Drillman",
+    "nameJp": "ドリルマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "裏網路 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
+        "isRandom": false,
+        "note": "第7章頭目"
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
         "locationJp": "",
         "isRandom": false,
         "note": ""
@@ -367,46 +410,6 @@
     "name": "布魯斯",
     "nameEn": "Blues",
     "nameJp": "ブルース",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
-    "name": "鑽頭人",
-    "nameEn": "Drillman",
-    "nameJp": "ドリルマン",
     "gameVersion": "",
     "locations": [
       {

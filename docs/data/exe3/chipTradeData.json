@@ -35,6 +35,18 @@
       "location": "秋原町小學學校附近",
       "give": ["回復120 S"],
       "receive": ["動能波 V"]
+    },
+    {
+      "chapter": "第七章",
+      "location": "醫院的大廳",
+      "give": ["動能波 V"],
+      "receive": ["偷竊懲罰 K"]
+    },
+    {
+      "chapter": "第七章",
+      "location": "電視台攝影棚",
+      "give": ["影分身 J"],
+      "receive": ["空手奪白刃 Y"]
     }
   ]
 }
