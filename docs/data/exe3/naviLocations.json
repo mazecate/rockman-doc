@@ -300,7 +300,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 4",
-        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
+        "locationImage": "/images/exe3/navi_location/plantman_v2.jpeg",
         "locationEn": "Undernet 4",
         "locationJp": "ウラインターネット 4",
         "isRandom": false,
@@ -333,7 +333,7 @@
       {
         "versionType": "V1",
         "location": "裏網路 3",
-        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
+        "locationImage": "/images/exe3/navi_location/flameman_v2.jpeg",
         "locationEn": "Undernet 3",
         "locationJp": "ウラインターネット 3",
         "isRandom": false,
@@ -407,46 +407,6 @@
     ]
   },
   {
-    "name": "布魯斯",
-    "nameEn": "Blues",
-    "nameJp": "ブルース",
-    "gameVersion": "",
-    "locations": [
-      {
-        "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      }
-    ]
-  },
-  {
     "name": "保齡球人",
     "nameEn": "Bowlman",
     "nameJp": "ボウルマン",
@@ -490,6 +450,46 @@
     "name": "煙霧人",
     "nameEn": "Mistman",
     "nameJp": "ミストマン",
+    "gameVersion": "",
+    "locations": [
+      {
+        "versionType": "V1",
+        "location": "網路對戰機器的電腦",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V2",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      },
+      {
+        "versionType": "V3",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": true,
+        "note": ""
+      },
+      {
+        "versionType": "SP",
+        "location": "",
+        "locationEn": "",
+        "locationJp": "",
+        "isRandom": false,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "name": "布魯斯",
+    "nameEn": "Blues",
+    "nameJp": "ブルース",
     "gameVersion": "",
     "locations": [
       {

@@ -23,8 +23,11 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "醫院的電腦 5", "locationImage": "/images/exe3/powerup/hp_13.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 3", "locationImage": "/images/exe3/powerup/hp_14.jpeg" },
 
-	{ "type": "hp", "name": "常規強化", "method": "神秘數據（藍色）", "location": "剪接設備的電腦", "locationImage": "/images/exe3/powerup/hp_15.jpeg" },
-	{ "type": "hp", "name": "常規強化", "method": "支線任務", "location": "露天溫泉的猜謎大師", "locationImage": "/images/exe3/powerup/hp_16.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "剪接設備的電腦", "locationImage": "/images/exe3/powerup/hp_15.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "支線任務", "location": "露天溫泉的猜謎大師", "locationImage": "/images/exe3/powerup/hp_16.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "委託任務", "location": "我想看那個藍色領航員的英姿", "locationImage": "/images/exe3/powerup/hp_17.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 5", "locationImage": "/images/exe3/powerup/hp_18.jpeg" },
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "無人車的電腦", "locationImage": "/images/exe3/powerup/hp_19.jpeg" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "黑板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_01.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅伊朵的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_02.jpeg" },
@@ -53,10 +56,12 @@
 
 	{ "type": "reg", "name": "常規強化", "method": "與排程表對話", "location": "電視台剪接室", "value": 2, "locationImage": "/images/exe3/powerup/reg_22.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "與桌子對話", "location": "秋原小學的職員室", "value": 1, "locationImage": "/images/exe3/powerup/reg_23.jpeg" },
+	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "無人車的電腦", "locationImage": "/images/exe3/powerup/reg_24.jpeg" },
 
 	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "鎧甲的電腦", "locationImage": "/images/exe3/powerup/side_mem_01.jpeg" },
 	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "醫院的電腦 3", "locationImage": "/images/exe3/powerup/side_mem_02.jpeg" },
 	{ "type": "sub", "name": "副記憶體", "method": "委託任務", "location": "尋找禿鷹", "locationImage": "/images/exe3/powerup/side_mem_03.jpeg"  },
+	{ "type": "sub", "name": "副記憶體", "method": "神秘數據（藍色）", "location": "裏網路 6", "locationImage": "/images/exe3/powerup/side_mem_04.jpeg"  },
 
 	{ "type": "parts", "name": "黃色旋轉", "method": "委託任務", "location": "幫助我的不孝子！", "locationImage": "/images/exe3/powerup/item_01.jpeg"  },
 
