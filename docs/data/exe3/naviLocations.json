@@ -26,7 +26,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       },
       {
@@ -96,18 +96,18 @@
       },
       {
         "versionType": "V2",
-        "location": "四大地獄",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "余余村 - 旅館前",
+        "locationEn": "Yoka Village - Ura Inn",
+        "locationJp": "よかよか村 - 旅館うらかわ",
         "isRandom": false,
-        "note": "第4章劇情"
+        "note": ""
       },
       {
         "versionType": "V3",
         "location": "余余村 - 旅館前",
         "locationEn": "Yoka Village - Ura Inn",
         "locationJp": "よかよか村 - 旅館うらかわ",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       },
       {
@@ -149,7 +149,7 @@
         "locationEn": "Doghouse Comp",
         "locationJp": "イヌごやの電脳",
         "isRandom": true,
-        "note": "需要安裝忍術衝刺程式零件"
+        "note": "安裝「忍術衝刺」程式零件"
       },
       {
         "versionType": "SP",
@@ -229,7 +229,7 @@
         "location": "",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       },
       {
@@ -333,7 +333,6 @@
       {
         "versionType": "V1",
         "location": "裏網路 3",
-        "locationImage": "/images/exe3/navi_location/flameman_v2.jpeg",
         "locationEn": "Undernet 3",
         "locationJp": "ウラインターネット 3",
         "isRandom": false,
@@ -342,6 +341,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 5",
+        "locationImage": "/images/exe3/navi_location/flameman_v2.jpeg",
         "locationEn": "Undernet 5",
         "locationJp": "ウラインターネット 5",
         "isRandom": false,
@@ -381,16 +381,16 @@
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
+        "location": "裏網路 6",
         "locationImage": "/images/exe3/navi_location/xxx.jpeg",
-        "locationJp": "",
+        "locationEn": "Undernet 6",
+        "locationJp": "ウラインターネット 6",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
+        "location": "地獄島區域",
         "locationEn": "",
         "locationJp": "",
         "isRandom": true,
@@ -414,7 +414,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
+        "location": "網路對戰機器的電腦",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -422,7 +422,7 @@
       },
       {
         "versionType": "V2",
-        "location": "",
+        "location": "網路對戰機器的電腦",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -430,10 +430,10 @@
       },
       {
         "versionType": "V3",
-        "location": "",
+        "location": "網路對戰機器的電腦",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       },
       {
@@ -462,7 +462,7 @@
       },
       {
         "versionType": "V2",
-        "location": "",
+        "location": "網路對戰機器的電腦",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -470,10 +470,10 @@
       },
       {
         "versionType": "V3",
-        "location": "",
+        "location": "網路對戰機器的電腦",
         "locationEn": "",
         "locationJp": "",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       },
       {
@@ -581,22 +581,6 @@
         "note": ""
       },
       {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
-      },
-      {
         "versionType": "SP",
         "location": "",
         "locationEn": "",
@@ -614,7 +598,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
+        "location": "秘密區域 2",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -622,7 +606,7 @@
       },
       {
         "versionType": "V2",
-        "location": "",
+        "location": "秘密區域 2",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -630,7 +614,7 @@
       },
       {
         "versionType": "V3",
-        "location": "",
+        "location": "鎧甲的電腦",
         "locationEn": "",
         "locationJp": "",
         "isRandom": true,
@@ -654,7 +638,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
+        "location": "秘密區域 1",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -662,7 +646,7 @@
       },
       {
         "versionType": "V2",
-        "location": "",
+        "location": "秘密區域 1",
         "locationEn": "",
         "locationJp": "",
         "isRandom": false,
@@ -670,11 +654,11 @@
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
+        "location": "裏網路 6",
+        "locationEn": "Undernet 6",
         "locationJp": "",
         "isRandom": true,
-        "note": ""
+        "note": "個人化裝置處於BUG裝態"
       },
       {
         "versionType": "SP",
