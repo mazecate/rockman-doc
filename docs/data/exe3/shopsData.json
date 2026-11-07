@@ -81,14 +81,14 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 16000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
-			{ "name": "變化劍 E", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 1, "version": "white" },
-			{ "name": "騎士 V", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1, "version": "white" },
-			{ "name": "超級北風 Z", "nameEn": "", "nameJp": "", "price": 13000, "quantity": 1, "version": "white" },
-			{ "name": "量表全滿 *", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "變化劍 E", "nameEn": "", "nameJp": "バリアブルソード E", "price": 8000, "quantity": 1, "version": "white" },
+			{ "name": "騎士 V", "nameEn": "", "nameJp": "ナイト V", "price": 10000, "quantity": 1, "version": "white" },
+			{ "name": "超級北風 Z", "nameEn": "", "nameJp": "スーパーキタカゼ Z", "price": 13000, "quantity": 1, "version": "white" },
+			{ "name": "量表全滿 *", "nameEn": "", "nameJp": "フルカスタム ＊ ", "price": 5000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
-		"shopName": "裏網路 5",
+		"shopName": "裏網路 4",
 		"shopNameEn": "",
 		"shopNameJp": "",
 		"currency": "Zenny",
@@ -96,10 +96,10 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 16000, "quantity": 1 },
-			{ "name": "士兵 N", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 3, "version": "white" },
-			{ "name": "替身 N", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "white" },
-			{ "name": "回復200 W", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1, "version": "white" },
-			{ "name": "變化劍 D", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1, "version": "white" }
+			{ "name": "士兵 N", "nameEn": "", "nameJp": "ポーン N", "price": 5000, "quantity": 3, "version": "white" },
+			{ "name": "替身 N", "nameEn": "", "nameJp": "カワリミ M ", "price": 5000, "quantity": 1, "version": "white" },
+			{ "name": "回復200 W", "nameEn": "", "nameJp": "リカバリー200 W", "price": 10000, "quantity": 1, "version": "white" },
+			{ "name": "變化劍 D", "nameEn": "", "nameJp": "バリアブルソード D", "price": 10000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
@@ -108,68 +108,68 @@
 		"shopNameJp": "ビーチスクエア",
 		"currency": "Zenny",
 		"items": [
-			{ "name": "攻擊+1", "nameEn": "", "nameJp": "", "price": 3000, "quantity": 1 },
-			{ "name": "集氣+1", "nameEn": "", "nameJp": "", "price": 2000, "quantity": 1 },
-			{ "name": "常規+5", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1 },
-			{ "name": "我是魚", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 1, "version": "" }
+			{ "name": "攻擊+1 (白色)", "nameEn": "", "nameJp": "アタッ+1 (白)", "price": 3000, "quantity": 1 },
+			{ "name": "集氣+1 (白色)", "nameEn": "", "nameJp": "チャージ+1 (白)", "price": 2000, "quantity": 1 },
+			{ "name": "常規+5 (白色)", "nameEn": "", "nameJp": "レギュラー+5 (白)", "price": 5000, "quantity": 1 },
+			{ "name": "我是魚 (粉紅色)", "nameEn": "", "nameJp": "アイムフィッシュ (ピンク)", "price": 8000, "quantity": 1, "version": "" }
 		]
 	},
 	{
 		"shopName": "裏廣場程式商人",
-		"shopNameEn": "",
-		"shopNameJp": "",
+		"shopNameEn": "Undernet Plaza",
+		"shopNameJp": "ウラスクエア",
 		"currency": "Zenny",
 		"items": [
-			{ "name": "電池模式", "nameEn": "", "nameJp": "", "price": 8000, "quantity": 1 },
-			{ "name": "HP+300", "nameEn": "", "nameJp": "", "price": 20000, "quantity": 1 },
-			{ "name": "比特支援", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
-			{ "name": "探戈支援", "nameEn": "", "nameJp": "", "price": 10000, "quantity": 1 },
-			{ "name": "設置金屬", "nameEn": "", "nameJp": "", "price": 5000, "quantity": 1, "version": "" }
+			{ "name": "電池模式 (黃色)", "nameEn": "", "nameJp": "バッテリーモード (黄色)", "price": 8000, "quantity": 1 },
+			{ "name": "HP+300 (粉紅色)", "nameEn": "", "nameJp": "HP+300 (ピンク)", "price": 20000, "quantity": 1 },
+			{ "name": "比特支援 (白色)", "nameEn": "", "nameJp": "ビートサポート (白)", "price": 10000, "quantity": 1 },
+			{ "name": "探戈支援 (粉紅色)", "nameEn": "", "nameJp": "タンゴサポート (ピンク)", "price": 10000, "quantity": 1 },
+			{ "name": "設置金屬 (綠色)", "nameEn": "", "nameJp": "セットメタル (緑)", "price": 5000, "quantity": 1, "version": "" }
 		]
 	},
 	{
-		"shopName": "余余區域 1 下層 (BUG碎片)",
+		"shopName": "余余區域 1 (BUG碎片)",
 		"shopNameEn": "Yoka Area 1",
-		"shopNameJp": "",
+		"shopNameJp": "よかよかエリア 1",
 		"currency": "bugFrag",
     "type": "Bug碎片",
 		"items": [
-      { "name": "空氣彈2 *", "nameEn": "", "nameJp": "", "price": "20 個", "quantity": 1 },
-      { "name": "木+30 *", "nameEn": "", "nameJp": "", "price": "40 個", "quantity": 1 },
-      { "name": "100防護罩 *", "nameEn": "", "nameJp": "", "price": "50 個", "quantity": 1 },
-      { "name": "定時炸彈 K", "nameEn": "", "nameJp": "", "price": "60 個", "quantity": 1 },
-      { "name": "岩漿戰場 *", "nameEn": "", "nameJp": "", "price": "80 個", "quantity": 1 },
-      { "name": "隱形地雷 A", "nameEn": "", "nameJp": "", "price": "100 個", "quantity": 1 }
+      { "name": "空氣彈2 *", "nameEn": "", "nameJp": "エアシュート *", "price": "20 個", "quantity": 1 },
+      { "name": "木+30 *", "nameEn": "", "nameJp": "ウッド+30 *", "price": "40 個", "quantity": 1 },
+      { "name": "100防護罩 *", "nameEn": "", "nameJp": "100バリア *", "price": "50 個", "quantity": 1 },
+      { "name": "定時炸彈 K", "nameEn": "", "nameJp": "カウントボム K", "price": "60 個", "quantity": 1 },
+      { "name": "岩漿戰場 *", "nameEn": "", "nameJp": "マグマステージ *", "price": "80 個", "quantity": 1 },
+      { "name": "隱形地雷 A", "nameEn": "", "nameJp": "ステルスマイン A", "price": "100 個", "quantity": 3 }
 		]
 	},
 	{
-		"shopName": "裏網路 1 (BUG碎片)",
-		"shopNameEn": "",
-		"shopNameJp": "",
+		"shopName": "裏網路 2 (BUG碎片)",
+		"shopNameEn": "Undernet 2",
+		"shopNameJp": "ウラインターネット 2",
 		"currency": "bugFrag",
     "type": "Bug碎片",
 		"items": [
-      { "name": "破碎鎚 *", "nameEn": "", "nameJp": "", "price": "20 個", "quantity": 1 },
-      { "name": "氣力直拳 P", "nameEn": "", "nameJp": "", "price": "40 個", "quantity": 1 },
-      { "name": "領航員+20 *", "nameEn": "", "nameJp": "", "price": "40 個", "quantity": 1 },
-      { "name": "接近十字斬 P", "nameEn": "", "nameJp": "", "price": "90 個", "quantity": 1 },
-      { "name": "毒氣阿努比斯 A", "nameEn": "", "nameJp": "", "price": "150 個", "quantity": 1 },
-      { "name": "領航員回收 *", "nameEn": "", "nameJp": "", "price": "200 個", "quantity": 1 }
+      { "name": "破碎鎚 *", "nameEn": "", "nameJp": "ブレイクハンマー  *", "price": "20 個", "quantity": 1 },
+      { "name": "氣力直拳 P", "nameEn": "", "nameJp": "ガッツストレート P", "price": "40 個", "quantity": 1 },
+      { "name": "領航員+20 *", "nameEn": "", "nameJp": "ナビ+20 *", "price": "40 個", "quantity": 1 },
+      { "name": "接近十字斬 P", "nameEn": "", "nameJp": "フミコミクロス P", "price": "90 個", "quantity": 1 },
+      { "name": "毒氣阿努比斯 A", "nameEn": "", "nameJp": "ポイズンアヌビス A", "price": "150 個", "quantity": 3 },
+      { "name": "領航員回收 *", "nameEn": "", "nameJp": "ナビリサイクル *", "price": "200 個", "quantity": 1 }
 		]
 	},
 	{
 		"shopName": "裏網路 6 (BUG碎片)",
-		"shopNameEn": "",
-		"shopNameJp": "",
+		"shopNameEn": "Undernet 6",
+		"shopNameJp": "ウラインターネット 6",
 		"currency": "bugFrag",
     "type": "Bug碎片",
 		"items": [
-      { "name": "連射+1", "nameEn": "", "nameJp": "", "price": "50 個", "quantity": 1 },
-      { "name": "HP+100", "nameEn": "", "nameJp": "", "price": "70 個", "quantity": 1 },
-      { "name": "常規+5", "nameEn": "", "nameJp": "", "price": "80 個", "quantity": 1 },
-      { "name": "HP+200", "nameEn": "", "nameJp": "", "price": "80 個", "quantity": 1 },
-      { "name": "萊西支援", "nameEn": "", "nameJp": "", "price": "100 個", "quantity": 1 },
-      { "name": "子彈MAX", "nameEn": "", "nameJp": "", "price": "150 個", "quantity": 1 }
+      { "name": "連射+1 (粉紅)", "nameEn": "", "nameJp": "ラピッド+1 (ピンク)", "price": "50 個", "quantity": 1 },
+      { "name": "HP+100 (白色)", "nameEn": "", "nameJp": "HP+100 (白)", "price": "70 個", "quantity": 1 },
+      { "name": "常規+5 (黄色)", "nameEn": "", "nameJp": "レギュラー+5 (黄色)", "price": "80 個", "quantity": 1 },
+      { "name": "HP+200 (黄色)", "nameEn": "", "nameJp": "HP+200 (黄色)", "price": "80 個", "quantity": 1 },
+      { "name": "萊西支援 (黄色)", "nameEn": "", "nameJp": "ラッシュサポート (黄色)", "price": "100 個", "quantity": 1 },
+      { "name": "子彈MAX (粉紅)", "nameEn": "", "nameJp": "バスターMAX (ピンク)", "price": "150 個", "quantity": 1 }
 		]
 	},
 	{
