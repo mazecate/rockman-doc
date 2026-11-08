@@ -680,17 +680,17 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "秘密區域 2",
-        "locationEn": "Secret Area 2",
-        "locationJp": "シークレットエリア 2",
+        "location": "秘密區域 3",
+        "locationEn": "Secret Area 3",
+        "locationJp": "シークレットエリア 3",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "SP",
-        "location": "秘密區域 2",
-        "locationEn": "Secret Area 2",
-        "locationJp": "シークレットエリア 2",
+        "location": "秘密區域 3",
+        "locationEn": "Secret Area 3",
+        "locationJp": "シークレットエリア 3",
         "isRandom": false,
         "note": ""
       }
@@ -712,17 +712,17 @@
       },
       {
         "versionType": "GS",
-        "location": "秘密區域 2",
-        "locationEn": "Secret Area 2",
-        "locationJp": "シークレットエリア 2",
+        "location": "秘密區域 3",
+        "locationEn": "Secret Area 3",
+        "locationJp": "シークレットエリア 3",
         "isRandom": false,
         "note": "投入300個BUG碎片"
       },
       {
         "versionType": "SP",
-        "location": "秘密區域 2",
-        "locationEn": "Secret Area 2",
-        "locationJp": "シークレットエリア 2",
+        "location": "秘密區域 3",
+        "locationEn": "Secret Area 3",
+        "locationJp": "シークレットエリア 3",
         "isRandom": true,
         "note": ""
       }
