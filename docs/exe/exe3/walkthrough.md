@@ -1,7 +1,7 @@
 ---
 title: 洛克人EXE3 流程攻略
 aside: true
-outline: [2, 4]
+outline: 2
 ---
 
 # 洛克人EXE3 流程攻略
