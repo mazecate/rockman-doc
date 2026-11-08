@@ -3,7 +3,7 @@
     "name": "氣力人",
     "nameEn": "Gutsman",
     "nameJp": "ガッツマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -15,17 +15,17 @@
       },
       {
         "versionType": "V2",
-        "location": "迪卡歐家",
-        "locationEn": "Dex's House",
-        "locationJp": "デカオのへや",
+        "location": "威利城",
+        "locationEn": "Wily Castle",
+        "locationJp": "ワイリー城",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "威利城",
+        "locationEn": "Wily Castle",
+        "locationJp": "ワイリー城",
         "isRandom": false,
         "note": ""
       },
@@ -43,7 +43,7 @@
     "name": "閃光人",
     "nameEn": "Flashman",
     "nameJp": "フラッシュマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -84,7 +84,7 @@
     "name": "金屬人",
     "nameEn": "Metalman",
     "nameJp": "メタルマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -124,7 +124,7 @@
     "name": "野獸人",
     "nameEn": "Beastman",
     "nameJp": "ビーストマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -165,7 +165,7 @@
     "name": "泡沫人",
     "nameEn": "Bubbleman",
     "nameJp": "バブルマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -206,29 +206,29 @@
     "name": "國王人",
     "nameEn": "Kingman",
     "nameJp": "キングマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
         "location": "電視台大廳",
-        "locationEn": "DNN",
-        "locationJp": "DNN",
+        "locationEn": "TV Station Lobby",
+        "locationJp": "TV局ロビー",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "電視台大廳",
-        "locationEn": "DNN",
-        "locationJp": "DNN",
+        "locationEn": "TV Station Lobby",
+        "locationJp": "TV局ロビー",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "威利城",
+        "locationEn": "Wily Castle",
+        "locationJp": "ワイリー城",
         "isRandom": false,
         "note": ""
       },
@@ -246,7 +246,7 @@
     "name": "沙漠人",
     "nameEn": "Desertman",
     "nameJp": "デザートマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -287,13 +287,13 @@
     "name": "植物人",
     "nameEn": "Plantman",
     "nameJp": "プラントマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
         "location": "醫院的電腦 5",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Hospital Comp",
+        "locationJp": "びょういんの電脳",
         "isRandom": false,
         "note": "第5章頭目"
       },
@@ -308,9 +308,9 @@
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "醫院的電腦 3",
+        "locationEn": "Hospital Comp",
+        "locationJp": "びょういんの電脳",
         "isRandom": true,
         "note": ""
       },
@@ -328,7 +328,7 @@
     "name": "烈焰人",
     "nameEn": "Flameman",
     "nameJp": "フレイムマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -349,9 +349,9 @@
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "余余區域 1",
+        "locationEn": "Yoka Area 1",
+        "locationJp": "よかよかエリア 1",
         "isRandom": true,
         "note": ""
       },
@@ -369,7 +369,7 @@
     "name": "鑽頭人",
     "nameEn": "Drillman",
     "nameJp": "ドリルマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
@@ -382,7 +382,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 6",
-        "locationImage": "/images/exe3/navi_location/xxx.jpeg",
+        "locationImage": "/images/exe3/navi_location/drillman_v2.jpeg",
         "locationEn": "Undernet 6",
         "locationJp": "ウラインターネット 6",
         "isRandom": false,
@@ -391,8 +391,8 @@
       {
         "versionType": "V3",
         "location": "地獄島區域",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Hell Island Area",
+        "locationJp": "ジゴク島エリア",
         "isRandom": true,
         "note": ""
       },
@@ -410,29 +410,29 @@
     "name": "保齡球人",
     "nameEn": "Bowlman",
     "nameJp": "ボウルマン",
-    "gameVersion": "",
+    "gameVersion": "黑版",
     "locations": [
       {
         "versionType": "V1",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
@@ -450,29 +450,29 @@
     "name": "煙霧人",
     "nameEn": "Mistman",
     "nameJp": "ミストマン",
-    "gameVersion": "",
+    "gameVersion": "白版",
     "locations": [
       {
         "versionType": "V1",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
         "location": "網路對戰機器的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
         "isRandom": false,
         "note": ""
       },
@@ -490,30 +490,30 @@
     "name": "布魯斯",
     "nameEn": "Blues",
     "nameJp": "ブルース",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "無間地獄",
+        "locationEn": "Eternal Hades",
+        "locationJp": "ムゲンジゴク",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "無間地獄",
+        "locationEn": "Eternal Hades",
+        "locationJp": "ムゲンジゴク",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
+        "location": "無間地獄",
+        "locationEn": "Eternal Hades",
+        "locationJp": "ムゲンジゴク",
+        "isRandom": false,
         "note": ""
       },
       {
@@ -530,7 +530,7 @@
     "name": "巴古",
     "nameEn": "Punk",
     "nameJp": "パンク",
-    "gameVersion": "",
+    "gameVersion": "黑版",
     "locations": [
       {
         "versionType": "V1",
@@ -570,21 +570,21 @@
     "name": "原型",
     "nameEn": "Proto",
     "nameJp": "プロト",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "原型區域",
+        "locationEn": "Alpha Net",
+        "locationJp": "プロトの電脳",
         "isRandom": false,
-        "note": ""
+        "note": "最終章頭目2"
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "原型區域",
+        "locationEn": "Alpha Net",
+        "locationJp": "プロトの電脳",
         "isRandom": false,
         "note": ""
       }
@@ -594,29 +594,30 @@
     "name": "大和人",
     "nameEn": "Yamatoman",
     "nameJp": "ヤマトマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
         "location": "秘密區域 2",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "秘密區域 2",
-        "locationEn": "",
-        "locationJp": "",
+        "locationImage": "/images/exe3/navi_location/yamatoman_v2.jpeg",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
         "location": "鎧甲的電腦",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Armor Comp",
+        "locationJp": "ヨロイの電脳",
         "isRandom": true,
         "note": ""
       },
@@ -634,21 +635,22 @@
     "name": "黑暗人",
     "nameEn": "Darkman",
     "nameJp": "ダークマン",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
         "location": "秘密區域 1",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Secret Area 1",
+        "locationJp": "シークレットエリア 1",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
         "location": "秘密區域 1",
-        "locationEn": "",
-        "locationJp": "",
+        "locationImage": "/images/exe3/navi_location/darkman_v2.jpeg",
+        "locationEn": "Secret Area 1",
+        "locationJp": "シークレットエリア 1",
         "isRandom": false,
         "note": ""
       },
@@ -656,7 +658,7 @@
         "versionType": "V3",
         "location": "裏網路 6",
         "locationEn": "Undernet 6",
-        "locationJp": "",
+        "locationJp": "ウラインターネット 6",
         "isRandom": true,
         "note": "個人化裝置處於BUG裝態"
       },
@@ -674,37 +676,21 @@
     "name": "賽雷納德",
     "nameEn": "Serenade",
     "nameJp": "セレナード",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "秘密區域 2",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
         "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
         "note": ""
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "秘密區域 2",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
         "isRandom": false,
         "note": ""
       }
@@ -714,38 +700,30 @@
     "name": "佛魯迪",
     "nameEn": "Forte",
     "nameJp": "フォルテ",
-    "gameVersion": "",
+    "gameVersion": "雙版本",
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "原型區域",
+        "locationEn": "Alpha Net",
+        "locationJp": "プロトの電脳",
         "isRandom": false,
-        "note": ""
+        "note": "最終章頭目1"
       },
       {
-        "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "versionType": "GS",
+        "location": "秘密區域 2",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
         "isRandom": false,
-        "note": ""
-      },
-      {
-        "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": true,
-        "note": ""
+        "note": "投入300個BUG碎片"
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
+        "location": "秘密區域 2",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
+        "isRandom": true,
         "note": ""
       }
     ]

@@ -11,5 +11,5 @@ import naviData from '@/data/exe3/naviLocations.json'
 </script>
 
 <ClientOnly>
-  <NaviLocation :items="naviData" title="搜尋" edition="exe2" />
+  <NaviLocation :items="naviData" title="搜尋" edition="exe3" />
 </ClientOnly>

@@ -47,6 +47,24 @@
       "location": "電視台攝影棚",
       "give": ["影分身 J"],
       "receive": ["空手奪白刃 Y"]
+    },
+    {
+      "chapter": "第八章",
+      "location": "電視台剪接室",
+      "give": ["全域流星 H"],
+      "receive": ["地堡 F"]
+    },
+    {
+      "chapter": "第八章",
+      "location": "四大地獄",
+      "give": ["偷竊懲罰 K"],
+      "receive": ["宙斯之鎚 Z"]
+    },
+    {
+      "chapter": "完成表關後",
+      "location": "醫院地下室",
+      "give": "",
+      "receive": ["騷靈 G"]
     }
   ]
 }

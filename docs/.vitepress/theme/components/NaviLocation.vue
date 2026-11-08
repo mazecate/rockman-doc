@@ -43,6 +43,10 @@ const filteredItems = computed(() => {
 })
 
 const getVersionClass = (version?: string) => {
+  if (edition === 'exe3') {
+    if (version === '白版') return 'version-white'
+    if (version === '黑版') return 'version-black'
+  }
   if (edition === 'exe4') {
     if (version === '藍月亮') return 'version-bluemoon'
     if (version === '紅太陽') return 'version-redsun'
@@ -60,6 +64,7 @@ const getBadgeClass = (type: string) => {
     case 'FZ': return 'tag-fz'
     case 'DS': return 'tag-ds'
     case 'XX': return 'tag-xx'
+    case 'GS': return 'tag-gs'
     default: return 'tag-common'
   }
 }
@@ -219,6 +224,51 @@ const getBadgeClass = (type: string) => {
   background: rgba(239, 68, 68, 0.15);
 }
 
+.navi-card.version-black {
+  background: linear-gradient(135deg, rgba(31, 41, 55, 0.10) 0%, var(--vp-c-bg-alt) 100%);
+  border-color: rgba(31, 41, 55, 0.35);
+  border-left: 4px solid #1f2937;
+}
+.navi-badge.version-black {
+  color: #1f2937;
+  background: rgba(31, 41, 55, 0.15);
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navi-card.version-white {
+  background: linear-gradient(135deg, rgba(148, 163, 184, 0.18) 0%, var(--vp-c-bg-alt) 100%);
+  border-color: rgba(148, 163, 184, 0.5);
+  border-left: 4px solid #94a3b8;
+}
+.navi-badge.version-white {
+  color: #475569;
+  background: rgba(148, 163, 184, 0.18);
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dark .navi-card.version-black {
+  border-color: rgba(156, 163, 175, 0.4);
+  border-left: 4px solid #9ca3af;
+}
+.dark .navi-badge.version-black {
+  color: #e5e7eb;
+  background: rgba(156, 163, 175, 0.15);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dark .navi-card.version-white {
+  border-color: rgba(226, 232, 240, 0.35);
+  border-left: 4px solid #e2e8f0;
+}
+.dark .navi-badge.version-white {
+  color: #f1f5f9;
+  background: rgba(226, 232, 240, 0.15);
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .navi-card.version-common .card-header-badges .navi-badge.version-common {
   background: rgba(99, 102, 241, 0.12);
   color: #4f46e5;
@@ -285,6 +335,7 @@ const getBadgeClass = (type: string) => {
 .tag-sp { background: rgba(139, 92, 246, 0.15); color: #8b5cf6; }
 .tag-fz { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
 .tag-ds { background: var(--vp-c-default-3); color: var(--vp-c-text-1); }
+.tag-gs { background: #111111; color: #facc15; border: 1px solid rgba(250, 204, 21, 0.45); }
 
 .tag-xx {
   background: rgba(225, 29, 72, 0.18);

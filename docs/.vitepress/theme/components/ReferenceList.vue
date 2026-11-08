@@ -64,6 +64,14 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'MegaQuint',
     url: 'https://www.youtube.com/watch?v=l-GwZlGGQBU'
   },
+  appmedia: {
+    title: 'Appmedia',
+    url: 'https://appmedia.jp/rockman_exe3'
+  },
+  kamigame: {
+    title: 'Kamigame',
+    url: 'https://kamigame.jp/rockmanexe3/index.html'
+  },
 }
 
 const selectedReferences = computed(() => {
