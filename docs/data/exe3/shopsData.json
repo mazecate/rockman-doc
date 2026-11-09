@@ -59,7 +59,7 @@
 	},
 	{
 		"shopName": "海濱廣場",
-		"shopNameEn": "",
+		"shopNameEn": "Beach Square",
 		"shopNameJp": "ビーチスクエア",
 		"currency": "Zenny",
 		"items": [
@@ -74,8 +74,8 @@
 	},
 	{
 		"shopName": "裏廣場",
-		"shopNameEn": "",
-		"shopNameJp": "",
+		"shopNameEn": "UnderSquare",
+		"shopNameJp": "ウラスクエア",
 		"currency": "Zenny",
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
@@ -89,8 +89,8 @@
 	},
 	{
 		"shopName": "裏網路 4",
-		"shopNameEn": "",
-		"shopNameJp": "",
+		"shopNameEn": "Undernet 4",
+		"shopNameJp": "ウラインターネット 4",
 		"currency": "Zenny",
 		"items": [
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 8000, "quantity": 1 },
@@ -100,6 +100,21 @@
 			{ "name": "替身 N", "nameEn": "", "nameJp": "カワリミ M ", "price": 5000, "quantity": 1, "version": "white" },
 			{ "name": "回復200 W", "nameEn": "", "nameJp": "リカバリー200 W", "price": 10000, "quantity": 1, "version": "white" },
 			{ "name": "變化劍 D", "nameEn": "", "nameJp": "バリアブルソード D", "price": 10000, "quantity": 1, "version": "white" }
+		]
+	},
+	{
+		"shopName": "秘密區域 2",
+		"shopNameEn": "Secret Area 2",
+		"shopNameJp": "シークレットエリア 2",
+		"currency": "Zenny",
+		"items": [
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 20000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 30000, "quantity": 1 },
+			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 40000, "quantity": 1 },
+			{ "name": "黑色炸彈3 L", "nameEn": "", "nameJp": "ブラックボム3 L", "price": 10000, "quantity": 3, "version": "white" },
+			{ "name": "氣力衝擊 I", "nameEn": "", "nameJp": "ガッツインパクト I", "price": 13000, "quantity": 1, "version": "white" },
+			{ "name": "攻擊+30 *", "nameEn": "", "nameJp": "アタック+30 *", "price": 15000, "quantity": 1, "version": "white" },
+			{ "name": "流星群 R", "nameEn": "", "nameJp": "リュウセイグン R", "price": 40000, "quantity": 1, "version": "white" }
 		]
 	},
 	{
