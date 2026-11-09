@@ -52,8 +52,8 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "WWW的電腦 1", "locationImage": "/images/exe3/powerup/hp_20.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "WWW的電腦 4", "locationImage": "" },
 
+	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "秘密區域 2", "locationImage": "/images/exe3/powerup/hp_21.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "裏網路 7", "locationImage": "" },
-	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "秘密區域 2", "locationImage": "" },
 	
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "黑板的電腦", "value": 1, "locationImage": "/images/exe3/powerup/reg_01.jpeg" },
 	{ "type": "reg", "name": "常規強化", "method": "神秘數據（藍色）", "location": "雅伊朵的電腦", "value": 2, "locationImage": "/images/exe3/powerup/reg_02.jpeg" },
