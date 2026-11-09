@@ -146,6 +146,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         chiptrade: false,
         chips: {
           standard: true,
+          secret: true,
           versions: {
             redSun: { mega: true, giga: true },
             blueMoon: { mega: true, giga: true }
