@@ -10,7 +10,12 @@
 			{ "name": "V字槍 L", "nameEn": "", "nameJp": "ブイガン L", "price": 200, "quantity": 3, "version": "white" },
 			{ "name": "防護罩 L", "nameEn": "", "nameJp": "バリア L", "price": 500, "quantity": 3, "version": "white" },
 			{ "name": "回復10 *", "nameEn": "", "nameJp": "リカバリー10 *", "price": 500, "quantity": 3, "version": "white" },
-			{ "name": "熱焰散彈 B", "nameEn": "", "nameJp": "ヒートショット B", "price": 800, "quantity": 3, "version": "white" }
+			{ "name": "熱焰散彈 B", "nameEn": "", "nameJp": "ヒートショット B", "price": 800, "quantity": 3, "version": "white" },
+
+			{ "name": "泡沫散彈 E", "nameEn": "", "nameJp": "バブルショット E", "price": 600, "quantity": 3, "version": "black" },
+			{ "name": "回復30 F", "nameEn": "", "nameJp": "リカバリー30 F", "price": 800, "quantity": 3, "version": "black" },
+			{ "name": "區域竊取 *", "nameEn": "", "nameJp": "エリアスチール *", "price": 1200, "quantity": 1, "version": "black" },
+			{ "name": "衝刺攻擊 C", "nameEn": "", "nameJp": "ダッシュアタック C", "price": 1400, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -24,7 +29,12 @@
 			{ "name": "攻擊+10 *", "nameEn": "", "nameJp": "アタック+10 *", "price": 300, "quantity": 3, "version": "white" },
 			{ "name": "地面竊取 L", "nameEn": "", "nameJp": "パネルスチール L", "price": 600, "quantity": 3, "version": "white" },
 			{ "name": "草原戰場 *", "nameEn": "", "nameJp": "クサムラステージ *", "price": 1000, "quantity": 3, "version": "white" },
-			{ "name": "竹劍 P", "nameEn": "", "nameJp": "バンブーソード P", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "竹劍 P", "nameEn": "", "nameJp": "バンブーソード P", "price": 5000, "quantity": 1, "version": "white" },
+			
+			{ "name": "隱身 *", "nameEn": "", "nameJp": "インビジブル *", "price": 600, "quantity": 3, "version": "black" },
+			{ "name": "金屬戰場 D", "nameEn": "", "nameJp": "メタルステージ D", "price": 3000, "quantity": 3, "version": "black" },
+			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "エレキソード N", "price": 3000, "quantity": 1, "version": "black" },
+			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "カスタムソード B", "price": 5000, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -39,7 +49,12 @@
 			{ "name": "石頭方塊 *", "nameEn": "", "nameJp": "ストーンキューブ *", "price": 500, "quantity": 3, "version": "white" },
 			{ "name": "加農砲 C", "nameEn": "", "nameJp": "キャノン C", "price": 800, "quantity": 3, "version": "white" },
 			{ "name": "突風 A", "nameEn": "", "nameJp": "トップウ A", "price": 1000, "quantity": 3, "version": "white" },
-			{ "name": "接近斬 P", "nameEn": "", "nameJp": "フミコミザン P", "price": 7000, "quantity": 1, "version": "white" }
+			{ "name": "接近斬 P", "nameEn": "", "nameJp": "フミコミザン P", "price": 7000, "quantity": 1, "version": "white" },
+
+			{ "name": "地下鼹鼠1 *", "nameEn": "", "nameJp": "ユカシタモグラ1 *", "price": 1000, "quantity": 3, "version": "black" },
+			{ "name": "龍捲風 C", "nameEn": "", "nameJp": "トルネード C", "price": 3000, "quantity": 3, "version": "black" },
+			{ "name": "替身 M", "nameEn": "", "nameJp": "カワリミ M", "price": 3800, "quantity": 1, "version": "black" },
+			{ "name": "定時炸彈 K", "nameEn": "", "nameJp": "カウントボム K", "price": 5200, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -53,8 +68,14 @@
 			{ "name": "HP記憶體", "nameEn": "", "nameJp": "HPメモリ", "price": 12000, "quantity": 1 },
 			{ "name": "區域竊取 *", "nameEn": "", "nameJp": "エリアスチール *", "price": 1600, "quantity": 3, "version": "white" },
 			{ "name": "雙炸彈 H", "nameEn": "", "nameJp": "ダブルボム H", "price": 2000, "quantity": 3, "version": "white" },
-			{ "name": "溜溜球1 G", "nameEn": "", "nameJp": "ヨーヨー1 ", "price": 3000, "quantity": 3, "version": "white" },
-			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "エレキソード N", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "溜溜球1 G", "nameEn": "", "nameJp": "ヨーヨー1 G", "price": 3000, "quantity": 3, "version": "white" },
+			{ "name": "電氣劍 N", "nameEn": "", "nameJp": "エレキソード N", "price": 5000, "quantity": 1, "version": "white" },
+
+			{ "name": "針刺機器1 J", "nameEn": "", "nameJp": "ニードルマシン1 J", "price": 3200, "quantity": 1, "version": "black" },
+			{ "name": "竹劍 P", "nameEn": "", "nameJp": "バンブーソード P", "price": 3500, "quantity": 1, "version": "black" },
+			{ "name": "竹槍 Z", "nameEn": "", "nameJp": "バンブーランス Z", "price": 4000, "quantity": 1, "version": "black" },
+			{ "name": "重搖1 R", "nameEn": "", "nameJp": "ヘビーシェイク1 R", "price": 5000, "quantity": 1, "version": "black" },
+			{ "name": "接近斬 P", "nameEn": "", "nameJp": "フミコミザン P", "price": 6400, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -69,7 +90,12 @@
 			{ "name": "金屬戰場 S", "nameEn": "", "nameJp": "メタルステージ S", "price": 4000, "quantity": 1, "version": "white" },
 			{ "name": "定時炸彈 L", "nameEn": "", "nameJp": "カウントボム L", "price": 4000, "quantity": 1, "version": "white" },
 			{ "name": "改裝劍 B", "nameEn": "", "nameJp": "カスタムソード B", "price": 5000, "quantity": 1, "version": "white" },
-			{ "name": "神石 S", "nameEn": "", "nameJp": "ゴッドストーン S", "price": 8000, "quantity": 1, "version": "white" }
+			{ "name": "神石 S", "nameEn": "", "nameJp": "ゴッドストーン S", "price": 8000, "quantity": 1, "version": "white" },
+
+			{ "name": "草原戰場 R", "nameEn": "", "nameJp": "クサムラステージ R", "price": 1000, "quantity": 1, "version": "black" },
+			{ "name": "定時炸彈 J", "nameEn": "", "nameJp": "カウントボム J", "price": 4000, "quantity": 1, "version": "black" },
+			{ "name": "200防護罩 R", "nameEn": "", "nameJp": "200バリア R", "price": 6000, "quantity": 1, "version": "black" },
+			{ "name": "變化劍 D", "nameEn": "", "nameJp": "バリアブルソード D", "price": 10000, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -84,7 +110,12 @@
 			{ "name": "變化劍 E", "nameEn": "", "nameJp": "バリアブルソード E", "price": 8000, "quantity": 1, "version": "white" },
 			{ "name": "騎士 V", "nameEn": "", "nameJp": "ナイト V", "price": 10000, "quantity": 1, "version": "white" },
 			{ "name": "超級北風 Z", "nameEn": "", "nameJp": "スーパーキタカゼ Z", "price": 13000, "quantity": 1, "version": "white" },
-			{ "name": "量表全滿 *", "nameEn": "", "nameJp": "フルカスタム ＊ ", "price": 5000, "quantity": 1, "version": "white" }
+			{ "name": "量表全滿 *", "nameEn": "", "nameJp": "フルカスタム *", "price": 5000, "quantity": 1, "version": "white" },
+			
+			{ "name": "定時炸彈 L", "nameEn": "", "nameJp": "カウントボム L", "price": 4000, "quantity": 1, "version": "black" },
+			{ "name": "風壓劍 *", "nameEn": "", "nameJp": "フウアツケン *", "price": 6000, "quantity": 1, "version": "black" },
+			{ "name": "領航員+20 *", "nameEn": "", "nameJp": "ナビ+20 *", "price": 7500, "quantity": 1, "version": "black" },
+			{ "name": "老樹 W", "nameEn": "", "nameJp": "オールドウッド W", "price": 15000, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -99,7 +130,13 @@
 			{ "name": "士兵 N", "nameEn": "", "nameJp": "ポーン N", "price": 5000, "quantity": 3, "version": "white" },
 			{ "name": "替身 N", "nameEn": "", "nameJp": "カワリミ M ", "price": 5000, "quantity": 1, "version": "white" },
 			{ "name": "回復200 W", "nameEn": "", "nameJp": "リカバリー200 W", "price": 10000, "quantity": 1, "version": "white" },
-			{ "name": "變化劍 D", "nameEn": "", "nameJp": "バリアブルソード D", "price": 10000, "quantity": 1, "version": "white" }
+			{ "name": "變化劍 D", "nameEn": "", "nameJp": "バリアブルソード D", "price": 10000, "quantity": 1, "version": "white" },
+
+			{ "name": "詛咒盾3 N", "nameEn": "", "nameJp": "カースシールド3 N", "price": 7500, "quantity": 1, "version": "black" },
+			{ "name": "巨鼠煙火 B", "nameEn": "", "nameJp": "ラットンハナビ B", "price": 9000, "quantity": 1, "version": "black" },
+			{ "name": "回復150 *", "nameEn": "", "nameJp": "リカバリー150 *", "price": 12000, "quantity": 1, "version": "black" },
+			{ "name": "接近十字斬 P", "nameEn": "", "nameJp": "フミコミクロス P", "price": 13000, "quantity": 1, "version": "black" },
+			{ "name": "攻擊+30 P", "nameEn": "", "nameJp": "アタック+30 *", "price": 14000, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -114,7 +151,12 @@
 			{ "name": "黑色炸彈3 L", "nameEn": "", "nameJp": "ブラックボム3 L", "price": 10000, "quantity": 3, "version": "white" },
 			{ "name": "氣力衝擊 I", "nameEn": "", "nameJp": "ガッツインパクト I", "price": 13000, "quantity": 1, "version": "white" },
 			{ "name": "攻擊+30 *", "nameEn": "", "nameJp": "アタック+30 *", "price": 15000, "quantity": 1, "version": "white" },
-			{ "name": "流星群 R", "nameEn": "", "nameJp": "リュウセイグン R", "price": 40000, "quantity": 1, "version": "white" }
+			{ "name": "流星群 R", "nameEn": "", "nameJp": "リュウセイグン R", "price": 40000, "quantity": 1, "version": "white" },
+
+			{ "name": "空氣風暴3 I", "nameEn": "", "nameJp": "エアストーム3 I", "price": 9000, "quantity": 3, "version": "black" },
+			{ "name": "巨大波 J", "nameEn": "", "nameJp": "グレートウェーブ J", "price": 11000, "quantity": 1, "version": "black" },
+			{ "name": "超級北風 C", "nameEn": "", "nameJp": "スーパーキタカゼ C", "price": 12000, "quantity": 1, "version": "black" },
+			{ "name": "氣力衝擊 G", "nameEn": "", "nameJp": "ガッツインパクト G", "price": 120000, "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -149,12 +191,19 @@
 		"currency": "bugFrag",
     "type": "Bug碎片",
 		"items": [
-      { "name": "空氣彈2 *", "nameEn": "", "nameJp": "エアシュート *", "price": "20 個", "quantity": 1 },
-      { "name": "木+30 *", "nameEn": "", "nameJp": "ウッド+30 *", "price": "40 個", "quantity": 1 },
-      { "name": "100防護罩 *", "nameEn": "", "nameJp": "100バリア *", "price": "50 個", "quantity": 1 },
-      { "name": "定時炸彈 K", "nameEn": "", "nameJp": "カウントボム K", "price": "60 個", "quantity": 1 },
-      { "name": "岩漿戰場 *", "nameEn": "", "nameJp": "マグマステージ *", "price": "80 個", "quantity": 1 },
-      { "name": "隱形地雷 A", "nameEn": "", "nameJp": "ステルスマイン A", "price": "100 個", "quantity": 3 }
+      { "name": "空氣彈2 *", "nameEn": "", "nameJp": "エアシュート *", "price": "20 個", "quantity": 1, "version": "white" },
+      { "name": "木+30 *", "nameEn": "", "nameJp": "ウッド+30 *", "price": "40 個", "quantity": 1, "version": "white" },
+      { "name": "100防護罩 *", "nameEn": "", "nameJp": "100バリア *", "price": "50 個", "quantity": 1, "version": "white" },
+      { "name": "定時炸彈 K", "nameEn": "", "nameJp": "カウントボム K", "price": "60 個", "quantity": 1, "version": "white" },
+      { "name": "岩漿戰場 *", "nameEn": "", "nameJp": "マグマステージ *", "price": "80 個", "quantity": 1, "version": "white" },
+      { "name": "隱形地雷 A", "nameEn": "", "nameJp": "ステルスマイン A", "price": "100 個", "quantity": 3, "version": "white" },
+
+      { "name": "岩漿戰場 A", "nameEn": "", "nameJp": "マグマステージ A", "price": "35 個", "quantity": 1, "version": "black" },
+      { "name": "氣力直拳 P", "nameEn": "", "nameJp": "ガッツストレート P", "price": "50 個", "quantity": 1, "version": "black" },
+      { "name": "黑色炸彈3 G", "nameEn": "", "nameJp": "ブラックボム3 G", "price": "90 個", "quantity": 1, "version": "black" },
+      { "name": "變化劍 C", "nameEn": "", "nameJp": "バリアブルソード C", "price": "90 個", "quantity": 1, "version": "black" },
+      { "name": "接近十字斬 T", "nameEn": "", "nameJp": "フミコミクロス T", "price": "95 個", "quantity": 1, "version": "black" },
+      { "name": "氣力衝擊 I", "nameEn": "", "nameJp": "ガッツインパクト I", "price": "100 個", "quantity": 1, "version": "black" }
 		]
 	},
 	{
@@ -164,12 +213,19 @@
 		"currency": "bugFrag",
     "type": "Bug碎片",
 		"items": [
-      { "name": "破碎鎚 *", "nameEn": "", "nameJp": "ブレイクハンマー  *", "price": "20 個", "quantity": 1 },
-      { "name": "氣力直拳 P", "nameEn": "", "nameJp": "ガッツストレート P", "price": "40 個", "quantity": 1 },
-      { "name": "領航員+20 *", "nameEn": "", "nameJp": "ナビ+20 *", "price": "40 個", "quantity": 1 },
-      { "name": "接近十字斬 P", "nameEn": "", "nameJp": "フミコミクロス P", "price": "90 個", "quantity": 1 },
-      { "name": "毒氣阿努比斯 A", "nameEn": "", "nameJp": "ポイズンアヌビス A", "price": "150 個", "quantity": 3 },
-      { "name": "領航員回收 *", "nameEn": "", "nameJp": "ナビリサイクル *", "price": "200 個", "quantity": 1 }
+      { "name": "破碎鎚 *", "nameEn": "", "nameJp": "ブレイクハンマー  *", "price": "20 個", "quantity": 1, "version": "white" },
+      { "name": "氣力直拳 P", "nameEn": "", "nameJp": "ガッツストレート P", "price": "40 個", "quantity": 1, "version": "white" },
+      { "name": "領航員+20 *", "nameEn": "", "nameJp": "ナビ+20 *", "price": "40 個", "quantity": 1, "version": "white" },
+      { "name": "接近十字斬 P", "nameEn": "", "nameJp": "フミコミクロス P", "price": "90 個", "quantity": 1, "version": "white" },
+      { "name": "毒氣阿努比斯 A", "nameEn": "", "nameJp": "ポイズンアヌビス A", "price": "150 個", "quantity": 3, "version": "white" },
+      { "name": "領航員回收 *", "nameEn": "", "nameJp": "ナビリサイクル *", "price": "200 個", "quantity": 1, "version": "white" },
+
+      { "name": "電+30 *", "nameEn": "", "nameJp": "エレキ+30  *", "price": "15 個", "quantity": 1, "version": "black" },
+      { "name": "木+30 *", "nameEn": "", "nameJp": "ウッド+30 *", "price": "15 個", "quantity": 1, "version": "black" },
+      { "name": "量表全滿 *", "nameEn": "", "nameJp": "フルカスタム *", "price": "30 個", "quantity": 1, "version": "black" },
+      { "name": "神石 S", "nameEn": "", "nameJp": "ゴッドストーン S", "price": "80 個", "quantity": 1, "version": "black" },
+      { "name": "流星群 R", "nameEn": "", "nameJp": "リュウセイグン R", "price": "150 個", "quantity": 1, "version": "black" },
+      { "name": "資料夾復原 *", "nameEn": "", "nameJp": "フォルダリターン *", "price": "200 個", "quantity": 1, "version": "black" }
 		]
 	},
 	{
