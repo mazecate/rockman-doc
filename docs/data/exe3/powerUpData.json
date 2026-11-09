@@ -24,6 +24,10 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 4", "price": "8000Z", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 4", "price": "12000Z", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "裏網路 4", "price": "16000Z", "locationImage": "" },
+	
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "秘密區域 2", "price": "2000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "秘密區域 2", "price": "30000Z", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "網路商人購入", "location": "秘密區域 2", "price": "40000Z", "locationImage": "" },
 
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "學校伺服器的電腦", "locationImage": "/images/exe3/powerup/hp_01.jpeg" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "校長的筆記型電腦 2", "locationImage": "/images/exe3/powerup/hp_02.jpeg" },
