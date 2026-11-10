@@ -1,0 +1,67 @@
+[
+  {
+    "no": "1",
+    "nameZh": "",
+    "nameJp": "ナビリサイクル",
+    "nameEn": "NavRcycl",
+    "element": "無",
+    "damage": null,
+    "codes": ["*"],
+    "memory": "50 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "2",
+    "nameZh": "",
+    "nameJp": "フォルテ",
+    "nameEn": "Bass",
+    "element": "無",
+    "damage": 90,
+    "codes": ["X"],
+    "memory": "98 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "3",
+    "nameZh": "",
+    "nameJp": "セレナード",
+    "nameEn": "Serenade",
+    "element": "無",
+    "damage": 100,
+    "codes": ["S"],
+    "memory": "97 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "4",
+    "nameZh": "",
+    "nameJp": "リョウセイバイ",
+    "nameEn": "Balance",
+    "element": "無",
+    "damage": null,
+    "codes": ["Y"],
+    "memory": "60 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "5",
+    "nameZh": "原型之臂Σ",
+    "nameJp": "プロトアームΣ",
+    "nameEn": "AlphArmΣ",
+    "element": "無",
+    "damage": 50,
+    "codes": ["V"],
+    "memory": "97 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  }
+]

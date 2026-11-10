@@ -1,0 +1,67 @@
+[
+  {
+    "no": "1",
+    "nameZh": "資料夾復原",
+    "nameJp": "フォルダリターン",
+    "nameEn": "FoldrBak",
+    "element": "無",
+    "damage": null,
+    "codes": ["*"],
+    "memory": "99 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "復原使用過的晶片資料夾的晶片數量變回30枚！"
+  },
+  {
+    "no": "2",
+    "nameZh": "佛魯迪另",
+    "nameJp": "フォルテアナザー",
+    "nameEn": "Bass+",
+    "element": "無",
+    "damage": 550,
+    "codes": ["X"],
+    "memory": "98 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": "闇之晶片，連地面都一起破壞的大地破碎！"
+  },
+  {
+    "no": "3",
+    "nameZh": "黑暗靈光",
+    "nameJp": "デルタレイエッジ",
+    "nameEn": "DarkAura",
+    "element": "無",
+    "damage": null,
+    "codes": ["A"],
+    "memory": "55 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "4",
+    "nameZh": "三角刀鋒",
+    "nameJp": "デルタレイエッジ",
+    "nameEn": "DeltaRay",
+    "element": "無",
+    "damage": 220,
+    "codes": ["Z"],
+    "memory": "92 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "5",
+    "nameZh": "原型之臂Ω",
+    "nameJp": "プロトアームΩ",
+    "nameEn": "AlphArmΩ",
+    "element": "無",
+    "damage": 500,
+    "codes": ["V"],
+    "memory": "97 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  }
+]
