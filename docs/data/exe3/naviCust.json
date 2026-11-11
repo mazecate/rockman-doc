@@ -27,7 +27,7 @@
       "nameJp": "ブレイクチャージ",
       "color": "紅",
       "method": "氣力型態升級至 LV4",
-      "effect": "集氣射擊會變得能貫通對手的防禦",
+      "effect": "集氣射擊會變得能貫通對手的防禦！",
       "image": null,
       "compressionCommand": "BA←L↑B",
       "isGet": false
@@ -38,7 +38,7 @@
       "nameJp": "ブレイクチャージ",
       "color": "橙",
       "method": "第4章中得到",
-      "effect": "集氣射擊會變得能貫通對手的防禦",
+      "effect": "集氣射擊會變得能貫通對手的防禦！",
       "image": "parts_14.jpeg",
       "compressionCommand": "BA←L↑B"
     },
