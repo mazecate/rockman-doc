@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress';
-import type { MenuConfig, ChipsSubmenuConfig } from '@/theme/types';
+import type { MenuConfig, ChipsSubmenuConfig, NaviCustSubmenuConfig } from '@/theme/types';
 
 // Ref: https://vitepress.dev/reference/default-theme-config#sidebar
 
@@ -66,12 +66,31 @@ function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): Side
   return subItems;
 }
 
+function getNaviCustMenuItems(folderPath: string, config: boolean | NaviCustSubmenuConfig): SidebarItem[] {
+  const subConfig = typeof config === 'object' ? config : { intro: true, programs: true };
+  const { intro = true, programs = true } = subConfig;
+
+  const subItems: SidebarItem[] = [];
+
+  if (intro) {
+    const introLink = typeof intro === 'string' ? intro : `${folderPath}/navicust/intro`;
+    const isExternal = introLink.startsWith('http');
+    // subItems.push({ text: '官方簡介', link: introLink, target: isExternal ? '_blank' : undefined, rel: isExternal ? 'noopener noreferrer' : undefined, });
+    subItems.push({ text: '官方簡介', link: introLink, });
+  }
+
+  if (programs) subItems.push({ text: '程式零件', link: `${folderPath}/navicust/programs` });
+
+  return subItems;
+}
+
 function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarItem[] {
   const {
     walkthrough = true,
     underworld = true,
     trader = true,
-    navi = true,
+    naviloc = true,
+    navicust = false,
     pa = true,
     chips = true,
     powerups = true,
@@ -99,9 +118,22 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     }
   }
 
+  // === 領航員個人化裝置 Submenu 邏輯 ===
+  if (navicust) {
+    if (typeof navicust === 'object') {
+      items.push({
+        text: '領航員個人化裝置',
+        collapsed: true,
+        items: getNaviCustMenuItems(folderPath, navicust)
+      });
+    } else {
+      items.push({ text: '領航員個人化裝置', link: `${folderPath}/navicust` });
+    }
+  }
+
   if (pa)        items.push({ text: '程式進化 (PA)', link: `${folderPath}/program-advances` });
   if (trader)    items.push({ text: '數字交易機', link: `${folderPath}/trader` });
-  if (navi)      items.push({ text: '領航員位置', link: `${folderPath}/navi-locations` });
+  if (naviloc)   items.push({ text: '領航員位置', link: `${folderPath}/navi-locations` });
   if (powerups)  items.push({ text: '強化部件', link: `${folderPath}/powerups` });
   if (stars)     items.push({ text: '星之證', link: `${folderPath}/stars` });
   if (shops)     items.push({ text: '商店', link: `${folderPath}/shops` });
@@ -129,6 +161,10 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '洛克人 EXE 3',
       collapsed: true,
       items: getSubMenuItems('/exe/exe3', {
+        navicust: {
+          intro: 'https://game.capcom.com/manual/REXEAC/vol1/zh-hant/switch/page/3/4',
+          programs: true
+        },
         chips: { 
           standard: true,
           mega: true,
@@ -143,6 +179,10 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '洛克人 EXE 4',
       collapsed: true,
       items: getSubMenuItems('/exe/exe4', {
+        navicust: {
+          intro: 'https://game.capcom.com/manual/REXEAC/vol2/zh-hant/switch/page/1/4',
+          programs: true
+        },
         chiptrade: false,
         chips: {
           standard: true,
@@ -176,17 +216,17 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '流星洛克人 1',
       collapsed: false,
-      items: getSubMenuItems('/starforce/sf1', { trader: false, navi: false, pa: false, chips: true })
+      items: getSubMenuItems('/starforce/sf1', { trader: false, naviloc: false, pa: false, chips: true })
     },
     {
       text: '流星洛克人 2',
       collapsed: true,
-      items: getSubMenuItems('/starforce/sf2', { trader: false, navi: false, pa: false, chips: true })
+      items: getSubMenuItems('/starforce/sf2', { trader: false, naviloc: false, pa: false, chips: true })
     },
     {
       text: '流星洛克人 3',
       collapsed: true,
-      items: getSubMenuItems('/starforce/sf3', { trader: false, navi: false, pa: false, chips: true })
+      items: getSubMenuItems('/starforce/sf3', { trader: false, naviloc: false, pa: false, chips: true })
     }
   ]
 };

@@ -1,0 +1,13 @@
+---
+title: EXE3 程式零件
+aside: false
+---
+
+# EXE 3 程式零件
+
+<script setup>
+// import chipTradeData from '@/data/exe3/chipTradeData.json'
+</script>
+
+<ClientOnly>
+</ClientOnly>
