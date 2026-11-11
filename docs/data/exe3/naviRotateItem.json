@@ -1,0 +1,59 @@
+{
+  "series": "exe3",
+  "items": [
+    {
+      "nameZh": "Error改造工具",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "",
+      "method": "海濱地鐵站門口與大叔購買",
+      "effect": "",
+      "image": "item_00.jpeg"
+    },
+    {
+      "nameZh": "黃色旋轉",
+      "nameEn": "SpinYellow",
+      "nameJp": "",
+      "color": "",
+      "method": "委託任務「幫助我的不孝子！」",
+      "effect": "可以按下L或R旋轉領航員個人化裝置中的黃色程式零件",
+      "image": "item_01.jpeg"
+    },
+    {
+      "nameZh": "粉色旋轉",
+      "nameEn": "SpinPink",
+      "nameJp": "",
+      "color": "",
+      "method": "海濱區域1需要用到WH通行碼的紫水晶",
+      "effect": "可以按下L或R旋轉領航員個人化裝置中的粉色程式零件",
+      "image": "item_03.jpeg"
+    },
+    {
+      "nameZh": "橙色旋轉",
+      "nameEn": "SpinOrange",
+      "nameJp": "",
+      "color": "",
+      "method": "在醫院外面下樓梯後轉向角落的方向與小女孩對話取得",
+      "effect": "可以按下L或R旋轉領航員個人化裝置中的橙色程式零件",
+      "image": "item_02.jpeg"
+    },
+    {
+      "nameZh": "紫色旋轉",
+      "nameEn": "SpinPurple",
+      "nameJp": "",
+      "color": "",
+      "method": "在海濱街與躲在餐廳後面柱子的女孩子對話取得",
+      "effect": "可以按下L或R旋轉領航員個人化裝置中的紫色程式零件",
+      "image": "item_04.jpeg"
+    },
+    {
+      "nameZh": "深色旋轉",
+      "nameEn": "SpinDark",
+      "nameJp": "",
+      "color": "",
+      "method": "在裏網路4與躲在巨大柱子後面的程式君對話獲得",
+      "effect": "可以按下L或R旋轉領航員個人化裝置中的深色程式零件",
+      "image": "item_05.jpeg"
+    }
+  ]
+}

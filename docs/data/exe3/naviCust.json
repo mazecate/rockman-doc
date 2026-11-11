@@ -1,0 +1,698 @@
+{
+  "series": "exe3",
+  "parts": [
+    {
+      "nameZh": "超級裝甲",
+      "nameEn": "",
+      "nameJp": "スーパーアーマー",
+      "color": "紅",
+      "method": "氣力型態升級至 LV2",
+      "effect": "就算受到攻擊也不會硬直！",
+      "image": null,
+      "compressionCommand": "↑→↑Ｒ↑↓"
+    },
+    {
+      "nameZh": "破碎飛彈",
+      "nameEn": "",
+      "nameJp": "ブレイクバスター",
+      "color": "紅",
+      "method": "氣力型態升級至 LV3",
+      "effect": "洛克砲會變得能貫通對手的防禦！",
+      "image": null,
+      "compressionCommand": "RAB↓LL"
+    },
+    {
+      "nameZh": "破碎集氣",
+      "nameEn": "",
+      "nameJp": "ブレイクチャージ",
+      "color": "紅",
+      "method": "氣力型態升級至 LV4",
+      "effect": "集氣射擊會變得能貫通對手的防禦",
+      "image": null,
+      "compressionCommand": "BA←L↑B",
+      "isGet": false
+    },
+    {
+      "nameZh": "破碎集氣",
+      "nameEn": "",
+      "nameJp": "ブレイクチャージ",
+      "color": "橙",
+      "method": "第4章中得到",
+      "effect": "集氣射擊會變得能貫通對手的防禦",
+      "image": "parts_14.jpeg",
+      "compressionCommand": "BA←L↑B"
+    },
+    {
+      "nameZh": "改裝1",
+      "nameEn": "",
+      "nameJp": "カスタム1",
+      "color": "藍",
+      "method": "改裝型態升級至 LV2",
+      "effect": "在改裝視窗最初可選的晶片枚數+1",
+      "image": null,
+      "compressionCommand": "BA←L↑B"
+    },
+    {
+      "nameZh": "改裝1",
+      "nameEn": "",
+      "nameJp": "カスタム1",
+      "color": "黃",
+      "method": "改裝型態升級至 LV3",
+      "effect": "在改裝視窗最初可選的晶片枚數+1",
+      "image": null,
+      "compressionCommand": "→→→↑←B"
+    },
+    {
+      "nameZh": "改裝2",
+      "nameEn": "",
+      "nameJp": "カスタム2",
+      "color": "藍",
+      "method": "改裝型態升級至 LV4",
+      "effect": "在改裝視窗最初可選的晶片枚數+2",
+      "image": null,
+      "compressionCommand": "A↓↑↓R↓"
+    },
+    {
+      "nameZh": "MEGA資料夾1",
+      "nameEn": "",
+      "nameJp": "メガフォルダ1",
+      "color": "綠",
+      "method": "兄弟型態升級至 LV2",
+      "effect": "資料夾可放入的MEGA晶片枚數+1",
+      "image": null,
+      "compressionCommand": "→R↓RL←"
+    },
+    {
+      "nameZh": "MEGA資料夾1",
+      "nameEn": "",
+      "nameJp": "メガフォルダ1",
+      "color": "粉紅",
+      "method": "兄弟型態升級至 LV3",
+      "effect": "資料夾可放入的MEGA晶片枚數+1",
+      "image": null,
+      "compressionCommand": "→R↓RL←"
+    },
+    {
+      "nameZh": "MEGA資料夾2",
+      "nameEn": "",
+      "nameJp": "メガフォルダ2",
+      "color": "綠",
+      "method": "兄弟型態升級至 LV4",
+      "effect": "資料夾可放入的MEGA晶片枚數+2",
+      "image": null,
+      "compressionCommand": "AR↓↓→←"
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "ブロック",
+      "color": "藍",
+      "method": "盾型態升級至 LV2",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "↓B↑↓A←",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "シールド",
+      "color": "藍",
+      "method": "盾型態升級至 LV3",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "←→↓R↓R",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "リフレクト",
+      "color": "藍",
+      "method": "盾型態升級至 LV4",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "B↑A←←B",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "SET GREEN",
+      "nameJp": "セットグリーン",
+      "color": "綠",
+      "method": "大地型態升級至 LV2",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "↓RR↓B←",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "SET ICE",
+      "nameJp": "セットアイス",
+      "color": "綠",
+      "method": "大地型態升級至 LV3",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "A↑A↑←R",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "SET MAGMA",
+      "nameJp": "セットマグマ",
+      "color": "綠",
+      "method": "大地型態升級至 LV4",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "B→→BRA",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "SET HOLY",
+      "nameJp": "セットホーリー",
+      "color": "綠",
+      "method": "大地型態升級至 LV5",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "ABRR←R",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "シャドーシューズ",
+      "color": "紅",
+      "method": "影子型態升級至 LV2",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "↑←→L↑R",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "フロートシューズ",
+      "color": "紅",
+      "method": "影子型態升級至 LV3",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "←↓←↓←L",
+      "isGet": false
+    },
+    {
+      "nameZh": "",
+      "nameEn": "",
+      "nameJp": "カワリミマジック",
+      "color": "紅",
+      "method": "影子型態升級至 LV4",
+      "effect": "",
+      "image": null,
+      "compressionCommand": "L←RA→↓",
+      "isGet": false
+    },
+    {
+      "nameZh": "BUG停止器",
+      "nameEn": "",
+      "nameJp": "バグストッパー",
+      "color": "白",
+      "method": "BUG型態升級至 LV2",
+      "effect": "能抑止BUG發生的特殊程式",
+      "image": null,
+      "compressionCommand": "B↓↑B↓B",
+      "isGet": false
+    },
+    {
+      "nameZh": "黑暗執照",
+      "nameEn": "",
+      "nameJp": "ダークライセンス",
+      "color": "灰",
+      "method": "BUG型態升級至 LV3",
+      "effect": "能夠與闇之居民取得聯繫，危險的程式",
+      "image": null,
+      "compressionCommand": "RLR↓←BR",
+      "isGet": false
+    },
+    {
+      "nameZh": "設置沙",
+      "nameEn": "",
+      "nameJp": "セットサンド",
+      "color": "綠",
+      "method": "數字交易機",
+      "effect": "將場地上的普通地面變為沙子",
+      "image": null,
+      "compressionCommand": "←AAB↑←"
+    },
+    {
+      "nameZh": "設置金屬",
+      "nameEn": "SET METAL",
+      "nameJp": "セットメタル",
+      "color": "綠",
+      "method": "裏廣場商店",
+      "effect": "把場地上的普通地面變為金屬",
+      "image": null,
+      "compressionCommand": "BR→→LL"
+    },
+    {
+      "nameZh": "緊身衣",
+      "nameEn": "",
+      "nameJp": "アンダーシャツ",
+      "color": "白",
+      "method": "取得領航員個人化裝置同時",
+      "effect": "即使受到致死量的攻擊會硬是以 HP 1 撐住！",
+      "image": null,
+      "compressionCommand": "←↑BL←↑"
+    },
+    {
+      "nameZh": "幽默感",
+      "nameEn": "",
+      "nameJp": "ユーモアセンス",
+      "color": "粉紅",
+      "method": "完成委託「請讓我恢復以前的生活」的報酬",
+      "effect": "設裝上過度認真的領航員上再按L對話試試看",
+      "image": "parts_07.jpeg",
+      "compressionCommand": "↑RA←→→"
+    },
+    {
+      "nameZh": "黑色心靈",
+      "nameEn": "",
+      "nameJp": "ブラックマインド",
+      "color": "白",
+      "method": "第7章中取得",
+      "effect": "能夠醞釀出邪惡氣息的偽裝程式",
+      "image": null,
+      "compressionCommand": "→←→↓R↓"
+    },
+    {
+      "nameZh": "飛行鞋",
+      "nameEn": "",
+      "nameJp": "エアシューズ",
+      "color": "白",
+      "method": "數字交易機",
+      "effect": "在沒有地面的格子上也變得能夠移動！",
+      "image": null,
+      "compressionCommand": "↑BB↓AR"
+    },
+    {
+      "nameZh": "收藏家之眼",
+      "nameEn": "",
+      "nameJp": "コレクターズアイ",
+      "color": "粉紅",
+      "method": "威利城 - 外牆的電腦",
+      "effect": "提升從敵人殘骸中找到晶片資料的眼力",
+      "image": "parts_12.jpeg",
+      "compressionCommand": "B↓→R→→"
+    },
+    {
+      "nameZh": "壓縮程式",
+      "nameEn": "PRESS PROGRAM",
+      "nameJp": "プレスプログラム",
+      "color": "白",
+      "method": "第3章中取得",
+      "effect": "在通過狹小亮路時自動地壓縮身體尺寸",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "能量轉換",
+      "nameEn": "",
+      "nameJp": "エナジーチェンジ",
+      "color": "白",
+      "method": "第5章中取得",
+      "effect": "將火、水屬性的晶片變換為力量，由身體放出！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "原型鏡",
+      "nameEn": "",
+      "nameJp": "プロトスコープ",
+      "color": "粉紅",
+      "method": "第8章中取得",
+      "effect": "能夠看到隱藏在通路中等原型",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+100",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "黃",
+      "method": "動物園電腦4",
+      "effect": "最大HP增加100！",
+      "image": "parts_01.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+100",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "粉紅",
+      "method": "轉播車的電腦",
+      "effect": "最大HP增加100！",
+      "image": "parts_04.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+100",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "白",
+      "method": "裏網路6的BUG商店",
+      "effect": "最大HP增加100！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+200",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "粉紅",
+      "method": "裏網路1",
+      "effect": "最大HP增加200！",
+      "image": "parts_08.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+200",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "黃",
+      "method": "裏網路6的BUG商店",
+      "effect": "最大HP增加200！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+300",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "粉紅",
+      "method": "裏廣場商店",
+      "effect": "最大HP增加300！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "HP+500",
+      "nameEn": "",
+      "nameJp": "",
+      "color": "黃",
+      "method": "秘密區域 2",
+      "effect": "最大HP增加500！",
+      "image": "parts_16.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "常規+5",
+      "nameEn": "",
+      "nameJp": "レギュラー＋5",
+      "color": "白",
+      "method": "海濱廣場商店",
+      "effect": "常規容量上升5MB！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "常規+5",
+      "nameEn": "",
+      "nameJp": "レギュラー＋5",
+      "color": "黃",
+      "method": "裏網路6的BUG商店",
+      "effect": "常規容量上升5MB！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "快速量表",
+      "nameEn": "",
+      "nameJp": "クイックゲージ",
+      "color": "粉紅",
+      "method": "數字交易機",
+      "effect": "在戰鬥中提升改裝計量表增加速度",
+      "image": null,
+      "compressionCommand": "B↓AR←R"
+    },
+    {
+      "nameZh": "忍術衝刺",
+      "nameEn": "",
+      "nameJp": "シノビダッシュ",
+      "color": "黃",
+      "method": "動物園電腦3",
+      "effect": "不會遭遇比自己弱的敵人",
+      "image": null,
+      "compressionCommand": "RLB↓↓↓"
+    },
+    {
+      "nameZh": "油性體質",
+      "nameEn": "",
+      "nameJp": "オイルボディ",
+      "color": "黃",
+      "method": "醫院的電腦1",
+      "effect": "塗上火屬性病毒最喜歡的油，而容易被盯上！",
+      "image": null,
+      "compressionCommand": "↑→AAR↑"
+    },
+    {
+      "nameZh": "我是魚",
+      "nameEn": "",
+      "nameJp": "アイムフィッシュ",
+      "color": "粉紅",
+      "method": "海濱廣場商店",
+      "effect": "假扮成魚，而容易被水屬性病毒發現",
+      "image": null,
+      "compressionCommand": "LR↓↑←→"
+    },
+    {
+      "nameZh": "電池模式",
+      "nameEn": "",
+      "nameJp": "バッテリーモード",
+      "color": "黃",
+      "method": "裏廣場商店",
+      "effect": "以電池狀態讓電屬性病毒自動靠近",
+      "image": null,
+      "compressionCommand": "→R→RL←"
+    },
+    {
+      "nameZh": "叢林地帶",
+      "nameEn": "JUNGLE LAND",
+      "nameJp": "ジャングルランド",
+      "color": "白",
+      "method": "WWW的電腦3",
+      "effect": "放出叢林的香味吸引木屬性病毒",
+      "image": "parts_13.jpeg",
+      "compressionCommand": "AR←BBA"
+    },
+    {
+      "nameZh": "攻擊+1",
+      "nameEn": "",
+      "nameJp": "アタック＋1",
+      "color": "粉紅",
+      "method": "取得領航員個人化裝置同時",
+      "effect": "洛克砲攻擊力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "攻擊+1",
+      "nameEn": "",
+      "nameJp": "アタック＋1",
+      "color": "粉紅",
+      "method": "電視台控制面板的電腦 (紫水晶)",
+      "effect": "洛克砲攻擊力上升1！",
+      "image": "parts_05.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "攻擊+1",
+      "nameEn": "",
+      "nameJp": "アタック＋1",
+      "color": "黃",
+      "method": "醫院的電腦2",
+      "effect": "洛克砲攻擊力上升1！",
+      "image": "parts_09.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "攻擊+1",
+      "nameEn": "",
+      "nameJp": "アタック＋1",
+      "color": "白",
+      "method": "海濱廣場商店",
+      "effect": "洛克砲攻擊力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "連射＋1",
+      "nameEn": "",
+      "nameJp": "ラピッド＋1",
+      "color": "黃",
+      "method": "余余區域1",
+      "effect": "洛克砲連射力上升1！",
+      "image": "parts_02.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "連射＋1",
+      "nameEn": "",
+      "nameJp": "ラピッド＋1",
+      "color": "白",
+      "method": "取得領航員個人化裝置同時",
+      "effect": "洛克砲連射力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "連射＋1",
+      "nameEn": "",
+      "nameJp": "ラピッド＋1",
+      "color": "白",
+      "method": "裏網路4",
+      "effect": "洛克砲連射力上升1！",
+      "image": "parts_11.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "連射＋1",
+      "nameEn": "",
+      "nameJp": "ラピッド＋1",
+      "color": "粉紅",
+      "method": "裏網路6的BUG商店",
+      "effect": "洛克砲連射力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "集氣＋1",
+      "nameEn": "",
+      "nameJp": "チャージ＋1",
+      "color": "粉紅",
+      "method": "動物園電腦2",
+      "effect": "洛克砲集氣力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "集氣＋1",
+      "nameEn": "",
+      "nameJp": "チャージ＋1",
+      "color": "粉紅",
+      "method": "海濱區域1",
+      "effect": "洛克砲集氣力上升1！",
+      "image": "parts_03.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "集氣＋1",
+      "nameEn": "",
+      "nameJp": "チャージ＋1",
+      "color": "黃",
+      "method": "醫院的電腦5",
+      "effect": "洛克砲集氣力上升1！",
+      "image": "parts_06.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "集氣＋1",
+      "nameEn": "",
+      "nameJp": "チャージ＋1",
+      "color": "白",
+      "method": "海濱廣場商店",
+      "effect": "洛克砲集氣力上升1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "武器等級+1",
+      "nameEn": "",
+      "nameJp": "ウエポンLV+1",
+      "color": "粉紅",
+      "method": "惡魔像的電腦",
+      "effect": "讓集氣攻擊等級+1！",
+      "image": "parts_10.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "武器等級+1",
+      "nameEn": "",
+      "nameJp": "ウエポンLV+1",
+      "color": "白",
+      "method": "數字交易機",
+      "effect": "讓集氣攻擊等級+1！",
+      "image": null,
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "武器等級+1",
+      "nameEn": "",
+      "nameJp": "ウエポンLV+1",
+      "color": "黃",
+      "method": "裏網路6",
+      "effect": "讓集氣攻擊等級+1！",
+      "image": "parts_17.jpeg",
+      "compressionCommand": ""
+    },
+    {
+      "nameZh": "萊西支援",
+      "nameEn": "RUSH SUPPORT",
+      "nameJp": "ラッシュサポート",
+      "color": "黃",
+      "method": "裏網路6的BUG商店",
+      "effect": "對戰專用！嗅出消失對手的氣味跳出攻擊",
+      "image": null,
+      "compressionCommand": "LA↓BBB"
+    },
+    {
+      "nameZh": "比特支援",
+      "nameEn": "BEAT SUPPORT",
+      "nameJp": "ビートサポート",
+      "color": "白",
+      "method": "裏廣場商店",
+      "effect": "對戰專用！MEGA以上的晶片會被奪走",
+      "image": null,
+      "compressionCommand": "A↓AARA"
+    },
+    {
+      "nameZh": "探戈支援",
+      "nameEn": "TANGO SUPPORT",
+      "nameJp": "タンゴサポート",
+      "color": "粉紅",
+      "method": "裏廣場商店",
+      "effect": "對戰專用！在瀕死的時候協助治療！",
+      "image": null,
+      "compressionCommand": "A↓←LLR"
+    },
+    {
+      "nameZh": "子彈MAX",
+      "nameEn": "",
+      "nameJp": "バスターMAX",
+      "color": "粉紅",
+      "method": "裏網路6的BUG商店",
+      "effect": "讓子彈性能全部最大化，危險的程式",
+      "image": null,
+      "compressionCommand": "↓ARRL←←"
+    },
+    {
+      "nameZh": "GIGA資料夾1",
+      "nameEn": "",
+      "nameJp": "ギガフォルダ1",
+      "color": "紫",
+      "method": "裏網路7",
+      "effect": "資料夾內可放入的GIGA晶片+1，危險的程式",
+      "image": null,
+      "compressionCommand": "L↓A↓RB↑"
+    },
+    {
+      "nameZh": "彩斗修正檔",
+      "nameEn": "SITE BATCH",
+      "nameJp": "サイトバッチ",
+      "color": "橙",
+      "method": "秘密區域3",
+      "effect": "讓領航員與操作員完全同步，危險的程式",
+      "image": "parts_15.jpeg",
+      "compressionCommand": "B←A↓↓↑L"
+    }
+  ]
+}

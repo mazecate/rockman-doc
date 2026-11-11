@@ -14,6 +14,8 @@ import ChipTable from './components/ChipTable.vue'
 import ChipTradeTable from './components/ChipTradeTable.vue'
 import EXE4SpecialQuest from './components/EXE4SpecialQuest.vue'
 import PowerUp from './components/PowerUp.vue'
+import NaviCustTable from './components/NaviCustTable.vue'
+import NaviRotateItemTable from './components/NaviRotateItemTable.vue'
 import './custom.css'
 
 export default {
@@ -33,5 +35,7 @@ export default {
     app.component('ChipTradeTable', ChipTradeTable)
     app.component('EXE4SpecialQuest', EXE4SpecialQuest)
     app.component('PowerUp', PowerUp)
+    app.component('NaviCustTable', NaviCustTable)
+    app.component('NaviRotateItemTable', NaviRotateItemTable)
   }
 } satisfies Theme

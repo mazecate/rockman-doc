@@ -1,6 +1,7 @@
 export interface NaviCustSubmenuConfig {
   intro?: boolean | string;
   programs?: boolean;          // 程式零件
+  rotate?: boolean;          // 旋轉零件
 }
 
 export interface ChipsSubmenuConfig {

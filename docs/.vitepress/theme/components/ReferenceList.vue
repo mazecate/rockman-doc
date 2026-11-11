@@ -4,7 +4,7 @@
       <a class="header-anchor" id="ref" aria-hidden="true"></a>
       參考資料來源
     </h2>
-    <h5>「部分內容參考自中文合集版遊戲內文，並結合個人遊玩紀錄與實機截圖修改調整。」</h5>
+    <h5>部分內容參考自中文合集版遊戲內文，並結合個人遊玩紀錄與實機截圖修改調整。</h5>
     <ol>
       <li v-for="(item, index) in selectedReferences" :key="index">
         <a :href="item.url" class="ref-link" target="_blank" rel="noopener noreferrer">

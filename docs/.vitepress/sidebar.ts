@@ -68,7 +68,7 @@ function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): Side
 
 function getNaviCustMenuItems(folderPath: string, config: boolean | NaviCustSubmenuConfig): SidebarItem[] {
   const subConfig = typeof config === 'object' ? config : { intro: true, programs: true };
-  const { intro = true, programs = true } = subConfig;
+  const { intro = true, programs = true, rotate = true } = subConfig;
 
   const subItems: SidebarItem[] = [];
 
@@ -80,6 +80,7 @@ function getNaviCustMenuItems(folderPath: string, config: boolean | NaviCustSubm
   }
 
   if (programs) subItems.push({ text: '程式零件', link: `${folderPath}/navicust/programs` });
+  if (rotate) subItems.push({ text: '旋轉道具', link: `${folderPath}/navicust/rotate` });
 
   return subItems;
 }
@@ -163,7 +164,8 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: getSubMenuItems('/exe/exe3', {
         navicust: {
           intro: 'https://game.capcom.com/manual/REXEAC/vol1/zh-hant/switch/page/3/4',
-          programs: true
+          programs: true,
+          rotate: true
         },
         chips: { 
           standard: true,
