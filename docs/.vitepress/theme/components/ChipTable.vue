@@ -84,49 +84,57 @@ const props = defineProps<{
 const searchQuery = ref('')
 
 const getElementMeta = (element?: string) => {
-	const val = element?.trim().toLowerCase();
-    switch (val) {
-        case '水':
-        case 'Aqua':
-            return { key: 'aqua', icon: '💧', label: element };
-        case '火':
-        case 'Heat':
-            return { key: 'heat', icon: '🔥', label: element };
-        case '木':
-        case 'Wood':
-            return { key: 'wood', icon: '🌿', label: element };
-        case '電':
-        case 'Elec':
-            return { key: 'elec', icon: '⚡', label: element };
-				
-				// EXE4 新增系統屬性
-				case '設置':
-				case 'obstacle':
-					return { key: 'obstacle', icon: '🧊', label: element }
-				case '風':
-				case 'wind':
-					return { key: 'wind', icon: '🌪️', label: element }
-				case '陷阱':
-				case 'crack':
-					return { key: 'crack', icon: '💥', label: element }
-				case '回復':
-				case 'recover':
-					return { key: 'recover', icon: '💚', label: element }
-				case '破壞':
-				case 'break':
-					return { key: 'break', icon: '🔨', label: element }
-				case '斬擊':
-				case 'sword':
-					return { key: 'sword', icon: '⚔️', label: element }
-				case '附加':
-				case 'plus':
-					return { key: 'plus', icon: '➕', label: element }
-        
-				case '無':
-        case 'Null':
-        default:
-            return { key: 'null', icon: '⚪', label: element || '-' };
-    }
+	const val = element?.trim().toLowerCase()
+	switch (val) {
+		// 基礎四屬性
+		case '水':
+		case 'aqua':
+			return { key: 'aqua', icon: '💧', label: element }
+		case '火':
+		case 'heat':
+			return { key: 'heat', icon: '🔥', label: element }
+		case '木':
+		case 'wood':
+			return { key: 'wood', icon: '🌿', label: element }
+		case '電':
+		case 'elec':
+			return { key: 'elec', icon: '⚡', label: element }
+
+		// EXE4 新增 8 種屬性
+		case '置物':
+		case 'obstacle':
+			return { key: 'obstacle', icon: '🧊', label: element }
+		case '風':
+		case 'wind':
+			return { key: 'wind', icon: '🌪️', label: element }
+		case '地形破壞':
+		case 'ground':
+		case 'crack':
+			return { key: 'ground', icon: '💥', label: element }
+		case '回復':
+		case 'recovery':
+		case 'recover':
+			return { key: 'recovery', icon: '💚', label: element }
+		case '破壞':
+		case 'break':
+			return { key: 'break', icon: '🔨', label: element }
+		case '劍':
+		case 'sword':
+			return { key: 'sword', icon: '⚔️', label: element }
+		case '附加':
+		case 'plus':
+			return { key: 'plus', icon: '➕', label: element }
+		case '隱身':
+		case 'invisible':
+		case 'invis':
+			return { key: 'invisible', icon: '👻', label: element }
+
+		// 無屬性
+		case '無':
+		case 'null':
+		default:
+			return { key: 'null', icon: '⚪', label: element || '-' }
+	}
 }
 
 // 安全自動偵測是否有 memory 欄位
@@ -307,5 +315,46 @@ const filteredChips = computed(() => {
 .element-null {
     background-color: var(--vp-c-bg-alt);
     color: var(--vp-c-text-2); /* 中性灰色 */
+}
+
+/* EXE4 新增屬性顏色主題 */
+.element-obstacle {
+	background-color: rgba(6, 182, 212, 0.15);
+	color: #06b6d4; /* 青藍色系 */
+}
+
+.element-wind {
+	background-color: rgba(16, 185, 129, 0.15);
+	color: #10b981; /* 翡翠綠系 */
+}
+
+.element-ground {
+	background-color: rgba(217, 119, 6, 0.15);
+	color: #d97706; /* 琥珀棕系 */
+}
+
+.element-recovery {
+	background-color: rgba(132, 204, 22, 0.15);
+	color: #65a30d; /* 亮綠色系 */
+}
+
+.element-break {
+	background-color: rgba(244, 63, 94, 0.15);
+	color: #f43f5e; /* 玫紅色系 */
+}
+
+.element-sword {
+	background-color: rgba(139, 92, 246, 0.15);
+	color: #8b5cf6; /* 紫色系 */
+}
+
+.element-plus {
+	background-color: rgba(245, 158, 11, 0.15);
+	color: #f59e0b; /* 金橘色系 */
+}
+
+.element-invisible {
+	background-color: rgba(99, 102, 241, 0.15);
+	color: #6366f1; /* 靛藍透明感色系 */
 }
 </style>
