@@ -30,7 +30,7 @@
 							<tr>
 								<td>No.{{ String(chip.no).padStart(3, '0') }}</td>
 								<td>
-									<span class="name-zh">{{ chip.nameZh }}</span>
+									<span class="name-zh">{{ chip.nameZh || '-' }}</span>
 								</td>
 								<td>{{ chip.damage ?? '-' }}</td>
 								<td>
@@ -98,7 +98,31 @@ const getElementMeta = (element?: string) => {
         case '電':
         case 'Elec':
             return { key: 'elec', icon: '⚡', label: element };
-        case '無':
+				
+				// EXE4 新增系統屬性
+				case '設置':
+				case 'obstacle':
+					return { key: 'obstacle', icon: '🧊', label: element }
+				case '風':
+				case 'wind':
+					return { key: 'wind', icon: '🌪️', label: element }
+				case '陷阱':
+				case 'crack':
+					return { key: 'crack', icon: '💥', label: element }
+				case '回復':
+				case 'recover':
+					return { key: 'recover', icon: '💚', label: element }
+				case '破壞':
+				case 'break':
+					return { key: 'break', icon: '🔨', label: element }
+				case '斬擊':
+				case 'sword':
+					return { key: 'sword', icon: '⚔️', label: element }
+				case '附加':
+				case 'plus':
+					return { key: 'plus', icon: '➕', label: element }
+        
+				case '無':
         case 'Null':
         default:
             return { key: 'null', icon: '⚪', label: element || '-' };

@@ -2,7 +2,7 @@
   {
     "no": "1",
     "nameZh": "藍月射線",
-    "nameJp": "ブルームーン",
+    "nameJp": "ブルームーンレイ",
     "nameEn": "BlueMoon",
     "element": "無",
     "damage": null,
@@ -28,7 +28,7 @@
   {
     "no": "3",
     "nameZh": "佛魯迪另",
-    "nameJp": "",
+    "nameJp": "フォルテアナザー",
     "nameEn": "BassAnly",
     "element": "無",
     "damage": 160,
@@ -41,7 +41,7 @@
   {
     "no": "4",
     "nameZh": "詛咒BUG",
-    "nameJp": "",
+    "nameJp": "カースオブバグ",
     "nameEn": "BugCurse",
     "element": "無",
     "damage": null,
@@ -54,8 +54,8 @@
   {
     "no": "5",
     "nameZh": "三角刀鋒",
-    "nameJp": "DeltaRay",
-    "nameEn": "Salamndr",
+    "nameJp": "デルタレイエッジ",
+    "nameEn": "DeltaRay",
     "element": "Sword",
     "damage": 260,
     "codes": ["Z"],

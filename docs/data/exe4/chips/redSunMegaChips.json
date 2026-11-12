@@ -1,0 +1,67 @@
+[
+  {
+    "no": "1",
+    "nameZh": "",
+    "nameJp": "メテオレッドサン",
+    "nameEn": "RedSun",
+    "element": "無",
+    "damage": null,
+    "codes": ["B"],
+    "memory": "90 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "2",
+    "nameZh": "",
+    "nameJp": "ホーリードリーム",
+    "nameEn": "HolyDrem",
+    "element": "Obstacle",
+    "damage": 50,
+    "codes": ["S"],
+    "memory": "92 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "3",
+    "nameZh": "佛魯迪",
+    "nameJp": "フォルテ",
+    "nameEn": "Bass",
+    "element": "無",
+    "damage": 60,
+    "codes": ["X"],
+    "memory": "95 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "4",
+    "nameZh": "",
+    "nameJp": "バグチャージ",
+    "nameEn": "BugCharg",
+    "element": "無",
+    "damage": 80,
+    "codes": ["C"],
+    "memory": "77 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  },
+  {
+    "no": "5",
+    "nameZh": "",
+    "nameJp": "ブラックバリア",
+    "nameEn": "BlakBarr",
+    "element": "Sword",
+    "damage": null,
+    "codes": ["Z"],
+    "memory": "87 MB",
+    "drops": [],
+    "rarity": 5,
+    "description": ""
+  }
+]
