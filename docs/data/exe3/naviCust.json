@@ -180,12 +180,12 @@
       "isGet": false
     },
     {
-      "nameZh": "",
+      "nameZh": "影子鞋",
       "nameEn": "",
       "nameJp": "シャドーシューズ",
       "color": "紅",
-      "method": "影子型態升級至 LV2",
-      "effect": "",
+      "method": "陰影型態升級至 LV2",
+      "effect": "使用忍法忍術腳站在碎地上，地面也不會破掉！",
       "image": null,
       "compressionCommand": "↑←→L↑R",
       "isGet": false
@@ -195,7 +195,7 @@
       "nameEn": "",
       "nameJp": "フロートシューズ",
       "color": "紅",
-      "method": "影子型態升級至 LV3",
+      "method": "陰影型態升級至 LV3",
       "effect": "",
       "image": null,
       "compressionCommand": "←↓←↓←L",
@@ -206,7 +206,7 @@
       "nameEn": "",
       "nameJp": "カワリミマジック",
       "color": "紅",
-      "method": "影子型態升級至 LV4",
+      "method": "陰影型態升級至 LV4",
       "effect": "",
       "image": null,
       "compressionCommand": "L←RA→↓",
