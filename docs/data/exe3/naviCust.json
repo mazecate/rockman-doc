@@ -3,7 +3,7 @@
   "parts": [
     {
       "nameZh": "超級裝甲",
-      "nameEn": "",
+      "nameEn": "SuperArmor",
       "nameJp": "スーパーアーマー",
       "color": "紅",
       "method": "氣力型態升級至 LV2",
@@ -13,7 +13,7 @@
     },
     {
       "nameZh": "破碎飛彈",
-      "nameEn": "",
+      "nameEn": "BreakBuster",
       "nameJp": "ブレイクバスター",
       "color": "紅",
       "method": "氣力型態升級至 LV3",
@@ -23,7 +23,7 @@
     },
     {
       "nameZh": "破碎集氣",
-      "nameEn": "",
+      "nameEn": "BreakCharge",
       "nameJp": "ブレイクチャージ",
       "color": "紅",
       "method": "氣力型態升級至 LV4",
@@ -34,7 +34,7 @@
     },
     {
       "nameZh": "破碎集氣",
-      "nameEn": "",
+      "nameEn": "BreakCharge",
       "nameJp": "ブレイクチャージ",
       "color": "橙",
       "method": "第4章中得到",
@@ -44,7 +44,7 @@
     },
     {
       "nameZh": "改裝1",
-      "nameEn": "",
+      "nameEn": "Custom 1",
       "nameJp": "カスタム1",
       "color": "藍",
       "method": "改裝型態升級至 LV2",
@@ -54,7 +54,7 @@
     },
     {
       "nameZh": "改裝1",
-      "nameEn": "",
+      "nameEn": "Custom 1",
       "nameJp": "カスタム1",
       "color": "黃",
       "method": "改裝型態升級至 LV3",
@@ -64,7 +64,7 @@
     },
     {
       "nameZh": "改裝2",
-      "nameEn": "",
+      "nameEn": "Custom 2",
       "nameJp": "カスタム2",
       "color": "藍",
       "method": "改裝型態升級至 LV4",
@@ -74,7 +74,7 @@
     },
     {
       "nameZh": "MEGA資料夾1",
-      "nameEn": "",
+      "nameEn": "Mega Folder 1",
       "nameJp": "メガフォルダ1",
       "color": "綠",
       "method": "兄弟型態升級至 LV2",
@@ -84,7 +84,7 @@
     },
     {
       "nameZh": "MEGA資料夾1",
-      "nameEn": "",
+      "nameEn": "Mega Folder 1",
       "nameJp": "メガフォルダ1",
       "color": "粉紅",
       "method": "兄弟型態升級至 LV3",
@@ -94,7 +94,7 @@
     },
     {
       "nameZh": "MEGA資料夾2",
-      "nameEn": "",
+      "nameEn": "Mega Folder 1",
       "nameJp": "メガフォルダ2",
       "color": "綠",
       "method": "兄弟型態升級至 LV4",
@@ -103,8 +103,8 @@
       "compressionCommand": "AR↓↓→←"
     },
     {
-      "nameZh": "",
-      "nameEn": "",
+      "nameZh": "格擋",
+      "nameEn": "Block",
       "nameJp": "ブロック",
       "color": "藍",
       "method": "盾型態升級至 LV2",
@@ -114,8 +114,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "",
+      "nameZh": "盾",
+      "nameEn": "Shield",
       "nameJp": "シールド",
       "color": "藍",
       "method": "盾型態升級至 LV3",
@@ -125,8 +125,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "",
+      "nameZh": "反射盾",
+      "nameEn": "Reflect",
       "nameJp": "リフレクト",
       "color": "藍",
       "method": "盾型態升級至 LV4",
@@ -136,8 +136,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "SET GREEN",
+      "nameZh": "設置草地",
+      "nameEn": "Set Green",
       "nameJp": "セットグリーン",
       "color": "綠",
       "method": "大地型態升級至 LV2",
@@ -147,8 +147,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "SET ICE",
+      "nameZh": "設置冰地",
+      "nameEn": "Set Ice",
       "nameJp": "セットアイス",
       "color": "綠",
       "method": "大地型態升級至 LV3",
@@ -158,8 +158,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "SET MAGMA",
+      "nameZh": "設置熔岩地",
+      "nameEn": "Set Magma",
       "nameJp": "セットマグマ",
       "color": "綠",
       "method": "大地型態升級至 LV4",
@@ -169,8 +169,8 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "SET HOLY",
+      "nameZh": "設置聖域",
+      "nameEn": "Set Holy",
       "nameJp": "セットホーリー",
       "color": "綠",
       "method": "大地型態升級至 LV5",
@@ -181,7 +181,7 @@
     },
     {
       "nameZh": "影子鞋",
-      "nameEn": "",
+      "nameEn": "ShadowShoes",
       "nameJp": "シャドーシューズ",
       "color": "紅",
       "method": "陰影型態升級至 LV2",
@@ -191,30 +191,30 @@
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "",
+      "nameZh": "漂浮鞋",
+      "nameEn": "FloatShoes",
       "nameJp": "フロートシューズ",
       "color": "紅",
       "method": "陰影型態升級至 LV3",
-      "effect": "",
+      "effect": "從地面上稍微浮起而不會受到地面的影響",
       "image": null,
       "compressionCommand": "←↓←↓←L",
       "isGet": false
     },
     {
-      "nameZh": "",
-      "nameEn": "",
+      "nameZh": "替身魔術",
+      "nameEn": "AntiDamage",
       "nameJp": "カワリミマジック",
       "color": "紅",
       "method": "陰影型態升級至 LV4",
-      "effect": "",
+      "effect": "使用B+←的指令假裝受到攻擊而投出手裡劍！",
       "image": null,
       "compressionCommand": "L←RA→↓",
       "isGet": false
     },
     {
       "nameZh": "BUG停止器",
-      "nameEn": "",
+      "nameEn": "BugStop",
       "nameJp": "バグストッパー",
       "color": "白",
       "method": "BUG型態升級至 LV2",
@@ -225,7 +225,7 @@
     },
     {
       "nameZh": "黑暗執照",
-      "nameEn": "",
+      "nameEn": "DarkLicense",
       "nameJp": "ダークライセンス",
       "color": "灰",
       "method": "BUG型態升級至 LV3",
