@@ -29,4 +29,5 @@ export interface MenuConfig {
   shops?: boolean; // 商店
   sidequest?: boolean; // 支線任
   chiptrade?: boolean; // 晶片交換
+  virusbreeding?: boolean; // 病毒飼育
 }

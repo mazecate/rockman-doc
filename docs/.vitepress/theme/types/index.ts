@@ -9,3 +9,4 @@ export * from './chip-trade';
 export * from './exe4SideQuest';
 export * from './shop';
 export * from './navi-cust';
+export * from './virus-breeding';

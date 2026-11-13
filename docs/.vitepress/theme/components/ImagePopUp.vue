@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { withBase } from 'vitepress'
 // import { getImagePath, getDataObjectImagePath } from '@/theme/utils/imghelper'
 
@@ -29,6 +29,19 @@ const handleOpen = () => {
     isOpen.value = true
   }
 }
+
+// 監聽 isOpen 狀態，當彈窗打開時鎖定 body 捲動，關閉時解鎖
+watch(isOpen, (val) => {
+  // 確保程式碼在瀏覽器環境執行（避免 SSR 報錯）
+  if (typeof document !== 'undefined') {
+    document.body.classList.toggle('overflow-hidden', val)
+    // if (val) {
+    //   document.body.style.overflow = 'hidden'
+    // } else {
+    //   document.body.style.overflow = ''
+    // }
+  }
+})
 </script>
 
 <template>

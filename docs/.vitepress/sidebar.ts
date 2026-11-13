@@ -98,7 +98,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     stars = true,
     shops = true,
     sidequest = true,
-    chiptrade = true
+    chiptrade = true,
+    virusbreeding = false
   } = config;
 
   const items: SidebarItem[] = [];
@@ -140,6 +141,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (shops)     items.push({ text: '商店', link: `${folderPath}/shops` });
   if (sidequest) items.push({ text: '支線任務', link: `${folderPath}/side-quest` });
   if (chiptrade) items.push({ text: '晶片交換', link: `${folderPath}/chip-trade` });
+  if (virusbreeding) items.push({ text: '飼養病毒', link: `${folderPath}/virus-breeding` });
 
   return items;
 }
@@ -167,6 +169,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           programs: true,
           rotate: true
         },
+        virusbreeding: true,
         chips: { 
           standard: true,
           mega: true,
