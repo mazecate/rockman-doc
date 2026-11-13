@@ -71,7 +71,7 @@ const isAllCompleted = (id: string) => {
         <div class="versions-container">
           <!-- 通常版 -->
           <div class="version-box normal" :class="{ done: progress[item.id]?.normal }">
-            <div class="version-tag">通常版</div>
+            <div class="version-tag">普通版</div>
             <p>
               <strong>📍 位置：</strong>
               <ImagePopUp :src="item.normal.image" :alt="item.name.zh + ' 通常版位置'">
