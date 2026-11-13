@@ -108,7 +108,7 @@
       "nameJp": "ブロック",
       "color": "藍",
       "method": "盾型態升級至 LV2",
-      "effect": "",
+      "effect": "使用B+←的指令將傷害半減的格擋！",
       "image": null,
       "compressionCommand": "↓B↑↓A←",
       "isGet": false
@@ -119,18 +119,18 @@
       "nameJp": "シールド",
       "color": "藍",
       "method": "盾型態升級至 LV3",
-      "effect": "",
+      "effect": "使用B+←的指令將傷害100%防禦的盾！",
       "image": null,
       "compressionCommand": "←→↓R↓R",
       "isGet": false
     },
     {
-      "nameZh": "反射盾",
+      "nameZh": "反射",
       "nameEn": "Reflect",
       "nameJp": "リフレクト",
       "color": "藍",
       "method": "盾型態升級至 LV4",
-      "effect": "",
+      "effect": "使用B+←的指令將傷害彈回的反射！",
       "image": null,
       "compressionCommand": "B↑A←←B",
       "isGet": false

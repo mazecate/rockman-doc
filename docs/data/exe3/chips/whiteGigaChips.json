@@ -14,7 +14,7 @@
   },
   {
     "no": "2",
-    "nameZh": "",
+    "nameZh": "佛魯迪",
     "nameJp": "フォルテ",
     "nameEn": "Bass",
     "element": "無",
@@ -23,11 +23,11 @@
     "memory": "98 MB",
     "drops": [],
     "rarity": 5,
-    "description": ""
+    "description": "闇之晶片，對縱向三橫列使用爆發！"
   },
   {
     "no": "3",
-    "nameZh": "",
+    "nameZh": "賽雷納德",
     "nameJp": "セレナード",
     "nameEn": "Serenade",
     "element": "無",
@@ -36,11 +36,11 @@
     "memory": "97 MB",
     "drops": [],
     "rarity": 5,
-    "description": ""
+    "description": "闇之晶片，對前方的空間以神聖力量攻擊"
   },
   {
     "no": "4",
-    "nameZh": "",
+    "nameZh": "兩成敗",
     "nameJp": "リョウセイバイ",
     "nameEn": "Balance",
     "element": "無",
@@ -49,7 +49,7 @@
     "memory": "60 MB",
     "drops": [],
     "rarity": 5,
-    "description": ""
+    "description": "兩邊一起降下天罰，HP減半！"
   },
   {
     "no": "5",
