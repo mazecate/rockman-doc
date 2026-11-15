@@ -527,32 +527,32 @@
     ]
   },
   {
-    "name": "巴古",
+    "name": "龐克",
     "nameEn": "Punk",
     "nameJp": "パンク",
     "gameVersion": "黑版",
     "locations": [
       {
         "versionType": "V1",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "動物園前",
+        "locationEn": "Front of Zoo",
+        "locationJp": "どうぶつえんまえ",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V2",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "動物園前",
+        "locationEn": "Front of Zoo",
+        "locationJp": "どうぶつえんまえ",
         "isRandom": false,
         "note": ""
       },
       {
         "versionType": "V3",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "動物園前",
+        "locationEn": "Front of Zoo",
+        "locationJp": "どうぶつえんまえ",
         "isRandom": true,
         "note": ""
       },
