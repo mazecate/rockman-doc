@@ -5,25 +5,25 @@
     "normal": {
       "location": { "zh": "秋原區域1", "ja": "秋原エリア1", "en": "ACDC Area 1" },
       "rewards": { "zh": "小矮兵/小矮兵2/小矮兵3", "ja": "メットール3種", "en": "" },
-      "image": "/images/exe3/vbreeding/mettaur_normal.png"
+      "image": "/images/exe3/vbreeding/mettaur_normal.webp"
     },
     "sp": {
       "location": { "zh": "黑板的電腦", "ja": "ブラックボードの電脳", "en": "Blackboard Comp" },
       "rewards": { "zh": "小矮兵SP", "ja": "メットールSP", "en": "" },
-      "image": "/images/exe3/vbreeding/mettaur_sp.png"
+      "image": "/images/exe3/vbreeding/mettaur_sp.webp"
     }
   },
   {
-    "id": "rabilly",
+    "id": "bunny",
     "name": { "zh": "線圈兔", "ja": "ラビリー", "en": "Bunny" },
     "normal": {
       "location": { "zh": "科學省區域2", "ja": "科学省エリア2", "en": "SciLab2" },
-      "rewards": { "zh": "線圈兔3種", "ja": "ラビリー3種", "en": "" }
+      "rewards": { "zh": "線圈兔/高超線圈兔/MEGA線圈兔", "ja": "ラビリー3種", "en": "" }
     },
     "sp": {
       "location": { "zh": "2F病房 - 床的電腦", "ja": "ベッドの電脳", "en": "Bed Comp" },
-      "rewards": { "zh": "ラビリーSP", "ja": "ラビリーSP", "en": "" },
-      "image": "/images/exe3/vbreeding/bunny_sp.png"
+      "rewards": { "zh": "線圈兔SP", "ja": "ラビリーSP", "en": "" },
+      "image": "/images/exe3/vbreeding/bunny_sp.webp"
     }
   },
   {
@@ -32,26 +32,26 @@
     "normal": {
       "location": { "zh": "海濱區域 2", "ja": "ビーチエリア2", "en": "Beach Area 2" },
       "rewards": { "zh": "水母/水母熱/水母地", "ja": "ジェリー3種", "en": "" },
-      "image": "/images/exe3/vbreeding/jelly_normal.png"
+      "image": "/images/exe3/vbreeding/jelly_normal.webp"
     },
     "sp": {
       "location": { "zh": "溫泉獅的電腦", "ja": "温泉ライオンの電脳", "en": "" },
       "rewards": { "zh": "水母SP", "ja": "ジェリーSP", "en": "" },
-      "image": "/images/exe3/vbreeding/jelly_sp.png"
+      "image": "/images/exe3/vbreeding/jelly_sp.webp"
     }
   },
   {
-    "id": "chamash",
+    "id": "mushy",
     "name": { "zh": "茶蘑菇", "ja": "チャマッシュ", "en": "Mushy" },
     "normal": {
       "location": { "zh": "科學省區域2", "ja": "科学省エリア2", "en": "SciLab2" },
-      "rewards": { "zh": "茶蘑菇3種", "ja": "チャマッシュ3種", "en": "" },
-      "image": "/images/exe3/vbreeding/mushy_normal.png"
+      "rewards": { "zh": "茶蘑菇/黃蘑菇/黑蘑菇", "ja": "チャマッシュ3種", "en": "" },
+      "image": "/images/exe3/vbreeding/mushy_normal.webp"
     },
     "sp": {
       "location": { "zh": "醫院的電腦1", "ja": "びょういんの電脳1", "en": "Hospital Comp 1" },
-      "rewards": { "zh": "チャマッシュSP", "ja": "チャマッシュSP", "en": "" },
-      "image": "/images/exe3/vbreeding/mushy_sp.png"
+      "rewards": { "zh": "茶蘑菇SP", "ja": "チャマッシュSP", "en": "" },
+      "image": "/images/exe3/vbreeding/mushy_sp.webp"
     }
   },
   {
@@ -60,12 +60,12 @@
     "normal": {
       "location": { "zh": "校長筆記型電腦的電腦1", "ja": "校長ノートPCの電脳1", "en": "Principal's PC 1" },
       "rewards": { "zh": "殺手之眼/惡魔之眼/醜角之眼", "ja": "キラーズアイ3種", "en": "" },
-      "image": "/images/exe3/vbreeding/killer_eye_normal.png"
+      "image": "/images/exe3/vbreeding/killer_eye_normal.webp"
     },
     "sp": {
       "location": { "zh": "門感應器的電腦", "ja": "ドアセンサーの電脳", "en": "Door Sensor Comp" },
       "rewards": { "zh": "殺手之眼SP", "ja": "キラーズアイSP", "en": "" },
-      "image": "/images/exe3/vbreeding/killer_eye_sp.png"
+      "image": "/images/exe3/vbreeding/killer_eye_sp.webp"
     }
   },
   {
@@ -73,27 +73,27 @@
     "name": { "zh": "鼹地鼠", "ja": "モモグラン", "en": "Momogra" },
     "normal": {
       "location": { "zh": "動物園的電腦4", "ja": "どうぶつえんの電脳4", "en": "Zoo Comp 4" },
-      "rewards": { "zh": "鼹地鼠3種", "ja": "モモグラン3種", "en": "" },
-      "image": "/images/exe3/vbreeding/momogra_normal.png"
+      "rewards": { "zh": "鼹地鼠/鼹洞鼠/鼹巨鼠", "ja": "モモグラン3種", "en": "" },
+      "image": "/images/exe3/vbreeding/momogra_normal.webp"
     },
     "sp": {
       "location": { "zh": "余余區域1", "ja": "よかよかエリア1", "en": "Yoka Area 1" },
-      "rewards": { "zh": "モモグランSP", "ja": "モモグランSP", "en": "" },
-      "image": "/images/exe3/vbreeding/momogra_sp.png"
+      "rewards": { "zh": "鼹地鼠SP", "ja": "モモグランSP", "en": "" },
+      "image": "/images/exe3/vbreeding/momogra_sp.webp"
     }
   },
   {
-    "id": "garu",
+    "id": "spikey",
     "name": { "zh": "吠狼", "ja": "ガルー", "en": "Spikey" },
     "normal": {
       "location": { "zh": "惡魔像的電腦", "ja": "アクマ像の電脳", "en": "Demon Statue Comp" },
       "rewards": { "zh": "吠狼/吠狼巴/吠狼丹", "ja": "ガルー3種", "en": "" },
-      "image": "/images/exe3/vbreeding/spikey_normal.png"
+      "image": "/images/exe3/vbreeding/spikey_normal.webp"
     },
     "sp": {
       "location": { "zh": "動物園的電腦2", "ja": "どうぶつえんの電脳2", "en": "Zoo Comp 2" },
       "rewards": { "zh": "吠狼SP", "ja": "ガルーSP", "en": "" },
-      "image": "/images/exe3/vbreeding/spikey_sp.png"
+      "image": "/images/exe3/vbreeding/spikey_sp.webp"
     }
   },
   {
@@ -102,26 +102,26 @@
     "normal": {
       "location": { "zh": "裡網路1", "ja": "ウラインターネット1", "en": "Undernet 1" },
       "rewards": { "zh": "劍兵/劍火兵/劍冰兵", "ja": "スウォーディン3種", "en": "" },
-      "image": "/images/exe3/vbreeding/swordy_normal.png"
+      "image": "/images/exe3/vbreeding/swordy_normal.webp"
     },
     "sp": {
       "location": { "zh": "緊急鈴的電腦", "ja": "非常ベルの電脳", "en": "Alarm Comp" },
       "rewards": { "zh": "劍兵SP", "ja": "スウォーディンSP", "en": "" },
-      "image": "/images/exe3/vbreeding/swordy_normal.png"
+      "image": "/images/exe3/vbreeding/swordy_normal.webp"
     }
   },
   {
-    "id": "dreambit",
+    "id": "scuttlest",
     "name": { "zh": "夢幻位元", "ja": "ドリームビット", "en": "Scuttlest" },
     "normal": {
-      "location": { "zh": "秘密區域1 / 3", "ja": "シークレットエリア1 / 3", "en": "Secret area 1" },
-      "rewards": { "zh": "夢幻濺/夢幻燃/夢幻伏/夢幻苔/夢幻位元 (3種/2種)", "ja": "ドリームビット3種 / 2種", "en": "" },
-      "image": "/images/exe3/vbreeding/scuttlest_normal.png"
+      "location": { "zh": "秘密區域1 / 3", "ja": "シークレットエリア 1 / 3", "en": "Secret area 1 / 3" },
+      "rewards": { "zh": "夢幻濺/夢幻燃/夢幻伏 / 夢幻苔/夢幻位元", "ja": "ドリームビット 3種 / 2種", "en": "" },
+      "image": "/images/exe3/vbreeding/scuttlest_normal.webp"
     },
     "sp": {
       "location": { "zh": "外牆的電腦", "ja": "外壁の電脳", "en": "Wall Comp" },
       "rewards": { "zh": "夢幻位元SP", "ja": "ドリームビットSP", "en": "Scuttlest" },
-      "image": "/images/exe3/vbreeding/scuttlest_sp.png"
+      "image": "/images/exe3/vbreeding/scuttlest_sp.webp"
     }
   }
 ]
