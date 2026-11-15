@@ -86,7 +86,7 @@ const isAllCompleted = (id: string) => {
           </div>
 
           <!-- SP版 -->
-          <!-- <div class="version-box sp" :class="{ done: progress[item.id]?.sp }">
+          <div class="version-box sp" :class="{ done: progress[item.id]?.sp }">
             <div class="version-tag sp-tag">SP版</div>
             <p>
               <strong>📍 位置：</strong>
@@ -99,7 +99,7 @@ const isAllCompleted = (id: string) => {
             <button @click="toggleDone(item.id, 'sp')" class="check-btn">
               {{ progress[item.id]?.sp ? '✅ 已完成' : '⭕ 標記完成' }}
             </button>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
