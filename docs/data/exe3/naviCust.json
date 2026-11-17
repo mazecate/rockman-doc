@@ -136,34 +136,34 @@
       "isGet": false
     },
     {
-      "nameZh": "設置草地",
+      "nameZh": "設置綠",
       "nameEn": "Set Green",
       "nameJp": "セットグリーン",
       "color": "綠",
       "method": "大地型態升級至 LV2",
-      "effect": "",
+      "effect": "將場地上的普通地面變為草原！",
       "image": null,
       "compressionCommand": "↓RR↓B←",
       "isGet": false
     },
     {
-      "nameZh": "設置冰地",
+      "nameZh": "設置冰",
       "nameEn": "Set Ice",
       "nameJp": "セットアイス",
       "color": "綠",
       "method": "大地型態升級至 LV3",
-      "effect": "",
+      "effect": "將場地上的普通地面變為冰！",
       "image": null,
       "compressionCommand": "A↑A↑←R",
       "isGet": false
     },
     {
-      "nameZh": "設置熔岩地",
+      "nameZh": "設置熔岩",
       "nameEn": "Set Magma",
       "nameJp": "セットマグマ",
       "color": "綠",
       "method": "大地型態升級至 LV4",
-      "effect": "",
+      "effect": "將場地上的普通地面變為熔岩！",
       "image": null,
       "compressionCommand": "B→→BRA",
       "isGet": false
