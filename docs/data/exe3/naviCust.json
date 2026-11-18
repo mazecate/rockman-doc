@@ -169,12 +169,12 @@
       "isGet": false
     },
     {
-      "nameZh": "設置聖域",
+      "nameZh": "設置神聖",
       "nameEn": "Set Holy",
       "nameJp": "セットホーリー",
       "color": "綠",
       "method": "大地型態升級至 LV5",
-      "effect": "",
+      "effect": "將自己區域中的普通地面變為神聖地面！",
       "image": null,
       "compressionCommand": "ABRR←R",
       "isGet": false
