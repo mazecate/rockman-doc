@@ -163,7 +163,7 @@
       "nameJp": "セットマグマ",
       "color": "綠",
       "method": "大地型態升級至 LV4",
-      "effect": "將場地上的普通地面變為熔岩！",
+      "effect": "將場地上的普通地面變為岩漿！",
       "image": null,
       "compressionCommand": "B→→BRA",
       "isGet": false
