@@ -68,6 +68,10 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'Appmedia',
     url: 'https://appmedia.jp/rockman_exe3'
   },
+  wel: {
+    title: 'エグゼクティブ',
+    url: 'https://wel.squares.net/exe/'
+  },
   kamigame: {
     title: 'Kamigame',
     url: 'https://kamigame.jp/rockmanexe3/index.html'

@@ -12,5 +12,5 @@ import exe3NaviCustData from '@/data/exe3/naviCust.json'
 
 <ClientOnly>
   <NaviCustTable :data="exe3NaviCustData" />
-  <ReferenceList :items="['appmedia']" />
+  <ReferenceList :items="['wel']" />
 </ClientOnly>
