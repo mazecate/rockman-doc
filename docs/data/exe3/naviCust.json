@@ -158,8 +158,8 @@
       "isGet": false
     },
     {
-      "nameZh": "設置熔岩",
-      "nameEn": "Set Magma",
+      "nameZh": "設置岩漿",
+      "nameEn": "Set Lava",
       "nameJp": "セットマグマ",
       "color": "綠",
       "method": "大地型態升級至 LV4",
