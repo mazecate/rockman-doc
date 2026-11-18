@@ -61,7 +61,7 @@ function getChipsMenuItems(folderPath: string, config: ChipsSubmenuConfig): Side
   }
 
   if (dark)     subItems.push({ text: '暗黑晶片', link: `${folderPath}/chips/dark` });
-  if (secret)   subItems.push({ text: '祕密晶片', link: `${folderPath}/chips/secret` });
+  if (secret)   subItems.push({ text: '秘密晶片', link: `${folderPath}/chips/secret` });
 
   return subItems;
 }
