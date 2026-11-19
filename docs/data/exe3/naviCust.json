@@ -50,7 +50,7 @@
       "method": "改裝型態升級至 LV2",
       "effect": "在改裝視窗最初可選的晶片枚數+1",
       "image": null,
-      "compressionCommand": "BA←L↑B"
+      "compressionCommand": "→→→↑←B"
     },
     {
       "nameZh": "改裝1",
