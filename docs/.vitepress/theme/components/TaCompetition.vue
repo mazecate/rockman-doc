@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import type { TaBoss, TaProgressRecord, LocalizedText } from '../types'
+import type { TaBoss, TaProgressRecord, LocalizedText, FolderLocStep } from '../types'
 
 const props = withDefaults(defineProps<{
   items: readonly TaBoss[]
   notice?: readonly LocalizedText[]
+  folderLoc?: readonly FolderLocStep[]
   storageKey?: string
 }>(), { storageKey: 'exe3_ta_progress' })
 
@@ -26,12 +27,8 @@ const save = () => {
 const parseTime = (time: string): number | null => {
   const t = time.trim()
   if (!t) return null
-
-  // 純數字，當佢係秒數，50000 -> 50000 秒 = 13:53:20，唔會再當 0
   if (/^\d+$/.test(t)) return Number(t)
-
   const parts = t.split(':').map(Number)
-  // 有 NaN 或者負數，唔好當 0，當 invalid
   if (parts.some((n) => Number.isNaN(n) || n < 0)) return null
   if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2]
   if (parts.length === 2) return parts[0] * 60 + parts[1]
@@ -47,14 +44,13 @@ const formatTime = (seconds: number | null | undefined): string => {
 }
 
 const getLocationLabel = (boss: TaBoss) => boss.location.zh || boss.location.ja
-const getFolderLabel = (boss: TaBoss) => boss.folder.zh || boss.folder.ja
+const getFolderLabels = (boss: TaBoss) => boss.folder.map((f) => f.zh || f.ja)
 const getNote = (boss: TaBoss) => boss.note?.zh || boss.note?.ja || ''
 
 const isCleared = (id: string) => !!progress.value[id]?.cleared
 const isPassed = (boss: TaBoss) => {
   const best = progress.value[boss.id]?.bestTimeSeconds
   const target = parseTime(boss.targetTime)
-  // best 同 target 有一個係 null，都唔當達標
   return best != null && target != null && best <= target
 }
 
@@ -66,7 +62,6 @@ const toggleCleared = (id: string) => {
 
 const onBestTimeChange = (id: string, value: string) => {
   if (!progress.value[id]) progress.value[id] = { bestTimeSeconds: null, cleared: false }
-  // invalid 會存 null，唔會存 0，唔會假達標
   progress.value[id].bestTimeSeconds = parseTime(value)
   save()
 }
@@ -84,7 +79,7 @@ const filtered = computed(() => {
       const hay = [
         boss.name.zh, boss.name.ja, boss.name.en,
         boss.location.zh, boss.location.ja, boss.location.en,
-        boss.folder.zh, boss.folder.ja, boss.folder.en,
+        ...boss.folder.flatMap((f) => [f.zh, f.ja, f.en]),
         boss.id
       ].join(' ').toLowerCase()
       if (!hay.includes(q)) return false
@@ -111,6 +106,19 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
       <ol class="prereq-list">
         <li v-for="(item, i) in notice" :key="i" v-html="item.zh || item.ja" />
       </ol>
+    </div>
+
+    <div v-if="folderLoc && folderLoc.length" class="folder-loc">
+      <div class="folder-loc-title">📁 推薦資料夾</div>
+      <div class="folder-loc-grid">
+        <figure v-for="(step, i) in folderLoc" :key="i" class="folder-loc-card">
+          <img :src="step.image" :alt="step.name.zh" class="folder-loc-img" loading="lazy" />
+          <figcaption>
+            <strong>{{ step.name.zh }}</strong>
+            <span>{{ step.loc.zh }}</span>
+          </figcaption>
+        </figure>
+      </div>
     </div>
 
     <div class="ta-stats">
@@ -176,7 +184,8 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
         </div>
 
         <div class="folder-row">
-          <span class="folder-chip">📁 推薦資料夾：{{ getFolderLabel(boss) }}</span>
+          <span class="folder-label">📁 建議：</span>
+          <span v-for="(f, i) in boss.folder" :key="i" class="folder-chip">{{ f.zh || f.ja }}</span>
         </div>
 
         <p v-if="boss.note" class="boss-note">⚠️ {{ getNote(boss) }}</p>
@@ -200,6 +209,15 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
 }
 .prereq-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.4rem; }
 .prereq-list { margin: 0; padding-left: 1.25rem; font-size: 0.9rem; line-height: 1.6; }
+.folder-loc { background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+.folder-loc-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.75rem; }
+.folder-loc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+@media (max-width: 768px) { .folder-loc-grid { grid-template-columns: repeat(2, 1fr); } }
+.folder-loc-card { margin: 0; }
+.folder-loc-img { width: 100%; border-radius: 8px; border: 1px solid var(--vp-c-divider); display: block; }
+.folder-loc-card figcaption { margin-top: 0.5rem; font-size: 0.85rem; line-height: 1.5; }
+.folder-loc-card figcaption strong { display: block; }
+.folder-loc-card figcaption span { color: var(--vp-c-text-2); }
 .ta-stats { display: flex; align-items: center; gap: 1rem; font-size: 0.9rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .ta-progress-bar { flex: 1; min-width: 120px; height: 8px; background: var(--vp-c-bg-mute); border-radius: 999px; overflow: hidden; }
 .ta-progress-fill { height: 100%; background: #10b981; transition: width 0.3s; }
@@ -227,7 +245,8 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
 .time-big { font-family: ui-monospace, monospace; font-size: 1.35rem; letter-spacing: 0.03em; }
 .time-input { width: 100px; padding: 4px 6px; font-family: ui-monospace, monospace; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-soft); }
 .time-result { display: block; font-size: 0.8rem; margin-top: 4px; }
-.folder-row { margin-bottom: 0.75rem; }
+.folder-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-bottom: 0.75rem; }
+.folder-label { font-size: 0.85rem; font-weight: 600; }
 .folder-chip { display: inline-block; font-size: 0.85rem; font-weight: 600; padding: 3px 8px; border-radius: 6px; background: var(--vp-c-brand-soft); }
 .boss-note { font-size: 0.85rem; color: var(--vp-c-text-2); }
 .check-btn { width: 100%; margin-top: 0.6rem; padding: 5px; font-size: 0.85rem; background: var(--vp-c-bg-mute); border: 1px solid var(--vp-c-divider); border-radius: 6px; cursor: pointer; }

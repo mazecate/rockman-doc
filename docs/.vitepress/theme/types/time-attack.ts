@@ -9,7 +9,7 @@ export interface TaBoss {
   name: LocalizedText
   location: LocalizedText
   targetTime: string
-  folder: LocalizedText
+  folder: LocalizedText[]
   note?: LocalizedText
 }
 
@@ -18,7 +18,14 @@ export interface TaProgressRecord {
   cleared: boolean
 }
 
+export interface FolderLocStep {
+  name: LocalizedText
+  loc: LocalizedText
+  image: string
+}
+
 export interface TaDataFile {
   data: TaBoss[]
   notice?: LocalizedText[]
+  folderLoc?: FolderLocStep[]
 }

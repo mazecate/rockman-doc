@@ -10,5 +10,5 @@ import taObj from '@/data/exe3/ta.json'
 </script>
 
 <ClientOnly>
-  <TaCompetition :items="taObj.data" :notice="taObj.notice" />
+  <TaCompetition :items="taObj.data" :notice="taObj.notice" :folderLoc="taObj.folderLoc" />
 </ClientOnly>
