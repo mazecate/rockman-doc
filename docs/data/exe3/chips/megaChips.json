@@ -379,7 +379,7 @@
   {
     "no": "30",
     "nameZh": "布魯斯",
-    "nameJp": "",
+    "nameJp": "ブルース",
     "nameEn": "ProtoMan",
     "element": "無",
     "damage": 160,
@@ -392,7 +392,7 @@
   {
     "no": "31",
     "nameZh": "布魯斯V2",
-    "nameJp": "",
+    "nameJp": "ブルース V2",
     "nameEn": "ProtoMan V2",
     "element": "無",
     "damage": 180,
@@ -405,7 +405,7 @@
   {
     "no": "32",
     "nameZh": "布魯斯V3",
-    "nameJp": "",
+    "nameJp": "ブルース V3",
     "nameEn": "ProtoMan V3",
     "element": "無",
     "damage": 200,
@@ -418,7 +418,7 @@
   {
     "no": "33",
     "nameZh": "布魯斯V4",
-    "nameJp": "",
+    "nameJp": "ブルース V4",
     "nameEn": "ProtoMan V4",
     "element": "無",
     "damage": 220,
@@ -483,7 +483,7 @@
   {
     "no": "38",
     "nameZh": "野獸人",
-    "nameJp": "",
+    "nameJp": "ビーストマン",
     "nameEn": "BeastMan",
     "element": "無",
     "damage": 40,
@@ -496,7 +496,7 @@
   {
     "no": "39",
     "nameZh": "野獸人V2",
-    "nameJp": "",
+    "nameJp": "ビーストマン V2",
     "nameEn": "BeastMan V2",
     "element": "無",
     "damage": 50,
@@ -509,7 +509,7 @@
   {
     "no": "40",
     "nameZh": "野獸人V3",
-    "nameJp": "",
+    "nameJp": "ビーストマン V3",
     "nameEn": "BeastMan V3",
     "element": "無",
     "damage": 60,
@@ -522,7 +522,7 @@
   {
     "no": "41",
     "nameZh": "野獸人V4",
-    "nameJp": "",
+    "nameJp": "ビーストマン V4",
     "nameEn": "BeastMan V4",
     "element": "無",
     "damage": 70,
@@ -535,7 +535,7 @@
   {
     "no": "42",
     "nameZh": "泡沫人",
-    "nameJp": "",
+    "nameJp": "バブルマン",
     "nameEn": "BubbleMan",
     "element": "水",
     "damage": 20,
@@ -548,7 +548,7 @@
   {
     "no": "43",
     "nameZh": "泡沫人V2",
-    "nameJp": "",
+    "nameJp": "バブルマン V2",
     "nameEn": "BubbleMan V2",
     "element": "水",
     "damage": 20,
@@ -561,7 +561,7 @@
   {
     "no": "44",
     "nameZh": "泡沫人V3",
-    "nameJp": "",
+    "nameJp": "バブルマン V3",
     "nameEn": "BubbleMan V3",
     "element": "水",
     "damage": 20,
@@ -574,7 +574,7 @@
   {
     "no": "45",
     "nameZh": "泡沫人V4",
-    "nameJp": "",
+    "nameJp": "バブルマン V4",
     "nameEn": "BubbleMan V4",
     "element": "水",
     "damage": 20,
@@ -587,7 +587,7 @@
   {
     "no": "46",
     "nameZh": "沙漠人",
-    "nameJp": "",
+    "nameJp": "デザートマン",
     "nameEn": "DesertMan",
     "element": "無",
     "damage": 120,
@@ -600,7 +600,7 @@
   {
     "no": "47",
     "nameZh": "沙漠人V2",
-    "nameJp": "",
+    "nameJp": "デザートマン V2",
     "nameEn": "DesertMan V2",
     "element": "無",
     "damage": 140,
@@ -613,7 +613,7 @@
   {
     "no": "48",
     "nameZh": "沙漠人V3",
-    "nameJp": "",
+    "nameJp": "デザートマン V3",
     "nameEn": "DesertMan V3",
     "element": "無",
     "damage": 160,
@@ -626,7 +626,7 @@
   {
     "no": "49",
     "nameZh": "沙漠人V4",
-    "nameJp": "",
+    "nameJp": "デザートマン V4",
     "nameEn": "DesertMan V4",
     "element": "無",
     "damage": 180,
@@ -639,7 +639,7 @@
   {
     "no": "50",
     "nameZh": "植物人",
-    "nameJp": "",
+    "nameJp": "プラントマン",
     "nameEn": "PlantMan",
     "element": "木",
     "damage": 20,
@@ -652,7 +652,7 @@
   {
     "no": "51",
     "nameZh": "植物人V2",
-    "nameJp": "",
+    "nameJp": "プラントマン V2",
     "nameEn": "PlantMan V2",
     "element": "木",
     "damage": 30,
@@ -665,7 +665,7 @@
   {
     "no": "52",
     "nameZh": "植物人V3",
-    "nameJp": "",
+    "nameJp": "プラントマン V3",
     "nameEn": "PlantMan V3",
     "element": "木",
     "damage": 40,
@@ -678,7 +678,7 @@
   {
     "no": "53",
     "nameZh": "植物人V4",
-    "nameJp": "",
+    "nameJp": "プラントマン V4",
     "nameEn": "PlantMan V4",
     "element": "木",
     "damage": 50,
@@ -691,7 +691,7 @@
   {
     "no": "54",
     "nameZh": "烈焰人",
-    "nameJp": "",
+    "nameJp": "フレイムマン",
     "nameEn": "FlameMan",
     "element": "火",
     "damage": 120,
@@ -704,7 +704,7 @@
   {
     "no": "55",
     "nameZh": "烈焰人V2",
-    "nameJp": "",
+    "nameJp": "フレイムマン V2",
     "nameEn": "FlameMan V2",
     "element": "火",
     "damage": 150,
@@ -717,7 +717,7 @@
   {
     "no": "56",
     "nameZh": "烈焰人V3",
-    "nameJp": "",
+    "nameJp": "フレイムマン V3",
     "nameEn": "FlameMan V3",
     "element": "火",
     "damage": 180,
@@ -730,7 +730,7 @@
   {
     "no": "57",
     "nameZh": "烈焰人V4",
-    "nameJp": "",
+    "nameJp": "フレイムマン V4",
     "nameEn": "FlameMan V4",
     "element": "火",
     "damage": 210,
@@ -743,7 +743,7 @@
   {
     "no": "58",
     "nameZh": "鑽頭人",
-    "nameJp": "",
+    "nameJp": "ドリルマン",
     "nameEn": "DrillMan",
     "element": "無",
     "damage": 70,
@@ -756,7 +756,7 @@
   {
     "no": "59",
     "nameZh": "鑽頭人V2",
-    "nameJp": "",
+    "nameJp": "ドリルマン V2",
     "nameEn": "DrillMan V2",
     "element": "無",
     "damage": 90,
@@ -769,7 +769,7 @@
   {
     "no": "60",
     "nameZh": "鑽頭人V3",
-    "nameJp": "",
+    "nameJp": "ドリルマン V3",
     "nameEn": "DrillMan V3",
     "element": "無",
     "damage": 110,
@@ -782,7 +782,7 @@
   {
     "no": "61",
     "nameZh": "鑽頭人V4",
-    "nameJp": "",
+    "nameJp": "ドリルマン V4",
     "nameEn": "DrillMan V4",
     "element": "無",
     "damage": 130,
@@ -795,7 +795,7 @@
   {
     "no": "62",
     "nameZh": "金屬人",
-    "nameJp": "",
+    "nameJp": "メタルマン",
     "nameEn": "MetalMan",
     "element": "無",
     "damage": 100,
@@ -803,12 +803,12 @@
     "memory": "40 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對面前1格揮下鋼鐵之拳！"
+    "description": "對面前的1格揮下鋼鐵之拳！"
   },
   {
     "no": "63",
     "nameZh": "金屬人V2",
-    "nameJp": "",
+    "nameJp": "メタルマン V2",
     "nameEn": "MetalMan V2",
     "element": "無",
     "damage": 130,
@@ -816,12 +816,12 @@
     "memory": "60 MB",
     "drops": [],
     "rarity": 4,
-    "description": "對面前1格揮下鋼鐵之拳！"
+    "description": "對面前的1格揮下鋼鐵之拳！"
   },
   {
     "no": "64",
     "nameZh": "金屬人V3",
-    "nameJp": "",
+    "nameJp": "メタルマン V3",
     "nameEn": "MetalMan V3",
     "element": "無",
     "damage": 160,
@@ -829,12 +829,12 @@
     "memory": "70 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對面前1格揮下鋼鐵之拳！"
+    "description": "對面前的1格揮下鋼鐵之拳！"
   },
   {
     "no": "65",
     "nameZh": "金屬人V4",
-    "nameJp": "",
+    "nameJp": "メタルマン V4",
     "nameEn": "MetalMan V4",
     "element": "無",
     "damage": 190,
@@ -842,12 +842,12 @@
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對面前1格揮下鋼鐵之拳！"
+    "description": "對面前的1格揮下鋼鐵之拳！"
   },
   {
     "no": "66",
     "nameZh": "國王人",
-    "nameJp": "",
+    "nameJp": "キングマン",
     "nameEn": "KingMan",
     "element": "無",
     "damage": 140,
@@ -860,7 +860,7 @@
   {
     "no": "67",
     "nameZh": "國王人V2",
-    "nameJp": "",
+    "nameJp": "キングマン V2",
     "nameEn": "KingMan V2",
     "element": "無",
     "damage": 170,
@@ -873,7 +873,7 @@
   {
     "no": "68",
     "nameZh": "國王人V3",
-    "nameJp": "",
+    "nameJp": "キングマン V3",
     "nameEn": "KingMan V3",
     "element": "無",
     "damage": 200,
@@ -886,7 +886,7 @@
   {
     "no": "69",
     "nameZh": "國王人V4",
-    "nameJp": "",
+    "nameJp": "キングマン V4",
     "nameEn": "KingMan V4",
     "element": "無",
     "damage": 240,
@@ -899,7 +899,7 @@
   {
     "no": "70",
     "nameZh": "煙霧人",
-    "nameJp": "",
+    "nameJp": "ミストマン",
     "nameEn": "MistMan",
     "element": "無",
     "damage": 90,
@@ -912,7 +912,7 @@
   {
     "no": "71",
     "nameZh": "煙霧人V2",
-    "nameJp": "",
+    "nameJp": "ミストマン V2",
     "nameEn": "MistMan V2",
     "element": "無",
     "damage": 110,
@@ -925,7 +925,7 @@
   {
     "no": "72",
     "nameZh": "煙霧人V3",
-    "nameJp": "",
+    "nameJp": "ミストマン V3",
     "nameEn": "MistMan V3",
     "element": "無",
     "damage": 130,
@@ -938,7 +938,7 @@
   {
     "no": "73",
     "nameZh": "煙霧人V4",
-    "nameJp": "",
+    "nameJp": "ミストマン V4",
     "nameEn": "MistMan V4",
     "element": "無",
     "damage": 150,
@@ -951,7 +951,7 @@
   {
     "no": "74",
     "nameZh": "保齡球人",
-    "nameJp": "",
+    "nameJp": "ボウルマン",
     "nameEn": "BowlMan",
     "element": "無",
     "damage": 100,
@@ -964,7 +964,7 @@
   {
     "no": "75",
     "nameZh": "保齡球人V2",
-    "nameJp": "",
+    "nameJp": "ボウルマン V2",
     "nameEn": "BowlMan V2",
     "element": "無",
     "damage": 120,
@@ -977,7 +977,7 @@
   {
     "no": "76",
     "nameZh": "保齡球人V3",
-    "nameJp": "",
+    "nameJp": "ボウルマン V3",
     "nameEn": "BowlMan V3",
     "element": "無",
     "damage": 140,
@@ -990,7 +990,7 @@
   {
     "no": "77",
     "nameZh": "保齡球人V4",
-    "nameJp": "",
+    "nameJp": "ボウルマン V4",
     "nameEn": "BowlMan V4",
     "element": "無",
     "damage": 160,
@@ -1003,7 +1003,7 @@
   {
     "no": "78",
     "nameZh": "黑暗人",
-    "nameJp": "",
+    "nameJp": "ダークマン",
     "nameEn": "DarkMan",
     "element": "無",
     "damage": 30,
@@ -1016,7 +1016,7 @@
   {
     "no": "79",
     "nameZh": "黑暗人V2",
-    "nameJp": "",
+    "nameJp": "ダークマン V2",
     "nameEn": "DarkMan V2",
     "element": "無",
     "damage": 30,
@@ -1029,7 +1029,7 @@
   {
     "no": "80",
     "nameZh": "黑暗人V3",
-    "nameJp": "",
+    "nameJp": "ダークマン V3",
     "nameEn": "DarkMan V3",
     "element": "無",
     "damage": 30,
@@ -1042,7 +1042,7 @@
   {
     "no": "81",
     "nameZh": "黑暗人V4",
-    "nameJp": "",
+    "nameJp": "ダークマン V4",
     "nameEn": "DarkMan V4",
     "element": "無",
     "damage": 30,
@@ -1055,7 +1055,7 @@
   {
     "no": "82",
     "nameZh": "大和人",
-    "nameJp": "",
+    "nameJp": "ヤマトマン",
     "nameEn": "Yamatoman",
     "element": "無",
     "damage": 40,
@@ -1068,7 +1068,7 @@
   {
     "no": "83",
     "nameZh": "大和人V2",
-    "nameJp": "",
+    "nameJp": "ヤマトマン V2",
     "nameEn": "Yamatoman V2",
     "element": "無",
     "damage": 45,
@@ -1081,7 +1081,7 @@
   {
     "no": "84",
     "nameZh": "大和人V3",
-    "nameJp": "",
+    "nameJp": "ヤマトマン V3",
     "nameEn": "Yamatoman V3",
     "element": "無",
     "damage": 50,
@@ -1094,7 +1094,7 @@
   {
     "no": "85",
     "nameZh": "大和人V4",
-    "nameJp": "",
+    "nameJp": "ヤマトマン V4",
     "nameEn": "Yamatoman V4",
     "element": "無",
     "damage": 55,
