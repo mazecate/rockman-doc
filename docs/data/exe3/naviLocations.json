@@ -112,9 +112,9 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "玉子的首頁",
+        "locationEn": "Tamako's HP",
+        "locationJp": "たま子のHP",
         "isRandom": false,
         "note": ""
       }
