@@ -17,6 +17,7 @@ import PowerUp from './components/PowerUp.vue'
 import NaviCustTable from './components/NaviCustTable.vue'
 import NaviRotateItemTable from './components/NaviRotateItemTable.vue'
 import VirusBreeding from './components/VirusBreeding.vue'
+import TaCompetition from './components/TaCompetition.vue'
 import './custom.css'
 
 export default {
@@ -39,5 +40,6 @@ export default {
     app.component('NaviCustTable', NaviCustTable)
     app.component('NaviRotateItemTable', NaviRotateItemTable)
     app.component('VirusBreeding', VirusBreeding)
+    app.component('TaCompetition', TaCompetition)
   }
 } satisfies Theme

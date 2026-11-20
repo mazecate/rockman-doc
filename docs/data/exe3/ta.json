@@ -1,0 +1,213 @@
+{
+  "notice": [
+    {
+      "zh": "打倒 <strong>佛魯迪 GS</strong> 後解鎖 Time Attack 模式",
+      "ja": "フォルテGSを倒すと Time Attack モードが解放される",
+      "en": "Defeat <strong>Bass GS</strong> to unlock Time Attack mode"
+    },
+    {
+      "zh": "不能使用Buster Max Mode",
+      "ja": "バスターMAXモードは使用禁止",
+      "en": "Cannot use Buster Max Mode"
+    }
+  ],
+  "data": [
+    {
+      "id": "flashman",
+      "name": {
+        "zh": "閃光人 V2",
+        "ja": "フラッシュマン V2",
+        "en": "FlashMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:10:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "beastman",
+      "name": {
+        "zh": "野獸人 V2",
+        "ja": "ビーストマン V2",
+        "en": "BeastMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:30:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "gutsman",
+      "name": { "zh": "怪力人 V2", "ja": "ガッツマン V2", "en": "GutsMa V2n" },
+      "location": {
+        "zh": "秘密區域 2",
+        "ja": "シークレットエリア2",
+        "en": "Secret Area 2"
+      },
+      "targetTime": "00:15:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "kingman",
+      "name": { "zh": "國王人 V2", "ja": "キングマン V2", "en": "KingMan V2" },
+      "location": {
+        "zh": "秘密區域 2",
+        "ja": "シークレットエリア2",
+        "en": "Secret Area 2"
+      },
+      "targetTime": "00:40:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "bubbleman",
+      "name": {
+        "zh": "泡沫人 V2",
+        "ja": "バブルマン V2",
+        "en": "BubbleMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:40:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "desertman",
+      "name": {
+        "zh": "沙漠人 V2",
+        "ja": "デザートマン V2",
+        "en": "DesertMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "plantman",
+      "name": {
+        "zh": "植物人 V2",
+        "ja": "プラントマン V2",
+        "en": "PlantMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:40:00",
+      "folder": {
+        "zh": "見習資料夾",
+        "ja": "みならいフォルダ",
+        "en": "Apprentice Folder"
+      }
+    },
+    {
+      "id": "flameman",
+      "name": {
+        "zh": "烈焰人 V2",
+        "ja": "フレイムマン V2",
+        "en": "FlameMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:40:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "metalman",
+      "name": { "zh": "金屬人 V2", "ja": "メタルマン V2", "en": "MetalMan V2" },
+      "location": {
+        "zh": "秘密區域 2",
+        "ja": "シークレットエリア2",
+        "en": "Secret Area 2"
+      },
+      "targetTime": "00:20:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "bowlman",
+      "name": { "zh": "保齡人 V2", "ja": "ボウルマン V2", "en": "BowlMan V2" },
+      "location": {
+        "zh": "秘密區域 2",
+        "ja": "シークレットエリア2",
+        "en": "Secret Area 2"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "yamatoman",
+      "name": {
+        "zh": "大和人 V2",
+        "ja": "ヤマトマン V2",
+        "en": "YamatoMan V2"
+      },
+      "location": {
+        "zh": "秘密區域 3",
+        "ja": "シークレットエリア3",
+        "en": "Secret Area 3"
+      },
+      "targetTime": "00:40:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "blues",
+      "name": { "zh": "布魯斯 V2", "ja": "ブルース V2", "en": "Blues V2" },
+      "location": {
+        "zh": "秘密區域 3",
+        "ja": "シークレットエリア3",
+        "en": "Secret Area 3"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "darkman",
+      "name": { "zh": "黑暗人 V2", "ja": "ダークマン V2", "en": "DarkMan V2" },
+      "location": {
+        "zh": "秘密區域 3",
+        "ja": "シークレットエリア3",
+        "en": "Secret Area 3"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "drillman",
+      "name": { "zh": "鑽孔人 V2", "ja": "ドリルマン V2", "en": "DrillMan V2" },
+      "location": {
+        "zh": "秘密區域 1",
+        "ja": "シークレットエリア1",
+        "en": "Secret Area 1"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    },
+    {
+      "id": "mistman",
+      "name": { "zh": "煙霧人 V2", "ja": "ミストマン V2", "en": "MistMan V2" },
+      "location": {
+        "zh": "秘密區域 2",
+        "ja": "シークレットエリア2",
+        "en": "Secret Area 2"
+      },
+      "targetTime": "00:45:00",
+      "folder": { "zh": "N1C", "ja": "N1フォルダC", "en": "N1C" }
+    }
+  ]
+}

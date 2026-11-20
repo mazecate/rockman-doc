@@ -30,4 +30,5 @@ export interface MenuConfig {
   sidequest?: boolean; // 支線任
   chiptrade?: boolean; // 晶片交換
   virusbreeding?: boolean; // 病毒飼育
+  ta?: boolean; // exe3 TA
 }
