@@ -129,7 +129,7 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
     </div>
 
     <div class="ta-controls">
-      <input v-model="query" class="ta-search" placeholder="搜尋 Boss：閃光人 / フラッシュマン / FlashMan" />
+      <input v-model="query" class="ta-search" placeholder="搜尋 Boss：閃光人" />
       <select v-model="locationFilter" class="ta-select">
         <option value="all">全部地點</option>
         <option v-for="loc in locations" :key="loc" :value="loc">{{ loc }}</option>
@@ -224,8 +224,24 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
 .ta-controls {
   position: sticky; top: 64px; z-index: 10;
   display: flex; gap: 0.5rem; flex-wrap: wrap;
-  background: var(--vp-c-bg); padding: 0.75rem; border: 1px solid var(--vp-c-divider);
+  /* 半透明底 + 毛玻璃，scroll 嗰陣下面啲卡唔會穿透上嚟，唔會痴埋一齊 */
+  background: var(--vp-c-bg);
+  background: color-mix(in srgb, var(--vp-c-bg) 82%, transparent);
+  backdrop-filter: blur(12px) saturate(1.4);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem; border: 1px solid var(--vp-c-divider);
   border-radius: 10px; margin-bottom: 1.25rem;
+}
+@media (max-width: 768px) {
+  .ta-controls {
+    /* 手機版 VitePress header 得 48px，唔係 64px，之前留咗條罅，內容會喺罅入面穿過嚟，睇落好似痴住 */
+    top: 48px;
+    /* 左右拉闊少少，黐實左右邊，唔留白邊，唔會睇到下面啲卡喺側邊穿過 */
+    margin-left: -0.5rem; margin-right: -0.5rem;
+    border-radius: 0 0 12px 12px;
+    border-top: none;
+  }
 }
 .ta-search { flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-soft); }
 .ta-select { padding: 6px 8px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-soft); }
