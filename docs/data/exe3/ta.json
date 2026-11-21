@@ -1,7 +1,7 @@
 {
   "notice": [
     {
-      "zh": "打倒 <strong>佛魯迪 GS</strong> 後解鎖 Time Attack 模式",
+      "zh": "打倒 <strong>佛魯迪 GS</strong> 後解鎖競速模式",
       "ja": "フォルテGSを倒すと Time Attack モードが解放される",
       "en": "Defeat <strong>Bass GS</strong> to unlock Time Attack mode"
     },
@@ -130,7 +130,7 @@
       "name": {
         "en": "GutsMan",
         "ja": "ガッツマン",
-        "zh": "怪力人"
+        "zh": "氣力人"
       },
       "targetTime": "00:15:00"
     },
@@ -277,7 +277,7 @@
       "name": {
         "en": "BowlMan",
         "ja": "ボウルマン",
-        "zh": "保齡人"
+        "zh": "保齡球人"
       },
       "targetTime": "00:45:00"
     },
@@ -366,7 +366,7 @@
       "name": {
         "en": "DrillMan",
         "ja": "ドリルマン",
-        "zh": "鑽孔人"
+        "zh": "鑽頭人"
       },
       "targetTime": "00:45:00"
     },
