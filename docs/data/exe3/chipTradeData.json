@@ -63,7 +63,7 @@
     {
       "chapter": "完成表關後",
       "location": "醫院地下室",
-      "give": "",
+      "give": [],
       "receive": ["騷靈 G"]
     }
   ]
