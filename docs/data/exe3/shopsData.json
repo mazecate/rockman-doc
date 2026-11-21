@@ -330,5 +330,27 @@
 			{ "name": "敵方搜索", "nameEn": "", "nameJp": "エネミーサーチ", "price": 10000, "quantity": 1 },
 			{ "name": "開鎖", "nameEn": "", "nameJp": "オープンロック", "price": 4000, "quantity": 1 }
 		]
-	}
+	},
+  {
+    "shopName": "日暮屋",
+    "shopNameEn": "Higsby's Chip Shop",
+    "shopNameJp": "ヒグレヤ",
+    "currency": "Zenny",
+    "items": [
+      { "name": "電+30 *", "nameEn": "", "nameJp": "エレキ+30 *", "price": 5000, "quantity": 1, "version": "white" },
+      { "name": "定時炸彈 M", "nameEn": "", "nameJp": "カウントボム M", "price": 6000, "quantity": 1, "version": "white" },
+      { "name": "風壓劍 R", "nameEn": "", "nameJp": "フウアツケン R", "price": 14000, "quantity": 1, "version": "white" },
+      { "name": "老樹 W", "nameEn": "", "nameJp": "オールドウッド W", "price": 40000, "quantity": 1, "version": "white" },
+      
+			{ "name": "回復80 *", "nameEn": "", "nameJp": "リカバリー80 *", "price": 5000, "quantity": 1, "version": "black" },
+      { "name": "紅海嘯 J", "nameEn": "", "nameJp": "アカツナミ J", "price": 7500, "quantity": 1, "version": "black" },
+      { "name": "隱形地雷 R", "nameEn": "", "nameJp": "ステルスマイン R", "price": 10000, "quantity": 1, "version": "black" },
+      { "name": "毒氣阿努比斯 A", "nameEn": "", "nameJp": "ポイズンアヌビス A", "price": 80000, "quantity": 1, "version": "black" },
+
+      { "name": "紅炎 *", "nameEn": "", "nameJp": "プロミネンス *", "price": 6000, "quantity": 1 },
+      { "name": "地下水脈 *", "nameEn": "", "nameJp": "チカスイミャク *", "price": 6000, "quantity": 1 },
+      { "name": "雷電 *", "nameEn": "", "nameJp": "ライトニング *", "price": 6000, "quantity": 1 },
+      { "name": "蓋亞劍 *", "nameEn": "", "nameJp": "ガイアソード *", "price": 6000, "quantity": 1 }
+    ]
+  }
 ]
