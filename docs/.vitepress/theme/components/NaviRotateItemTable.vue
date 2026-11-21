@@ -54,7 +54,7 @@ const filteredItems = computed(() => {
             <tr v-for="(item, index) in filteredItems" :key="index">
               <td>
                 <!-- 如果有圖片，點擊名稱即開啟彈窗 -->
-                <ImagePopUp v-if="item.image" :src="`/images/${item.image}`" :alt="item.nameZh">
+                <ImagePopUp v-if="item.image" :src="`${item.image}`" :alt="item.nameZh">
                   <span class="name-zh has-image">{{ item.nameZh }}</span>
                 </ImagePopUp>
                 <!-- 沒有圖片則純顯示文字 -->

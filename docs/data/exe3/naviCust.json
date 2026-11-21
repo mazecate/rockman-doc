@@ -8,7 +8,8 @@
       "color": "紅",
       "method": "氣力型態升級至 LV2",
       "effect": "就算受到攻擊也不會硬直！",
-      "image": null,
+      "programImage": "",
+      "obtainImage": "",
       "compressionCommand": "↑→↑Ｒ↑↓"
     },
     {
@@ -18,7 +19,8 @@
       "color": "紅",
       "method": "氣力型態升級至 LV3",
       "effect": "洛克砲會變得能貫通對手的防禦！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "RAB↓LL"
     },
     {
@@ -28,7 +30,8 @@
       "color": "紅",
       "method": "氣力型態升級至 LV4",
       "effect": "集氣射擊會變得能貫通對手的防禦！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "BA←L↑B",
       "isGet": false
     },
@@ -37,9 +40,10 @@
       "nameEn": "BreakCharge",
       "nameJp": "ブレイクチャージ",
       "color": "橙",
-      "method": "第4章取得",
+      "method": "第4章電視台大廳取得",
       "effect": "集氣射擊會變得能貫通對手的防禦！",
-      "image": "parts_14.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_14.webp",
       "compressionCommand": "BA←L↑B"
     },
     {
@@ -49,7 +53,8 @@
       "color": "藍",
       "method": "改裝型態升級至 LV2",
       "effect": "在改裝視窗最初可選的晶片枚數+1",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→→→↑←B"
     },
     {
@@ -59,7 +64,8 @@
       "color": "黃",
       "method": "改裝型態升級至 LV3",
       "effect": "在改裝視窗最初可選的晶片枚數+1",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→→→↑←B"
     },
     {
@@ -69,7 +75,8 @@
       "color": "藍",
       "method": "改裝型態升級至 LV4",
       "effect": "在改裝視窗最初可選的晶片枚數+2",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "A↓↑↓R↓"
     },
     {
@@ -79,7 +86,8 @@
       "color": "綠",
       "method": "兄弟型態升級至 LV2",
       "effect": "資料夾可放入的MEGA晶片枚數+1",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→R↓RL←"
     },
     {
@@ -89,7 +97,8 @@
       "color": "粉紅",
       "method": "兄弟型態升級至 LV3",
       "effect": "資料夾可放入的MEGA晶片枚數+1",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→R↓RL←"
     },
     {
@@ -99,7 +108,8 @@
       "color": "綠",
       "method": "兄弟型態升級至 LV4",
       "effect": "資料夾可放入的MEGA晶片枚數+2",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "AR↓↓→←"
     },
     {
@@ -109,7 +119,8 @@
       "color": "藍",
       "method": "盾型態升級至 LV2",
       "effect": "使用B+←的指令將傷害半減的格擋！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↓B↑↓A←",
       "isGet": false
     },
@@ -120,7 +131,8 @@
       "color": "藍",
       "method": "盾型態升級至 LV3",
       "effect": "使用B+←的指令將傷害100%防禦的盾！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "←→↓R↓R",
       "isGet": false
     },
@@ -131,7 +143,8 @@
       "color": "藍",
       "method": "盾型態升級至 LV4",
       "effect": "使用B+←的指令將傷害彈回的反射！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "B↑A←←B",
       "isGet": false
     },
@@ -142,7 +155,8 @@
       "color": "綠",
       "method": "大地型態升級至 LV2",
       "effect": "將場地上的普通地面變為草原！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↓RR↓B←",
       "isGet": false
     },
@@ -153,7 +167,8 @@
       "color": "綠",
       "method": "大地型態升級至 LV3",
       "effect": "將場地上的普通地面變為冰！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "A↑A↑←R",
       "isGet": false
     },
@@ -164,7 +179,8 @@
       "color": "綠",
       "method": "大地型態升級至 LV4",
       "effect": "將場地上的普通地面變為岩漿！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "B→→BRA",
       "isGet": false
     },
@@ -175,7 +191,8 @@
       "color": "綠",
       "method": "大地型態升級至 LV5",
       "effect": "將自己區域中的普通地面變為神聖地面！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "ABRR←R",
       "isGet": false
     },
@@ -186,7 +203,8 @@
       "color": "紅",
       "method": "陰影型態升級至 LV2",
       "effect": "使用忍法忍術腳站在碎地上，地面也不會破掉！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↑←→L↑R",
       "isGet": false
     },
@@ -197,7 +215,8 @@
       "color": "紅",
       "method": "陰影型態升級至 LV3",
       "effect": "從地面上稍微浮起而不會受到地面的影響",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "←↓←↓←L",
       "isGet": false
     },
@@ -208,7 +227,8 @@
       "color": "紅",
       "method": "陰影型態升級至 LV4",
       "effect": "使用B+←的指令假裝受到攻擊而投出手裡劍！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "L←RA→↓",
       "isGet": false
     },
@@ -219,7 +239,8 @@
       "color": "白",
       "method": "BUG型態升級至 LV2",
       "effect": "能抑止BUG發生的特殊程式",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "B↓↑B↓B",
       "isGet": false
     },
@@ -230,7 +251,8 @@
       "color": "灰",
       "method": "BUG型態升級至 LV3",
       "effect": "能夠與闇之居民取得聯繫，危險的程式",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "RLR↓←BR",
       "isGet": false
     },
@@ -241,7 +263,8 @@
       "color": "綠",
       "method": "數字交易機",
       "effect": "將場地上的普通地面變為沙子",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "←AAB↑←"
     },
     {
@@ -251,7 +274,8 @@
       "color": "綠",
       "method": "裏廣場商店",
       "effect": "把場地上的普通地面變為金屬",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "BR→→LL"
     },
     {
@@ -261,7 +285,8 @@
       "color": "白",
       "method": "取得領航員個人化裝置同時",
       "effect": "即使受到致死量的攻擊會硬是以 HP 1 撐住！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "←↑BL←↑"
     },
     {
@@ -271,7 +296,8 @@
       "color": "粉紅",
       "method": "完成委託「請讓我恢復以前的生活」的報酬",
       "effect": "設裝上過度認真的領航員上再按L對話試試看",
-      "image": "parts_07.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_07.webp",
       "compressionCommand": "↑RA←→→"
     },
     {
@@ -281,7 +307,8 @@
       "color": "白",
       "method": "第7章中取得",
       "effect": "能夠醞釀出邪惡氣息的偽裝程式",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→←→↓R↓"
     },
     {
@@ -291,7 +318,8 @@
       "color": "白",
       "method": "數字交易機",
       "effect": "在沒有地面的格子上也變得能夠移動！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↑BB↓AR"
     },
     {
@@ -301,7 +329,8 @@
       "color": "粉紅",
       "method": "威利城 - 外牆的電腦",
       "effect": "提升從敵人殘骸中找到晶片資料的眼力",
-      "image": "parts_12.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_12.webp",
       "compressionCommand": "B↓→R→→"
     },
     {
@@ -311,7 +340,8 @@
       "color": "白",
       "method": "第3章中取得",
       "effect": "在通過狹小亮路時自動地壓縮身體尺寸",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -321,7 +351,8 @@
       "color": "白",
       "method": "第5章中取得",
       "effect": "將火、水屬性的晶片變換為力量，由身體放出！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -331,7 +362,8 @@
       "color": "粉紅",
       "method": "第8章中取得",
       "effect": "能夠看到隱藏在通路中等原型",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -341,7 +373,8 @@
       "color": "黃",
       "method": "動物園電腦4",
       "effect": "最大HP增加100！",
-      "image": "parts_01.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_01.webp",
       "compressionCommand": ""
     },
     {
@@ -351,7 +384,8 @@
       "color": "粉紅",
       "method": "轉播車的電腦",
       "effect": "最大HP增加100！",
-      "image": "parts_04.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_04.webp",
       "compressionCommand": ""
     },
     {
@@ -361,7 +395,8 @@
       "color": "白",
       "method": "裏網路6的BUG商店",
       "effect": "最大HP增加100！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -371,7 +406,8 @@
       "color": "粉紅",
       "method": "裏網路1",
       "effect": "最大HP增加200！",
-      "image": "parts_08.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_08.webp",
       "compressionCommand": ""
     },
     {
@@ -381,7 +417,8 @@
       "color": "黃",
       "method": "裏網路6的BUG商店",
       "effect": "最大HP增加200！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -391,7 +428,8 @@
       "color": "粉紅",
       "method": "裏廣場商店",
       "effect": "最大HP增加300！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -401,7 +439,8 @@
       "color": "黃",
       "method": "秘密區域 2",
       "effect": "最大HP增加500！",
-      "image": "parts_16.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_16.webp",
       "compressionCommand": ""
     },
     {
@@ -411,7 +450,8 @@
       "color": "白",
       "method": "海濱廣場商店",
       "effect": "常規容量上升5MB！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -421,7 +461,8 @@
       "color": "黃",
       "method": "裏網路6的BUG商店",
       "effect": "常規容量上升5MB！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -431,7 +472,8 @@
       "color": "粉紅",
       "method": "數字交易機",
       "effect": "在戰鬥中提升改裝計量表增加速度",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "B↓AR←R"
     },
     {
@@ -441,7 +483,8 @@
       "color": "黃",
       "method": "動物園電腦3",
       "effect": "不會遭遇比自己弱的敵人",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "RLB↓↓↓"
     },
     {
@@ -451,7 +494,8 @@
       "color": "黃",
       "method": "醫院的電腦1",
       "effect": "塗上火屬性病毒最喜歡的油，而容易被盯上！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↑→AAR↑"
     },
     {
@@ -461,7 +505,8 @@
       "color": "粉紅",
       "method": "海濱廣場商店",
       "effect": "假扮成魚，而容易被水屬性病毒發現",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "LR↓↑←→"
     },
     {
@@ -471,7 +516,8 @@
       "color": "黃",
       "method": "裏廣場商店",
       "effect": "以電池狀態讓電屬性病毒自動靠近",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "→R→RL←"
     },
     {
@@ -481,7 +527,8 @@
       "color": "白",
       "method": "WWW的電腦3",
       "effect": "放出叢林的香味吸引木屬性病毒",
-      "image": "parts_13.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_13.webp",
       "compressionCommand": "AR←BBA"
     },
     {
@@ -491,7 +538,8 @@
       "color": "粉紅",
       "method": "取得領航員個人化裝置同時",
       "effect": "洛克砲攻擊力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -501,7 +549,8 @@
       "color": "粉紅",
       "method": "電視台控制面板的電腦 (紫水晶)",
       "effect": "洛克砲攻擊力上升1！",
-      "image": "parts_05.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_05.webp",
       "compressionCommand": ""
     },
     {
@@ -511,7 +560,8 @@
       "color": "黃",
       "method": "醫院的電腦2",
       "effect": "洛克砲攻擊力上升1！",
-      "image": "parts_09.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_09.webp",
       "compressionCommand": ""
     },
     {
@@ -521,7 +571,8 @@
       "color": "白",
       "method": "海濱廣場商店",
       "effect": "洛克砲攻擊力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -531,7 +582,8 @@
       "color": "黃",
       "method": "余余區域1",
       "effect": "洛克砲連射力上升1！",
-      "image": "parts_02.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_02.webp",
       "compressionCommand": ""
     },
     {
@@ -541,7 +593,8 @@
       "color": "白",
       "method": "取得領航員個人化裝置同時",
       "effect": "洛克砲連射力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -551,7 +604,8 @@
       "color": "白",
       "method": "裏網路4",
       "effect": "洛克砲連射力上升1！",
-      "image": "parts_11.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_11.webp",
       "compressionCommand": ""
     },
     {
@@ -561,7 +615,8 @@
       "color": "粉紅",
       "method": "裏網路6的BUG商店",
       "effect": "洛克砲連射力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -571,7 +626,8 @@
       "color": "粉紅",
       "method": "動物園電腦2",
       "effect": "洛克砲集氣力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -581,7 +637,8 @@
       "color": "粉紅",
       "method": "海濱區域1",
       "effect": "洛克砲集氣力上升1！",
-      "image": "parts_03.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_03.webp",
       "compressionCommand": ""
     },
     {
@@ -591,7 +648,8 @@
       "color": "黃",
       "method": "醫院的電腦5",
       "effect": "洛克砲集氣力上升1！",
-      "image": "parts_06.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_06.webp",
       "compressionCommand": ""
     },
     {
@@ -601,7 +659,8 @@
       "color": "白",
       "method": "海濱廣場商店",
       "effect": "洛克砲集氣力上升1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -611,7 +670,8 @@
       "color": "粉紅",
       "method": "惡魔像的電腦",
       "effect": "讓集氣攻擊等級+1！",
-      "image": "parts_10.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_10.webp",
       "compressionCommand": ""
     },
     {
@@ -621,7 +681,8 @@
       "color": "白",
       "method": "數字交易機",
       "effect": "讓集氣攻擊等級+1！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": ""
     },
     {
@@ -631,7 +692,8 @@
       "color": "黃",
       "method": "裏網路6",
       "effect": "讓集氣攻擊等級+1！",
-      "image": "parts_17.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_17.webp",
       "compressionCommand": ""
     },
     {
@@ -641,7 +703,8 @@
       "color": "黃",
       "method": "裏網路6的BUG商店",
       "effect": "對戰專用！嗅出消失對手的氣味跳出攻擊",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "LA↓BBB"
     },
     {
@@ -651,7 +714,8 @@
       "color": "白",
       "method": "裏廣場商店",
       "effect": "對戰專用！MEGA以上的晶片會被奪走",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "A↓AARA"
     },
     {
@@ -661,7 +725,8 @@
       "color": "粉紅",
       "method": "裏廣場商店",
       "effect": "對戰專用！在瀕死的時候協助治療！",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "A↓←LLR"
     },
     {
@@ -671,7 +736,8 @@
       "color": "粉紅",
       "method": "裏網路6的BUG商店",
       "effect": "讓子彈性能全部最大化，危險的程式",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "↓ARRL←←"
     },
     {
@@ -681,7 +747,8 @@
       "color": "紫",
       "method": "裏網路7",
       "effect": "資料夾內可放入的GIGA晶片+1，危險的程式",
-      "image": null,
+      "programImage": null,
+      "obtainImage": null,
       "compressionCommand": "L↓A↓RB↑"
     },
     {
@@ -691,7 +758,8 @@
       "color": "橙",
       "method": "秘密區域3",
       "effect": "讓領航員與操作員完全同步，危險的程式",
-      "image": "parts_15.jpeg",
+      "programImage": null,
+      "obtainImage": "/images/exe3/parts/parts_15.webp",
       "compressionCommand": "B←A↓↓↑L"
     }
   ]

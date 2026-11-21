@@ -55,9 +55,13 @@ outline: [2]
 
 2. 回到公職廣場找考官，給他強者資料，他會告訴你有幫派受到戈斯巴魯影響，延生了「黑色領航員幫派」，考官會說第四位成員的位置，其後可從每位成員當中得知下一位在那裏：
     - 第四位 - 雅吉納區域2 
+    <br><img src="/images/exe2/underworld/ss_04.webp" alt="雅吉納區域2" class="wt-img" />
     - 第三位 - 亞美羅帕區域3
+    <br><img src="/images/exe2/underworld/ss_03.webp" alt="亞美羅帕區域3" class="wt-img" />
     - 第二位 - 裏網路6
+    <br><img src="/images/exe2/underworld/ss_02.webp" alt="裏網路6" class="wt-img" />
     - 第一位 - 裏長壽區域 (近商人附近)
+    <br><img src="/images/exe2/underworld/ss_01.webp" alt="裏長壽區域 (近商人附近)" class="wt-img" />
 
 **內容**：連續擊敗 20 波病毒
 ::: 

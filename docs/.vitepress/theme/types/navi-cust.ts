@@ -5,7 +5,8 @@ export interface NaviPartItem {
   color: string;         // 顏色
   method: string;        // 取得方法
   effect: string;        // 影響（效果）
-  image?: string | null; // 圖片檔名
+  programImage?: string | null; // 程式零件圖片
+  obtainImage?: string | null;  // 程式零件獲得地方圖片
   compressionCommand?: string; // 壓縮指令 (EXE 4 會隱藏)
 }
 

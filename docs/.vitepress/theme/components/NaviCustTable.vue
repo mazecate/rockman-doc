@@ -88,7 +88,7 @@ const filteredParts = computed(() => {
           <tbody>
             <tr v-for="(part, index) in filteredParts" :key="index">
               <td>
-                <ImagePopUp v-if="part.image" :src="`/images/${part.image}`" :alt="part.nameZh">
+                <ImagePopUp v-if="part.programImage" :src="`${part.programImage}`" :alt="part.nameZh">
                   <span class="name-zh has-image">{{ part.nameZh || '-' }}</span>
                 </ImagePopUp>
                 <span v-else class="name-zh">{{ part.nameZh || '-' }}</span>
@@ -98,7 +98,12 @@ const filteredParts = computed(() => {
                   {{ part.color }}
                 </span>
               </td>
-              <td class="method-cell">{{ part.method }}</td>
+              <td class="method-cell">
+                <ImagePopUp v-if="part.obtainImage" :src="`${part.obtainImage}`" :alt="part.nameZh">
+                  <span class="obtain has-image">{{ part.method }}</span>
+                </ImagePopUp>
+                <span v-else>{{ part.method }}</span>
+              </td>
               <td class="effect-cell">{{ part.effect || '-' }}</td>
               <td v-if="showCompression">
                 <span v-if="part.compressionCommand" class="code-tag">{{ part.compressionCommand }}</span>
@@ -180,16 +185,18 @@ const filteredParts = computed(() => {
   background-color: var(--vp-c-bg-alt);
   font-weight: 600;
 }
-.name-zh {
+.name-zh, .obtain {
   font-weight: bold;
 }
-.name-zh.has-image {
+.name-zh.has-image,
+.obtain.has-image {
   cursor: pointer;
   color: var(--vp-c-brand-1);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.name-zh.has-image:hover {
+.name-zh.has-image:hover,
+.obtain.has-image:hover {
   color: var(--vp-c-brand-2);
 }
 

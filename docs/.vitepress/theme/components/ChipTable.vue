@@ -28,7 +28,7 @@
 					<tbody>
 						<template v-for="chip in filteredChips" :key="chip.no">
 							<tr>
-								<td>No.{{ String(chip.no).padStart(3, '0') }}</td>
+								<td>{{ String(chip.no).padStart(3, '0') }}</td>
 								<td>
 									<span class="name-zh">{{ chip.nameZh || '-' }}</span>
 								</td>
