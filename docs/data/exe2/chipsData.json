@@ -3251,7 +3251,7 @@
     },
     {
       "no": "251",
-      "nameZh": "",
+      "nameZh": "大紅海嘯",
       "nameJp": "オオアカツナミ",
       "nameEn": "BgRedWav",
       "element": "火",
@@ -3260,7 +3260,7 @@
       "memory": "64 MB",
       "drops": [],
       "rarity": 5,
-      "description": "火屬性專用晶片，往3格前！"
+      "description": "火屬性專用晶片，3列並排前進的熔岩海嘯攻擊！"
     },
     {
       "no": "252",
