@@ -62,7 +62,7 @@
     "memory": "97 MB",
     "drops": [],
     "rarity": 5,
-    "description": ""
+    "description": "復甦的惡夢！原型3列電擊攻擊！"
   },
   {
     "no": "6",
@@ -70,9 +70,9 @@
     "nameJp": "ガッツマン V5",
     "nameEn": "GutsMan V5",
     "element": "無",
-    "damage": 50,
+    "damage": 120,
     "codes": ["G"],
-    "memory": "15 MB",
+    "memory": "79 MB",
     "drops": [],
     "rarity": 5,
     "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
@@ -83,9 +83,9 @@
     "nameJp": "ブルース V5",
     "nameEn": "ProtoMan V5",
     "element": "無",
-    "damage": 160,
+    "damage": 240,
     "codes": ["B"],
-    "memory": "68 MB",
+    "memory": "98 MB",
     "drops": [],
     "rarity": 5,
     "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
@@ -96,9 +96,9 @@
     "nameJp": "フラッシュマン V5",
     "nameEn": "FlashMan V5",
     "element": "電",
-    "damage": 50,
+    "damage": 150,
     "codes": ["F"],
-    "memory": "39 MB",
+    "memory": "89 MB",
     "drops": [],
     "rarity": 5,
     "description": "使出照亮一切的閃光攻擊！使對手麻痺"
@@ -161,9 +161,9 @@
     "nameJp": "フレイムマン V5",
     "nameEn": "FlameMan V5",
     "element": "火",
-    "damage": 120,
+    "damage": 240,
     "codes": ["F"],
-    "memory": "32 MB",
+    "memory": "82 MB",
     "drops": [],
     "rarity": 5,
     "description": "操縱灼熱的火焰燒盡一切！"
@@ -174,12 +174,12 @@
     "nameJp": "ドリルマン V5",
     "nameEn": "DrillMan V5",
     "element": "無",
-    "damage": 70,
+    "damage": 150,
     "codes": ["D"],
-    "memory": "66 MB",
+    "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使用3個鐵頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
   },
   {
     "no": "15",
