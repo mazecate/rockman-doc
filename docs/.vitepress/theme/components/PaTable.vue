@@ -12,56 +12,58 @@
     </div>
 
     <!-- 表格顯示 (Table Display) -->
-    <div class="table-wrapper">
-      <table class="pa-table">
-        <thead>
-          <tr>
-            <th class="col-seq">編號</th>
-            <th class="col-name">P.A. 名稱</th>
-            <!-- <th class="col-dmg">威力</th> -->
-            <th class="col-combo">晶片組合</th>
-            <th class="col-desc">效果說明</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- 綁定 JSON 資料中固定的 item.no -->
-          <tr v-for="item in formattedData" :key="item.no">
-            <td class="col-seq">{{ item.no }}</td>
-            <td class="col-name">
-              <div class="name-zh">{{ item.nameZh }}</div>
-              <!-- <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div> -->
-            </td>
-            <!-- 
-            <td class="col-dmg">
-              {{ item.damage && item.damage > 0 ? item.damage : '-' }}
-            </td> 
-            -->
-            <td class="col-combo">
-              <div class="combo-list">
-                <div
-                  v-for="(combo, cIndex) in item.comboGroups"
-                  :key="cIndex"
-                  class="chip-group"
-                >
-                  <span
-                    v-for="(chip, chipIndex) in combo"
-                    :key="chipIndex"
-                    class="chip-tag"
+    <div class="table-scroll-wrapper">
+      <div class="table-scroll-inner">
+        <table class="pa-table">
+          <thead>
+            <tr>
+              <th class="col-seq">編號</th>
+              <th class="col-name">P.A. 名稱</th>
+              <!-- <th class="col-dmg">威力</th> -->
+              <th class="col-combo">晶片組合</th>
+              <th class="col-desc">效果說明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 綁定 JSON 資料中固定的 item.no -->
+            <tr v-for="item in formattedData" :key="item.no">
+              <td class="col-seq">{{ item.no }}</td>
+              <td class="col-name">
+                <div class="name-zh">{{ item.nameZh }}</div>
+                <!-- <div class="name-en" v-if="item.nameEn">{{ item.nameEn }}</div> -->
+              </td>
+              <!-- 
+              <td class="col-dmg">
+                {{ item.damage && item.damage > 0 ? item.damage : '-' }}
+              </td> 
+              -->
+              <td class="col-combo">
+                <div class="combo-list">
+                  <div
+                    v-for="(combo, cIndex) in item.comboGroups"
+                    :key="cIndex"
+                    class="chip-group"
                   >
-                    {{ chip }}
-                  </span>
+                    <span
+                      v-for="(chip, chipIndex) in combo"
+                      :key="chipIndex"
+                      class="chip-tag"
+                    >
+                      {{ chip }}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </td>
-            <td class="col-desc">{{ item.description }}</td>
-          </tr>
-          <tr v-if="formattedData.length === 0">
-            <td colspan="4" class="no-result">
-              找不到符合「{{ searchQuery }}」的 P.A. 紀錄
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              </td>
+              <td class="col-desc">{{ item.description }}</td>
+            </tr>
+            <tr v-if="formattedData.length === 0">
+              <td colspan="4" class="no-result">
+                找不到符合「{{ searchQuery }}」的 P.A. 紀錄
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
@@ -123,14 +125,13 @@ const formattedData = computed<FormattedPaItem[]>(() => {
       const comboGroups = formatCombinations(item.combination)
       const allChips = comboGroups.flat()
 
-      const matchNo = item.no.toString().includes(query) // 支援搜尋固定號碼 (如 "30")
+      const matchNo = item.no.toString().includes(query)
       const matchNameZh = item.nameZh.toLowerCase().includes(query)
       const matchNameEn = item.nameEn?.toLowerCase().includes(query) ?? false
       const matchDesc = item.description.toLowerCase().includes(query)
       const matchCombo = allChips.some((c) => c.toLowerCase().includes(query))
-      // const matchDmg = item.damage?.toString().includes(query) ?? false
 
-      return matchNo || matchNameZh || matchNameEn || matchDesc || matchCombo /* || matchDmg */
+      return matchNo || matchNameZh || matchNameEn || matchDesc || matchCombo
     })
     .map((item) => ({
       ...item,
@@ -147,7 +148,6 @@ const formattedData = computed<FormattedPaItem[]>(() => {
 .pa-container {
   width: 100%;
   max-width: 1000px;
-  /* margin: 0 auto; */
   padding: 20px 0;
 }
 
@@ -174,32 +174,51 @@ const formattedData = computed<FormattedPaItem[]>(() => {
   box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
 }
 
-/* 表格結構 */
-.table-wrapper {
-  width: 100%;
+/* 參考 ChipTable：外層遮罩 + 內層橫向捲動 */
+.table-scroll-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .table-scroll-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+    box-shadow: inset -15px 0 15px -10px rgba(176, 161, 161, 0.15);
+  }
+}
+
+.table-scroll-inner {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .pa-table {
   width: 100%;
+  min-width: 680px; /* 確保在窄螢幕觸發橫向捲動而不會擠爆欄位 */
   border-collapse: collapse;
   text-align: left;
   font-size: 0.95rem;
-  table-layout: fixed;
 }
 
 .pa-table th,
 .pa-table td {
   padding: 12px 10px;
   border-bottom: 1px solid var(--vp-c-divider);
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  vertical-align: middle;
 }
 
 .pa-table th {
   background-color: var(--vp-c-bg-soft);
   font-weight: 600;
   color: var(--vp-c-text-1);
+  white-space: nowrap;
 }
 
 .pa-table tbody tr {
@@ -210,16 +229,18 @@ const formattedData = computed<FormattedPaItem[]>(() => {
   background-color: var(--vp-c-bg-soft);
 }
 
-/* 欄位寬度百分比分配 (總和 100%) */
+/* 欄位寬度與防擠壓設定 */
 .col-seq {
-  width: 8%;
+  width: 70px;
   text-align: center;
   font-weight: bold;
   color: var(--vp-c-text-1);
+  white-space: nowrap;
 }
 
 .col-name {
-  width: 22%;
+  min-width: 140px;
+  white-space: nowrap;
 }
 
 .name-zh {
@@ -232,21 +253,8 @@ const formattedData = computed<FormattedPaItem[]>(() => {
   color: var(--vp-c-text-2);
 }
 
-/* 
-.col-dmg {
-  width: 10%;
-  text-align: center;
-  font-weight: bold;
-  color: #e53e3e;
-}
-
-html.dark .col-dmg {
-  color: #fc8181;
-} 
-*/
-
 .col-combo {
-  width: 40%;
+  min-width: 240px;
 }
 
 .combo-list {
@@ -275,6 +283,7 @@ html.dark .col-dmg {
   font-size: 0.825rem;
   font-weight: 600;
   letter-spacing: 0.02em;
+  white-space: nowrap;
   cursor: default;
   transition: all 0.2s ease;
   user-select: none;
@@ -312,7 +321,7 @@ html.dark .chip-tag:hover {
 
 /* 效果說明欄位 */
 .col-desc {
-  width: 30%;
+  min-width: 200px;
   color: var(--vp-c-text-1);
   line-height: 1.45;
 }
