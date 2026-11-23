@@ -246,12 +246,12 @@
     },
     {
       "nameZh": "黑暗執照",
-      "nameEn": "DarkLicense",
+      "nameEn": "Dark License",
       "nameJp": "ダークライセンス",
       "color": "灰",
       "method": "BUG型態升級至 LV3",
       "effect": "能夠與闇之居民取得聯繫，危險的程式",
-      "programImage": null,
+      "programImage": "/images/exe3/parts/dark_license.png",
       "obtainImage": null,
       "compressionCommand": "RLR↓←BR",
       "isGet": false
@@ -263,7 +263,7 @@
       "color": "綠",
       "method": "數字交易機",
       "effect": "將場地上的普通地面變為沙子",
-      "programImage": "/images/exe3/parts/set_sand.webp",
+      "programImage": "/images/exe3/parts/set_sand.png",
       "obtainImage": null,
       "compressionCommand": "←AAB↑←"
     },
@@ -274,7 +274,7 @@
       "color": "綠",
       "method": "裏廣場商店",
       "effect": "將場地上的普通地面變為金屬",
-      "programImage": "/images/exe3/parts/set_metal.webp",
+      "programImage": "/images/exe3/parts/set_metal.png",
       "obtainImage": null,
       "compressionCommand": "BR→→LL"
     },
@@ -295,7 +295,7 @@
       "nameJp": "ユーモアセンス",
       "color": "粉紅",
       "method": "委託任務「請讓我恢復以前的生活」的報酬",
-      "effect": "設裝上過度認真的領航員上再按L對話試試看",
+      "effect": "裝在過度認真的領航員上再按L對話試試看",
       "programImage": null,
       "obtainImage": "/images/exe3/parts/parts_07.webp",
       "compressionCommand": "↑RA←→→"
