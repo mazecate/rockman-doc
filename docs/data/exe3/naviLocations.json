@@ -31,9 +31,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "迪卡歐的首頁",
+        "locationEn": "Dex's HP",
+        "locationJp": "デカオのHP",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -72,9 +73,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
+        "location": "校長的筆記型電腦2",
         "locationEn": "",
-        "locationJp": "",
+        "locationJp": "校長のノートPCの電脳2",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -115,6 +117,7 @@
         "location": "玉子的首頁",
         "locationEn": "Tamako's HP",
         "locationJp": "たま子のHP",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -129,8 +132,8 @@
       {
         "versionType": "V1",
         "location": "動物園的電腦 4",
-        "locationEn": "Zoo Comp 3",
-        "locationJp": "どうぶつえんの電脳4",
+        "locationEn": "Zoo Comp 4",
+        "locationJp": "どうぶつえんの電脳 4",
         "isRandom": false,
         "note": "第2章頭目"
       },
@@ -153,10 +156,11 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "動物園的電腦 3",
+        "locationEn": "Zoo Comp 3",
+        "locationJp": "どうぶつえんの電脳 3",
         "isRandom": false,
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "note": ""
       }
     ]
@@ -171,7 +175,7 @@
         "versionType": "V1",
         "location": "余余區域 1",
         "locationEn": "Yoka Area 1",
-        "locationJp": "よかよかエリア1",
+        "locationJp": "よかよかエリア 1",
         "isRandom": false,
         "note": "第3章頭目"
       },
@@ -180,7 +184,7 @@
         "location": "余余區域 1",
         "locationImage": "/images/exe3/navi_location/bubbleman_v2.jpeg",
         "locationEn": "Yoka Area 1",
-        "locationJp": "よかよかエリア1",
+        "locationJp": "よかよかエリア 1",
         "isRandom": false,
         "note": ""
       },
@@ -194,10 +198,11 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "余余區域 2",
+        "locationEn": "Yoka Area 2",
+        "locationJp": "よかよかエリア 2",
         "isRandom": false,
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "note": ""
       }
     ]
@@ -234,10 +239,11 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "電視台控制面板的電腦",
+        "locationEn": "TV Station Control Panel Comp",
+        "locationJp": "TV局コンパネの電脳",
         "isRandom": false,
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "note": ""
       }
     ]
@@ -251,8 +257,8 @@
       {
         "versionType": "V1",
         "location": "電視台剪接室",
-        "locationEn": "",
-        "locationJp": "",
+        "locationEn": "Editing Room",
+        "locationJp": "TV局へんしゅう室",
         "isRandom": false,
         "note": "第4章頭目"
       },
@@ -275,9 +281,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "轉播車的電腦",
+        "locationEn": "Relay Comp",
+        "locationJp": "中継車の電脳",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -292,8 +299,8 @@
       {
         "versionType": "V1",
         "location": "醫院的電腦 5",
-        "locationEn": "Hospital Comp",
-        "locationJp": "びょういんの電脳",
+        "locationEn": "Hospital Comp 5",
+        "locationJp": "びょういんの電脳 5",
         "isRandom": false,
         "note": "第5章頭目"
       },
@@ -316,9 +323,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "醫院的電腦 3",
+        "locationEn": "Hospital Comp 3",
+        "locationJp": "びょういんの電脳 3",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -357,9 +365,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "裏網路 3",
+        "locationEn": "Undernet 3",
+        "locationJp": "ウラインターネット 3",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -398,9 +407,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "裏網路 5",
+        "locationEn": "Undernet 5",
+        "locationJp": "ウラインターネット 5",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -438,9 +448,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "網路對戰機器的電腦",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -478,9 +489,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "網路對戰機器的電腦",
+        "locationEn": "NetBattle Machine Comp",
+        "locationJp": "ネットバトルマシンの電脳",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -518,9 +530,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "地獄島區域",
+        "locationEn": "Hades Isle Area",
+        "locationJp": "ジゴク島エリア",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -554,14 +567,6 @@
         "locationEn": "Front of Zoo",
         "locationJp": "どうぶつえんまえ",
         "isRandom": true,
-        "note": ""
-      },
-      {
-        "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
-        "isRandom": false,
         "note": ""
       }
     ]
@@ -623,9 +628,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "秘密區域 2",
+        "locationEn": "Secret Area 2",
+        "locationJp": "シークレットエリア 2",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -664,9 +670,10 @@
       },
       {
         "versionType": "SP",
-        "location": "",
-        "locationEn": "",
-        "locationJp": "",
+        "location": "秘密區域 1",
+        "locationEn": "Secret Area 1",
+        "locationJp": "シークレットエリア 1",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -691,6 +698,7 @@
         "location": "秘密區域 3",
         "locationEn": "Secret Area 3",
         "locationJp": "シークレットエリア 3",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": false,
         "note": ""
       }
@@ -723,6 +731,7 @@
         "location": "秘密區域 3",
         "locationEn": "Secret Area 3",
         "locationJp": "シークレットエリア 3",
+        "locationImage": "/images/exe3/navi_location/temp.jpeg",
         "isRandom": true,
         "note": ""
       }

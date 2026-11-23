@@ -107,7 +107,7 @@
     "sp": {
       "location": { "zh": "緊急鈴的電腦", "ja": "非常ベルの電脳", "en": "Alarm Comp" },
       "rewards": { "zh": "劍兵SP", "ja": "スウォーディンSP", "en": "" },
-      "image": "/images/exe3/vbreeding/swordy_normal.webp"
+      "image": "/images/exe3/vbreeding/swordy_sp.webp"
     }
   },
   {
