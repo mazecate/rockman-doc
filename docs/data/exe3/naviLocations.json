@@ -566,7 +566,7 @@
         "location": "動物園前",
         "locationEn": "Front of Zoo",
         "locationJp": "どうぶつえんまえ",
-        "isRandom": true,
+        "isRandom": false,
         "note": ""
       }
     ]
