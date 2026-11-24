@@ -76,6 +76,14 @@ const DATABASE: Record<string, { title: string; url: string }> = {
     title: 'Kamigame',
     url: 'https://kamigame.jp/rockmanexe3/index.html'
   },
+  basedgameroom_01: {
+    title: 'ロックマンエグゼ3 タイムアタック（シークレットエリア1）',
+    url: 'https://www.youtube.com/watch?v=xCzqOG7s4zs'
+  },
+  basedgameroom_02: {
+    title: 'ロックマンエグゼ3（完） タイムアタック（シークレットエリア2～3）',
+    url: 'https://www.youtube.com/watch?v=cuRa94FQyD4'
+  },
 }
 
 const selectedReferences = computed(() => {

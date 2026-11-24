@@ -11,4 +11,5 @@ import taObj from '@/data/exe3/ta.json'
 
 <ClientOnly>
   <TaCompetition :items="taObj.data" :notice="taObj.notice" :folderLoc="taObj.folderLoc" />
+  <ReferenceList :items="['basedgameroom_01', 'basedgameroom_02']" />
 </ClientOnly>
