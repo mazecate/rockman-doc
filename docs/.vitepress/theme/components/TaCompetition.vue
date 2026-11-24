@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 import type { TaBoss, TaProgressRecord, LocalizedText, FolderLocStep } from '../types'
 
 const props = withDefaults(defineProps<{
@@ -23,6 +24,8 @@ onMounted(() => {
 const save = () => {
   localStorage.setItem(props.storageKey, JSON.stringify(progress.value))
 }
+
+const getImg = (src: string) => src.startsWith('http') ? src : withBase(src)
 
 const parseTime = (time: string): number | null => {
   const t = time.trim()
@@ -112,7 +115,7 @@ const progressPercent = computed(() => total.value ? Math.round((clearedCount.va
       <div class="folder-loc-title">📁 推薦資料夾</div>
       <div class="folder-loc-grid">
         <figure v-for="(step, i) in folderLoc" :key="i" class="folder-loc-card">
-          <img :src="step.image" :alt="step.name.zh" class="folder-loc-img" loading="lazy" />
+          <img :src="getImg(step.image)" :alt="step.name.zh" class="folder-loc-img" loading="lazy" />
           <figcaption>
             <strong>{{ step.name.zh }}</strong>
             <span>{{ step.loc.zh }}</span>

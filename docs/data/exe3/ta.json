@@ -14,55 +14,55 @@
   "folderLoc": [
     {
       "name": {
-        "zh": "A",
-        "ja": "A",
-        "en": "A"
+        "zh": "名人資料夾",
+        "ja": "名人フォルダ",
+        "en": "Famous Folder"
       },
       "loc": {
-        "zh": "A1",
-        "ja": "A1",
-        "en": "A1"
+        "zh": "電視台大廳",
+        "ja": "テレビ局ロビー",
+        "en": "DNN Lobby"
       },
-      "image": "/images/exe1/e1_stars.jpeg"
+      "image": "/images/exe3/ta/famour_folder.webp"
     },
     {
       "name": {
-        "zh": "B",
-        "ja": "B",
-        "en": "B"
+        "zh": "N1資料夾A",
+        "ja": "N1フォルダA",
+        "en": "N1 Folder A"
       },
       "loc": {
-        "zh": "B1",
-        "ja": "B1",
-        "en": "B1"
+        "zh": "地獄島",
+        "ja": "ジゴク島",
+        "en": "Hades Isle"
       },
-      "image": "/images/exe1/e1_stars.jpeg"
+      "image": "/images/exe3/ta/n1a.webp"
     },
     {
       "name": {
-        "zh": "C",
-        "ja": "C",
-        "en": "C"
+        "zh": "N1資料夾C",
+        "ja": "N1フォルダC",
+        "en": "N1 Folder C"
       },
       "loc": {
-        "zh": "C1",
-        "ja": "C1",
-        "en": "C1"
+        "zh": "地獄島",
+        "ja": "ジゴク島",
+        "en": "Hades Isle"
       },
-      "image": "/images/exe1/e1_stars.jpeg"
+      "image": "/images/exe3/ta/n1c.webp"
     },
     {
       "name": {
-        "zh": "D",
-        "ja": "D",
-        "en": "D"
+        "zh": "見習資料夾",
+        "ja": "みならいフォルダ",
+        "en": "Apprentice Folder"
       },
       "loc": {
-        "zh": "D1",
-        "ja": "D1",
-        "en": "D1"
+        "zh": "秋原町",
+        "ja": "秋原町",
+        "en": "ACDC Town"
       },
-      "image": "/images/exe1/e1_stars.jpeg"
+      "image": "/images/exe3/ta/trainee_folder.webp"
     }
   ],
   "data": [
