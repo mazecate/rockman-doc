@@ -34,7 +34,7 @@
         "location": "迪卡歐的首頁",
         "locationEn": "Dex's HP",
         "locationJp": "デカオのHP",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/gutsman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -57,7 +57,7 @@
       {
         "versionType": "V2",
         "location": "秋原區域 3",
-        "locationImage": "/images/exe3/navi_location/flashman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/flashman_v2.webp",
         "locationEn": "Acad Area 3",
         "locationJp": "秋原エリア 3",
         "isRandom": false,
@@ -76,7 +76,7 @@
         "location": "校長的筆記型電腦2",
         "locationEn": "",
         "locationJp": "校長のノートPCの電脳2",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/flashman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -117,7 +117,7 @@
         "location": "玉子的首頁",
         "locationEn": "Tamako's HP",
         "locationJp": "たま子のHP",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/metalman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -140,7 +140,7 @@
       {
         "versionType": "V2",
         "location": "科學省區域 1 下層",
-        "locationImage": "/images/exe3/navi_location/beastman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/beastman_v2.webp",
         "locationEn": "SciLab Area 1",
         "locationJp": "科学省エリア 1",
         "isRandom": false,
@@ -160,7 +160,7 @@
         "locationEn": "Zoo Comp 3",
         "locationJp": "どうぶつえんの電脳 3",
         "isRandom": false,
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/beastman_sp.webp",
         "note": ""
       }
     ]
@@ -182,7 +182,7 @@
       {
         "versionType": "V2",
         "location": "余余區域 1",
-        "locationImage": "/images/exe3/navi_location/bubbleman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/bubbleman_v2.webp",
         "locationEn": "Yoka Area 1",
         "locationJp": "よかよかエリア 1",
         "isRandom": false,
@@ -202,7 +202,7 @@
         "locationEn": "Yoka Area 2",
         "locationJp": "よかよかエリア 2",
         "isRandom": false,
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/bubbleman_sp.webp",
         "note": ""
       }
     ]
@@ -243,7 +243,7 @@
         "locationEn": "TV Station Control Panel Comp",
         "locationJp": "TV局コンパネの電脳",
         "isRandom": false,
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/kingman_sp.webp",
         "note": ""
       }
     ]
@@ -265,7 +265,7 @@
       {
         "versionType": "V2",
         "location": "海濱區域 1",
-        "locationImage": "/images/exe3/navi_location/desertman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/desertman_v2.webp",
         "locationEn": "Beach Area 1",
         "locationJp": "ビーチエリア 1",
         "isRandom": false,
@@ -284,7 +284,7 @@
         "location": "轉播車的電腦",
         "locationEn": "Relay Comp",
         "locationJp": "中継車の電脳",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/desertman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -307,7 +307,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 4",
-        "locationImage": "/images/exe3/navi_location/plantman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/plantman_v2.webp",
         "locationEn": "Undernet 4",
         "locationJp": "ウラインターネット 4",
         "isRandom": false,
@@ -326,7 +326,7 @@
         "location": "醫院的電腦 3",
         "locationEn": "Hospital Comp 3",
         "locationJp": "びょういんの電脳 3",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/plantman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -349,7 +349,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 5",
-        "locationImage": "/images/exe3/navi_location/flameman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/flameman_v2.webp",
         "locationEn": "Undernet 5",
         "locationJp": "ウラインターネット 5",
         "isRandom": false,
@@ -368,7 +368,7 @@
         "location": "裏網路 3",
         "locationEn": "Undernet 3",
         "locationJp": "ウラインターネット 3",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/flameman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -391,7 +391,7 @@
       {
         "versionType": "V2",
         "location": "裏網路 6",
-        "locationImage": "/images/exe3/navi_location/drillman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/drillman_v2.webp",
         "locationEn": "Undernet 6",
         "locationJp": "ウラインターネット 6",
         "isRandom": false,
@@ -410,7 +410,7 @@
         "location": "裏網路 5",
         "locationEn": "Undernet 5",
         "locationJp": "ウラインターネット 5",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/drillman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -451,7 +451,7 @@
         "location": "網路對戰機器的電腦",
         "locationEn": "NetBattle Machine Comp",
         "locationJp": "ネットバトルマシンの電脳",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/bowlman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -492,7 +492,7 @@
         "location": "網路對戰機器的電腦",
         "locationEn": "NetBattle Machine Comp",
         "locationJp": "ネットバトルマシンの電脳",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/mistman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -533,7 +533,7 @@
         "location": "地獄島區域",
         "locationEn": "Hades Isle Area",
         "locationJp": "ジゴク島エリア",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/blues_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -612,7 +612,7 @@
       {
         "versionType": "V2",
         "location": "秘密區域 2",
-        "locationImage": "/images/exe3/navi_location/yamatoman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/yamatoman_v2.webp",
         "locationEn": "Secret Area 2",
         "locationJp": "シークレットエリア 2",
         "isRandom": false,
@@ -631,7 +631,7 @@
         "location": "秘密區域 2",
         "locationEn": "Secret Area 2",
         "locationJp": "シークレットエリア 2",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/yamatoman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -654,7 +654,7 @@
       {
         "versionType": "V2",
         "location": "秘密區域 1",
-        "locationImage": "/images/exe3/navi_location/darkman_v2.jpeg",
+        "locationImage": "/images/exe3/navi_location/darkman_v2.webp",
         "locationEn": "Secret Area 1",
         "locationJp": "シークレットエリア 1",
         "isRandom": false,
@@ -673,7 +673,7 @@
         "location": "秘密區域 1",
         "locationEn": "Secret Area 1",
         "locationJp": "シークレットエリア 1",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/darkman_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -698,7 +698,7 @@
         "location": "秘密區域 3",
         "locationEn": "Secret Area 3",
         "locationJp": "シークレットエリア 3",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/serenade_sp.webp",
         "isRandom": false,
         "note": ""
       }
@@ -731,7 +731,7 @@
         "location": "秘密區域 3",
         "locationEn": "Secret Area 3",
         "locationJp": "シークレットエリア 3",
-        "locationImage": "/images/exe3/navi_location/temp.jpeg",
+        "locationImage": "/images/exe3/navi_location/forte_sp.webp",
         "isRandom": true,
         "note": ""
       }
