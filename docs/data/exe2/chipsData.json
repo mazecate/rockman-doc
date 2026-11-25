@@ -3450,11 +3450,11 @@
       "nameJp": "サンクチュアリ",
       "nameEn": "Snctuary",
       "element": "無",
-      "damage": "-",
+      "damage": 0,
       "codes": ["A", "C", "E", "L", "S", "*"],
       "memory": "99 MB",
       "drops": [],
       "rarity": 5,
-      "description": ""
+      "description": "將自身區域的所有格子轉化為神聖地面！"
     }
   ]
