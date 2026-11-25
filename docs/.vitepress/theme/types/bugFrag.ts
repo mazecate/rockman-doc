@@ -1,11 +1,17 @@
-export type BugFragCategory = 'real' | 'net';
+export type BugFragCategory = "real" | "net";
+
+export interface LocalizedText {
+  zh: string;
+  en: string;
+  ja: string;
+}
 
 export interface BugFragItem {
   id: string;
   category: BugFragCategory;
   region: string;
-  name: string;
-  note?: string;
+  location: LocalizedText;
+  note?: LocalizedText;
   locationImage?: string;
 }
 

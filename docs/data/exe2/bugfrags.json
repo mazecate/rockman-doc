@@ -1,5 +1,518 @@
 {
   "game": "exe2",
   "category": "bugfrag",
-  "data": []
+  "data": [
+    {
+      "id": "exe2-real-01",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "熱斗家控制盤的電腦",
+        "en": "Lan's House Control Panel PC",
+        "ja": "熱斗の家のコントロールパネルのPC"
+      },
+      "note": {
+        "zh": "客廳控制盤",
+        "en": "Living room control panel",
+        "ja": "リビングのコントロールパネル"
+      },
+      "locationImage": "/images/exe2/bugfrags/b14.jpeg"
+    },
+    {
+      "id": "exe2-real-02",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "迪卡歐的個人電腦",
+        "en": "Dex's Personal PC",
+        "ja": "デカオのパソコン"
+      },
+      "note": {
+        "zh": "迪卡歐房間內",
+        "en": "Inside Dex's room",
+        "ja": "デカオの部屋の中"
+      },
+      "locationImage": "/images/exe2/bugfrags/b13.jpeg"
+    },
+    {
+      "id": "exe2-real-03",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "銅像的電腦",
+        "en": "Statue PC",
+        "ja": "銅像のPC"
+      },
+      "note": {
+        "zh": "伊朵家銅像",
+        "en": "Yai's house statue",
+        "ja": "やい宅の銅像"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-real-04",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "寬螢幕的電腦",
+        "en": "Widescreen PC",
+        "ja": "ワイド画面のPC"
+      },
+      "note": {
+        "zh": "公職中心研究層",
+        "en": "SciLab research floor",
+        "ja": "科学省研究フロア"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-real-05",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "航班表的電腦",
+        "en": "Flight Schedule PC",
+        "ja": "フライトスケジュールのPC"
+      },
+      "note": {
+        "zh": "機場候機大廳",
+        "en": "Airport lobby",
+        "ja": "空港ロビー"
+      },
+      "locationImage": "/images/exe2/bugfrags/b07.jpeg"
+    },
+    {
+      "id": "exe2-real-06",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "勞爾的錄音機",
+        "en": "Raul's Recorder",
+        "ja": "ラウルのレコーダー"
+      },
+      "note": {
+        "zh": "亞美羅帕鎮的後巷",
+        "en": "Back alley in Ameropa town",
+        "ja": "アメーバタウンの裏路地"
+      },
+      "locationImage": "/images/exe2/bugfrags/b10.jpeg"
+    },
+    {
+      "id": "exe2-real-07",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "冰箱的電腦",
+        "en": "Refrigerator PC",
+        "ja": "冷蔵庫のPC"
+      },
+      "note": {
+        "zh": "亞美羅帕飯店房間內",
+        "en": "Inside Ameropa hotel room",
+        "ja": "アメーバホテルの部屋の中"
+      },
+      "locationImage": "/images/exe2/bugfrags/b05.jpeg"
+    },
+    {
+      "id": "exe2-real-08",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "電視的電腦",
+        "en": "TV PC",
+        "ja": "テレビのPC"
+      },
+      "note": {
+        "zh": "飛機的經濟艙電視",
+        "en": "Airplane economy class TV",
+        "ja": "飛行機のエコノミー席テレビ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b12.jpeg"
+    },
+    {
+      "id": "exe2-real-09",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "飛機的電腦2",
+        "en": "Airplane PC 2",
+        "ja": "飛行機のPC2"
+      },
+      "note": {
+        "zh": "機長室內",
+        "en": "Inside captain's room",
+        "ja": "機長室内"
+      },
+      "locationImage": "/images/exe2/bugfrags/b11.jpeg"
+    },
+    {
+      "id": "exe2-real-10",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "瓦斯熱水器的電腦2",
+        "en": "Gas Water Heater PC 2",
+        "ja": "ガス湯沸かし器のPC2"
+      },
+      "note": {
+        "zh": "伊朵家浴室",
+        "en": "Yai's house bathroom",
+        "ja": "やい宅のバスルーム"
+      },
+      "locationImage": "/images/exe2/bugfrags/b01.jpeg"
+    },
+    {
+      "id": "exe2-real-11",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "引爆裝置的電腦4",
+        "en": "Detonator PC 4",
+        "ja": "起爆装置のPC4"
+      },
+      "note": {
+        "zh": "奧電谷",
+        "en": "Okuden Valley",
+        "ja": "オクデンバレー"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-real-12",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "母體電腦3",
+        "en": "Mainframe PC 3",
+        "ja": "メインコンピューター3"
+      },
+      "note": {
+        "zh": "公職中心研究層",
+        "en": "SciLab research floor",
+        "ja": "科学省研究フロア"
+      },
+      "locationImage": "/images/exe2/bugfrags/b06.jpeg"
+    },
+    {
+      "id": "exe2-real-13",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "城堡的電腦4",
+        "en": "Castle PC 4",
+        "ja": "城のPC4"
+      },
+      "note": {
+        "zh": "亞美羅帕城堡",
+        "en": "Ameropa Castle",
+        "ja": "アメーバ城"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-real-14",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "自動鎖的電腦",
+        "en": "Auto-Lock PC",
+        "ja": "オートロックのPC"
+      },
+      "note": {
+        "zh": "長壽町大樓1F",
+        "en": "Koto Town Building 1F",
+        "ja": "コトブキ町ビル1F"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-real-15",
+      "category": "real",
+      "region": "現實電腦",
+      "location": {
+        "zh": "大樓的電腦3",
+        "en": "Building PC 3",
+        "ja": "ビルのPC3"
+      },
+      "note": {
+        "zh": "長壽町大樓",
+        "en": "Koto Town Building",
+        "ja": "コトブキ町ビル"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-01",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "電算區域1",
+        "en": "ACDC Area 1",
+        "ja": "秋原エリア1"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-02",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "電算區域2",
+        "en": "ACDC Area 2",
+        "ja": "秋原エリア2"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-03",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "電算區域3",
+        "en": "ACDC Area 3",
+        "ja": "秋原エリア3"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-04",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "長壽區域",
+        "en": "Koto Area",
+        "ja": "コトブキエリア"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b02.jpeg"
+    },
+    {
+      "id": "exe2-net-05",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "雅吉納區域1",
+        "en": "Agin Area 1",
+        "ja": "アジーナエリア1"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b03.jpeg"
+    },
+    {
+      "id": "exe2-net-06",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "雅吉納區域2",
+        "en": "Agin Area 2",
+        "ja": "アジーナエリア2"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b04.jpeg"
+    },
+    {
+      "id": "exe2-net-07",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "亞美羅帕區域1",
+        "en": "Ameropa Area 1",
+        "ja": "アメーバエリア1"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b08.jpeg"
+    },
+    {
+      "id": "exe2-net-08",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "亞美羅帕區域2",
+        "en": "Ameropa Area 2",
+        "ja": "アメーバエリア2"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": "/images/exe2/bugfrags/b09.jpeg"
+    },
+    {
+      "id": "exe2-net-09",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏長壽區域",
+        "en": "Undernet Koto Area",
+        "ja": "ウラコトブキエリア"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-10",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路1",
+        "en": "Undernet 1",
+        "ja": "ウラインターネット1"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-11",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路2",
+        "en": "Undernet 2",
+        "ja": "ウラインターネット2"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-12",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路3",
+        "en": "Undernet 3",
+        "ja": "ウラインターネット3"
+      },
+      "note": {
+        "zh": "需要戈斯巴魯會的通行碼",
+        "en": "Requires Gospel Passcode",
+        "ja": "ゴスペル会のパスコードが必要"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-13",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路4",
+        "en": "Undernet 4",
+        "ja": "ウラインターネット4"
+      },
+      "note": {
+        "zh": "需要戈斯巴魯會的通行碼",
+        "en": "Requires Gospel Passcode",
+        "ja": "ゴスペル会のパスコードが必要"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-14",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路5",
+        "en": "Undernet 5",
+        "ja": "ウラインターネット5"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-15",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "裏網路6",
+        "en": "Undernet 6",
+        "ja": "ウラインターネット6"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-16",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "WWW區域1",
+        "en": "WWW Area 1",
+        "ja": "WWWエリア1"
+      },
+      "note": {
+        "zh": "需要SS執照",
+        "en": "Requires SS License",
+        "ja": "SSライセンスが必要"
+      },
+      "locationImage": ""
+    },
+    {
+      "id": "exe2-net-17",
+      "category": "net",
+      "region": "網路區域",
+      "location": {
+        "zh": "WWW區域3",
+        "en": "WWW Area 3",
+        "ja": "WWWエリア3"
+      },
+      "note": {
+        "zh": "藍色神秘數據",
+        "en": "Blue Mystery Data",
+        "ja": "青ミステリーデータ"
+      },
+      "locationImage": ""
+    }
+  ]
 }

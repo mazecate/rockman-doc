@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
-import ImagePopUp from './ImagePopUp.vue'
+// import ImagePopUp from './ImagePopUp.vue'
 import type { BugFragDataset, BugFragItem } from '../types'
 
 const props = defineProps<{
@@ -85,6 +85,10 @@ function isChecked(id: string): boolean {
 
 function hasImage(item: BugFragItem): boolean {
   return Boolean(item.locationImage && item.locationImage.trim().length > 0)
+}
+
+function getNoteZh(item: BugFragItem): string {
+  return item.note?.zh?.trim() || ''
 }
 
 const progressPercent = computed(() => {
@@ -205,7 +209,7 @@ function resetAll() {
             type="button"
             role="checkbox"
             :aria-checked="isChecked(item.id)"
-            :aria-label="`標記 ${item.name}`"
+            :aria-label="`標記 ${item.location.zh}`"
             :class="['tick-box', { checked: isChecked(item.id) }]"
             @click.stop="toggleCheck(item.id)"
           >
@@ -221,22 +225,22 @@ function resetAll() {
 
           <div class="item-content">
             <div class="item-title-row">
-              <span class="item-name">{{ item.name }}</span>
+              <span class="item-name">{{ item.location.zh }}</span>
 
               <!-- 圖片彈窗元件觸發區（無外框與底色，僅單一 Icon） -->
               <span v-if="hasImage(item)" class="image-trigger" @click.stop>
-                <ImagePopUp :src="item.locationImage" :alt="item.name">
+                <ImagePopUp :src="item.locationImage" :alt="item.location.zh">
                   <span
                     class="img-icon-btn"
                     title="查看位置截圖"
-                    :aria-label="`查看 ${item.name} 位置截圖`"
+                    :aria-label="`查看 ${item.location.zh} 位置截圖`"
                   >
                     📷
                   </span>
                 </ImagePopUp>
               </span>
             </div>
-            <span v-if="item.note" class="item-note">{{ item.note }}</span>
+            <span v-if="getNoteZh(item)" class="item-note">{{ getNoteZh(item) }}</span>
           </div>
 
           <span :class="['cat-tag', item.category]">
