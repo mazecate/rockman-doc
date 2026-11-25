@@ -100,7 +100,8 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     sidequest = true,
     chiptrade = true,
     virusbreeding = false,
-    ta = false
+    ta = false,
+    bugfrags = false
   } = config;
 
   const items: SidebarItem[] = [];
@@ -144,6 +145,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (chiptrade) items.push({ text: '晶片交換', link: `${folderPath}/chip-trade` });
   if (virusbreeding) items.push({ text: '飼養病毒', link: `${folderPath}/virus-breeding` });
   if (ta) items.push({ text: 'TA挑戰', link: `${folderPath}/ta` });
+  if (bugfrags) items.push({ text: 'BUG碎片', link: `${folderPath}/bugfrags` });
 
   return items;
 }
@@ -160,7 +162,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '洛克人 EXE 2',
       collapsed: true,
-      items: getSubMenuItems('/exe/exe2', { trader: false, chips: true })
+      items: getSubMenuItems('/exe/exe2', { trader: false, chips: true, bugfrags: true })
     },
     {
       text: '洛克人 EXE 3',

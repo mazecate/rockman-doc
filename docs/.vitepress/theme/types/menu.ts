@@ -31,4 +31,5 @@ export interface MenuConfig {
   chiptrade?: boolean; // 晶片交換
   virusbreeding?: boolean; // 病毒飼育
   ta?: boolean; // exe3 TA
+  bugfrags?: boolean; // exe2 bugfrags
 }

@@ -11,3 +11,4 @@ export * from './shop';
 export * from './navi-cust';
 export * from './virus-breeding';
 export * from './time-attack';
+export * from './bugFrag';

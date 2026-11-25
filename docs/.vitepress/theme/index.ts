@@ -18,6 +18,7 @@ import NaviCustTable from './components/NaviCustTable.vue'
 import NaviRotateItemTable from './components/NaviRotateItemTable.vue'
 import VirusBreeding from './components/VirusBreeding.vue'
 import TaCompetition from './components/TaCompetition.vue'
+import BugFragList from './components/BugFragList.vue'
 import './custom.css'
 
 export default {
@@ -41,5 +42,6 @@ export default {
     app.component('NaviRotateItemTable', NaviRotateItemTable)
     app.component('VirusBreeding', VirusBreeding)
     app.component('TaCompetition', TaCompetition)
+    app.component('BugFragList', BugFragList)
   }
 } satisfies Theme
