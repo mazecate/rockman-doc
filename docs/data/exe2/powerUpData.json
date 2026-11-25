@@ -47,7 +47,7 @@
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "亞美羅帕區域3", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "城堡的電腦 1", "locationImage": "" },
 
-	{ "type": "hp", "name": "HP記憶體", "method": "與窗簾對話", "location": "飛機上機組人員的房間的窗簾", "locationImage": "" },
+	{ "type": "hp", "name": "HP記憶體", "method": "與窗簾對話", "location": "商務艙的窗簾", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "擊敗高熱人", "location": "出境樓層的火野健一", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "與猜迷大師對話", "location": "亞美羅帕的晚宴之間", "locationImage": "" },
 	{ "type": "hp", "name": "HP記憶體", "method": "神秘數據（藍色）", "location": "美露家鋼琴的電腦", "locationImage": "" },
