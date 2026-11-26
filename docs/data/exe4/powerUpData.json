@@ -1,7 +1,7 @@
 [
-    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "立體網絡", "value": 1, "locationImage": "" },
-    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "液晶螢幕的電腦", "value": 2, "locationImage": ""  },
-    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "電波塔的電腦 1", "value": 2, "locationImage": ""  },
+    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "立體音響的電腦", "value": 1, "locationImage": "/images/exe4/powerup/r1/reg_05.jpeg" },
+    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "液晶螢幕的電腦", "value": 2, "locationImage": "/images/exe4/powerup/r1/reg_06.jpeg"  },
+    { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "電波塔的電腦 1", "value": 2, "locationImage": "/images/exe4/powerup/r1/reg_04.jpeg"  },
     { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "樂園區域 1", "value": 2, "locationImage": ""  },
     { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "玩偶機械人的電腦 1", "value": 1, "locationImage": ""  },
     { "cycle": 1, "type": "reg", "method": "神秘數據（藍色）", "location": "玩偶機械人的電腦 3", "value": 2, "locationImage": ""  },
@@ -14,7 +14,7 @@
     { "cycle": 1, "type": "reg", "method": "現實世界", "location": "亞弗利克住所", "value": 1, "locationImage": ""  },
     { "cycle": 1, "type": "reg", "method": "現實世界", "location": "ANSA大廳", "value": 3, "locationImage": ""  },
   
-    { "cycle": 1, "type": "hp", "method": "神秘數據（藍色）", "location": "電波塔的電腦2", "locationImage": ""  },
+    { "cycle": 1, "type": "hp", "method": "神秘數據（藍色）", "location": "電波塔的電腦2", "locationImage": "/images/exe4/powerup/r1/hp_20.jpeg"  },
     { "cycle": 1, "type": "hp", "method": "神秘數據（紫色）", "location": "都市區域1", "locationImage": ""  },
     { "cycle": 1, "type": "hp", "method": "神秘數據（藍色）", "location": "章魚燒機的電腦", "locationImage": ""  },
     { "cycle": 1, "type": "hp", "method": "神秘數據（藍色）", "location": "攤販的電腦", "locationImage": ""  },
