@@ -16,7 +16,7 @@
         "en": "Living room control panel",
         "ja": "リビングのコントロールパネル"
       },
-      "locationImage": "/images/exe2/bugfrags/b14.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b14.webp"
     },
     {
       "id": "exe2-real-02",
@@ -32,7 +32,7 @@
         "en": "Inside Dex's room",
         "ja": "デカオの部屋の中"
       },
-      "locationImage": "/images/exe2/bugfrags/b13.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b13.webp"
     },
     {
       "id": "exe2-real-03",
@@ -44,11 +44,11 @@
         "ja": "銅像のPC"
       },
       "note": {
-        "zh": "伊朵家銅像",
+        "zh": "雅伊朵家的走廊",
         "en": "Yai's house statue",
-        "ja": "やい宅の銅像"
+        "ja": "やいとの家廊下"
       },
-      "locationImage": ""
+      "locationImage": "/images/exe2/bugfrags/b16.webp"
     },
     {
       "id": "exe2-real-04",
@@ -60,7 +60,7 @@
         "ja": "ワイド画面のPC"
       },
       "note": {
-        "zh": "公職中心研究層",
+        "zh": "公職中心研究室",
         "en": "SciLab research floor",
         "ja": "科学省研究フロア"
       },
@@ -76,11 +76,11 @@
         "ja": "フライトスケジュールのPC"
       },
       "note": {
-        "zh": "機場候機大廳",
-        "en": "Airport lobby",
-        "ja": "空港ロビー"
+        "zh": "電算機場入口",
+        "en": "Den Airport",
+        "ja": "デンサン空港入口"
       },
-      "locationImage": "/images/exe2/bugfrags/b07.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b07.webp"
     },
     {
       "id": "exe2-real-06",
@@ -96,7 +96,7 @@
         "en": "Back alley in Ameropa town",
         "ja": "アメーバタウンの裏路地"
       },
-      "locationImage": "/images/exe2/bugfrags/b10.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b10.webp"
     },
     {
       "id": "exe2-real-07",
@@ -112,7 +112,7 @@
         "en": "Inside Ameropa hotel room",
         "ja": "アメーバホテルの部屋の中"
       },
-      "locationImage": "/images/exe2/bugfrags/b05.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b05.webp"
     },
     {
       "id": "exe2-real-08",
@@ -124,11 +124,11 @@
         "ja": "テレビのPC"
       },
       "note": {
-        "zh": "飛機的經濟艙電視",
-        "en": "Airplane economy class TV",
-        "ja": "飛行機のエコノミー席テレビ"
+        "zh": "商務艙電視",
+        "en": "business class TV",
+        "ja": "テレビの電脳"
       },
-      "locationImage": "/images/exe2/bugfrags/b12.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b12.webp"
     },
     {
       "id": "exe2-real-09",
@@ -140,11 +140,11 @@
         "ja": "飛行機のPC2"
       },
       "note": {
-        "zh": "機長室內",
+        "zh": "駕駛艙內",
         "en": "Inside captain's room",
-        "ja": "機長室内"
+        "ja": "コクピット"
       },
-      "locationImage": "/images/exe2/bugfrags/b11.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b11.webp"
     },
     {
       "id": "exe2-real-10",
@@ -156,11 +156,11 @@
         "ja": "ガス湯沸かし器のPC2"
       },
       "note": {
-        "zh": "伊朵家浴室",
+        "zh": "雅伊朵家的浴室",
         "en": "Yai's house bathroom",
         "ja": "やい宅のバスルーム"
       },
-      "locationImage": "/images/exe2/bugfrags/b01.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b01.webp"
     },
     {
       "id": "exe2-real-11",
@@ -172,9 +172,9 @@
         "ja": "起爆装置のPC4"
       },
       "note": {
-        "zh": "奧電谷",
-        "en": "Okuden Valley",
-        "ja": "オクデンバレー"
+        "zh": "奧電谷露營地道路1 / 奧電水壩",
+        "en": "Camp Road 1 / Okuden Dam",
+        "ja": "キャンプ場への道1 / おくデンダム"
       },
       "locationImage": ""
     },
@@ -188,11 +188,11 @@
         "ja": "メインコンピューター3"
       },
       "note": {
-        "zh": "公職中心研究層",
-        "en": "SciLab research floor",
-        "ja": "科学省研究フロア"
+        "zh": "公職中心研究室 - 母體電腦房間",
+        "en": "SciLab research floor - Mother Computer Room",
+        "ja": "科学省研究フロア - Mother Computer 部屋"
       },
-      "locationImage": "/images/exe2/bugfrags/b06.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b06.webp"
     },
     {
       "id": "exe2-real-13",
@@ -204,9 +204,9 @@
         "ja": "城のPC4"
       },
       "note": {
-        "zh": "亞美羅帕城堡",
+        "zh": "亞美羅帕城",
         "en": "Ameropa Castle",
-        "ja": "アメーバ城"
+        "ja": "アメロッパ城"
       },
       "locationImage": ""
     },
@@ -220,11 +220,11 @@
         "ja": "オートロックのPC"
       },
       "note": {
-        "zh": "長壽町大樓1F",
+        "zh": "長壽町大樓1樓",
         "en": "Koto Town Building 1F",
         "ja": "コトブキ町ビル1F"
       },
-      "locationImage": ""
+      "locationImage": "/images/exe2/bugfrags/b17.webp"
     },
     {
       "id": "exe2-real-15",
@@ -240,7 +240,7 @@
         "en": "Koto Town Building",
         "ja": "コトブキ町ビル"
       },
-      "locationImage": ""
+      "locationImage": "/images/exe2/bugfrags/b15.webp"
     },
     {
       "id": "exe2-net-01",
@@ -304,7 +304,7 @@
         "en": "Blue Mystery Data",
         "ja": "青ミステリーデータ"
       },
-      "locationImage": "/images/exe2/bugfrags/b02.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b02.webp"
     },
     {
       "id": "exe2-net-05",
@@ -320,7 +320,7 @@
         "en": "Blue Mystery Data",
         "ja": "青ミステリーデータ"
       },
-      "locationImage": "/images/exe2/bugfrags/b03.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b03.webp"
     },
     {
       "id": "exe2-net-06",
@@ -336,7 +336,7 @@
         "en": "Blue Mystery Data",
         "ja": "青ミステリーデータ"
       },
-      "locationImage": "/images/exe2/bugfrags/b04.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b04.webp"
     },
     {
       "id": "exe2-net-07",
@@ -352,7 +352,7 @@
         "en": "Blue Mystery Data",
         "ja": "青ミステリーデータ"
       },
-      "locationImage": "/images/exe2/bugfrags/b08.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b08.webp"
     },
     {
       "id": "exe2-net-08",
@@ -368,7 +368,7 @@
         "en": "Blue Mystery Data",
         "ja": "青ミステリーデータ"
       },
-      "locationImage": "/images/exe2/bugfrags/b09.jpeg"
+      "locationImage": "/images/exe2/bugfrags/b09.webp"
     },
     {
       "id": "exe2-net-09",
