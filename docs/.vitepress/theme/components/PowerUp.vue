@@ -143,7 +143,7 @@ const totalShopPrice = computed(() => {
             <span class="value">
               <!-- ImagePopUp 元件：依據內部 hasValidImage 自動切換 pointer 與彈窗 -->
               <ImagePopUp :src="item.locationImage" :alt="item.location">
-                <span class="loc-link">📍 {{ item.location }}</span>
+                <span class="loc-link" :class="{ 'has-image': !!item.locationImage }">📍 {{ item.location }}</span>
               </ImagePopUp>
             </span>
           </div>
@@ -399,6 +399,19 @@ const totalShopPrice = computed(() => {
 .loc-link {
   color: var(--vp-c-text-1);
   font-weight: 500;
+}
+
+.loc-link.has-image {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  border-bottom: 1px dashed var(--vp-c-brand-1);
+  padding-bottom: 1px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.loc-link.has-image:hover {
+  color: var(--vp-c-brand-2);
+  border-bottom-color: var(--vp-c-brand-2);
 }
 
 .empty-box {
