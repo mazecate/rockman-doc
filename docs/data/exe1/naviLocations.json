@@ -15,7 +15,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 1",
+        "location": "網際網路 1",
         "locationImage": "/images/exe1/navi_location/fireman_v2.webp",
         "locationEn": "Internet 1",
         "locationJp": "インターネット1",
@@ -24,7 +24,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 1",
+        "location": "網際網路 1",
         "locationEn": "Internet 1",
         "locationJp": "インターネット 1",
         "isRandom": true,
@@ -104,7 +104,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "互聯網區域 2",
+        "location": "網際網路 2",
         "locationEn": "Internet 2",
         "locationJp": "インターネット 2",
         "isRandom": false,
@@ -112,7 +112,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 3",
+        "location": "網際網路 3",
         "locationImage": "/images/exe1/navi_location/stoneman_v2.webp",
         "locationEn": "Internet 3",
         "locationJp": "インターネット 3",
@@ -121,7 +121,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 3",
+        "location": "網際網路 3",
         "locationEn": "Internet 3",
         "locationJp": "インターネット 3",
         "isRandom": true,
@@ -241,7 +241,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 9",
+        "location": "網際網路 9",
         "locationImage": "/images/exe1/navi_location/colorman_v2.webp",
         "locationEn": "Internet 9",
         "locationJp": "インターネット 9",
@@ -250,7 +250,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 9",
+        "location": "網際網路 9",
         "locationEn": "Internet 9",
         "locationJp": "インターネット 9",
         "isRandom": true,
@@ -338,7 +338,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 6",
+        "location": "網際網路 6",
         "locationImage": "/images/exe1/navi_location/elecman_v2.webp",
         "locationEn": "Internet 6",
         "locationJp": "インターネット 6",
@@ -347,7 +347,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 6",
+        "location": "網際網路 6",
         "locationEn": "Internet 6",
         "locationJp": "インターネット 6",
         "isRandom": true,
@@ -363,7 +363,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "互聯網區域 8",
+        "location": "網際網路 8",
         "locationEn": "Internet 8",
         "locationJp": "インターネット 8",
         "isRandom": false,
@@ -371,7 +371,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 11",
+        "location": "網際網路 11",
         "locationImage": "/images/exe1/navi_location/bombman_v2.webp",
         "locationEn": "Internet 11",
         "locationJp": "インターネット 11",
@@ -380,7 +380,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 11",
+        "location": "網際網路 11",
         "locationEn": "Internet 11",
         "locationJp": "インターネット 11",
         "isRandom": true,
@@ -404,7 +404,7 @@
       },
       {
         "versionType": "V2",
-        "location": "互聯網區域 14",
+        "location": "網際網路 14",
         "locationImage": "/images/exe1/navi_location/magicman_v2.webp",
         "locationEn": "Internet 14",
         "locationJp": "インターネット 14",
@@ -413,7 +413,7 @@
       },
       {
         "versionType": "V3",
-        "location": "互聯網區域 14",
+        "location": "網際網路 14",
         "locationEn": "Internet 14",
         "locationJp": "インターネット 14",
         "isRandom": true,
@@ -429,7 +429,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "互聯網區域 12",
+        "location": "網際網路 12",
         "locationImage": "/images/exe1/navi_location/pharaohman_v1.webp",
         "locationEn": "Internet 12",
         "locationJp": "インターネット 12",
@@ -438,7 +438,7 @@
       },
       {
         "versionType": "SP",
-        "location": "互聯網區域 12",
+        "location": "網際網路 12",
         "locationEn": "Internet 12",
         "locationJp": "インターネット 12",
         "isRandom": true,
@@ -454,7 +454,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "互聯網區域 15",
+        "location": "網際網路 15",
         "locationImage": "/images/exe1/navi_location/shadowman_v1.webp",
         "locationEn": "Internet 15",
         "locationJp": "インターネット 15",
@@ -463,7 +463,7 @@
       },
       {
         "versionType": "SP",
-        "location": "互聯網區域 15",
+        "location": "網際網路 15",
         "locationEn": "Internet 15",
         "locationJp": "インターネット 15",
         "isRandom": true,
@@ -479,7 +479,7 @@
     "locations": [
       {
         "versionType": "V1",
-        "location": "互聯網區域 16",
+        "location": "網際網路 16",
         "locationEn": "Internet 16",
         "locationJp": "インターネット 16",
         "isRandom": false,
