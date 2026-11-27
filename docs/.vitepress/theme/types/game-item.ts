@@ -1,4 +1,4 @@
-import type { LocalizedText } from "./common";
+import type { LocalizedText, GameSeries } from "./common";
 
 export type ItemVersionKey =
   | "common" // 共通：雙版本都有
@@ -15,15 +15,6 @@ export type ItemVersionKey =
   | "exe6" // 只知係 EXE6，未分版本
   | "exe6-gregar" // EXE6 格雷卡 / Gregar
   | "exe6-falzar" // EXE6 法爾薩 / Falzar
-  | (string & {});
-
-export type GameSeries =
-  | "exe1"
-  | "exe2"
-  | "exe3"
-  | "exe4"
-  | "exe5"
-  | "exe6"
   | (string & {});
 
 export interface GameItem {
