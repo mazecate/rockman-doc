@@ -9,8 +9,8 @@ type SidebarItem = DefaultTheme.SidebarItem;
 const VERSION_NAME_MAP: Record<string, string> = {
   white: '⚪ 白版',
   black: '⚫ 黑版',
-  redSun: '🔴 紅太陽',
-  blueMoon: '🔵 藍月亮',
+  redSun: '☀️ 紅太陽',
+  blueMoon: '🌙 藍月亮',
   teamBlues: '🔵 Team of Blues 版',
   teamColonel: '🟠 Team of Colonel 版',
   gregar: '🔥 Gregar 版',

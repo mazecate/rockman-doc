@@ -80,7 +80,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import type { GameItem, GameItemFile, ItemVersionKey } from '../types/item'
+import type { GameItem, GameItemFile, ItemVersionKey } from '../types'
 
 const props = defineProps<{ items: GameItem[] | GameItemFile }>()
 // 正規化：array 係舊格式，{ series, data } 係新格式
@@ -264,6 +264,7 @@ const filteredItems = computed(() => {
 .table-scroll-inner { overflow-x: auto; }
 .item-table {
   width: 100%;
+  min-width: 640px;
   border-collapse: collapse;
   font-size: 0.95rem;
   white-space: nowrap;
@@ -276,7 +277,7 @@ const filteredItems = computed(() => {
 }
 .item-table th { background-color: var(--vp-c-bg-alt); font-weight: 600; }
 .name-zh { font-weight: bold; }
-.description-cell { font-size: 0.9rem; color: var(--vp-c-text-2); white-space: pre-line; vertical-align: top; }
+.description-cell { font-size: 0.9rem; color: var(--vp-c-text-2); white-space: pre; vertical-align: top; }
 .obtain-cell { font-size: 0.9rem; white-space: pre-line; vertical-align: top; }
 .multi-line { white-space: pre-line; line-height: 1.5; }
 .multi-line:empty::before { content: "\00a0"; }
