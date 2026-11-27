@@ -1,18 +1,14 @@
-export interface MultiLangText {
-  zh: string
-  ja: string
-  en?: string
-}
+import type { LocalizedText } from "./common";
 
 export interface VirusVersionInfo {
-  location: MultiLangText
-  rewards: MultiLangText
+  location: LocalizedText
+  rewards: LocalizedText
   image?: string // 預留給該地點的截圖路徑 (選填)
 }
 
 export interface VirusItem {
   id: string
-  name: MultiLangText
+  name: LocalizedText
   normal: VirusVersionInfo
   sp: VirusVersionInfo
 }
