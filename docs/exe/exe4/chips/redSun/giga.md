@@ -1,9 +1,9 @@
 ---
-title: EXE4 藍月亮GIGA晶片圖鑑
+title: EXE4 紅太陽GIGA晶片圖鑑
 aside: false
 ---
 
-# EXE4 藍月亮GIGA晶片圖鑑
+# EXE4 紅太陽GIGA晶片圖鑑
 
 <script setup>
 
