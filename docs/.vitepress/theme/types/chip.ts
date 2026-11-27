@@ -1,12 +1,12 @@
+import type { LocalizedText } from "./common";
+
 export interface BaseChipItem {
   no: number;
-  nameZh: string;
-  nameJp: string;
-  nameEn: string;
+  name: LocalizedText;
   damage: string | number | null;
   element: string;
   rarity?: string; // 稀有度
-  description: string; // 必定存在於基礎介面
+  description: LocalizedText; // 必定存在於基礎介面
   codes?: string[]; // 代碼陣列 (例如 ["K", "M", "S"])
   drops?: string[]; // 掉落敵人和出沒區域
 }

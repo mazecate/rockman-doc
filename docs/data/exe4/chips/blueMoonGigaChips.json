@@ -1,67 +1,97 @@
 [
   {
     "no": "1",
-    "nameZh": "藍月射線",
-    "nameJp": "ブルームーンレイ",
-    "nameEn": "BlueMoon",
+    "name": {
+      "zh": "藍月射線",
+      "en": "BlueMoon",
+      "ja": "ブルームーンレイ"
+    },
     "element": "無",
     "damage": null,
     "codes": ["B"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 5,
-    "description": "𣈴準前方3格處釋放藍月之力的掠奪光線！"
+    "description": {
+      "zh": "𣈴準前方3格處釋放藍月之力的掠奪光線！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "2",
-    "nameZh": "紅色信號",
-    "nameJp": "シグナルレッド",
-    "nameEn": "SignlRed",
+    "name": {
+      "zh": "紅色信號",
+      "en": "SignlRed",
+      "ja": "シグナルレッド"
+    },
     "element": "置物",
     "damage": 180,
     "codes": ["S"],
     "memory": "61 MB",
     "drops": [],
     "rarity": 5,
-    "description": "放置信號燈，在紅色信號期間，敵方無法使用間晶片！"
+    "description": {
+      "zh": "放置信號燈，在紅色信號期間，敵方無法使用間晶片！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "3",
-    "nameZh": "佛魯迪另",
-    "nameJp": "フォルテアナザー",
-    "nameEn": "BassAnly",
+    "name": {
+      "zh": "佛魯迪另",
+      "en": "BassAnly",
+      "ja": "フォルテアナザー"
+    },
     "element": "無",
     "damage": 160,
     "codes": ["X"],
     "memory": "95 MB",
     "drops": [],
     "rarity": 5,
-    "description": "發出4發只轉彎一次的圓環！"
+    "description": {
+      "zh": "發出4發只轉彎一次的圓環！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "4",
-    "nameZh": "詛咒BUG",
-    "nameJp": "カースオブバグ",
-    "nameEn": "BugCurse",
+    "name": {
+      "zh": "詛咒BUG",
+      "en": "BugCurse",
+      "ja": "カースオブバグ"
+    },
     "element": "無",
     "damage": null,
     "codes": ["C"],
     "memory": "73 MB",
     "drops": [],
     "rarity": 5,
-    "description": "暗黑暗片！使敵方領航員陷入重度BUG狀態！"
+    "description": {
+      "zh": "暗黑暗片！使敵方領航員陷入重度BUG狀態！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "5",
-    "nameZh": "三角刀鋒",
-    "nameJp": "デルタレイエッジ",
-    "nameEn": "DeltaRay",
+    "name": {
+      "zh": "三角刀鋒",
+      "en": "DeltaRay",
+      "ja": "デルタレイエッジ"
+    },
     "element": "劍",
     "damage": 260,
     "codes": ["Z"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "斬擊戥按下A，發動最高3段的"
+    "description": {
+      "zh": "斬擊戥按下A，發動最高3段的",
+      "en": "",
+      "ja": ""
+    }
   }
 ]

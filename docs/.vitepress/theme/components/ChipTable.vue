@@ -30,7 +30,7 @@
 							<tr>
 								<td>{{ String(chip.no).padStart(3, '0') }}</td>
 								<td>
-									<span class="name-zh">{{ chip.nameZh || '-' }}</span>
+									<span class="name-zh">{{ chip.name.zh || '-' }}</span>
 								</td>
 								<td>{{ chip.damage ?? '-' }}</td>
 								<td>
@@ -52,7 +52,7 @@
 								</td>
 								<!-- 說明內容 -->
 								<td class="description-cell">
-									{{ chip.description || '-' }}
+									{{ chip.description.zh || '-' }}
 								</td>
 								<td>
 									<div v-if="chip.codes && chip.codes.length > 0" class="codes-cell">
@@ -173,11 +173,11 @@ const filteredChips = computed(() => {
 		return (
 			noStr.includes(query) ||
 			paddedNoStr.includes(query) ||
-			(chip.nameZh?.toLowerCase().includes(query) ?? false) ||
-			(chip.nameEn?.toLowerCase().includes(query) ?? false) ||
-			(chip.nameJp?.toLowerCase().includes(query) ?? false) ||
+			(chip.name.zh?.toLowerCase().includes(query) ?? false) ||
+			(chip.name.en?.toLowerCase().includes(query) ?? false) ||
+			(chip.name.ja?.toLowerCase().includes(query) ?? false) ||
 			(chip.element?.toLowerCase().includes(query) ?? false) ||
-			(chip.description?.toLowerCase().includes(query) ?? false) ||
+			(chip.description.zh?.toLowerCase().includes(query) ?? false) ||
 			('rarity' in chip && String(chip.rarity ?? '').includes(query)) ||
 			('memory' in chip && String(chip.memory ?? '').toLowerCase().includes(query)) ||
 			matchesCode

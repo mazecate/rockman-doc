@@ -1,262 +1,290 @@
 [
   {
     "no": "1",
-    "nameZh": "資料夾復原",
-    "nameJp": "フォルダリターン",
-    "nameEn": "FoldrBak",
+    "name": { "zh": "資料夾復原", "en": "FoldrBak", "ja": "フォルダリターン" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "99 MB",
     "drops": [],
     "rarity": 5,
-    "description": "復原使用過的晶片資料夾的晶片數量變回30枚！"
+    "description": {
+      "zh": "復原使用過的晶片資料夾的晶片數量變回30枚！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "2",
-    "nameZh": "佛魯迪另",
-    "nameJp": "フォルテアナザー",
-    "nameEn": "Bass+",
+    "name": { "zh": "佛魯迪另", "en": "Bass+", "ja": "フォルテアナザー" },
     "element": "無",
     "damage": 550,
     "codes": ["X"],
     "memory": "98 MB",
     "drops": [],
     "rarity": 5,
-    "description": "闇之晶片，連地面都一起破壞的大地破碎！"
+    "description": {
+      "zh": "闇之晶片，連地面都一起破壞的大地破碎！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "3",
-    "nameZh": "黑暗靈光",
-    "nameJp": "デルタレイエッジ",
-    "nameEn": "DarkAura",
+    "name": { "zh": "黑暗靈光", "en": "DarkAura", "ja": "デルタレイエッジ" },
     "element": "無",
     "damage": null,
     "codes": ["A"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 5,
-    "description": "闇之晶片，防禦攻擊力低於300的攻擊"
+    "description": {
+      "zh": "闇之晶片，防禦攻擊力低於300的攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "4",
-    "nameZh": "三角刀鋒",
-    "nameJp": "デルタレイエッジ",
-    "nameEn": "DeltaRay",
+    "name": { "zh": "三角刀鋒", "en": "DeltaRay", "ja": "デルタレイエッジ" },
     "element": "無",
     "damage": 220,
     "codes": ["Z"],
     "memory": "92 MB",
     "drops": [],
     "rarity": 5,
-    "description": "斬擊時按下A發動最高3段的劍攻擊"
+    "description": {
+      "zh": "斬擊時按下A發動最高3段的劍攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "5",
-    "nameZh": "原型之臂Ω",
-    "nameJp": "プロトアームΩ",
-    "nameEn": "AlphArmΩ",
+    "name": { "zh": "原型之臂Ω", "en": "AlphArmΩ", "ja": "プロトアームΩ" },
     "element": "無",
     "damage": 500,
     "codes": ["V"],
     "memory": "97 MB",
     "drops": [],
     "rarity": 5,
-    "description": "復甦的惡夢！發射原型巨大火箭！"
+    "description": {
+      "zh": "復甦的惡夢！發射原型巨大火箭！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "6",
-    "nameZh": "氣力人V5",
-    "nameJp": "ガッツマン V5",
-    "nameEn": "GutsMan V5",
+    "name": { "zh": "氣力人V5", "en": "GutsMan V5", "ja": "ガッツマン V5" },
     "element": "無",
     "damage": 120,
     "codes": ["G"],
     "memory": "79 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
+    "description": {
+      "zh": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "7",
-    "nameZh": "布魯斯V5",
-    "nameJp": "ブルース V5",
-    "nameEn": "ProtoMan V5",
+    "name": { "zh": "布魯斯V5", "en": "ProtoMan V5", "ja": "ブルース V5" },
     "element": "無",
     "damage": 240,
     "codes": ["B"],
     "memory": "98 MB",
     "drops": [],
     "rarity": 5,
-    "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
+    "description": {
+      "zh": "到敵人面前逐一斬擊也有無法移動到面前的狀況",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "8",
-    "nameZh": "閃光人V5",
-    "nameJp": "フラッシュマン V5",
-    "nameEn": "FlashMan V5",
+    "name": {
+      "zh": "閃光人V5",
+      "en": "FlashMan V5",
+      "ja": "フラッシュマン V5"
+    },
     "element": "電",
     "damage": 150,
     "codes": ["F"],
     "memory": "89 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使出照亮一切的閃光攻擊！使對手麻痺"
+    "description": {
+      "zh": "使出照亮一切的閃光攻擊！使對手麻痺",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "9",
-    "nameZh": "野獸人V5",
-    "nameJp": "ビーストマン V5",
-    "nameEn": "BeastMan V5",
+    "name": { "zh": "野獸人V5", "en": "BeastMan V5", "ja": "ビーストマン V5" },
     "element": "無",
     "damage": 80,
     "codes": ["B"],
     "memory": "84 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向前方3格處用尖銳的爪和牙襲擊！"
+    "description": {
+      "zh": "向前方3格處用尖銳的爪和牙襲擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "10",
-    "nameZh": "泡沫人V5",
-    "nameJp": "バブルマン V5",
-    "nameEn": "BubbleMan V5",
+    "name": { "zh": "泡沫人V5", "en": "BubbleMan V5", "ja": "バブルマン V5" },
     "element": "水",
     "damage": 20,
     "codes": ["B"],
     "memory": "86 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向同一列的前方以水射擊連射！"
+    "description": { "zh": "向同一列的前方以水射擊連射！", "en": "", "ja": "" }
   },
   {
     "no": "11",
-    "nameZh": "沙漠人V5",
-    "nameJp": "デザートマン V5",
-    "nameEn": "DesertManV5",
+    "name": { "zh": "沙漠人V5", "en": "DesertManV5", "ja": "デザートマン V5" },
     "element": "無",
     "damage": 210,
     "codes": ["D"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "兩邊斜前方出現的手向正前突進！"
+    "description": {
+      "zh": "兩邊斜前方出現的手向正前突進！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "12",
-    "nameZh": "植物人V5",
-    "nameJp": "プラントマン V5",
-    "nameEn": "PlantMan V5",
+    "name": { "zh": "植物人V5", "en": "PlantMan V5", "ja": "プラントマン V5" },
     "element": "木",
     "damage": 60,
     "codes": ["P"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "順著地下移動對所有的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "順著地下移動對所有的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "13",
-    "nameZh": "烈焰人V5",
-    "nameJp": "フレイムマン V5",
-    "nameEn": "FlameMan V5",
+    "name": { "zh": "烈焰人V5", "en": "FlameMan V5", "ja": "フレイムマン V5" },
     "element": "火",
     "damage": 240,
     "codes": ["F"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "操縱灼熱的火焰燒盡一切！"
+    "description": { "zh": "操縱灼熱的火焰燒盡一切！", "en": "", "ja": "" }
   },
   {
     "no": "14",
-    "nameZh": "鑽頭人V5",
-    "nameJp": "ドリルマン V5",
-    "nameEn": "DrillMan V5",
+    "name": { "zh": "鑽頭人V5", "en": "DrillMan V5", "ja": "ドリルマン V5" },
     "element": "無",
     "damage": 150,
     "codes": ["D"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": {
+      "zh": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "15",
-    "nameZh": "金屬人V5",
-    "nameJp": "メタルマン V5",
-    "nameEn": "MetalMan V5",
+    "name": { "zh": "金屬人V5", "en": "MetalMan V5", "ja": "メタルマン V5" },
     "element": "無",
     "damage": 250,
     "codes": ["M"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對面前的1格揮下鋼鐵之拳！"
+    "description": { "zh": "對面前的1格揮下鋼鐵之拳！", "en": "", "ja": "" }
   },
   {
     "no": "16",
-    "nameZh": "國王人V5",
-    "nameJp": "キングマン V5",
-    "nameEn": "KingMan V5",
+    "name": { "zh": "國王人V5", "en": "KingMan V5", "ja": "キングマン V5" },
     "element": "無",
     "damage": 280,
     "codes": ["K"],
     "memory": "84 MB",
     "drops": [],
     "rarity": 5,
-    "description": "跳往3格前的空地後向上下左右攻擊！"
+    "description": {
+      "zh": "跳往3格前的空地後向上下左右攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "17",
-    "nameZh": "煙霧人V5",
-    "nameJp": "ミストマン V5",
-    "nameEn": "MistMan V5",
+    "name": { "zh": "煙霧人V5", "en": "MistMan V5", "ja": "ミストマン V5" },
     "element": "無",
     "damage": 170,
     "codes": ["M"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人的前後出現霧變身成魔人拳擊"
+    "description": {
+      "zh": "在敵人的前後出現霧變身成魔人拳擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "18",
-    "nameZh": "保齡球人V5",
-    "nameJp": "ボウルマン V5",
-    "nameEn": "BowlMan V5",
+    "name": { "zh": "保齡球人V5", "en": "BowlMan V5", "ja": "ボウルマン V5" },
     "element": "無",
     "damage": 180,
     "codes": ["B"],
     "memory": "88 MB",
     "drops": [],
     "rarity": 5,
-    "description": "與前方敵人之間排列球瓶的保齡球攻擊！"
+    "description": {
+      "zh": "與前方敵人之間排列球瓶的保齡球攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "19",
-    "nameZh": "黑暗人V5",
-    "nameJp": "ダークマン V5",
-    "nameEn": "DarkMan V5",
+    "name": { "zh": "黑暗人V5", "en": "DarkMan V5", "ja": "ダークマン V5" },
     "element": "無",
     "damage": 30,
     "codes": ["D"],
     "memory": "88 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！"
+    "description": {
+      "zh": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "20",
-    "nameZh": "大和人V5",
-    "nameJp": "ヤマトマン V5",
-    "nameEn": "Yamatoman V5",
+    "name": { "zh": "大和人V5", "en": "Yamatoman V5", "ja": "ヤマトマン V5" },
     "element": "無",
     "damage": 60,
     "codes": ["Y"],
     "memory": "94 MB",
     "drops": [],
     "rarity": 5,
-    "description": "百裂矛與三段矛的連續攻擊！"
+    "description": { "zh": "百裂矛與三段矛的連續攻擊！", "en": "", "ja": "" }
   }
 ]

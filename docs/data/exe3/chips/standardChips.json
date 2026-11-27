@@ -1,2602 +1,2702 @@
 [
   {
     "no": "001",
-    "nameZh": "加農砲",
-    "nameJp": "",
-    "nameEn": "Cannon",
+    "name": { "zh": "加農砲", "en": "Cannon", "ja": "" },
     "element": "無",
     "damage": 40,
     "codes": ["A", "B", "C", "D", "E", "*"],
     "memory": "12 MB",
     "drops": [],
     "rarity": 1,
-    "description": "攻擊前方1名敵人"
+    "description": { "zh": "攻擊前方1名敵人", "en": "", "ja": "" }
   },
   {
     "no": "002",
-    "nameZh": "高超加農砲",
-    "nameJp": "",
-    "nameEn": "HiCannon",
+    "name": { "zh": "高超加農砲", "en": "HiCannon", "ja": "" },
     "element": "無",
     "damage": 60,
     "codes": ["H", "I", "J", "K", "L", "*"],
     "memory": "24 MB",
     "drops": [],
     "rarity": 2,
-    "description": "攻擊前方1名敵人"
+    "description": { "zh": "攻擊前方1名敵人", "en": "", "ja": "" }
   },
   {
     "no": "003",
-    "nameZh": "MEGA加農砲",
-    "nameJp": "",
-    "nameEn": "M-Cannon",
+    "name": { "zh": "MEGA加農砲", "en": "M-Cannon", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["O", "P", "Q", "R", "S"],
     "memory": "36 MB",
     "drops": [],
     "rarity": 3,
-    "description": "攻擊前方1名敵人"
+    "description": { "zh": "攻擊前方1名敵人", "en": "", "ja": "" }
   },
   {
     "no": "004",
-    "nameZh": "空氣彈１",
-    "nameJp": "",
-    "nameEn": "AirShot1",
+    "name": { "zh": "空氣彈１", "en": "AirShot1", "ja": "" },
     "element": "無",
     "damage": 20,
     "codes": ["*"],
     "memory": "4 MB",
     "drops": [],
     "rarity": 1,
-    "description": "擊中時能將對手擊退1格的空氣砲"
+    "description": { "zh": "擊中時能將對手擊退1格的空氣砲", "en": "", "ja": "" }
   },
   {
     "no": "005",
-    "nameZh": "空氣彈２",
-    "nameJp": "",
-    "nameEn": "AirShot2",
+    "name": { "zh": "空氣彈２", "en": "AirShot2", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["*"],
     "memory": "12 MB",
     "drops": [],
     "rarity": 2,
-    "description": "擊中時能將對手擊退1格的空氣砲"
+    "description": { "zh": "擊中時能將對手擊退1格的空氣砲", "en": "", "ja": "" }
   },
   {
     "no": "006",
-    "nameZh": "空氣彈３",
-    "nameJp": "",
-    "nameEn": "AirShot3",
+    "name": { "zh": "空氣彈３", "en": "AirShot3", "ja": "" },
     "element": "無",
     "damage": 40,
     "codes": ["*"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 2,
-    "description": "擊中時能將對手擊退1格的空氣砲"
+    "description": { "zh": "擊中時能將對手擊退1格的空氣砲", "en": "", "ja": "" }
   },
   {
     "no": "007",
-    "nameZh": "岩漿加農砲１",
-    "nameJp": "",
-    "nameEn": "LavaCan1",
+    "name": { "zh": "岩漿加農砲１", "en": "LavaCan1", "ja": "" },
     "element": "火",
     "damage": 90,
     "codes": ["A", "G", "S", "T", "V"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 1,
-    "description": "吸收自身區域岩漿，再發射的加農砲"
+    "description": {
+      "zh": "吸收自身區域岩漿，再發射的加農砲",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "008",
-    "nameZh": "岩漿加農砲２",
-    "nameJp": "",
-    "nameEn": "LavaCan2",
+    "name": { "zh": "岩漿加農砲２", "en": "LavaCan2", "ja": "" },
     "element": "火",
     "damage": 120,
     "codes": ["B", "D", "F", "M", "O"],
     "memory": "42 MB",
     "drops": [],
     "rarity": 2,
-    "description": "吸收自身區域岩漿，再發射的加農砲"
+    "description": {
+      "zh": "吸收自身區域岩漿，再發射的加農砲",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "009",
-    "nameZh": "岩漿加農砲３",
-    "nameJp": "",
-    "nameEn": "LavaCan3",
+    "name": { "zh": "岩漿加農砲３", "en": "LavaCan3", "ja": "" },
     "element": "火",
     "damage": 150,
     "codes": ["E", "H", "J", "R", "W"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "吸收自身區域岩漿，再發射的加農砲"
+    "description": {
+      "zh": "吸收自身區域岩漿，再發射的加農砲",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "010",
-    "nameZh": "火山加農砲",
-    "nameJp": "",
-    "nameEn": "Volcano",
+    "name": { "zh": "火山加農砲", "en": "Volcano", "ja": "" },
     "element": "火",
     "damage": 150,
     "codes": ["A", "G", "J", "Y", "Z"],
     "memory": "75 MB",
     "drops": [],
     "rarity": 4,
-    "description": "吸收自己區域的岩漿，以廣角加農砲射出攻擊"
+    "description": {
+      "zh": "吸收自己區域的岩漿，以廣角加農砲射出攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "011",
-    "nameZh": "散彈槍",
-    "nameJp": "",
-    "nameEn": "ShotGun",
+    "name": { "zh": "散彈槍", "en": "ShotGun", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["B", "F", "J", "N", "T", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對目標及其後方1格進行攻擊"
+    "description": { "zh": "對目標及其後方1格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "012",
-    "nameZh": "Ｖ字槍",
-    "nameJp": "",
-    "nameEn": "V-Gun",
+    "name": { "zh": "Ｖ字槍", "en": "V-Gun", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["D", "G", "L", "P", "V", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對目標及其斜後2格進行攻擊"
+    "description": { "zh": "對目標及其斜後2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "013",
-    "nameZh": "側擊槍",
-    "nameJp": "",
-    "nameEn": "SideGun",
+    "name": { "zh": "側擊槍", "en": "SideGun", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["C", "H", "M", "S", "Y", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對目標及其上下2格進行攻擊"
+    "description": { "zh": "對目標及其上下2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "014",
-    "nameZh": "散射槍",
-    "nameJp": "",
-    "nameEn": "Spreader",
+    "name": { "zh": "散射槍", "en": "Spreader", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["M", "N", "O", "P", "Q", "*"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 2,
-    "description": "對目標及其周圍1格進行廣範圍攻擊"
+    "description": {
+      "zh": "對目標及其周圍1格進行廣範圍攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "015",
-    "nameZh": "泡沫散彈",
-    "nameJp": "",
-    "nameEn": "Bubbler",
+    "name": { "zh": "泡沫散彈", "en": "Bubbler", "ja": "" },
     "element": "水",
     "damage": 60,
     "codes": ["A", "C", "D", "E", "P", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對目標及其後方1格進行攻擊"
+    "description": { "zh": "對目標及其後方1格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "016",
-    "nameZh": "泡沫Ｖ字",
-    "nameJp": "",
-    "nameEn": "Bub-V",
+    "name": { "zh": "泡沫Ｖ字", "en": "Bub-V", "ja": "" },
     "element": "水",
     "damage": 60,
     "codes": ["D", "E", "F", "S", "V"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 2,
-    "description": "對目標及其斜後2格進行攻擊"
+    "description": { "zh": "對目標及其斜後2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "017",
-    "nameZh": "泡沫側擊",
-    "nameJp": "",
-    "nameEn": "BublSide",
+    "name": { "zh": "泡沫側擊", "en": "BublSide", "ja": "" },
     "element": "水",
     "damage": 60,
     "codes": ["B", "E", "F", "G", "R"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對目標及其上下2格進行攻擊"
+    "description": { "zh": "對目標及其上下2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "018",
-    "nameZh": "熱焰散彈",
-    "nameJp": "",
-    "nameEn": "HeatShot",
+    "name": { "zh": "熱焰散彈", "en": "HeatShot", "ja": "" },
     "element": "火",
     "damage": 40,
     "codes": ["B", "H", "I", "J", "P", "*"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對目標及其後方1格進行攻擊"
+    "description": { "zh": "對目標及其後方1格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "019",
-    "nameZh": "熱焰Ｖ字",
-    "nameJp": "",
-    "nameEn": "Heat-V",
+    "name": { "zh": "熱焰Ｖ字", "en": "Heat-V", "ja": "" },
     "element": "火",
     "damage": 40,
     "codes": ["F", "I", "J", "K", "V", "*"],
     "memory": "24 MB",
     "drops": [],
     "rarity": 2,
-    "description": "對目標及其斜後2格進行攻擊"
+    "description": { "zh": "對目標及其斜後2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "020",
-    "nameZh": "熱焰側擊",
-    "nameJp": "",
-    "nameEn": "HeatSide",
+    "name": { "zh": "熱焰側擊", "en": "HeatSide", "ja": "" },
     "element": "火",
     "damage": 40,
     "codes": ["C", "J", "K", "L", "T", "*"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對目標及其上下2格進行攻擊"
+    "description": { "zh": "對目標及其上下2格進行攻擊", "en": "", "ja": "" }
   },
   {
     "no": "021",
-    "nameZh": "迷你炸彈",
-    "nameJp": "",
-    "nameEn": "MiniBomb",
+    "name": { "zh": "迷你炸彈", "en": "MiniBomb", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["B", "G", "L", "O", "S", "*"],
     "memory": "6 MB",
     "drops": [],
     "rarity": 1,
-    "description": "朝前方3格處投擲迷你炸彈"
+    "description": { "zh": "朝前方3格處投擲迷你炸彈", "en": "", "ja": "" }
   },
   {
     "no": "022",
-    "nameZh": "單炸彈",
-    "nameJp": "",
-    "nameEn": "SnglBomb",
+    "name": { "zh": "單炸彈", "en": "SnglBomb", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["D", "F", "H", "J", "T", "*"],
     "memory": "12 MB",
     "drops": [],
     "rarity": 1,
-    "description": "朝前方3格處投擲會上下擴散的迷你炸彈"
+    "description": {
+      "zh": "朝前方3格處投擲會上下擴散的迷你炸彈",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "023",
-    "nameZh": "雙炸彈",
-    "nameJp": "",
-    "nameEn": "DublBomb",
+    "name": { "zh": "雙炸彈", "en": "DublBomb", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["A", "C", "H", "K", "Q", "*"],
     "memory": "24 MB",
     "drops": [],
     "rarity": 2,
-    "description": "朝前方3格處投擲會上下擴散的2顆迷你炸彈"
+    "description": {
+      "zh": "朝前方3格處投擲會上下擴散的2顆迷你炸彈",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "024",
-    "nameZh": "三炸彈",
-    "nameJp": "",
-    "nameEn": "TrplBomb",
+    "name": { "zh": "三炸彈", "en": "TrplBomb", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["E", "I", "N", "P", "W"],
     "memory": "36 MB",
     "drops": [],
     "rarity": 3,
-    "description": "朝前方3格處投擲會上下擴散的3顆迷你炸彈"
+    "description": {
+      "zh": "朝前方3格處投擲會上下擴散的3顆迷你炸彈",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "025",
-    "nameZh": "砲丸",
-    "nameJp": "",
-    "nameEn": "CannBall",
+    "name": { "zh": "砲丸", "en": "CannBall", "ja": "" },
     "element": "無",
     "damage": 160,
     "codes": ["A", "D", "F", "L", "P", "*"],
     "memory": "33 MB",
     "drops": [],
     "rarity": 3,
-    "description": "朝前方3格處投擲砲丸！砲丸會破壞地面！"
+    "description": {
+      "zh": "朝前方3格處投擲砲丸！砲丸會破壞地面！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "026",
-    "nameZh": "冰凍砲丸",
-    "nameJp": "コオリホウガン",
-    "nameEn": "IceBall",
+    "name": { "zh": "冰凍砲丸", "en": "IceBall", "ja": "コオリホウガン" },
     "element": "水",
     "damage": 120,
     "codes": ["F", "I", "M", "Q", "S", "*"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "朝前方3格處投擲砲丸！地面會結冰"
+    "description": {
+      "zh": "朝前方3格處投擲砲丸！地面會結冰",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "027",
-    "nameZh": "熔岩砲丸",
-    "nameJp": "",
-    "nameEn": "LavaBall",
+    "name": { "zh": "熔岩砲丸", "en": "LavaBall", "ja": "" },
     "element": "火",
     "damage": 140,
     "codes": ["B", "C", "H", "N", "W", "*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 3,
-    "description": "朝前方3格處投擲砲丸！地面會變成岩漿！"
+    "description": {
+      "zh": "朝前方3格處投擲砲丸！地面會變成岩漿！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "028",
-    "nameZh": "黑色炸彈１",
-    "nameJp": "",
-    "nameEn": "BlkBomb1",
+    "name": { "zh": "黑色炸彈１", "en": "BlkBomb1", "ja": "" },
     "element": "火",
     "damage": 120,
     "codes": ["F", "L", "N", "P", "Z"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 2,
-    "description": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發"
+    "description": {
+      "zh": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "029",
-    "nameZh": "黑色炸彈２",
-    "nameJp": "",
-    "nameEn": "BlkBomb2",
+    "name": { "zh": "黑色炸彈２", "en": "BlkBomb2", "ja": "" },
     "element": "火",
     "damage": 170,
     "codes": ["D", "I", "K", "Q", "S"],
     "memory": "70 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發"
+    "description": {
+      "zh": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "030",
-    "nameZh": "黑色炸彈３",
-    "nameJp": "",
-    "nameEn": "BlkBomb3",
+    "name": { "zh": "黑色炸彈３", "en": "BlkBomb3", "ja": "" },
     "element": "火",
     "damage": 220,
     "codes": ["C", "G", "L", "U", "Y"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 4,
-    "description": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發"
+    "description": {
+      "zh": "向前方3格處投擲未爆彈！以火焰攻擊使其爆發",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "031",
-    "nameZh": "劍",
-    "nameJp": "",
-    "nameEn": "Sword",
+    "name": { "zh": "劍", "en": "Sword", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["E", "H", "L", "S", "Y"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 1,
-    "description": "揮劍攻擊前方敵人，攻擊範圍為1格"
+    "description": {
+      "zh": "揮劍攻擊前方敵人，攻擊範圍為1格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "032",
-    "nameZh": "寬劍",
-    "nameJp": "",
-    "nameEn": "WideSwrd",
+    "name": { "zh": "寬劍", "en": "WideSwrd", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["C", "E", "L", "Q", "Y"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 2,
-    "description": "揮劍攻擊前方敵人，攻擊範圍為縱向3格"
+    "description": {
+      "zh": "揮劍攻擊前方敵人，攻擊範圍為縱向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "033",
-    "nameZh": "長劍",
-    "nameJp": "ロングソード",
-    "nameEn": "LongSwrd",
+    "name": { "zh": "長劍", "en": "LongSwrd", "ja": "ロングソード" },
     "element": "無",
     "damage": 80,
     "codes": ["E", "I", "L", "R", "Y"],
     "memory": "24 MB",
     "drops": [],
     "rarity": 3,
-    "description": "揮劍攻擊前方敵人，攻擊範圍為橫向2格"
+    "description": {
+      "zh": "揮劍攻擊前方敵人，攻擊範圍為橫向2格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "034",
-    "nameZh": "烈焰劍",
-    "nameJp": "",
-    "nameEn": "FireSwrd",
+    "name": { "zh": "烈焰劍", "en": "FireSwrd", "ja": "" },
     "element": "火",
     "damage": 130,
     "codes": ["F", "N", "P", "R", "U"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 3,
-    "description": "火焰之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格"
+    "description": {
+      "zh": "火焰之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "035",
-    "nameZh": "水斬劍",
-    "nameJp": "",
-    "nameEn": "AquaSwrd",
+    "name": { "zh": "水斬劍", "en": "AquaSwrd", "ja": "" },
     "element": "水",
     "damage": 150,
     "codes": ["A", "H", "N", "P", "T"],
     "memory": "25 MB",
     "drops": [],
     "rarity": 3,
-    "description": "水之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格"
+    "description": {
+      "zh": "水之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "036",
-    "nameZh": "電氣劍",
-    "nameJp": "",
-    "nameEn": "ElecSwrd",
+    "name": { "zh": "電氣劍", "en": "ElecSwrd", "ja": "" },
     "element": "電",
     "damage": 130,
     "codes": ["E", "K", "N", "P", "V"],
     "memory": "23 MB",
     "drops": [],
     "rarity": 3,
-    "description": "電氣之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格"
+    "description": {
+      "zh": "電氣之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "037",
-    "nameZh": "竹劍",
-    "nameJp": "",
-    "nameEn": "BambSwrd",
+    "name": { "zh": "竹劍", "en": "BambSwrd", "ja": "" },
     "element": "木",
     "damage": 140,
     "codes": ["B", "L", "N", "P", "W"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "木之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格"
+    "description": {
+      "zh": "木之劍，揮劍攻擊前方敵人，攻擊範圍為縱向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "038",
-    "nameZh": "改裝劍",
-    "nameJp": "",
-    "nameEn": "CustSwrd",
+    "name": { "zh": "改裝劍", "en": "CustSwrd", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "F", "R", "V", "Z"],
     "memory": "21 MB",
     "drops": [],
     "rarity": 3,
-    "description": "改裝計量表，越接近全滿時，攻擊力越高！"
+    "description": {
+      "zh": "改裝計量表，越接近全滿時，攻擊力越高！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "039",
-    "nameZh": "變化劍",
-    "nameJp": "",
-    "nameEn": "VarSwrd",
+    "name": { "zh": "變化劍", "en": "VarSwrd", "ja": "" },
     "element": "無",
     "damage": 160,
     "codes": ["B", "C", "D", "E", "F"],
     "memory": "68 MB",
     "drops": [],
     "rarity": 4,
-    "description": "能自由變化的戰術劍"
+    "description": { "zh": "能自由變化的戰術劍", "en": "", "ja": "" }
   },
   {
     "no": "040",
-    "nameZh": "風壓劍",
-    "nameJp": "",
-    "nameEn": "AirSwrd",
+    "name": { "zh": "風壓劍", "en": "AirSwrd", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["C", "E", "H", "J", "R", "*"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "能產生陣風，將對手吹飛的寬劍！"
+    "description": {
+      "zh": "能產生陣風，將對手吹飛的寬劍！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "041",
-    "nameZh": "接近斬",
-    "nameJp": "",
-    "nameEn": "StepSwrd",
+    "name": { "zh": "接近斬", "en": "StepSwrd", "ja": "" },
     "element": "無",
     "damage": 130,
     "codes": ["L", "M", "N", "O", "P"],
     "memory": "43 MB",
     "drops": [],
     "rarity": 4,
-    "description": "往前踏出2格，使用寬劍！"
+    "description": { "zh": "往前踏出2格，使用寬劍！", "en": "", "ja": "" }
   },
   {
     "no": "042",
-    "nameZh": "接近十字斬",
-    "nameJp": "",
-    "nameEn": "StepCros",
+    "name": { "zh": "接近十字斬", "en": "StepCros", "ja": "" },
     "element": "無",
     "damage": 130,
     "codes": ["P", "Q", "R", "S", "T"],
     "memory": "74 MB",
     "drops": [],
     "rarity": 4,
-    "description": "往前踏出2格，使用十字斬擊！"
+    "description": { "zh": "往前踏出2格，使用十字斬擊！", "en": "", "ja": "" }
   },
   {
     "no": "043",
-    "nameZh": "居合架式",
-    "nameJp": "",
-    "nameEn": "Slasher",
+    "name": { "zh": "居合架式", "en": "Slasher", "ja": "" },
     "element": "無",
     "damage": 240,
     "codes": ["B", "D", "G", "R", "S"],
     "memory": "12 MB",
     "drops": [],
     "rarity": 3,
-    "description": "按住Ⓐ的期間，斬擊闖入的敵人！"
+    "description": { "zh": "按住Ⓐ的期間，斬擊闖入的敵人！", "en": "", "ja": "" }
   },
   {
     "no": "044",
-    "nameZh": "衝擊波",
-    "nameJp": "",
-    "nameEn": "ShockWav",
+    "name": { "zh": "衝擊波", "en": "ShockWav", "ja": "" },
     "element": "無",
     "damage": 60,
     "codes": ["D", "H", "J", "L", "R"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 1,
-    "description": "沿著地面前進，可貫穿敵人的衝擊波"
+    "description": {
+      "zh": "沿著地面前進，可貫穿敵人的衝擊波",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "045",
-    "nameZh": "音速波",
-    "nameJp": "",
-    "nameEn": "SonicWav",
+    "name": { "zh": "音速波", "en": "SonicWav", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["G", "I", "M", "S", "W"],
     "memory": "26 MB",
     "drops": [],
     "rarity": 2,
-    "description": "沿著地面前進，可貫穿敵人的衝擊波"
+    "description": {
+      "zh": "沿著地面前進，可貫穿敵人的衝擊波",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "046",
-    "nameZh": "動能波",
-    "nameJp": "",
-    "nameEn": "DynaWave",
+    "name": { "zh": "動能波", "en": "DynaWave", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["E", "N", "Q", "T", "V"],
     "memory": "42 MB",
     "drops": [],
     "rarity": 3,
-    "description": "沿著地面前進，可貫穿敵人的衝擊波"
+    "description": {
+      "zh": "沿著地面前進，可貫穿敵人的衝擊波",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "047",
-    "nameZh": "巨大波",
-    "nameJp": "",
-    "nameEn": "BigWave",
+    "name": { "zh": "巨大波", "en": "BigWave", "ja": "" },
     "element": "無",
     "damage": 190,
     "codes": ["E", "J", "M", "P", "Y"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 4,
-    "description": "超破壞力的衝擊波！地面會碎裂"
+    "description": { "zh": "超破壞力的衝擊波！地面會碎裂", "en": "", "ja": "" }
   },
   {
     "no": "048",
-    "nameZh": "氣力拳",
-    "nameJp": "",
-    "nameEn": "GutPunch",
+    "name": { "zh": "氣力拳", "en": "GutPunch", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["B", "C", "D", "E", "F"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "揮拳攻擊前方敵人，攻擊範圍為1格，命中時可將其擊退"
+    "description": {
+      "zh": "揮拳攻擊前方敵人，攻擊範圍為1格，命中時可將其擊退",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "049",
-    "nameZh": "氣力直拳",
-    "nameJp": "",
-    "nameEn": "GutStrgt",
+    "name": { "zh": "氣力直拳", "en": "GutStrgt", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["O", "P", "Q", "R", "S"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 2,
-    "description": "揮拳攻擊前方敵人，攻擊範圍為2格，命中時可將其擊退"
+    "description": {
+      "zh": "揮拳攻擊前方敵人，攻擊範圍為2格，命中時可將其擊退",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "050",
-    "nameZh": "氣力衝擊",
-    "nameJp": "",
-    "nameEn": "GutImpct",
+    "name": { "zh": "氣力衝擊", "en": "GutImpct", "ja": "" },
     "element": "無",
     "damage": 160,
     "codes": ["G", "H", "I", "J", "K"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "必殺拳攻擊前方敵人，攻擊範圍為1格，命中時可將其擊退"
+    "description": {
+      "zh": "必殺拳攻擊前方敵人，攻擊範圍為1格，命中時可將其擊退",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "051",
-    "nameZh": "衝刺攻擊",
-    "nameJp": "",
-    "nameEn": "DashAtk",
+    "name": { "zh": "衝刺攻擊", "en": "DashAtk", "ja": "" },
     "element": "無",
     "damage": 90,
     "codes": ["C", "D", "G", "J", "Z", "*"],
     "memory": "11 MB",
     "drops": [],
     "rarity": 1,
-    "description": "能貫穿敵人的突進攻擊！"
+    "description": { "zh": "能貫穿敵人的突進攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "052",
-    "nameZh": "烈焰衝擊",
-    "nameJp": "",
-    "nameEn": "Burner",
+    "name": { "zh": "烈焰衝擊", "en": "Burner", "ja": "" },
     "element": "火",
     "damage": 130,
     "codes": ["B", "F", "Q", "S", "W"],
     "memory": "15 MB",
     "drops": [],
     "rarity": 3,
-    "description": "自身及上下左右1格都陷入火海之中"
+    "description": {
+      "zh": "自身及上下左右1格都陷入火海之中",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "053",
-    "nameZh": "衝刺鷹",
-    "nameJp": "",
-    "nameEn": "Condor",
+    "name": { "zh": "衝刺鷹", "en": "Condor", "ja": "" },
     "element": "無",
     "damage": 180,
     "codes": ["B", "I", "L", "S", "Z"],
     "memory": "44 MB",
     "drops": [],
     "rarity": 4,
-    "description": "能貫穿敵人的突進攻擊！"
+    "description": { "zh": "能貫穿敵人的突進攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "054",
-    "nameZh": "燃燒十字",
-    "nameJp": "",
-    "nameEn": "Burning",
+    "name": { "zh": "燃燒十字", "en": "Burning", "ja": "" },
     "element": "火",
     "damage": 150,
     "codes": ["A", "F", "L", "R", "S"],
     "memory": "42 MB",
     "drops": [],
     "rarity": 4,
-    "description": "在自身面前1格及其中心的十字範圍扔出火焰進行攻擊！"
+    "description": {
+      "zh": "在自身面前1格及其中心的十字範圍扔出火焰進行攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "055",
-    "nameZh": "兔環1",
-    "nameJp": "",
-    "nameEn": "ZapRing1",
+    "name": { "zh": "兔環1", "en": "ZapRing1", "ja": "" },
     "element": "電",
     "damage": 20,
     "codes": ["A", "M", "P", "Q", "S", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "電氣的投環攻擊！命中的對手會暫時被麻痺！"
+    "description": {
+      "zh": "電氣的投環攻擊！命中的對手會暫時被麻痺！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "056",
-    "nameZh": "兔環2",
-    "nameJp": "",
-    "nameEn": "ZapRing2",
+    "name": { "zh": "兔環2", "en": "ZapRing2", "ja": "" },
     "element": "電",
     "damage": 40,
     "codes": ["B", "G", "N", "R", "W"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 2,
-    "description": "電氣的投環攻擊！命中的對手會暫時被麻痺！"
+    "description": {
+      "zh": "電氣的投環攻擊！命中的對手會暫時被麻痺！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "057",
-    "nameZh": "兔環3",
-    "nameJp": "",
-    "nameEn": "ZapRing3",
+    "name": { "zh": "兔環3", "en": "ZapRing3", "ja": "" },
     "element": "電",
     "damage": 60,
     "codes": ["C", "E", "O", "T", "Z"],
     "memory": "28 MB",
     "drops": [],
     "rarity": 3,
-    "description": "電氣的投環攻擊！命中的對手會暫時被麻痺！"
+    "description": {
+      "zh": "電氣的投環攻擊！命中的對手會暫時被麻痺！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "058",
-    "nameZh": "冰凍波1",
-    "nameJp": "",
-    "nameEn": "IceWave1",
+    "name": { "zh": "冰凍波1", "en": "IceWave1", "ja": "" },
     "element": "水",
     "damage": 80,
     "codes": ["A", "K", "M", "Q", "W", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "以2格寬度搖晃的冰向前飛出攻擊！"
+    "description": {
+      "zh": "以2格寬度搖晃的冰向前飛出攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "059",
-    "nameZh": "冰凍波2",
-    "nameJp": "",
-    "nameEn": "IceWave2",
+    "name": { "zh": "冰凍波2", "en": "IceWave2", "ja": "" },
     "element": "水",
     "damage": 100,
     "codes": ["D", "H", "L", "P", "R", "*"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 2,
-    "description": "以2格寬度搖晃的冰向前飛出攻擊！"
+    "description": {
+      "zh": "以2格寬度搖晃的冰向前飛出攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "060",
-    "nameZh": "冰凍波3",
-    "nameJp": "",
-    "nameEn": "IceWave3",
+    "name": { "zh": "冰凍波3", "en": "IceWave3", "ja": "" },
     "element": "水",
     "damage": 140,
     "codes": ["C", "D", "J", "R", "V"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "以2格寬度搖晃的冰向前飛出攻擊！"
+    "description": {
+      "zh": "以2格寬度搖晃的冰向前飛出攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "061",
-    "nameZh": "溜溜球1",
-    "nameJp": "",
-    "nameEn": "Yo-Yo1",
+    "name": { "zh": "溜溜球1", "en": "Yo-Yo1", "ja": "" },
     "element": "無",
     "damage": 40,
     "codes": ["C", "D", "E", "F", "G", "*"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 1,
-    "description": "往前飛3格為止的溜溜球攻擊！"
+    "description": { "zh": "往前飛3格為止的溜溜球攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "062",
-    "nameZh": "溜溜球2",
-    "nameJp": "",
-    "nameEn": "Yo-Yo2",
+    "name": { "zh": "溜溜球2", "en": "Yo-Yo2", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["H", "I", "J", "K", "L"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 2,
-    "description": "往前飛3格為止的溜溜球攻擊！"
+    "description": { "zh": "往前飛3格為止的溜溜球攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "063",
-    "nameZh": "溜溜球3",
-    "nameJp": "",
-    "nameEn": "Yo-Yo3",
+    "name": { "zh": "溜溜球3", "en": "Yo-Yo3", "ja": "" },
     "element": "無",
     "damage": 60,
     "codes": ["M", "N", "O", "P", "Q"],
     "memory": "88 MB",
     "drops": [],
     "rarity": 3,
-    "description": "往前飛3格為止的溜溜球攻擊！"
+    "description": { "zh": "往前飛3格為止的溜溜球攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "064",
-    "nameZh": "空氣風暴1",
-    "nameJp": "",
-    "nameEn": "AirStrm1",
+    "name": { "zh": "空氣風暴1", "en": "AirStrm1", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["A", "F", "H", "O", "S"],
     "memory": "26 MB",
     "drops": [],
     "rarity": 1,
-    "description": "吸引敵人之後，產生3個龍捲風"
+    "description": { "zh": "吸引敵人之後，產生3個龍捲風", "en": "", "ja": "" }
   },
   {
     "no": "065",
-    "nameZh": "空氣風暴2",
-    "nameJp": "",
-    "nameEn": "AirStrm2",
+    "name": { "zh": "空氣風暴2", "en": "AirStrm2", "ja": "" },
     "element": "無",
     "damage": 60,
     "codes": ["C", "G", "H", "M", "W"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 2,
-    "description": "吸引敵人之後，產生3個龍捲風"
+    "description": { "zh": "吸引敵人之後，產生3個龍捲風", "en": "", "ja": "" }
   },
   {
     "no": "066",
-    "nameZh": "空氣風暴3",
-    "nameJp": "",
-    "nameEn": "AirStrm3",
+    "name": { "zh": "空氣風暴3", "en": "AirStrm3", "ja": "" },
     "element": "無",
     "damage": 70,
     "codes": ["A", "G", "I", "N", "V"],
     "memory": "44 MB",
     "drops": [],
     "rarity": 3,
-    "description": "吸引敵人之後，產生3個龍捲風"
+    "description": { "zh": "吸引敵人之後，產生3個龍捲風", "en": "", "ja": "" }
   },
   {
     "no": "067",
-    "nameZh": "蜂箭1",
-    "nameJp": "",
-    "nameEn": "Arrow1",
+    "name": { "zh": "蜂箭1", "en": "Arrow1", "ja": "" },
     "element": "電",
     "damage": 100,
     "codes": ["B", "E", "M", "Q", "T"],
     "memory": "40 MB",
     "drops": [],
     "rarity": 1,
-    "description": "射出進入敵人區域，會斜向轉彎的蜜蜂！"
+    "description": {
+      "zh": "射出進入敵人區域，會斜向轉彎的蜜蜂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "068",
-    "nameZh": "蜂箭2",
-    "nameJp": "",
-    "nameEn": "Arrow2",
+    "name": { "zh": "蜂箭2", "en": "Arrow2", "ja": "" },
     "element": "電",
     "damage": 130,
     "codes": ["F", "R", "S", "U", "Z"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 2,
-    "description": "射出進入敵人區域，會斜向轉彎的蜜蜂！"
+    "description": {
+      "zh": "射出進入敵人區域，會斜向轉彎的蜜蜂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "069",
-    "nameZh": "蜂箭3",
-    "nameJp": "",
-    "nameEn": "Arrow3",
+    "name": { "zh": "蜂箭3", "en": "Arrow3", "ja": "" },
     "element": "電",
     "damage": 160,
     "codes": ["A", "H", "J", "N", "P"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 3,
-    "description": "射出進入敵人區域，會斜向轉彎的蜜蜂！"
+    "description": {
+      "zh": "射出進入敵人區域，會斜向轉彎的蜜蜂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "070",
-    "nameZh": "巨鼠1",
-    "nameJp": "",
-    "nameEn": "Ratton1",
+    "name": { "zh": "巨鼠1", "en": "Ratton1", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["A", "C", "F", "H", "J"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "沿地面前進的老鼠飛彈，可以拐彎1次"
+    "description": {
+      "zh": "沿地面前進的老鼠飛彈，可以拐彎1次",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "071",
-    "nameZh": "巨鼠2",
-    "nameJp": "",
-    "nameEn": "Ratton2",
+    "name": { "zh": "巨鼠2", "en": "Ratton2", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["A", "C", "F", "N", "O"],
     "memory": "24 MB",
     "drops": [],
     "rarity": 2,
-    "description": "沿地面前進的老鼠飛彈，可以拐彎1次"
+    "description": {
+      "zh": "沿地面前進的老鼠飛彈，可以拐彎1次",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "072",
-    "nameZh": "巨鼠3",
-    "nameJp": "",
-    "nameEn": "Ratton3",
+    "name": { "zh": "巨鼠3", "en": "Ratton3", "ja": "" },
     "element": "無",
     "damage": 120,
     "codes": ["A", "C", "F", "R", "S"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 3,
-    "description": "沿地面前進的老鼠飛彈，可以拐彎1次"
+    "description": {
+      "zh": "沿地面前進的老鼠飛彈，可以拐彎1次",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "073",
-    "nameZh": "巨鼠煙火",
-    "nameJp": "",
-    "nameEn": "FireRatn",
+    "name": { "zh": "巨鼠煙火", "en": "FireRatn", "ja": "" },
     "element": "無",
     "damage": 230,
     "codes": ["B", "F", "H", "M", "Y"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 3,
-    "description": "被火屬性攻擊命中，就會前進的超級巨鼠"
+    "description": {
+      "zh": "被火屬性攻擊命中，就會前進的超級巨鼠",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "074",
-    "nameZh": "海嘯",
-    "nameJp": "",
-    "nameEn": "Wave",
+    "name": { "zh": "海嘯", "en": "Wave", "ja": "" },
     "element": "水",
     "damage": 80,
     "codes": ["E", "I", "L", "S", "T"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "產生延著縱向3格，前進的海嘯"
+    "description": { "zh": "產生延著縱向3格，前進的海嘯", "en": "", "ja": "" }
   },
   {
     "no": "075",
-    "nameZh": "紅海嘯",
-    "nameJp": "アカツナミ",
-    "nameEn": "RedWave",
+    "name": { "zh": "紅海嘯", "en": "RedWave", "ja": "アカツナミ" },
     "element": "火",
     "damage": 90,
     "codes": ["B", "F", "J", "R", "U"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 3,
-    "description": "產生延著縱向3格，前進的熔岩海嘯"
+    "description": {
+      "zh": "產生延著縱向3格，前進的熔岩海嘯",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "076",
-    "nameZh": "泥海嘯",
-    "nameJp": "",
-    "nameEn": "MudWave",
+    "name": { "zh": "泥海嘯", "en": "MudWave", "ja": "" },
     "element": "木",
     "damage": 100,
     "codes": ["D", "G", "M", "V", "Z"],
     "memory": "84 MB",
     "drops": [],
     "rarity": 3,
-    "description": "產生延著縱向3格，前進的泥濘海嘯"
+    "description": {
+      "zh": "產生延著縱向3格，前進的泥濘海嘯",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "077",
-    "nameZh": "龍捲風",
-    "nameJp": "",
-    "nameEn": "Tornado",
+    "name": { "zh": "龍捲風", "en": "Tornado", "ja": "" },
     "element": "無",
     "damage": 20,
     "codes": ["C", "L", "R", "T", "U"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 2,
-    "description": "於前方2格處，產生8連擊龍捲風"
+    "description": { "zh": "於前方2格處，產生8連擊龍捲風", "en": "", "ja": "" }
   },
   {
     "no": "078",
-    "nameZh": "毒香料1",
-    "nameJp": "",
-    "nameEn": "Spice1",
+    "name": { "zh": "毒香料1", "en": "Spice1", "ja": "" },
     "element": "木",
     "damage": 80,
     "codes": ["B", "D", "I", "S", "Z", "*"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在所有草地地面上，產生危險的粉末"
+    "description": {
+      "zh": "在所有草地地面上，產生危險的粉末",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "079",
-    "nameZh": "毒香料2",
-    "nameJp": "",
-    "nameEn": "Spice2",
+    "name": { "zh": "毒香料2", "en": "Spice2", "ja": "" },
     "element": "木",
     "damage": 110,
     "codes": ["C", "F", "I", "K", "R"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 2,
-    "description": "在所有草地地面上，產生危險的粉末"
+    "description": {
+      "zh": "在所有草地地面上，產生危險的粉末",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "080",
-    "nameZh": "毒香料3",
-    "nameJp": "",
-    "nameEn": "Spice3",
+    "name": { "zh": "毒香料3", "en": "Spice3", "ja": "" },
     "element": "木",
     "damage": 140,
     "codes": ["D", "F", "J", "O", "Q"],
     "memory": "46 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在所有草地地面上，產生危險的粉末"
+    "description": {
+      "zh": "在所有草地地面上，產生危險的粉末",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "081",
-    "nameZh": "重搖1",
-    "nameJp": "",
-    "nameEn": "Shake1",
+    "name": { "zh": "重搖1", "en": "Shake1", "ja": "" },
     "element": "無",
     "damage": 90,
     "codes": ["E", "G", "R", "S", "U"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 1,
-    "description": "向前3格扔出，會上下移動攻擊的鐵啞鈴"
+    "description": {
+      "zh": "向前3格扔出，會上下移動攻擊的鐵啞鈴",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "082",
-    "nameZh": "重搖2",
-    "nameJp": "",
-    "nameEn": "Shake2",
+    "name": { "zh": "重搖2", "en": "Shake2", "ja": "" },
     "element": "無",
     "damage": 110,
     "codes": ["B", "F", "I", "L", "Q"],
     "memory": "40 MB",
     "drops": [],
     "rarity": 2,
-    "description": "向前3格扔出，會上下移動攻擊的鐵啞鈴"
+    "description": {
+      "zh": "向前3格扔出，會上下移動攻擊的鐵啞鈴",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "083",
-    "nameZh": "重搖3",
-    "nameJp": "",
-    "nameEn": "Shake3",
+    "name": { "zh": "重搖3", "en": "Shake3", "ja": "" },
     "element": "無",
     "damage": 140,
     "codes": ["D", "M", "R", "T", "Z"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向前3格扔出，會上下移動攻擊的鐵啞鈴"
+    "description": {
+      "zh": "向前3格扔出，會上下移動攻擊的鐵啞鈴",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "084",
-    "nameZh": "NO光線1",
-    "nameJp": "",
-    "nameEn": "NoBeam1",
+    "name": { "zh": "NO光線1", "en": "NoBeam1", "ja": "" },
     "element": "無",
     "damage": 200,
     "codes": ["C", "F", "G", "T", "Z"],
     "memory": "66 MB",
     "drops": [],
     "rarity": 2,
-    "description": "當有什麼東西在背後時所發出的，強大威力攻擊！"
+    "description": {
+      "zh": "當有什麼東西在背後時所發出的，強大威力攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "085",
-    "nameZh": "NO光線2",
-    "nameJp": "",
-    "nameEn": "NoBeam2",
+    "name": { "zh": "NO光線2", "en": "NoBeam2", "ja": "" },
     "element": "無",
     "damage": 260,
     "codes": ["E", "I", "S", "U", "Y"],
     "memory": "77 MB",
     "drops": [],
     "rarity": 3,
-    "description": "當有什麼東西在背後時所發出的，強大威力攻擊！"
+    "description": {
+      "zh": "當有什麼東西在背後時所發出的，強大威力攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "086",
-    "nameZh": "NO光線3",
-    "nameJp": "",
-    "nameEn": "NoBeam3",
+    "name": { "zh": "NO光線3", "en": "NoBeam3", "ja": "" },
     "element": "無",
     "damage": 300,
     "codes": ["H", "M", "V", "W", "Z"],
     "memory": "88 MB",
     "drops": [],
     "rarity": 4,
-    "description": "當有什麼東西在背後時所發出的，強大威力攻擊！"
+    "description": {
+      "zh": "當有什麼東西在背後時所發出的，強大威力攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "087",
-    "nameZh": "破碎鎚",
-    "nameJp": "",
-    "nameEn": "Hammer",
+    "name": { "zh": "破碎鎚", "en": "Hammer", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["B", "G", "L", "P", "T", "*"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 2,
-    "description": "用鐵槌攻擊前面1格，能把物體一擊打碎！"
+    "description": {
+      "zh": "用鐵槌攻擊前面1格，能把物體一擊打碎！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "088",
-    "nameZh": "間歇泉",
-    "nameJp": "",
-    "nameEn": "Geyser",
+    "name": { "zh": "間歇泉", "en": "Geyser", "ja": "" },
     "element": "水",
     "damage": 200,
     "codes": ["B", "C", "L", "S", "W"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 4,
-    "description": "向前方3格扔出，若地面有洞則會噴出水柱！"
+    "description": {
+      "zh": "向前方3格扔出，若地面有洞則會噴出水柱！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "089",
-    "nameZh": "綠色繩索1",
-    "nameJp": "",
-    "nameEn": "Rope1",
+    "name": { "zh": "綠色繩索1", "en": "Rope1", "ja": "" },
     "element": "木",
     "damage": 50,
     "codes": ["D", "G", "J", "M", "O", "*"],
     "memory": "45 MB",
     "drops": [],
     "rarity": 1,
-    "description": "對在自己周圍的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "對在自己周圍的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "090",
-    "nameZh": "綠色繩索2",
-    "nameJp": "",
-    "nameEn": "Rope2",
+    "name": { "zh": "綠色繩索2", "en": "Rope2", "ja": "" },
     "element": "木",
     "damage": 70,
     "codes": ["E", "G", "O", "T", "U"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 2,
-    "description": "對在自己周圍的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "對在自己周圍的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "091",
-    "nameZh": "綠色繩索3",
-    "nameJp": "",
-    "nameEn": "Rope3",
+    "name": { "zh": "綠色繩索3", "en": "Rope3", "ja": "" },
     "element": "木",
     "damage": 90,
     "codes": ["H", "I", "T", "U", "V"],
     "memory": "65 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對在自己周圍的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "對在自己周圍的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "092",
-    "nameZh": "迴力鏢1",
-    "nameJp": "",
-    "nameEn": "Boomer1",
+    "name": { "zh": "迴力鏢1", "en": "Boomer1", "ja": "" },
     "element": "木",
     "damage": 60,
     "codes": ["F", "H", "J", "M", "T", "*"],
     "memory": "15 MB",
     "drops": [],
     "rarity": 1,
-    "description": "沿著戰場邊緣飛行的貫穿迴力鏢"
+    "description": { "zh": "沿著戰場邊緣飛行的貫穿迴力鏢", "en": "", "ja": "" }
   },
   {
     "no": "093",
-    "nameZh": "迴力鏢2",
-    "nameJp": "",
-    "nameEn": "Boomer2",
+    "name": { "zh": "迴力鏢2", "en": "Boomer2", "ja": "" },
     "element": "木",
     "damage": 80,
     "codes": ["E", "I", "K", "N", "V", "*"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 2,
-    "description": "沿著戰場邊緣飛行的貫穿迴力鏢"
+    "description": { "zh": "沿著戰場邊緣飛行的貫穿迴力鏢", "en": "", "ja": "" }
   },
   {
     "no": "094",
-    "nameZh": "迴力鏢3",
-    "nameJp": "",
-    "nameEn": "Boomer3",
+    "name": { "zh": "迴力鏢3", "en": "Boomer3", "ja": "" },
     "element": "木",
     "damage": 100,
     "codes": ["L", "O", "P", "U", "Z"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "沿著戰場邊緣飛行的貫穿迴力鏢"
+    "description": { "zh": "沿著戰場邊緣飛行的貫穿迴力鏢", "en": "", "ja": "" }
   },
   {
     "no": "095",
-    "nameZh": "毒氣面具",
-    "nameJp": "",
-    "nameEn": "PoisMask",
+    "name": { "zh": "毒氣面具", "en": "PoisMask", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "F", "N", "Q", "V", "*"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 1,
-    "description": "按住Ⓐ展開面具，用毒向前方攻擊！"
+    "description": {
+      "zh": "按住Ⓐ展開面具，用毒向前方攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "096",
-    "nameZh": "毒氣臉",
-    "nameJp": "",
-    "nameEn": "PoisFace",
+    "name": { "zh": "毒氣臉", "en": "PoisFace", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "N", "Q", "V", "W", "*"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 2,
-    "description": "按住Ⓐ展開面具，用毒向周圍攻擊！"
+    "description": {
+      "zh": "按住Ⓐ展開面具，用毒向周圍攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "097",
-    "nameZh": "石頭手臂1",
-    "nameJp": "",
-    "nameEn": "RockArm1",
+    "name": { "zh": "石頭手臂1", "en": "RockArm1", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["D", "H", "J", "O", "P", "*"],
     "memory": "23 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在眼前施展地震攻擊，搖晃中對手無法行動"
+    "description": {
+      "zh": "在眼前施展地震攻擊，搖晃中對手無法行動",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "098",
-    "nameZh": "石頭手臂2",
-    "nameJp": "",
-    "nameEn": "RockArm2",
+    "name": { "zh": "石頭手臂2", "en": "RockArm2", "ja": "" },
     "element": "無",
     "damage": 150,
     "codes": ["G", "M", "P", "S", "V", "*"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 2,
-    "description": "在眼前施展地震攻擊，搖晃中對手無法行動"
+    "description": {
+      "zh": "在眼前施展地震攻擊，搖晃中對手無法行動",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "099",
-    "nameZh": "石頭手臂3",
-    "nameJp": "",
-    "nameEn": "RockArm3",
+    "name": { "zh": "石頭手臂3", "en": "RockArm3", "ja": "" },
     "element": "無",
     "damage": 200,
     "codes": ["C", "I", "L", "T", "Z"],
     "memory": "47 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在眼前施展地震攻擊，搖晃中對手無法行動"
+    "description": {
+      "zh": "在眼前施展地震攻擊，搖晃中對手無法行動",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "100",
-    "nameZh": "詛咒盾1",
-    "nameJp": "",
-    "nameEn": "CrsShld1",
+    "name": { "zh": "詛咒盾1", "en": "CrsShld1", "ja": "" },
     "element": "無",
     "damage": 160,
     "codes": ["A", "C", "H", "L", "P", "*"],
     "memory": "25 MB",
     "drops": [],
     "rarity": 1,
-    "description": "抓準時機防禦後，對前方敵人咬嚙的盾"
+    "description": {
+      "zh": "抓準時機防禦後，對前方敵人咬嚙的盾",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "101",
-    "nameZh": "詛咒盾2",
-    "nameJp": "",
-    "nameEn": "CrsShld2",
+    "name": { "zh": "詛咒盾2", "en": "CrsShld2", "ja": "" },
     "element": "無",
     "damage": 210,
     "codes": ["B", "C", "L", "S", "T"],
     "memory": "33 MB",
     "drops": [],
     "rarity": 2,
-    "description": "抓準時機防禦後，對前方敵人咬噬的盾"
+    "description": {
+      "zh": "抓準時機防禦後，對前方敵人咬噬的盾",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "102",
-    "nameZh": "詛咒盾3",
-    "nameJp": "",
-    "nameEn": "CrsShld3",
+    "name": { "zh": "詛咒盾3", "en": "CrsShld3", "ja": "" },
     "element": "無",
     "damage": 260,
     "codes": ["C", "E", "L", "N", "R"],
     "memory": "41 MB",
     "drops": [],
     "rarity": 3,
-    "description": "抓準時機防禦後，對前方敵人咬噬的盾"
+    "description": {
+      "zh": "抓準時機防禦後，對前方敵人咬噬的盾",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "103",
-    "nameZh": "大型槍彈1",
-    "nameJp": "",
-    "nameEn": "Magnum1",
+    "name": { "zh": "大型槍彈1", "en": "Magnum1", "ja": "" },
     "element": "火",
     "damage": 120,
     "codes": ["A", "C", "H", "T", "V"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 1,
-    "description": "停下游標，發射大型槍彈破壞地面"
+    "description": {
+      "zh": "停下游標，發射大型槍彈破壞地面",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "104",
-    "nameZh": "大型槍彈2",
-    "nameJp": "",
-    "nameEn": "Magnum2",
+    "name": { "zh": "大型槍彈2", "en": "Magnum2", "ja": "" },
     "element": "火",
     "damage": 150,
     "codes": ["B", "G", "N", "O", "Z"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 2,
-    "description": "停下游標，發射大型槍彈破壞地面"
+    "description": {
+      "zh": "停下游標，發射大型槍彈破壞地面",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "105",
-    "nameZh": "大型槍彈3",
-    "nameJp": "",
-    "nameEn": "Magnum3",
+    "name": { "zh": "大型槍彈3", "en": "Magnum3", "ja": "" },
     "element": "火",
     "damage": 180,
     "codes": ["D", "F", "I", "S", "W"],
     "memory": "75 MB",
     "drops": [],
     "rarity": 3,
-    "description": "停下游標，發射大型槍彈破壞地面"
+    "description": {
+      "zh": "停下游標，發射大型槍彈破壞地面",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "106",
-    "nameZh": "電漿球1",
-    "nameJp": "",
-    "nameEn": "Plasma1",
+    "name": { "zh": "電漿球1", "en": "Plasma1", "ja": "" },
     "element": "電",
     "damage": 30,
     "codes": ["B", "D", "J", "R", "T"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在前方放置，周圍會產生電的麻痺球"
+    "description": {
+      "zh": "在前方放置，周圍會產生電的麻痺球",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "107",
-    "nameZh": "電漿球2",
-    "nameJp": "",
-    "nameEn": "Plasma2",
+    "name": { "zh": "電漿球2", "en": "Plasma2", "ja": "" },
     "element": "電",
     "damage": 60,
     "codes": ["A", "G", "K", "M", "Q"],
     "memory": "26 MB",
     "drops": [],
     "rarity": 2,
-    "description": "在前方放置，周圍會產生電的麻痺球"
+    "description": {
+      "zh": "在前方放置，周圍會產生電的麻痺球",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "108",
-    "nameZh": "電漿球3",
-    "nameJp": "",
-    "nameEn": "Plasma3",
+    "name": { "zh": "電漿球3", "en": "Plasma3", "ja": "" },
     "element": "電",
     "damage": 90,
     "codes": ["F", "I", "N", "P", "S"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在前方放置，周圍會產生電的麻痺球"
+    "description": {
+      "zh": "在前方放置，周圍會產生電的麻痺球",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "109",
-    "nameZh": "隨機流星",
-    "nameJp": "",
-    "nameEn": "RndmMetr",
+    "name": { "zh": "隨機流星", "en": "RndmMetr", "ja": "" },
     "element": "火",
     "damage": 100,
     "codes": ["E", "I", "S", "V", "Z"],
     "memory": "28 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置魔法杖，對敵人降下隕石攻擊"
+    "description": {
+      "zh": "放置魔法杖，對敵人降下隕石攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "110",
-    "nameZh": "全域流星",
-    "nameJp": "",
-    "nameEn": "HoleMetr",
+    "name": { "zh": "全域流星", "en": "HoleMetr", "ja": "" },
     "element": "火",
     "damage": 100,
     "codes": ["C", "H", "J", "N", "Q"],
     "memory": "48 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置魔法杖，對敵人區域全體降下隕石攻擊"
+    "description": {
+      "zh": "放置魔法杖，對敵人區域全體降下隕石攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "111",
-    "nameZh": "射擊流星",
-    "nameJp": "",
-    "nameEn": "ShotMetr",
+    "name": { "zh": "射擊流星", "en": "ShotMetr", "ja": "" },
     "element": "火",
     "damage": 100,
     "codes": ["A", "D", "F", "S", "Y"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置魔法杖，在對側的縱列降下隕石攻擊"
+    "description": {
+      "zh": "放置魔法杖，在對側的縱列降下隕石攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "112",
-    "nameZh": "針刺機器1",
-    "nameJp": "",
-    "nameEn": "Needler1",
+    "name": { "zh": "針刺機器1", "en": "Needler1", "ja": "" },
     "element": "無",
     "damage": 30,
     "codes": ["I", "J", "M", "R", "S"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊"
+    "description": {
+      "zh": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "113",
-    "nameZh": "針刺機器2",
-    "nameJp": "",
-    "nameEn": "Needler2",
+    "name": { "zh": "針刺機器2", "en": "Needler2", "ja": "" },
     "element": "無",
     "damage": 40,
     "codes": ["F", "H", "M", "T", "V"],
     "memory": "52 MB",
     "drops": [],
     "rarity": 2,
-    "description": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊"
+    "description": {
+      "zh": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "114",
-    "nameZh": "針刺機器3",
-    "nameJp": "",
-    "nameEn": "Needler3",
+    "name": { "zh": "針刺機器3", "en": "Needler3", "ja": "" },
     "element": "無",
     "damage": 50,
     "codes": ["D", "L", "O", "U", "Z"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊"
+    "description": {
+      "zh": "在按住Ⓐ的期間前進，停止時往三個方向針刺攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "115",
-    "nameZh": "圖騰1",
-    "nameJp": "",
-    "nameEn": "Totem1",
+    "name": { "zh": "圖騰1", "en": "Totem1", "ja": "" },
     "element": "火",
     "damage": 100,
     "codes": ["G", "H", "M", "O", "V"],
     "memory": "29 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在前面放置往前噴出3格範圍的火焰圖騰"
+    "description": {
+      "zh": "在前面放置往前噴出3格範圍的火焰圖騰",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "116",
-    "nameZh": "圖騰2",
-    "nameJp": "",
-    "nameEn": "Totem2",
+    "name": { "zh": "圖騰2", "en": "Totem2", "ja": "" },
     "element": "火",
     "damage": 140,
     "codes": ["A", "C", "E", "T", "Z"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 2,
-    "description": "在前面放置往前噴出3格範圍的火焰圖騰"
+    "description": {
+      "zh": "在前面放置往前噴出3格範圍的火焰圖騰",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "117",
-    "nameZh": "圖騰3",
-    "nameJp": "",
-    "nameEn": "Totem3",
+    "name": { "zh": "圖騰3", "en": "Totem3", "ja": "" },
     "element": "火",
     "damage": 180,
     "codes": ["D", "I", "K", "N", "Q"],
     "memory": "47 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在前面放置往前噴出3格範圍的火焰圖騰"
+    "description": {
+      "zh": "在前面放置往前噴出3格範圍的火焰圖騰",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "118",
-    "nameZh": "殺手感測器1",
-    "nameJp": "",
-    "nameEn": "Sensor1",
+    "name": { "zh": "殺手感測器1", "en": "Sensor1", "ja": "" },
     "element": "電",
     "damage": 100,
     "codes": ["C", "K", "L", "O", "P"],
     "memory": "62 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在面前設置一直看向前方的殺手之眼"
+    "description": {
+      "zh": "在面前設置一直看向前方的殺手之眼",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "119",
-    "nameZh": "殺手感測器2",
-    "nameJp": "",
-    "nameEn": "Sensor2",
+    "name": { "zh": "殺手感測器2", "en": "Sensor2", "ja": "" },
     "element": "電",
     "damage": 130,
     "codes": ["A", "G", "H", "N", "S"],
     "memory": "70 MB",
     "drops": [],
     "rarity": 3,
-    "description": "設置殺手之眼，放在中間會看向前方，放在邊緣會看斜前方"
+    "description": {
+      "zh": "設置殺手之眼，放在中間會看向前方，放在邊緣會看斜前方",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "120",
-    "nameZh": "殺手感測器3",
-    "nameJp": "",
-    "nameEn": "Sensor3",
+    "name": { "zh": "殺手感測器3", "en": "Sensor3", "ja": "" },
     "element": "電",
     "damage": 130,
     "codes": ["B", "E", "J", "O", "P"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 3,
-    "description": "設置殺手之眼，放在中間會看向前方，放在邊緣會看斜前方"
+    "description": {
+      "zh": "設置殺手之眼，放在中間會看向前方，放在邊緣會看斜前方",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "121",
-    "nameZh": "偷竊凝膠1",
-    "nameJp": "",
-    "nameEn": "MetaGel1",
+    "name": { "zh": "偷竊凝膠1", "en": "MetaGel1", "ja": "" },
     "element": "水",
     "damage": 90,
     "codes": ["B", "C", "D", "K", "Y"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 1,
-    "description": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！"
+    "description": {
+      "zh": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "122",
-    "nameZh": "偷竊凝膠2",
-    "nameJp": "",
-    "nameEn": "MetaGel2",
+    "name": { "zh": "偷竊凝膠2", "en": "MetaGel2", "ja": "" },
     "element": "水",
     "damage": 130,
     "codes": ["E", "F", "G", "P", "S"],
     "memory": "28 MB",
     "drops": [],
     "rarity": 2,
-    "description": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！"
+    "description": {
+      "zh": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "123",
-    "nameZh": "偷竊凝膠3",
-    "nameJp": "",
-    "nameEn": "MetaGel3",
+    "name": { "zh": "偷竊凝膠3", "en": "MetaGel3", "ja": "" },
     "element": "水",
     "damage": 170,
     "codes": ["G", "H", "S", "T", "U"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 3,
-    "description": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！"
+    "description": {
+      "zh": "將敵方區域左側地面轉換為我方區域的凝膠攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "124",
-    "nameZh": "士兵",
-    "nameJp": "",
-    "nameEn": "Pawn",
+    "name": { "zh": "士兵", "en": "Pawn", "ja": "" },
     "element": "無",
     "damage": 90,
     "codes": ["B", "E", "N", "R", "Y"],
     "memory": "44 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在面前放置士兵，每次按下Ⓐ就會揮劍"
+    "description": {
+      "zh": "在面前放置士兵，每次按下Ⓐ就會揮劍",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "125",
-    "nameZh": "騎士",
-    "nameJp": "",
-    "nameEn": "Knight",
+    "name": { "zh": "騎士", "en": "Knight", "ja": "" },
     "element": "無",
     "damage": 150,
     "codes": ["C", "H", "M", "U", "V"],
     "memory": "64 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在面前放置會邊進行跳躍攻擊，邊前進的騎士"
+    "description": {
+      "zh": "在面前放置會邊進行跳躍攻擊，邊前進的騎士",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "126",
-    "nameZh": "城堡",
-    "nameJp": "",
-    "nameEn": "Rook",
+    "name": { "zh": "城堡", "en": "Rook", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "F", "N", "Q", "U", "*"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置能像城牆般防禦的城堡"
+    "description": { "zh": "放置能像城牆般防禦的城堡", "en": "", "ja": "" }
   },
   {
     "no": "127",
-    "nameZh": "手足之情1",
-    "nameJp": "",
-    "nameEn": "Team1",
+    "name": { "zh": "手足之情1", "en": "Team1", "ja": "" },
     "element": "無",
     "damage": 10,
     "codes": ["A", "C", "E", "T", "Z", "*"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 2,
-    "description": "同伴受到傷害時，會更激烈地攻擊"
+    "description": {
+      "zh": "同伴受到傷害時，會更激烈地攻擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "128",
-    "nameZh": "手足之情2",
-    "nameJp": "",
-    "nameEn": "Team2",
+    "name": { "zh": "手足之情2", "en": "Team2", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "L", "P", "S", "Z", "*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 2,
-    "description": "同伴受到傷害，情況不妙時會回復HP"
+    "description": {
+      "zh": "同伴受到傷害，情況不妙時會回復HP",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "129",
-    "nameZh": "定時炸彈",
-    "nameJp": "",
-    "nameEn": "TimeBomb",
+    "name": { "zh": "定時炸彈", "en": "TimeBomb", "ja": "" },
     "element": "無",
     "damage": 150,
     "codes": ["J", "K", "L", "M", "N"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在敵方區域中設置定時炸彈在整個區域中爆炸"
+    "description": {
+      "zh": "在敵方區域中設置定時炸彈在整個區域中爆炸",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "130",
-    "nameZh": "隱形地雷",
-    "nameJp": "",
-    "nameEn": "Mine",
+    "name": { "zh": "隱形地雷", "en": "Mine", "ja": "" },
     "element": "無",
     "damage": 300,
     "codes": ["A", "D", "L", "R", "S", "*"],
     "memory": "16 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在敵人區域某處設置看不見的地雷！"
+    "description": {
+      "zh": "在敵人區域某處設置看不見的地雷！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "131",
-    "nameZh": "竹槍",
-    "nameJp": "",
-    "nameEn": "Lance",
+    "name": { "zh": "竹槍", "en": "Lance", "ja": "" },
     "element": "木",
     "damage": 130,
     "codes": ["D", "E", "H", "R", "Z"],
     "memory": "46 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在敵人區域的右端縱列，突然產生竹槍！"
+    "description": {
+      "zh": "在敵人區域的右端縱列，突然產生竹槍！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "132",
-    "nameZh": "招來蛇",
-    "nameJp": "カモンスネーク",
-    "nameEn": "Snake",
+    "name": { "zh": "招來蛇", "en": "Snake", "ja": "カモンスネーク" },
     "element": "木",
     "damage": 40,
     "codes": ["D", "E", "I", "R", "Y"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 3,
-    "description": "從自己區域的地面洞穴中竄出小蛇"
+    "description": {
+      "zh": "從自己區域的地面洞穴中竄出小蛇",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "133",
-    "nameZh": "鋼盔防禦",
-    "nameJp": "",
-    "nameEn": "Guard",
+    "name": { "zh": "鋼盔防禦", "en": "Guard", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "5 MB",
     "drops": [],
     "rarity": 1,
-    "description": "抓準時機防禦，將攻擊以衝擊波反彈回去！"
+    "description": {
+      "zh": "抓準時機防禦，將攻擊以衝擊波反彈回去！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "134",
-    "nameZh": "擊碎地面1",
-    "nameJp": "",
-    "nameEn": "PanlOut1",
+    "name": { "zh": "擊碎地面1", "en": "PanlOut1", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "B", "D", "L", "S", "*"],
     "memory": "4 MB",
     "drops": [],
     "rarity": 1,
-    "description": "地面破壞攻擊！破壞前方1格的地面"
+    "description": {
+      "zh": "地面破壞攻擊！破壞前方1格的地面",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "135",
-    "nameZh": "擊碎地面3",
-    "nameJp": "",
-    "nameEn": "PanlOut3",
+    "name": { "zh": "擊碎地面3", "en": "PanlOut3", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "E", "N", "R", "Y"],
     "memory": "7 MB",
     "drops": [],
     "rarity": 1,
-    "description": "地面破壞攻擊！破壞前方3格的地面"
+    "description": {
+      "zh": "地面破壞攻擊！破壞前方3格的地面",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "136",
-    "nameZh": "地面竊取",
-    "nameJp": "",
-    "nameEn": "PanlGrab",
+    "name": { "zh": "地面竊取", "en": "PanlGrab", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "H", "L", "S", "Y", "*"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 1,
-    "description": "將前方1格敵人區域，轉換成自己的區域"
+    "description": {
+      "zh": "將前方1格敵人區域，轉換成自己的區域",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "137",
-    "nameZh": "區域竊取",
-    "nameJp": "",
-    "nameEn": "AreaGrab",
+    "name": { "zh": "區域竊取", "en": "AreaGrab", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "L", "R", "S", "Y", "*"],
     "memory": "15 MB",
     "drops": [],
     "rarity": 2,
-    "description": "將敵人區域的左端1列，轉換成自己的區域"
+    "description": {
+      "zh": "將敵人區域的左端1列，轉換成自己的區域",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "138",
-    "nameZh": "偷竊懲罰",
-    "nameJp": "",
-    "nameEn": "GrabBack",
+    "name": { "zh": "偷竊懲罰", "en": "GrabBack", "ja": "" },
     "element": "無",
     "damage": 40,
     "codes": ["A", "E", "I", "K", "N"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 3,
-    "description": "依照被偷走的地面數量，向對手降下天罰！"
+    "description": {
+      "zh": "依照被偷走的地面數量，向對手降下天罰！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "139",
-    "nameZh": "偷竊復仇",
-    "nameJp": "",
-    "nameEn": "GrabRvng",
+    "name": { "zh": "偷竊復仇", "en": "GrabRvng", "ja": "" },
     "element": "無",
     "damage": 80,
     "codes": ["C", "G", "P", "R", "Y"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 4,
-    "description": "依照被偷走的地面數量，向對手降下天罰！"
+    "description": {
+      "zh": "依照被偷走的地面數量，向對手降下天罰！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "140",
-    "nameZh": "石頭方塊",
-    "nameJp": "",
-    "nameEn": "RockCube",
+    "name": { "zh": "石頭方塊", "en": "RockCube", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "E", "H", "R", "*"],
     "memory": "9 MB",
     "drops": [],
     "rarity": 1,
-    "description": "在前方的格子上，設置石頭方塊"
+    "description": { "zh": "在前方的格子上，設置石頭方塊", "en": "", "ja": "" }
   },
   {
     "no": "141",
-    "nameZh": "三稜鏡",
-    "nameJp": "",
-    "nameEn": "Prism",
+    "name": { "zh": "三稜鏡", "en": "Prism", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["H", "J", "K", "Q", "W"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向前方3格扔出，會散射攻擊的稜鏡！"
+    "description": {
+      "zh": "向前方3格扔出，會散射攻擊的稜鏡！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "142",
-    "nameZh": "突風",
-    "nameJp": "トップウ",
-    "nameEn": "Wind",
+    "name": { "zh": "突風", "en": "Wind", "ja": "トップウ" },
     "element": "無",
     "damage": null,
     "codes": ["A", "E", "H", "O", "S", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "放置風箱，讓風吹向敵人區域"
+    "description": { "zh": "放置風箱，讓風吹向敵人區域", "en": "", "ja": "" }
   },
   {
     "no": "143",
-    "nameZh": "抽風機",
-    "nameJp": "",
-    "nameEn": "Fan",
+    "name": { "zh": "抽風機", "en": "Fan", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "G", "L", "R", "T", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 1,
-    "description": "放置真空風扇，讓風將敵人吸引過來"
+    "description": {
+      "zh": "放置真空風扇，讓風將敵人吸引過來",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "144",
-    "nameZh": "加油歌",
-    "nameJp": "",
-    "nameEn": "Fanfare",
+    "name": { "zh": "加油歌", "en": "Fanfare", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "E", "G", "L", "Y", "*"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置喇喇叭叭，演奏中，會變成無敵狀態"
+    "description": {
+      "zh": "放置喇喇叭叭，演奏中，會變成無敵狀態",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "145",
-    "nameZh": "噪音",
-    "nameJp": "",
-    "nameEn": "Discord",
+    "name": { "zh": "噪音", "en": "Discord", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "F", "N", "T", "Z", "*"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置喇喇低音，演奏中，對手會混亂！"
+    "description": {
+      "zh": "放置喇喇低音，演奏中，對手會混亂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "146",
-    "nameZh": "定音鼓",
-    "nameJp": "",
-    "nameEn": "Timpani",
+    "name": { "zh": "定音鼓", "en": "Timpani", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "N", "Q", "U", "W", "*"],
     "memory": "42 MB",
     "drops": [],
     "rarity": 3,
-    "description": "放置喇喇長音，演奏中，對手無法移動"
+    "description": {
+      "zh": "放置喇喇長音，演奏中，對手無法移動",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "147",
-    "nameZh": "回復10",
-    "nameJp": "",
-    "nameEn": "Recov10",
+    "name": { "zh": "回復10", "en": "Recov10", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "E", "G", "L", "*"],
     "memory": "5 MB",
     "drops": [],
     "rarity": 1,
-    "description": "回復10點HP"
+    "description": { "zh": "回復10點HP", "en": "", "ja": "" }
   },
   {
     "no": "148",
-    "nameZh": "回復30",
-    "nameJp": "",
-    "nameEn": "Recov30",
+    "name": { "zh": "回復30", "en": "Recov30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "D", "F", "H", "M", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "回復30點HP"
+    "description": { "zh": "回復30點HP", "en": "", "ja": "" }
   },
   {
     "no": "149",
-    "nameZh": "回復50",
-    "nameJp": "",
-    "nameEn": "Recov50",
+    "name": { "zh": "回復50", "en": "Recov50", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "E", "G", "I", "N", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 2,
-    "description": "回復50點HP"
+    "description": { "zh": "回復50點HP", "en": "", "ja": "" }
   },
   {
     "no": "150",
-    "nameZh": "回復80",
-    "nameJp": "",
-    "nameEn": "Recov80",
+    "name": { "zh": "回復80", "en": "Recov80", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "F", "H", "J", "O", "*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 2,
-    "description": "回復80點HP"
+    "description": { "zh": "回復80點HP", "en": "", "ja": "" }
   },
   {
     "no": "151",
-    "nameZh": "回復120",
-    "nameJp": "",
-    "nameEn": "Recov120",
+    "name": { "zh": "回復120", "en": "Recov120", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["O", "Q", "S", "U", "W", "*"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 3,
-    "description": "回復120點HP"
+    "description": { "zh": "回復120點HP", "en": "", "ja": "" }
   },
   {
     "no": "152",
-    "nameZh": "回復150",
-    "nameJp": "",
-    "nameEn": "Recov150",
+    "name": { "zh": "回復150", "en": "Recov150", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["N", "P", "R", "T", "V"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "回復150點HP"
+    "description": { "zh": "回復150點HP", "en": "", "ja": "" }
   },
   {
     "no": "153",
-    "nameZh": "回復200",
-    "nameJp": "",
-    "nameEn": "Recov200",
+    "name": { "zh": "回復200", "en": "Recov200", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["M", "N", "U", "V", "W"],
     "memory": "65 MB",
     "drops": [],
     "rarity": 4,
-    "description": "回復200點HP"
+    "description": { "zh": "回復200點HP", "en": "", "ja": "" }
   },
   {
     "no": "154",
-    "nameZh": "回復300",
-    "nameJp": "",
-    "nameEn": "Recov300",
+    "name": { "zh": "回復300", "en": "Recov300", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["O", "R", "V", "W", "Z"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 4,
-    "description": "回復300點HP"
+    "description": { "zh": "回復300點HP", "en": "", "ja": "" }
   },
   {
     "no": "155",
-    "nameZh": "地面復原",
-    "nameJp": "",
-    "nameEn": "Repair",
+    "name": { "zh": "地面復原", "en": "Repair", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "D", "F", "S", "*"],
     "memory": "8 MB",
     "drops": [],
     "rarity": 1,
-    "description": "將自身區域的地面回復為普通狀態！"
+    "description": {
+      "zh": "將自身區域的地面回復為普通狀態！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "156",
-    "nameZh": "緩慢量表",
-    "nameJp": "",
-    "nameEn": "SloGauge",
+    "name": { "zh": "緩慢量表", "en": "SloGauge", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "R", "S", "Z", "*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在戰鬥中改裝計量表的增加速度變慢"
+    "description": {
+      "zh": "在戰鬥中改裝計量表的增加速度變慢",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "157",
-    "nameZh": "快速量表",
-    "nameJp": "",
-    "nameEn": "FstGauge",
+    "name": { "zh": "快速量表", "en": "FstGauge", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "E", "J", "R", "Y"],
     "memory": "40 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在戰鬥中改裝計量表的增加速度上升"
+    "description": {
+      "zh": "在戰鬥中改裝計量表的增加速度上升",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "158",
-    "nameZh": "恐慌情緒",
-    "nameJp": "",
-    "nameEn": "Panic",
+    "name": { "zh": "恐慌情緒", "en": "Panic", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "L", "R", "Z"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在混亂狀態下使用，使對手也陷入混亂"
+    "description": {
+      "zh": "在混亂狀態下使用，使對手也陷入混亂",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "159",
-    "nameZh": "死鬥1",
-    "nameJp": "",
-    "nameEn": "Geddon1",
+    "name": { "zh": "死鬥1", "en": "Geddon1", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "J", "M", "O", "S", "*"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 3,
-    "description": "將所有地面變為碎裂狀態！"
+    "description": { "zh": "將所有地面變為碎裂狀態！", "en": "", "ja": "" }
   },
   {
     "no": "160",
-    "nameZh": "死鬥2",
-    "nameJp": "",
-    "nameEn": "Geddon2",
+    "name": { "zh": "死鬥2", "en": "Geddon2", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["F", "H", "N", "O", "W"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 4,
-    "description": "將所有地面變為損壞狀態！"
+    "description": { "zh": "將所有地面變為損壞狀態！", "en": "", "ja": "" }
   },
   {
     "no": "161",
-    "nameZh": "死鬥3",
-    "nameJp": "",
-    "nameEn": "Geddon3",
+    "name": { "zh": "死鬥3", "en": "Geddon3", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "M", "U", "W", "Y"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 4,
-    "description": "將所有地面變為毒沼狀態！"
+    "description": { "zh": "將所有地面變為毒沼狀態！", "en": "", "ja": "" }
   },
   {
     "no": "162",
-    "nameZh": "複製損傷",
-    "nameJp": "",
-    "nameEn": "CopyDmg",
+    "name": { "zh": "複製損傷", "en": "CopyDmg", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "F", "H", "L", "Y", "*"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "被游標標記的對手，會複製其他敵人，所受到的傷害！"
+    "description": {
+      "zh": "被游標標記的對手，會複製其他敵人，所受到的傷害！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "163",
-    "nameZh": "隱身",
-    "nameJp": "",
-    "nameEn": "Invis",
+    "name": { "zh": "隱身", "en": "Invis", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "E", "F", "R", "S", "*"],
     "memory": "11 MB",
     "drops": [],
     "rarity": 3,
-    "description": "一定時間內變為透明，有效時間內，幾乎不會被擊中"
+    "description": {
+      "zh": "一定時間內變為透明，有效時間內，幾乎不會被擊中",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "164",
-    "nameZh": "影分身",
-    "nameJp": "",
-    "nameEn": "Shadow",
+    "name": { "zh": "影分身", "en": "Shadow", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["H", "J", "N", "Q", "U", "*"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "一定時間內，劍系以外的攻擊無效"
+    "description": {
+      "zh": "一定時間內，劍系以外的攻擊無效",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "165",
-    "nameZh": "地下鼴鼠1",
-    "nameJp": "",
-    "nameEn": "Mole1",
+    "name": { "zh": "地下鼴鼠1", "en": "Mole1", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "D", "H", "J", "O", "*"],
     "memory": "28 MB",
     "drops": [],
     "rarity": 1,
-    "description": "潛入地下，只有在攻擊時現身"
+    "description": { "zh": "潛入地下，只有在攻擊時現身", "en": "", "ja": "" }
   },
   {
     "no": "166",
-    "nameZh": "地下鼴鼠2",
-    "nameJp": "",
-    "nameEn": "Mole2",
+    "name": { "zh": "地下鼴鼠2", "en": "Mole2", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "D", "I", "K", "R", "*"],
     "memory": "35 MB",
     "drops": [],
     "rarity": 2,
-    "description": "潛入地下，只有在攻擊時現身"
+    "description": { "zh": "潛入地下，只有在攻擊時現身", "en": "", "ja": "" }
   },
   {
     "no": "167",
-    "nameZh": "地下鼴鼠3",
-    "nameJp": "",
-    "nameEn": "Mole3",
+    "name": { "zh": "地下鼴鼠3", "en": "Mole3", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "E", "L", "M", "Q"],
     "memory": "42 MB",
     "drops": [],
     "rarity": 3,
-    "description": "潛入地下，只有在攻擊時現身"
+    "description": { "zh": "潛入地下，只有在攻擊時現身", "en": "", "ja": "" }
   },
   {
     "no": "168",
-    "nameZh": "飛行鞋",
-    "nameJp": "",
-    "nameEn": "AirShoes",
+    "name": { "zh": "飛行鞋", "en": "AirShoes", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["H", "I", "N", "U", "Y", "*"],
     "memory": "26 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在沒有地面的格子上，也變得能夠移動！"
+    "description": {
+      "zh": "在沒有地面的格子上，也變得能夠移動！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "169",
-    "nameZh": "防護罩",
-    "nameJp": "",
-    "nameEn": "Barrier",
+    "name": { "zh": "防護罩", "en": "Barrier", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "E", "L", "R", "S", "*"],
     "memory": "7 MB",
     "drops": [],
     "rarity": 1,
-    "description": "讓10HP的傷害無效"
+    "description": { "zh": "讓10HP的傷害無效", "en": "", "ja": "" }
   },
   {
     "no": "170",
-    "nameZh": "100防護罩",
-    "nameJp": "",
-    "nameEn": "Barr100",
+    "name": { "zh": "100防護罩", "en": "Barr100", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "J", "M", "R", "T", "*"],
     "memory": "25 MB",
     "drops": [],
     "rarity": 2,
-    "description": "讓100HP的傷害無效"
+    "description": { "zh": "讓100HP的傷害無效", "en": "", "ja": "" }
   },
   {
     "no": "171",
-    "nameZh": "200防護罩",
-    "nameJp": "",
-    "nameEn": "Barr200",
+    "name": { "zh": "200防護罩", "en": "Barr200", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "F", "H", "R", "U"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "讓200HP的傷害無效"
+    "description": { "zh": "讓200HP的傷害無效", "en": "", "ja": "" }
   },
   {
     "no": "172",
-    "nameZh": "靈光",
-    "nameJp": "",
-    "nameEn": "Aura",
+    "name": { "zh": "靈光", "en": "Aura", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["F", "I", "S", "U", "Y"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 3,
-    "description": "使用靈將低於100的攻擊，無效化"
+    "description": { "zh": "使用靈將低於100的攻擊，無效化", "en": "", "ja": "" }
   },
   {
     "no": "173",
-    "nameZh": "超級北風",
-    "nameJp": "",
-    "nameEn": "NrthWind",
+    "name": { "zh": "超級北風", "en": "NrthWind", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "N", "S", "Z"],
     "memory": "43 MB",
     "drops": [],
     "rarity": 4,
-    "description": "猛烈的北風可以吹飛防護罩或靈光"
+    "description": {
+      "zh": "猛烈的北風可以吹飛防護罩或靈光",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "174",
-    "nameZh": "小矮兵",
-    "nameJp": "",
-    "nameEn": "Mettaur",
+    "name": { "zh": "小矮兵", "en": "Mettaur", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "L", "M", "O", "T"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出小矮兵攻擊！"
+    "description": { "zh": "叫出小矮兵攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "175",
-    "nameZh": "線圈兔",
-    "nameJp": "",
-    "nameEn": "Bunny",
+    "name": { "zh": "線圈兔", "en": "Bunny", "ja": "" },
     "element": "電",
     "damage": null,
     "codes": ["A", "B", "I", "L", "R"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出線圈兔攻擊！"
+    "description": { "zh": "叫出線圈兔攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "176",
-    "nameZh": "吠狼",
-    "nameJp": "",
-    "nameEn": "Spikey",
+    "name": { "zh": "吠狼", "en": "Spikey", "ja": "" },
     "element": "火",
     "damage": null,
     "codes": ["A", "E", "G", "R", "U"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出吠狼攻擊！"
+    "description": { "zh": "叫出吠狼攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "177",
-    "nameZh": "劍兵",
-    "nameJp": "",
-    "nameEn": "Swordy",
+    "name": { "zh": "劍兵", "en": "Swordy", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "I", "O", "S", "W"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出劍兵攻擊！"
+    "description": { "zh": "叫出劍兵攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "178",
-    "nameZh": "水母",
-    "nameJp": "",
-    "nameEn": "Jelly",
+    "name": { "zh": "水母", "en": "Jelly", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "J", "L", "R", "Y"],
     "memory": "46 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出水母攻擊！"
+    "description": { "zh": "叫出水母攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "179",
-    "nameZh": "茶蘑菇",
-    "nameJp": "",
-    "nameEn": "Mushy",
+    "name": { "zh": "茶蘑菇", "en": "Mushy", "ja": "" },
     "element": "木",
     "damage": null,
     "codes": ["C", "H", "M", "S", "Y"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出茶蘑菇攻擊！"
+    "description": { "zh": "叫出茶蘑菇攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "180",
-    "nameZh": "鼹地鼠",
-    "nameJp": "",
-    "nameEn": "Momogra",
+    "name": { "zh": "鼹地鼠", "en": "Momogra", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["G", "M", "O", "R", "U"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出鼹地鼠！"
+    "description": { "zh": "叫出鼹地鼠！", "en": "", "ja": "" }
   },
   {
     "no": "181",
-    "nameZh": "殺手之眼",
-    "nameJp": "",
-    "nameEn": "KillrEye",
+    "name": { "zh": "殺手之眼", "en": "KillrEye", "ja": "" },
     "element": "電",
     "damage": null,
     "codes": ["E", "I", "K", "L", "R"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出殺手之眼攻擊！"
+    "description": { "zh": "叫出殺手之眼攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "182",
-    "nameZh": "夢幻位元",
-    "nameJp": "",
-    "nameEn": "Scuttlst",
+    "name": { "zh": "夢幻位元", "en": "Scuttlst", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "D", "E", "M", "R"],
     "memory": "53 MB",
     "drops": [],
     "rarity": 5,
-    "description": "叫出夢幻位元！"
+    "description": { "zh": "叫出夢幻位元！", "en": "", "ja": "" }
   },
   {
     "no": "183",
-    "nameZh": "黑暗洞",
-    "nameJp": "",
-    "nameEn": "Hole",
+    "name": { "zh": "黑暗洞", "en": "Hole", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "B", "S", "T", "Z", "*"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 4,
-    "description": "在瞬間開啟，通往黑暗世界的洞口"
+    "description": {
+      "zh": "在瞬間開啟，通往黑暗世界的洞口",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "184",
-    "nameZh": "神聖地面",
-    "nameJp": "",
-    "nameEn": "HolyPanl",
+    "name": { "zh": "神聖地面", "en": "HolyPanl", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "J", "L", "R", "U", "*"],
     "memory": "14 MB",
     "drops": [],
     "rarity": 2,
-    "description": "把前方的地面，轉換為神聖地面"
+    "description": { "zh": "把前方的地面，轉換為神聖地面", "en": "", "ja": "" }
   },
   {
     "no": "185",
-    "nameZh": "岩漿戰場",
-    "nameJp": "",
-    "nameEn": "LavaStge",
+    "name": { "zh": "岩漿戰場", "en": "LavaStge", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "E", "R", "T", "Y", "*"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 3,
-    "description": "把全部的地面轉換為岩漿地面"
+    "description": { "zh": "把全部的地面轉換為岩漿地面", "en": "", "ja": "" }
   },
   {
     "no": "186",
-    "nameZh": "冰戰場",
-    "nameJp": "",
-    "nameEn": "IceStage",
+    "name": { "zh": "冰戰場", "en": "IceStage", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["C", "G", "M", "Q", "T", "*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 3,
-    "description": "把全部的地面轉換為冰地面"
+    "description": { "zh": "把全部的地面轉換為冰地面", "en": "", "ja": "" }
   },
   {
     "no": "187",
-    "nameZh": "草原戰場",
-    "nameJp": "",
-    "nameEn": "GrassStg",
+    "name": { "zh": "草原戰場", "en": "GrassStg", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["E", "J", "R", "W", "Z", "*"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 3,
-    "description": "把全部的地面轉換為草地地面"
+    "description": { "zh": "把全部的地面轉換為草地地面", "en": "", "ja": "" }
   },
   {
     "no": "188",
-    "nameZh": "沙戰場",
-    "nameJp": "",
-    "nameEn": "SandStge",
+    "name": { "zh": "沙戰場", "en": "SandStge", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "C", "Q", "U", "W"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "把全部的地面轉換為沙地面"
+    "description": { "zh": "把全部的地面轉換為沙地面", "en": "", "ja": "" }
   },
   {
     "no": "189",
-    "nameZh": "金屬戰場",
-    "nameJp": "",
-    "nameEn": "MetlStge",
+    "name": { "zh": "金屬戰場", "en": "MetlStge", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D", "G", "M", "O", "S"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "把全部的地面轉換為金屬地面"
+    "description": { "zh": "把全部的地面轉換為金屬地面", "en": "", "ja": "" }
   },
   {
     "no": "190",
-    "nameZh": "聖殿",
-    "nameJp": "",
-    "nameEn": "Snctuary",
+    "name": { "zh": "聖殿", "en": "Snctuary", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "C", "E", "L", "S"],
     "memory": "54 MB",
     "drops": [],
     "rarity": 4,
-    "description": "將自身區域的所有格子轉化為神聖地面！"
+    "description": {
+      "zh": "將自身區域的所有格子轉化為神聖地面！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "191",
-    "nameZh": "替身",
-    "nameJp": "",
-    "nameEn": "AntiDmg",
+    "name": { "zh": "替身", "en": "AntiDmg", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["C", "F", "H", "M", "S"],
     "memory": "45 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向敵方設置陷阱被擊中時，會施展手裏劍攻擊！"
+    "description": {
+      "zh": "向敵方設置陷阱被擊中時，會施展手裏劍攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "192",
-    "nameZh": "空手奪白刃",
-    "nameJp": "",
-    "nameEn": "AntiSwrd",
+    "name": { "zh": "空手奪白刃", "en": "AntiSwrd", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["B", "K", "R", "U", "Y"],
     "memory": "68 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向敵方設置陷阱受到劍攻擊時，架開並反擊！"
+    "description": {
+      "zh": "向敵方設置陷阱受到劍攻擊時，架開並反擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "193",
-    "nameZh": "領航員徵用",
-    "nameJp": "",
-    "nameEn": "AntiNavi",
+    "name": { "zh": "領航員徵用", "en": "AntiNavi", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A", "M", "N", "V", "W"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 4,
-    "description": "向敵方設置陷阱，呼叫出來的領航員會反叛到自己這邊"
+    "description": {
+      "zh": "向敵方設置陷阱，呼叫出來的領航員會反叛到自己這邊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "194",
-    "nameZh": "劣質藥品",
-    "nameJp": "",
-    "nameEn": "AntiRecv",
+    "name": { "zh": "劣質藥品", "en": "AntiRecv", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["B", "D", "E", "O", "S"],
     "memory": "73 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向敵方設置陷阱，敵方的回復反而會造成傷害"
+    "description": {
+      "zh": "向敵方設置陷阱，敵方的回復反而會造成傷害",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "195",
-    "nameZh": "攻擊+10",
-    "nameJp": "",
-    "nameEn": "Atk+10",
+    "name": { "zh": "攻擊+10", "en": "Atk+10", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "4 MB",
     "drops": [],
     "rarity": 1,
-    "description": "選在攻擊晶片之後攻擊力可以+10"
+    "description": { "zh": "選在攻擊晶片之後攻擊力可以+10", "en": "", "ja": "" }
   },
   {
     "no": "196",
-    "nameZh": "火+30",
-    "nameJp": "",
-    "nameEn": "Fire+30",
+    "name": { "zh": "火+30", "en": "Fire+30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "20 MB",
     "drops": [],
     "rarity": 2,
-    "description": "選在火屬性晶片之後攻擊力+30！"
+    "description": { "zh": "選在火屬性晶片之後攻擊力+30！", "en": "", "ja": "" }
   },
   {
     "no": "197",
-    "nameZh": "水+30",
-    "nameJp": "",
-    "nameEn": "Aqua+30",
+    "name": { "zh": "水+30", "en": "Aqua+30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "21 MB",
     "drops": [],
     "rarity": 2,
-    "description": "選在水屬性晶片之後攻擊力+30！"
+    "description": { "zh": "選在水屬性晶片之後攻擊力+30！", "en": "", "ja": "" }
   },
   {
     "no": "198",
-    "nameZh": "電+30",
-    "nameJp": "",
-    "nameEn": "Elec+30",
+    "name": { "zh": "電+30", "en": "Elec+30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "23 MB",
     "drops": [],
     "rarity": 2,
-    "description": "選在電屬性晶片之後攻擊力+30！"
+    "description": { "zh": "選在電屬性晶片之後攻擊力+30！", "en": "", "ja": "" }
   },
   {
     "no": "199",
-    "nameZh": "木+30",
-    "nameJp": "",
-    "nameEn": "Wood+30",
+    "name": { "zh": "木+30", "en": "Wood+30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "26 MB",
     "drops": [],
     "rarity": 2,
-    "description": "選在木屬性晶片之後攻擊力+30！"
+    "description": { "zh": "選在木屬性晶片之後攻擊力+30！", "en": "", "ja": "" }
   },
   {
     "no": "200",
-    "nameZh": "領航員+20",
-    "nameJp": "",
-    "nameEn": "Navi+20",
+    "name": { "zh": "領航員+20", "en": "Navi+20", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 2,
-    "description": "選在領航員晶片之後，攻擊力+20！"
+    "description": {
+      "zh": "選在領航員晶片之後，攻擊力+20！",
+      "en": "",
+      "ja": ""
+    }
   }
 ]

@@ -1,1107 +1,1189 @@
 [
   {
     "no": "1",
-    "nameZh": "妖刀村正",
-    "nameJp": "",
-    "nameEn": "Muramasa",
+    "name": { "zh": "妖刀村正", "en": "Muramasa", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["M"],
     "memory": "74 MB",
     "drops": [],
     "rarity": 5,
-    "description": "將減少的HP轉化為攻擊力的詛咒之刃！"
+    "description": {
+      "zh": "將減少的HP轉化為攻擊力的詛咒之刃！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "2",
-    "nameZh": "英雄劍",
-    "nameJp": "",
-    "nameEn": "HeroSwrd",
+    "name": { "zh": "英雄劍", "en": "HeroSwrd", "ja": "" },
     "element": "無",
     "damage": 180,
     "codes": ["P"],
     "memory": "65 MB",
     "drops": [],
     "rarity": 4,
-    "description": "傳說的聖騎士之劍！攻擊範圍為橫向3格"
+    "description": {
+      "zh": "傳說的聖騎士之劍！攻擊範圍為橫向3格",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "3",
-    "nameZh": "宙斯之鎚",
-    "nameJp": "",
-    "nameEn": "ZeusHamr",
+    "name": { "zh": "宙斯之鎚", "en": "ZeusHamr", "ja": "" },
     "element": "無",
     "damage": 250,
     "codes": ["Z"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在有地面的格子上不分敵我給予大損傷！"
+    "description": {
+      "zh": "在有地面的格子上不分敵我給予大損傷！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "4",
-    "nameZh": "紅炎",
-    "nameJp": "",
-    "nameEn": "StandOut",
+    "name": { "zh": "紅炎", "en": "StandOut", "ja": "" },
     "element": "火",
     "damage": 220,
     "codes": ["P"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 3,
-    "description": "火屬性專用產生灼熱洞穴前進的火"
+    "description": {
+      "zh": "火屬性專用產生灼熱洞穴前進的火",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "5",
-    "nameZh": "火蜥蜴",
-    "nameJp": "",
-    "nameEn": "Salamndr",
+    "name": { "zh": "火蜥蜴", "en": "Salamndr", "ja": "" },
     "element": "火",
     "damage": 300,
     "codes": ["S", "*"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 4,
-    "description": "火屬性專用產生灼熱洞穴前進的火"
+    "description": {
+      "zh": "火屬性專用產生灼熱洞穴前進的火",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "6",
-    "nameZh": "地下水脈",
-    "nameJp": "",
-    "nameEn": "WatrLine",
+    "name": { "zh": "地下水脈", "en": "WatrLine", "ja": "" },
     "element": "水",
     "damage": 180,
     "codes": ["C", "*"],
     "memory": "18 MB",
     "drops": [],
     "rarity": 3,
-    "description": "水屬性專用從前方的洞產生前進的水"
+    "description": {
+      "zh": "水屬性專用從前方的洞產生前進的水",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "7",
-    "nameZh": "大噴水",
-    "nameJp": "",
-    "nameEn": "Fountain",
+    "name": { "zh": "大噴水", "en": "Fountain", "ja": "" },
     "element": "水",
     "damage": 240,
     "codes": ["D", "*"],
     "memory": "48 MB",
     "drops": [],
     "rarity": 3,
-    "description": "水屬性專用從前方的洞產生前進的水"
+    "description": {
+      "zh": "水屬性專用從前方的洞產生前進的水",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "8",
-    "nameZh": "雷電",
-    "nameJp": "",
-    "nameEn": "Lightning",
+    "name": { "zh": "雷電", "en": "Lightning", "ja": "" },
     "element": "電",
     "damage": 160,
     "codes": ["L", "*"],
     "memory": "30 MB",
     "drops": [],
     "rarity": 3,
-    "description": "電屬性專用對物體落雷！周圍也會觸電！"
+    "description": {
+      "zh": "電屬性專用對物體落雷！周圍也會觸電！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "9",
-    "nameZh": "閃電霹靂",
-    "nameJp": "",
-    "nameEn": "Bolt",
+    "name": { "zh": "閃電霹靂", "en": "Bolt", "ja": "" },
     "element": "電",
     "damage": 210,
     "codes": ["T", "*"],
     "memory": "52 MB",
     "drops": [],
     "rarity": 3,
-    "description": "電屬性專用對物體落雷！周圍也會觸電！"
+    "description": {
+      "zh": "電屬性專用對物體落雷！周圍也會觸電！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "10",
-    "nameZh": "蓋亞劍",
-    "nameJp": "",
-    "nameEn": "GaiaSwrd",
+    "name": { "zh": "蓋亞劍", "en": "GaiaSwrd", "ja": "" },
     "element": "木",
     "damage": 100,
     "codes": ["G", "*"],
     "memory": "28 MB",
     "drops": [],
     "rarity": 3,
-    "description": "木屬性專用將後面的晶片攻擊吸收"
+    "description": {
+      "zh": "木屬性專用將後面的晶片攻擊吸收",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "11",
-    "nameZh": "蓋亞刃",
-    "nameJp": "",
-    "nameEn": "GaiaBlad",
+    "name": { "zh": "蓋亞刃", "en": "GaiaBlad", "ja": "" },
     "element": "木",
     "damage": 100,
     "codes": ["G", "*"],
     "memory": "55 MB",
     "drops": [],
     "rarity": 4,
-    "description": "木屬性專用將後面的晶片攻擊吸收"
+    "description": {
+      "zh": "木屬性專用將後面的晶片攻擊吸收",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "12",
-    "nameZh": "流星群",
-    "nameJp": "",
-    "nameEn": "Meteors",
+    "name": { "zh": "流星群", "en": "Meteors", "ja": "" },
     "element": "火",
     "damage": 40,
     "codes": ["R"],
     "memory": "86 MB",
     "drops": [],
     "rarity": 4,
-    "description": "在敵人周圍格子產生隕石的大量地藏像"
+    "description": {
+      "zh": "在敵人周圍格子產生隕石的大量地藏像",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "13",
-    "nameZh": "地藏像",
-    "nameJp": "",
-    "nameEn": "Guardian",
+    "name": { "zh": "地藏像", "en": "Guardian", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["O"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "放置後守護者放出毒氣敵人會中毒的地藏像"
+    "description": {
+      "zh": "放置後守護者放出毒氣敵人會中毒的地藏像",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "14",
-    "nameZh": "毒氣阿努比斯",
-    "nameJp": "",
-    "nameEn": "Anubis",
+    "name": { "zh": "毒氣阿努比斯", "en": "Anubis", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["A"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 5,
-    "description": "放置阿努比斯使敵方區域產生毒！"
+    "description": {
+      "zh": "放置阿努比斯使敵方區域產生毒！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "15",
-    "nameZh": "神石",
-    "nameJp": "",
-    "nameEn": "GodStone",
+    "name": { "zh": "神石", "en": "GodStone", "ja": "" },
     "element": "無",
     "damage": 150,
     "codes": ["S"],
     "memory": "66 MB",
     "drops": [],
     "rarity": 4,
-    "description": "從前方的洞穴叫出神石！"
+    "description": { "zh": "從前方的洞穴叫出神石！", "en": "", "ja": "" }
   },
   {
     "no": "16",
-    "nameZh": "老樹",
-    "nameJp": "",
-    "nameEn": "OldWood",
+    "name": { "zh": "老樹", "en": "OldWood", "ja": "" },
     "element": "木",
     "damage": 100,
     "codes": ["W"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 4,
-    "description": "從前方的洞穴叫出老樹！"
+    "description": { "zh": "從前方的洞穴叫出老樹！", "en": "", "ja": "" }
   },
   {
     "no": "17",
-    "nameZh": "嫉妒",
-    "nameJp": "",
-    "nameEn": "Jealousy",
+    "name": { "zh": "嫉妒", "en": "Jealousy", "ja": "" },
     "element": "無",
     "damage": 100,
     "codes": ["J"],
     "memory": "64 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對附近的敵人以嫉妒攻擊給予傷害"
+    "description": {
+      "zh": "對附近的敵人以嫉妒攻擊給予傷害",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "18",
-    "nameZh": "騷靈",
-    "nameJp": "",
-    "nameEn": "Poltrgst",
+    "name": { "zh": "騷靈", "en": "Poltrgst", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["G"],
     "memory": "58 MB",
     "drops": [],
     "rarity": 5,
-    "description": "敵人以外的物體飛起向敵人突擊！"
+    "description": {
+      "zh": "敵人以外的物體飛起向敵人突擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "19",
-    "nameZh": "夢之靈",
-    "nameJp": "",
-    "nameEn": "LifeAura",
+    "name": { "zh": "夢之靈", "en": "LifeAura", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["D"],
     "memory": "77 MB",
     "drops": [],
     "rarity": 4,
-    "description": "施展靈光將低於200的攻擊無效化"
+    "description": { "zh": "施展靈光將低於200的攻擊無效化", "en": "", "ja": "" }
   },
   {
     "no": "20",
-    "nameZh": "量表全滿",
-    "nameJp": "",
-    "nameEn": "FullCust",
+    "name": { "zh": "量表全滿", "en": "FullCust", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 3,
-    "description": "瞬間集滿改裝計量表！"
+    "description": { "zh": "瞬間集滿改裝計量表！", "en": "", "ja": "" }
   },
   {
     "no": "21",
-    "nameZh": "攻擊+30",
-    "nameJp": "",
-    "nameEn": "Atk+30",
+    "name": { "zh": "攻擊+30", "en": "Atk+30", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "選擇晶片之後攻擊力+30！"
+    "description": { "zh": "選擇晶片之後攻擊力+30！", "en": "", "ja": "" }
   },
   {
     "no": "22",
-    "nameZh": "領航員+40",
-    "nameJp": "",
-    "nameEn": "Navi+40",
+    "name": { "zh": "領航員+40", "en": "Navi+40", "ja": "" },
     "element": "無",
     "damage": null,
     "codes": ["*"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "選擇領航員晶片之後攻擊力+40"
+    "description": { "zh": "選擇領航員晶片之後攻擊力+40", "en": "", "ja": "" }
   },
   {
     "no": "23",
-    "nameZh": "蘿露",
-    "nameJp": "ロール",
-    "nameEn": "Roll",
+    "name": { "zh": "蘿露", "en": "Roll", "ja": "ロール" },
     "element": "無",
     "damage": 20,
     "codes": ["R"],
     "memory": "10 MB",
     "drops": [],
     "rarity": 3,
-    "description": "攻擊1個敵人後以回復愛心回復HP"
+    "description": { "zh": "攻擊1個敵人後以回復愛心回復HP", "en": "", "ja": "" }
   },
   {
     "no": "24",
-    "nameZh": "蘿露V2",
-    "nameJp": "ロール V2",
-    "nameEn": "Roll V2",
+    "name": { "zh": "蘿露V2", "en": "Roll V2", "ja": "ロール V2" },
     "element": "無",
     "damage": 30,
     "codes": ["R"],
     "memory": "22 MB",
     "drops": [],
     "rarity": 4,
-    "description": "攻擊1個敵人後以回復愛心回復HP"
+    "description": { "zh": "攻擊1個敵人後以回復愛心回復HP", "en": "", "ja": "" }
   },
   {
     "no": "25",
-    "nameZh": "蘿露V3",
-    "nameJp": "ロール V3",
-    "nameEn": "Roll V3",
+    "name": { "zh": "蘿露V3", "en": "Roll V3", "ja": "ロール V3" },
     "element": "無",
     "damage": 40,
     "codes": ["R"],
     "memory": "34 MB",
     "drops": [],
     "rarity": 5,
-    "description": "攻擊1個敵人後以回復愛心回復HP"
+    "description": { "zh": "攻擊1個敵人後以回復愛心回復HP", "en": "", "ja": "" }
   },
   {
     "no": "26",
-    "nameZh": "氣力人",
-    "nameJp": "ガッツマン",
-    "nameEn": "GutsMan",
+    "name": { "zh": "氣力人", "en": "GutsMan", "ja": "ガッツマン" },
     "element": "無",
     "damage": 50,
     "codes": ["G"],
     "memory": "15 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
+    "description": {
+      "zh": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "27",
-    "nameZh": "氣力人V2",
-    "nameJp": "ガッツマン V2",
-    "nameEn": "GutsMan V2",
+    "name": { "zh": "氣力人V2", "en": "GutsMan V2", "ja": "ガッツマン V2" },
     "element": "無",
     "damage": 70,
     "codes": ["G"],
     "memory": "41 MB",
     "drops": [],
     "rarity": 4,
-    "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
+    "description": {
+      "zh": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "28",
-    "nameZh": "氣力人V3",
-    "nameJp": "ガッツマン V3",
-    "nameEn": "GutsMan V3",
+    "name": { "zh": "氣力人V3", "en": "GutsMan V3", "ja": "ガッツマン V3" },
     "element": "無",
     "damage": 90,
     "codes": ["G"],
     "memory": "57 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
+    "description": {
+      "zh": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "29",
-    "nameZh": "氣力人V4",
-    "nameJp": "ガッツマン V4",
-    "nameEn": "GutsMan V4",
+    "name": { "zh": "氣力人V4", "en": "GutsMan V4", "ja": "ガッツマン V4" },
     "element": "無",
     "damage": 100,
     "codes": ["G"],
     "memory": "63 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！"
+    "description": {
+      "zh": "對前方使用沿著地面的衝擊波！讓地面產生碎裂！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "30",
-    "nameZh": "布魯斯",
-    "nameJp": "ブルース",
-    "nameEn": "ProtoMan",
+    "name": { "zh": "布魯斯", "en": "ProtoMan", "ja": "ブルース" },
     "element": "無",
     "damage": 160,
     "codes": ["B"],
     "memory": "68 MB",
     "drops": [],
     "rarity": 3,
-    "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
+    "description": {
+      "zh": "到敵人面前逐一斬擊也有無法移動到面前的狀況",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "31",
-    "nameZh": "布魯斯V2",
-    "nameJp": "ブルース V2",
-    "nameEn": "ProtoMan V2",
+    "name": { "zh": "布魯斯V2", "en": "ProtoMan V2", "ja": "ブルース V2" },
     "element": "無",
     "damage": 180,
     "codes": ["B"],
     "memory": "76 MB",
     "drops": [],
     "rarity": 4,
-    "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
+    "description": {
+      "zh": "到敵人面前逐一斬擊也有無法移動到面前的狀況",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "32",
-    "nameZh": "布魯斯V3",
-    "nameJp": "ブルース V3",
-    "nameEn": "ProtoMan V3",
+    "name": { "zh": "布魯斯V3", "en": "ProtoMan V3", "ja": "ブルース V3" },
     "element": "無",
     "damage": 200,
     "codes": ["B"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 5,
-    "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
+    "description": {
+      "zh": "到敵人面前逐一斬擊也有無法移動到面前的狀況",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "33",
-    "nameZh": "布魯斯V4",
-    "nameJp": "ブルース V4",
-    "nameEn": "ProtoMan V4",
+    "name": { "zh": "布魯斯V4", "en": "ProtoMan V4", "ja": "ブルース V4" },
     "element": "無",
     "damage": 220,
     "codes": ["B"],
     "memory": "90 MB",
     "drops": [],
     "rarity": 5,
-    "description": "到敵人面前逐一斬擊也有無法移動到面前的狀況"
+    "description": {
+      "zh": "到敵人面前逐一斬擊也有無法移動到面前的狀況",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "34",
-    "nameZh": "閃光人",
-    "nameJp": "フラッシュマン",
-    "nameEn": "FlashMan",
+    "name": { "zh": "閃光人", "en": "FlashMan", "ja": "フラッシュマン" },
     "element": "電",
     "damage": 50,
     "codes": ["F"],
     "memory": "39 MB",
     "drops": [],
     "rarity": 3,
-    "description": "使出照亮一切的閃光攻擊！使對手麻痺"
+    "description": {
+      "zh": "使出照亮一切的閃光攻擊！使對手麻痺",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "35",
-    "nameZh": "閃光人V2",
-    "nameJp": "フラッシュマン V2",
-    "nameEn": "FlashMan V2",
+    "name": {
+      "zh": "閃光人V2",
+      "en": "FlashMan V2",
+      "ja": "フラッシュマン V2"
+    },
     "element": "電",
     "damage": 70,
     "codes": ["F"],
     "memory": "59 MB",
     "drops": [],
     "rarity": 4,
-    "description": "使出照亮一切的閃光攻擊！使對手麻痺"
+    "description": {
+      "zh": "使出照亮一切的閃光攻擊！使對手麻痺",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "36",
-    "nameZh": "閃光人V3",
-    "nameJp": "フラッシュマン V3",
-    "nameEn": "FlashMan V3",
+    "name": {
+      "zh": "閃光人V3",
+      "en": "FlashMan V3",
+      "ja": "フラッシュマン V3"
+    },
     "element": "電",
     "damage": 90,
     "codes": ["F"],
     "memory": "69 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使出照亮一切的閃光攻擊！使對手麻痺"
+    "description": {
+      "zh": "使出照亮一切的閃光攻擊！使對手麻痺",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "37",
-    "nameZh": "閃光人V4",
-    "nameJp": "フラッシュマン V4",
-    "nameEn": "FlashMan V4",
+    "name": {
+      "zh": "閃光人V4",
+      "en": "FlashMan V4",
+      "ja": "フラッシュマン V4"
+    },
     "element": "電",
     "damage": 120,
     "codes": ["F"],
     "memory": "79 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使出照亮一切的閃光攻擊！使對手麻痺"
+    "description": {
+      "zh": "使出照亮一切的閃光攻擊！使對手麻痺",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "38",
-    "nameZh": "野獸人",
-    "nameJp": "ビーストマン",
-    "nameEn": "BeastMan",
+    "name": { "zh": "野獸人", "en": "BeastMan", "ja": "ビーストマン" },
     "element": "無",
     "damage": 40,
     "codes": ["B"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向前方3格處用尖銳的爪和牙襲擊！"
+    "description": {
+      "zh": "向前方3格處用尖銳的爪和牙襲擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "39",
-    "nameZh": "野獸人V2",
-    "nameJp": "ビーストマン V2",
-    "nameEn": "BeastMan V2",
+    "name": { "zh": "野獸人V2", "en": "BeastMan V2", "ja": "ビーストマン V2" },
     "element": "無",
     "damage": 50,
     "codes": ["B"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 4,
-    "description": "向前方3格處用尖銳的爪和牙襲擊！"
+    "description": {
+      "zh": "向前方3格處用尖銳的爪和牙襲擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "40",
-    "nameZh": "野獸人V3",
-    "nameJp": "ビーストマン V3",
-    "nameEn": "BeastMan V3",
+    "name": { "zh": "野獸人V3", "en": "BeastMan V3", "ja": "ビーストマン V3" },
     "element": "無",
     "damage": 60,
     "codes": ["B"],
     "memory": "68 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向前方3格處用尖銳的爪和牙襲擊！"
+    "description": {
+      "zh": "向前方3格處用尖銳的爪和牙襲擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "41",
-    "nameZh": "野獸人V4",
-    "nameJp": "ビーストマン V4",
-    "nameEn": "BeastMan V4",
+    "name": { "zh": "野獸人V4", "en": "BeastMan V4", "ja": "ビーストマン V4" },
     "element": "無",
     "damage": 70,
     "codes": ["B"],
     "memory": "76 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向前方3格處用尖銳的爪和牙襲擊！"
+    "description": {
+      "zh": "向前方3格處用尖銳的爪和牙襲擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "42",
-    "nameZh": "泡沫人",
-    "nameJp": "バブルマン",
-    "nameEn": "BubbleMan",
+    "name": { "zh": "泡沫人", "en": "BubbleMan", "ja": "バブルマン" },
     "element": "水",
     "damage": 20,
     "codes": ["B"],
     "memory": "50 MB",
     "drops": [],
     "rarity": 3,
-    "description": "向同一列的前方以水射擊連射！"
+    "description": { "zh": "向同一列的前方以水射擊連射！", "en": "", "ja": "" }
   },
   {
     "no": "43",
-    "nameZh": "泡沫人V2",
-    "nameJp": "バブルマン V2",
-    "nameEn": "BubbleMan V2",
+    "name": { "zh": "泡沫人V2", "en": "BubbleMan V2", "ja": "バブルマン V2" },
     "element": "水",
     "damage": 20,
     "codes": ["B"],
     "memory": "62 MB",
     "drops": [],
     "rarity": 4,
-    "description": "向同一列的前方以水射擊連射！"
+    "description": { "zh": "向同一列的前方以水射擊連射！", "en": "", "ja": "" }
   },
   {
     "no": "44",
-    "nameZh": "泡沫人V3",
-    "nameJp": "バブルマン V3",
-    "nameEn": "BubbleMan V3",
+    "name": { "zh": "泡沫人V3", "en": "BubbleMan V3", "ja": "バブルマン V3" },
     "element": "水",
     "damage": 20,
     "codes": ["B"],
     "memory": "74 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向同一列的前方以水射擊連射！"
+    "description": { "zh": "向同一列的前方以水射擊連射！", "en": "", "ja": "" }
   },
   {
     "no": "45",
-    "nameZh": "泡沫人V4",
-    "nameJp": "バブルマン V4",
-    "nameEn": "BubbleMan V4",
+    "name": { "zh": "泡沫人V4", "en": "BubbleMan V4", "ja": "バブルマン V4" },
     "element": "水",
     "damage": 20,
     "codes": ["B"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "向同一列的前方以水射擊連射！"
+    "description": { "zh": "向同一列的前方以水射擊連射！", "en": "", "ja": "" }
   },
   {
     "no": "46",
-    "nameZh": "沙漠人",
-    "nameJp": "デザートマン",
-    "nameEn": "DesertMan",
+    "name": { "zh": "沙漠人", "en": "DesertMan", "ja": "デザートマン" },
     "element": "無",
     "damage": 120,
     "codes": ["D"],
     "memory": "38 MB",
     "drops": [],
     "rarity": 3,
-    "description": "兩邊斜前方出現的手向正前突進！"
+    "description": {
+      "zh": "兩邊斜前方出現的手向正前突進！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "47",
-    "nameZh": "沙漠人V2",
-    "nameJp": "デザートマン V2",
-    "nameEn": "DesertMan V2",
+    "name": { "zh": "沙漠人V2", "en": "DesertMan V2", "ja": "デザートマン V2" },
     "element": "無",
     "damage": 140,
     "codes": ["D"],
     "memory": "52 MB",
     "drops": [],
     "rarity": 4,
-    "description": "兩邊斜前方出現的手向正前突進！"
+    "description": {
+      "zh": "兩邊斜前方出現的手向正前突進！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "48",
-    "nameZh": "沙漠人V3",
-    "nameJp": "デザートマン V3",
-    "nameEn": "DesertMan V3",
+    "name": { "zh": "沙漠人V3", "en": "DesertMan V3", "ja": "デザートマン V3" },
     "element": "無",
     "damage": 160,
     "codes": ["D"],
     "memory": "64 MB",
     "drops": [],
     "rarity": 5,
-    "description": "兩邊斜前方出現的手向正前突進！"
+    "description": {
+      "zh": "兩邊斜前方出現的手向正前突進！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "49",
-    "nameZh": "沙漠人V4",
-    "nameJp": "デザートマン V4",
-    "nameEn": "DesertMan V4",
+    "name": { "zh": "沙漠人V4", "en": "DesertMan V4", "ja": "デザートマン V4" },
     "element": "無",
     "damage": 180,
     "codes": ["D"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 5,
-    "description": "兩邊斜前方出現的手向正前突進！"
+    "description": {
+      "zh": "兩邊斜前方出現的手向正前突進！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "50",
-    "nameZh": "植物人",
-    "nameJp": "プラントマン",
-    "nameEn": "PlantMan",
+    "name": { "zh": "植物人", "en": "PlantMan", "ja": "プラントマン" },
     "element": "木",
     "damage": 20,
     "codes": ["P"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 3,
-    "description": "順著地下移動對所有的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "順著地下移動對所有的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "51",
-    "nameZh": "植物人V2",
-    "nameJp": "プラントマン V2",
-    "nameEn": "PlantMan V2",
+    "name": { "zh": "植物人V2", "en": "PlantMan V2", "ja": "プラントマン V2" },
     "element": "木",
     "damage": 30,
     "codes": ["P"],
     "memory": "65 MB",
     "drops": [],
     "rarity": 4,
-    "description": "順著地下移動對所有的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "順著地下移動對所有的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "52",
-    "nameZh": "植物人V3",
-    "nameJp": "プラントマン V3",
-    "nameEn": "PlantMan V3",
+    "name": { "zh": "植物人V3", "en": "PlantMan V3", "ja": "プラントマン V3" },
     "element": "木",
     "damage": 40,
     "codes": ["P"],
     "memory": "70 MB",
     "drops": [],
     "rarity": 5,
-    "description": "順著地下移動對所有的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "順著地下移動對所有的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "53",
-    "nameZh": "植物人V4",
-    "nameJp": "プラントマン V4",
-    "nameEn": "PlantMan V4",
+    "name": { "zh": "植物人V4", "en": "PlantMan V4", "ja": "プラントマン V4" },
     "element": "木",
     "damage": 50,
     "codes": ["P"],
     "memory": "75 MB",
     "drops": [],
     "rarity": 5,
-    "description": "順著地下移動對所有的敵人以藤蔓攻擊！"
+    "description": {
+      "zh": "順著地下移動對所有的敵人以藤蔓攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "54",
-    "nameZh": "烈焰人",
-    "nameJp": "フレイムマン",
-    "nameEn": "FlameMan",
+    "name": { "zh": "烈焰人", "en": "FlameMan", "ja": "フレイムマン" },
     "element": "火",
     "damage": 120,
     "codes": ["F"],
     "memory": "32 MB",
     "drops": [],
     "rarity": 3,
-    "description": "操縱灼熱的火焰燒盡一切！"
+    "description": { "zh": "操縱灼熱的火焰燒盡一切！", "en": "", "ja": "" }
   },
   {
     "no": "55",
-    "nameZh": "烈焰人V2",
-    "nameJp": "フレイムマン V2",
-    "nameEn": "FlameMan V2",
+    "name": { "zh": "烈焰人V2", "en": "FlameMan V2", "ja": "フレイムマン V2" },
     "element": "火",
     "damage": 150,
     "codes": ["F"],
     "memory": "52 MB",
     "drops": [],
     "rarity": 4,
-    "description": "操縱灼熱的火焰燒盡一切！"
+    "description": { "zh": "操縱灼熱的火焰燒盡一切！", "en": "", "ja": "" }
   },
   {
     "no": "56",
-    "nameZh": "烈焰人V3",
-    "nameJp": "フレイムマン V3",
-    "nameEn": "FlameMan V3",
+    "name": { "zh": "烈焰人V3", "en": "FlameMan V3", "ja": "フレイムマン V3" },
     "element": "火",
     "damage": 180,
     "codes": ["F"],
     "memory": "62 MB",
     "drops": [],
     "rarity": 5,
-    "description": "操縱灼熱的火焰燒盡一切！"
+    "description": { "zh": "操縱灼熱的火焰燒盡一切！", "en": "", "ja": "" }
   },
   {
     "no": "57",
-    "nameZh": "烈焰人V4",
-    "nameJp": "フレイムマン V4",
-    "nameEn": "FlameMan V4",
+    "name": { "zh": "烈焰人V4", "en": "FlameMan V4", "ja": "フレイムマン V4" },
     "element": "火",
     "damage": 210,
     "codes": ["F"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 5,
-    "description": "操縱灼熱的火焰燒盡一切！"
+    "description": { "zh": "操縱灼熱的火焰燒盡一切！", "en": "", "ja": "" }
   },
   {
     "no": "58",
-    "nameZh": "鑽頭人",
-    "nameJp": "ドリルマン",
-    "nameEn": "DrillMan",
+    "name": { "zh": "鑽頭人", "en": "DrillMan", "ja": "ドリルマン" },
     "element": "無",
     "damage": 70,
     "codes": ["D"],
     "memory": "66 MB",
     "drops": [],
     "rarity": 3,
-    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": {
+      "zh": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "59",
-    "nameZh": "鑽頭人V2",
-    "nameJp": "ドリルマン V2",
-    "nameEn": "DrillMan V2",
+    "name": { "zh": "鑽頭人V2", "en": "DrillMan V2", "ja": "ドリルマン V2" },
     "element": "無",
     "damage": 90,
     "codes": ["D"],
     "memory": "70 MB",
     "drops": [],
     "rarity": 4,
-    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": {
+      "zh": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "60",
-    "nameZh": "鑽頭人V3",
-    "nameJp": "ドリルマン V3",
-    "nameEn": "DrillMan V3",
+    "name": { "zh": "鑽頭人V3", "en": "DrillMan V3", "ja": "ドリルマン V3" },
     "element": "無",
     "damage": 110,
     "codes": ["D"],
     "memory": "74 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": {
+      "zh": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "61",
-    "nameZh": "鑽頭人V4",
-    "nameJp": "ドリルマン V4",
-    "nameEn": "DrillMan V4",
+    "name": { "zh": "鑽頭人V4", "en": "DrillMan V4", "ja": "ドリルマン V4" },
     "element": "無",
     "damage": 130,
     "codes": ["D"],
     "memory": "78 MB",
     "drops": [],
     "rarity": 5,
-    "description": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！"
+    "description": {
+      "zh": "使用3個鑽頭的突擊攻擊、鑿岩攻擊最後是瓦礫攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "62",
-    "nameZh": "金屬人",
-    "nameJp": "メタルマン",
-    "nameEn": "MetalMan",
+    "name": { "zh": "金屬人", "en": "MetalMan", "ja": "メタルマン" },
     "element": "無",
     "damage": 100,
     "codes": ["M"],
     "memory": "40 MB",
     "drops": [],
     "rarity": 3,
-    "description": "對面前的1格揮下鋼鐵之拳！"
+    "description": { "zh": "對面前的1格揮下鋼鐵之拳！", "en": "", "ja": "" }
   },
   {
     "no": "63",
-    "nameZh": "金屬人V2",
-    "nameJp": "メタルマン V2",
-    "nameEn": "MetalMan V2",
+    "name": { "zh": "金屬人V2", "en": "MetalMan V2", "ja": "メタルマン V2" },
     "element": "無",
     "damage": 130,
     "codes": ["M"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 4,
-    "description": "對面前的1格揮下鋼鐵之拳！"
+    "description": { "zh": "對面前的1格揮下鋼鐵之拳！", "en": "", "ja": "" }
   },
   {
     "no": "64",
-    "nameZh": "金屬人V3",
-    "nameJp": "メタルマン V3",
-    "nameEn": "MetalMan V3",
+    "name": { "zh": "金屬人V3", "en": "MetalMan V3", "ja": "メタルマン V3" },
     "element": "無",
     "damage": 160,
     "codes": ["M"],
     "memory": "70 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對面前的1格揮下鋼鐵之拳！"
+    "description": { "zh": "對面前的1格揮下鋼鐵之拳！", "en": "", "ja": "" }
   },
   {
     "no": "65",
-    "nameZh": "金屬人V4",
-    "nameJp": "メタルマン V4",
-    "nameEn": "MetalMan V4",
+    "name": { "zh": "金屬人V4", "en": "MetalMan V4", "ja": "メタルマン V4" },
     "element": "無",
     "damage": 190,
     "codes": ["M"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "對面前的1格揮下鋼鐵之拳！"
+    "description": { "zh": "對面前的1格揮下鋼鐵之拳！", "en": "", "ja": "" }
   },
   {
     "no": "66",
-    "nameZh": "國王人",
-    "nameJp": "キングマン",
-    "nameEn": "KingMan",
+    "name": { "zh": "國王人", "en": "KingMan", "ja": "キングマン" },
     "element": "無",
     "damage": 140,
     "codes": ["K"],
     "memory": "36 MB",
     "drops": [],
     "rarity": 3,
-    "description": "跳往3格前的空地後向上下左右攻擊！"
+    "description": {
+      "zh": "跳往3格前的空地後向上下左右攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "67",
-    "nameZh": "國王人V2",
-    "nameJp": "キングマン V2",
-    "nameEn": "KingMan V2",
+    "name": { "zh": "國王人V2", "en": "KingMan V2", "ja": "キングマン V2" },
     "element": "無",
     "damage": 170,
     "codes": ["K"],
     "memory": "48 MB",
     "drops": [],
     "rarity": 4,
-    "description": "跳往3格前的空地後向上下左右攻擊！"
+    "description": {
+      "zh": "跳往3格前的空地後向上下左右攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "68",
-    "nameZh": "國王人V3",
-    "nameJp": "キングマン V3",
-    "nameEn": "KingMan V3",
+    "name": { "zh": "國王人V3", "en": "KingMan V3", "ja": "キングマン V3" },
     "element": "無",
     "damage": 200,
     "codes": ["K"],
     "memory": "60 MB",
     "drops": [],
     "rarity": 5,
-    "description": "跳往3格前的空地後向上下左右攻擊！"
+    "description": {
+      "zh": "跳往3格前的空地後向上下左右攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "69",
-    "nameZh": "國王人V4",
-    "nameJp": "キングマン V4",
-    "nameEn": "KingMan V4",
+    "name": { "zh": "國王人V4", "en": "KingMan V4", "ja": "キングマン V4" },
     "element": "無",
     "damage": 240,
     "codes": ["K"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 5,
-    "description": "跳往3格前的空地後向上下左右攻擊！"
+    "description": {
+      "zh": "跳往3格前的空地後向上下左右攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "70",
-    "nameZh": "煙霧人",
-    "nameJp": "ミストマン",
-    "nameEn": "MistMan",
+    "name": { "zh": "煙霧人", "en": "MistMan", "ja": "ミストマン" },
     "element": "無",
     "damage": 90,
     "codes": ["M"],
     "memory": "68 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在敵人的前後出現霧變身成魔人拳擊"
+    "description": {
+      "zh": "在敵人的前後出現霧變身成魔人拳擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "71",
-    "nameZh": "煙霧人V2",
-    "nameJp": "ミストマン V2",
-    "nameEn": "MistMan V2",
+    "name": { "zh": "煙霧人V2", "en": "MistMan V2", "ja": "ミストマン V2" },
     "element": "無",
     "damage": 110,
     "codes": ["M"],
     "memory": "71 MB",
     "drops": [],
     "rarity": 4,
-    "description": "在敵人的前後出現霧變身成魔人拳擊"
+    "description": {
+      "zh": "在敵人的前後出現霧變身成魔人拳擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "72",
-    "nameZh": "煙霧人V3",
-    "nameJp": "ミストマン V3",
-    "nameEn": "MistMan V3",
+    "name": { "zh": "煙霧人V3", "en": "MistMan V3", "ja": "ミストマン V3" },
     "element": "無",
     "damage": 130,
     "codes": ["M"],
     "memory": "74 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人的前後出現霧變身成魔人拳擊"
+    "description": {
+      "zh": "在敵人的前後出現霧變身成魔人拳擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "73",
-    "nameZh": "煙霧人V4",
-    "nameJp": "ミストマン V4",
-    "nameEn": "MistMan V4",
+    "name": { "zh": "煙霧人V4", "en": "MistMan V4", "ja": "ミストマン V4" },
     "element": "無",
     "damage": 150,
     "codes": ["M"],
     "memory": "77 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人的前後出現霧變身成魔人拳擊"
+    "description": {
+      "zh": "在敵人的前後出現霧變身成魔人拳擊",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "74",
-    "nameZh": "保齡球人",
-    "nameJp": "ボウルマン",
-    "nameEn": "BowlMan",
+    "name": { "zh": "保齡球人", "en": "BowlMan", "ja": "ボウルマン" },
     "element": "無",
     "damage": 100,
     "codes": ["B"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 3,
-    "description": "與前方敵人之間排列球瓶的保齡球攻擊！"
+    "description": {
+      "zh": "與前方敵人之間排列球瓶的保齡球攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "75",
-    "nameZh": "保齡球人V2",
-    "nameJp": "ボウルマン V2",
-    "nameEn": "BowlMan V2",
+    "name": { "zh": "保齡球人V2", "en": "BowlMan V2", "ja": "ボウルマン V2" },
     "element": "無",
     "damage": 120,
     "codes": ["B"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 4,
-    "description": "與前方敵人之間排列球瓶的保齡球攻擊！"
+    "description": {
+      "zh": "與前方敵人之間排列球瓶的保齡球攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "76",
-    "nameZh": "保齡球人V3",
-    "nameJp": "ボウルマン V3",
-    "nameEn": "BowlMan V3",
+    "name": { "zh": "保齡球人V3", "en": "BowlMan V3", "ja": "ボウルマン V3" },
     "element": "無",
     "damage": 140,
     "codes": ["B"],
     "memory": "84 MB",
     "drops": [],
     "rarity": 5,
-    "description": "與前方敵人之間排列球瓶的保齡球攻擊！"
+    "description": {
+      "zh": "與前方敵人之間排列球瓶的保齡球攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "77",
-    "nameZh": "保齡球人V4",
-    "nameJp": "ボウルマン V4",
-    "nameEn": "BowlMan V4",
+    "name": { "zh": "保齡球人V4", "en": "BowlMan V4", "ja": "ボウルマン V4" },
     "element": "無",
     "damage": 160,
     "codes": ["B"],
     "memory": "86 MB",
     "drops": [],
     "rarity": 5,
-    "description": "與前方敵人之間排列球瓶的保齡球攻擊！"
+    "description": {
+      "zh": "與前方敵人之間排列球瓶的保齡球攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "78",
-    "nameZh": "黑暗人",
-    "nameJp": "ダークマン",
-    "nameEn": "DarkMan",
+    "name": { "zh": "黑暗人", "en": "DarkMan", "ja": "ダークマン" },
     "element": "無",
     "damage": 30,
     "codes": ["D"],
     "memory": "72 MB",
     "drops": [],
     "rarity": 3,
-    "description": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！"
+    "description": {
+      "zh": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "79",
-    "nameZh": "黑暗人V2",
-    "nameJp": "ダークマン V2",
-    "nameEn": "DarkMan V2",
+    "name": { "zh": "黑暗人V2", "en": "DarkMan V2", "ja": "ダークマン V2" },
     "element": "無",
     "damage": 30,
     "codes": ["D"],
     "memory": "76 MB",
     "drops": [],
     "rarity": 4,
-    "description": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！"
+    "description": {
+      "zh": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "80",
-    "nameZh": "黑暗人V3",
-    "nameJp": "ダークマン V3",
-    "nameEn": "DarkMan V3",
+    "name": { "zh": "黑暗人V3", "en": "DarkMan V3", "ja": "ダークマン V3" },
     "element": "無",
     "damage": 30,
     "codes": ["D"],
     "memory": "80 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！"
+    "description": {
+      "zh": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "81",
-    "nameZh": "黑暗人V4",
-    "nameJp": "ダークマン V4",
-    "nameEn": "DarkMan V4",
+    "name": { "zh": "黑暗人V4", "en": "DarkMan V4", "ja": "ダークマン V4" },
     "element": "無",
     "damage": 30,
     "codes": ["D"],
     "memory": "84 MB",
     "drops": [],
     "rarity": 5,
-    "description": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！"
+    "description": {
+      "zh": "在敵人區域側邊出現3個洞窟！黑色翅膀攻擊！",
+      "en": "",
+      "ja": ""
+    }
   },
   {
     "no": "82",
-    "nameZh": "大和人",
-    "nameJp": "ヤマトマン",
-    "nameEn": "Yamatoman",
+    "name": { "zh": "大和人", "en": "Yamatoman", "ja": "ヤマトマン" },
     "element": "無",
     "damage": 40,
     "codes": ["Y"],
     "memory": "82 MB",
     "drops": [],
     "rarity": 3,
-    "description": "百裂矛與三段矛的連續攻擊！"
+    "description": { "zh": "百裂矛與三段矛的連續攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "83",
-    "nameZh": "大和人V2",
-    "nameJp": "ヤマトマン V2",
-    "nameEn": "Yamatoman V2",
+    "name": { "zh": "大和人V2", "en": "Yamatoman V2", "ja": "ヤマトマン V2" },
     "element": "無",
     "damage": 45,
     "codes": ["Y"],
     "memory": "85 MB",
     "drops": [],
     "rarity": 4,
-    "description": "百裂矛與三段矛的連續攻擊！"
+    "description": { "zh": "百裂矛與三段矛的連續攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "84",
-    "nameZh": "大和人V3",
-    "nameJp": "ヤマトマン V3",
-    "nameEn": "Yamatoman V3",
+    "name": { "zh": "大和人V3", "en": "Yamatoman V3", "ja": "ヤマトマン V3" },
     "element": "無",
     "damage": 50,
     "codes": ["Y"],
     "memory": "88 MB",
     "drops": [],
     "rarity": 5,
-    "description": "百裂矛與三段矛的連續攻擊！"
+    "description": { "zh": "百裂矛與三段矛的連續攻擊！", "en": "", "ja": "" }
   },
   {
     "no": "85",
-    "nameZh": "大和人V4",
-    "nameJp": "ヤマトマン V4",
-    "nameEn": "Yamatoman V4",
+    "name": { "zh": "大和人V4", "en": "Yamatoman V4", "ja": "ヤマトマン V4" },
     "element": "無",
     "damage": 55,
     "codes": ["Y"],
     "memory": "91 MB",
     "drops": [],
     "rarity": 5,
-    "description": "百裂矛與三段矛的連續攻擊！"
+    "description": { "zh": "百裂矛與三段矛的連續攻擊！", "en": "", "ja": "" }
   }
 ]
