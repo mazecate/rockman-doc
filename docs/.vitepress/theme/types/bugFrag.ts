@@ -1,10 +1,12 @@
+import type { LocalizedText } from './common'
+
 export type BugFragCategory = "real" | "net";
 
-export interface LocalizedText {
-  zh: string;
-  en: string;
-  ja: string;
-}
+// export interface LocalizedText {
+//   zh: string;
+//   en: string;
+//   ja: string;
+// }
 
 export interface BugFragItem {
   id: string;

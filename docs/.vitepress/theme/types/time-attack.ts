@@ -1,8 +1,10 @@
-export interface LocalizedText {
-  zh: string
-  ja: string
-  en?: string
-}
+import type { LocalizedText } from './common'
+
+// export interface LocalizedText {
+//   zh: string
+//   ja: string
+//   en?: string
+// }
 
 export interface TaBoss {
   id: string

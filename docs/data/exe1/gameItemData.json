@@ -1,0 +1,247 @@
+{
+  "series": "exe1",
+  "data": [
+    {
+      "id": "exe1-item-001",
+      "name": {
+        "zh": "PET",
+        "en": "PET",
+        "ja": "PET"
+      },
+      "description": "熱斗的攜帶型終端機，在這裡面已經安裝了「洛克人·EXE」",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-002", 
+      "name": {
+        "zh": "玩具水槍",
+        "en": "Toy Water Gun",
+        "ja": "おもちゃのみずでっぽう"
+      },
+      "description": "在數年前的兒童節所收到的玩具水槍，它噴出來的水柱可是很強的喔",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-003",
+      "name": {
+        "zh": "老師的通行證",
+        "en": "Teacher's Pass",
+        "ja": "先生の通行証"
+      },
+      "description": "秋原小學的老師都會擁有的東西，除了用來識別身分以外，也會用來打卡上下班",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-004",
+      "name": {
+        "zh": "科學省識別證",
+        "en": "SciLab ID",
+        "ja": "科学省の識別証"
+      },
+      "description": "科學省的識別證，可以代表你是科學省的職員，從爸爸那借來的？",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-005",
+      "name": {
+        "zh": "兒子的留言",
+        "en": "Son's Message",
+        "ja": "息子の伝言"
+      },
+      "description": "5年B組的冰川同學，寫給爸爸的簡訊內容寫著：「爸爸，我很安全喔」",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-006",
+      "name": {
+        "zh": "WWW通行碼",
+        "en": "WWW Passcode",
+        "ja": "WWWの通行コード"
+      },
+      "description": "只有WWW相關人員知道進入網路的密碼可以進行解鎖",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-007",
+      "name": {
+        "zh": "WWW地鐵通行票",
+        "en": "WWW Subway Pass",
+        "ja": "WWW地下鉄の通行票"
+      },
+      "description": "這是一個地鐵的通行票但是無法使用於正常路線",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-008",
+      "name": {
+        "zh": "美露的網路位址",
+        "en": "Mayl's Net Address",
+        "ja": "メイルのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著美露家中鋼琴的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-009",
+      "name": {
+        "zh": "雅伊朵的網路位址",
+        "en": "Yai's Net Address",
+        "ja": "やいとのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著雅伊朵家中畫的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-010",
+      "name": {
+        "zh": "迪卡歐的網路位址",
+        "en": "Dex's Net Address",
+        "ja": "デカオのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著迪卡歐家裡電腦的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-011",
+      "name": {
+        "zh": "爸爸的網路位址",
+        "en": "Dad's Net Address",
+        "ja": "パパのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著爸爸在科學省裡電腦的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-012",
+      "name": {
+        "zh": "薩洛瑪的網路位址",
+        "en": "Saloma's Net Address",
+        "ja": "サロマのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著薩洛瑪的便當攤位上收銀機的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-013",
+      "name": {
+        "zh": "美雪的網路位址",
+        "en": "Miyuki's Net Address",
+        "ja": "ミユキのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著美雪的古董店中電子放大鏡的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-014",
+      "name": {
+        "zh": "阿政的網路位址",
+        "en": "Masa's Net Address",
+        "ja": "マサのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著阿政魚攤上菜刀的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-015",
+      "name": {
+        "zh": "WWW的網路位址",
+        "en": "WWW's Net Address",
+        "ja": "WWWのネットアドレス"
+      },
+      "description": "一個文字檔，裡面記錄著WWW研究所的網路位址",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-016",
+      "name": {
+        "zh": "迪卡歐的連結",
+        "en": "Dex's Link",
+        "ja": "デカオのリンク"
+      },
+      "description": "可連結至迪卡歐網路位址的通行碼",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-017",
+      "name": {
+        "zh": "薩洛瑪的連結",
+        "en": "Saloma's Link",
+        "ja": "サロマのリンク"
+      },
+      "description": "可連結至薩洛瑪網路位址的通行碼",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-018",
+      "name": {
+        "zh": "美雪的連結",
+        "en": "Miyuki's Link",
+        "ja": "ミユキのリンク"
+      },
+      "description": "可連結至美雪網路位址的通行碼",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-019",
+      "name": {
+        "zh": "日暮的連結筆記",
+        "en": "Higurashi's Link Memo",
+        "ja": "日暮のリンクメモ"
+      },
+      "description": "可連結至WWW網路位址的通行碼 (C級)",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-020",
+      "name": {
+        "zh": "科學家的連結筆記",
+        "en": "Scientist's Link Memo",
+        "ja": "科学者のリンクメモ"
+      },
+      "description": "可連結至WWW網路位址的通行碼 (B級)",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-021",
+      "name": {
+        "zh": "百合子的連結筆記",
+        "en": "Yuriko's Link Memo",
+        "ja": "ユリコのリンクメモ"
+      },
+      "description": "可連結至WWW網路位址的通行碼 (A級)",
+      "obtain": null,
+      "versions": ["exe1"]
+    },
+    {
+      "id": "exe1-item-022",
+      "name": {
+        "zh": "老爺爺的連結筆記",
+        "en": "Grandpa's Link Memo",
+        "ja": "おじいさんのリンクメモ"
+      },
+      "description": "可連結至WWW網路位址的通行碼 (S級)",
+      "obtain": null,
+      "versions": ["exe1"]
+    }
+  ]
+}

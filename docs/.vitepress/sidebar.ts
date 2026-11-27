@@ -99,6 +99,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
     shops = true,
     sidequest = true,
     chiptrade = true,
+    gameitem = true,
     virusbreeding = false,
     ta = false,
     bugfrags = false
@@ -143,6 +144,7 @@ function getSubMenuItems(folderPath: string, config: MenuConfig = {}): SidebarIt
   if (shops)     items.push({ text: '商店', link: `${folderPath}/shops` });
   if (sidequest) items.push({ text: '支線任務', link: `${folderPath}/side-quest` });
   if (chiptrade) items.push({ text: '晶片交換', link: `${folderPath}/chip-trade` });
+  if (gameitem) items.push({ text: '遊戲道具', link: `${folderPath}/game-item` });
   if (virusbreeding) items.push({ text: '飼養病毒', link: `${folderPath}/virus-breeding` });
   if (ta) items.push({ text: 'TA挑戰', link: `${folderPath}/ta` });
   if (bugfrags) items.push({ text: 'BUG碎片', link: `${folderPath}/bugfrags` });
